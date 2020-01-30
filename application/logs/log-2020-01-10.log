@@ -1,0 +1,228 @@
+ERROR - 2020-01-10 10:25:23 --> Severity: error --> Exception: syntax error, unexpected '->' (T_OBJECT_OPERATOR) F:\FBP.com\application\models\Home_model.php 315
+ERROR - 2020-01-10 10:25:24 --> Severity: error --> Exception: syntax error, unexpected '->' (T_OBJECT_OPERATOR) F:\FBP.com\application\models\Home_model.php 315
+ERROR - 2020-01-10 10:25:28 --> Severity: error --> Exception: syntax error, unexpected '->' (T_OBJECT_OPERATOR) F:\FBP.com\application\models\Home_model.php 315
+ERROR - 2020-01-10 10:25:28 --> Severity: error --> Exception: syntax error, unexpected '->' (T_OBJECT_OPERATOR) F:\FBP.com\application\models\Home_model.php 315
+ERROR - 2020-01-10 10:25:31 --> Severity: error --> Exception: syntax error, unexpected '->' (T_OBJECT_OPERATOR) F:\FBP.com\application\models\Home_model.php 315
+ERROR - 2020-01-10 10:25:32 --> Severity: error --> Exception: syntax error, unexpected '->' (T_OBJECT_OPERATOR) F:\FBP.com\application\models\Home_model.php 315
+ERROR - 2020-01-10 10:25:45 --> Severity: error --> Exception: syntax error, unexpected '->' (T_OBJECT_OPERATOR) F:\FBP.com\application\models\Home_model.php 315
+ERROR - 2020-01-10 10:25:45 --> Severity: error --> Exception: syntax error, unexpected '->' (T_OBJECT_OPERATOR) F:\FBP.com\application\models\Home_model.php 315
+ERROR - 2020-01-10 10:25:56 --> Severity: error --> Exception: syntax error, unexpected '->' (T_OBJECT_OPERATOR) F:\FBP.com\application\models\Home_model.php 316
+ERROR - 2020-01-10 10:25:56 --> Severity: error --> Exception: syntax error, unexpected '->' (T_OBJECT_OPERATOR) F:\FBP.com\application\models\Home_model.php 316
+ERROR - 2020-01-10 10:29:27 --> Severity: error --> Exception: syntax error, unexpected 'if' (T_IF), expecting ';' F:\FBP.com\application\models\Home_model.php 313
+ERROR - 2020-01-10 10:29:27 --> Severity: error --> Exception: syntax error, unexpected 'if' (T_IF), expecting ';' F:\FBP.com\application\models\Home_model.php 313
+ERROR - 2020-01-10 10:30:10 --> Query error: Unknown table 'nkmtein_fullbasket_new.t' - Invalid query: SELECT `t`.*, `c`.`name` as `city`, `p`.`area` as `area`, `p`.`slug` as `slug`, `p`.`title` as `project`
+FROM `achievements`
+WHERE `status` = 1
+ERROR - 2020-01-10 10:32:46 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) F:\FBP.com\application\models\Home_model.php 310
+ERROR - 2020-01-10 10:32:46 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) F:\FBP.com\application\models\Home_model.php 310
+ERROR - 2020-01-10 10:32:55 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) F:\FBP.com\application\models\Home_model.php 310
+ERROR - 2020-01-10 10:32:55 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) F:\FBP.com\application\models\Home_model.php 310
+ERROR - 2020-01-10 10:32:55 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) F:\FBP.com\application\models\Home_model.php 310
+ERROR - 2020-01-10 10:32:56 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) F:\FBP.com\application\models\Home_model.php 310
+ERROR - 2020-01-10 10:32:56 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) F:\FBP.com\application\models\Home_model.php 310
+ERROR - 2020-01-10 10:32:56 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) F:\FBP.com\application\models\Home_model.php 310
+ERROR - 2020-01-10 10:32:56 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) F:\FBP.com\application\models\Home_model.php 310
+ERROR - 2020-01-10 10:32:56 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) F:\FBP.com\application\models\Home_model.php 310
+ERROR - 2020-01-10 10:32:56 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) F:\FBP.com\application\models\Home_model.php 310
+ERROR - 2020-01-10 10:32:56 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) F:\FBP.com\application\models\Home_model.php 310
+ERROR - 2020-01-10 10:32:56 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) F:\FBP.com\application\models\Home_model.php 310
+ERROR - 2020-01-10 10:32:56 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) F:\FBP.com\application\models\Home_model.php 310
+ERROR - 2020-01-10 10:32:57 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) F:\FBP.com\application\models\Home_model.php 310
+ERROR - 2020-01-10 10:33:36 --> 404 Page Not Found: 
+ERROR - 2020-01-10 10:33:46 --> 404 Page Not Found: 
+ERROR - 2020-01-10 10:37:04 --> 404 Page Not Found: 
+ERROR - 2020-01-10 10:38:57 --> Severity: error --> Exception: syntax error, unexpected 'if' (T_IF), expecting ';' F:\FBP.com\application\models\Home_model.php 318
+ERROR - 2020-01-10 10:38:57 --> Severity: error --> Exception: syntax error, unexpected 'if' (T_IF), expecting ';' F:\FBP.com\application\models\Home_model.php 318
+ERROR - 2020-01-10 10:39:23 --> Severity: error --> Exception: syntax error, unexpected '->' (T_OBJECT_OPERATOR) F:\FBP.com\application\models\Home_model.php 319
+ERROR - 2020-01-10 10:39:23 --> Severity: error --> Exception: syntax error, unexpected '->' (T_OBJECT_OPERATOR) F:\FBP.com\application\models\Home_model.php 319
+ERROR - 2020-01-10 10:39:43 --> Severity: error --> Exception: syntax error, unexpected '}' F:\FBP.com\application\models\Home_model.php 319
+ERROR - 2020-01-10 10:39:43 --> Severity: error --> Exception: syntax error, unexpected '}' F:\FBP.com\application\models\Home_model.php 319
+ERROR - 2020-01-10 10:39:43 --> Severity: error --> Exception: syntax error, unexpected '}' F:\FBP.com\application\models\Home_model.php 319
+ERROR - 2020-01-10 10:39:44 --> Severity: error --> Exception: syntax error, unexpected '}' F:\FBP.com\application\models\Home_model.php 319
+ERROR - 2020-01-10 10:39:52 --> Severity: error --> Exception: syntax error, unexpected 'if' (T_IF), expecting ';' F:\FBP.com\application\models\Home_model.php 318
+ERROR - 2020-01-10 10:39:52 --> Severity: error --> Exception: syntax error, unexpected 'if' (T_IF), expecting ';' F:\FBP.com\application\models\Home_model.php 318
+ERROR - 2020-01-10 10:40:00 --> Severity: error --> Exception: syntax error, unexpected '$this' (T_VARIABLE) F:\FBP.com\application\models\Home_model.php 320
+ERROR - 2020-01-10 10:40:01 --> Severity: error --> Exception: syntax error, unexpected '$this' (T_VARIABLE) F:\FBP.com\application\models\Home_model.php 320
+ERROR - 2020-01-10 10:40:01 --> Severity: error --> Exception: syntax error, unexpected '$this' (T_VARIABLE) F:\FBP.com\application\models\Home_model.php 320
+ERROR - 2020-01-10 10:40:01 --> Severity: error --> Exception: syntax error, unexpected '$this' (T_VARIABLE) F:\FBP.com\application\models\Home_model.php 320
+ERROR - 2020-01-10 10:42:46 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_driver::result() F:\FBP.com\application\models\Home_model.php 321
+ERROR - 2020-01-10 10:43:04 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_driver::result() F:\FBP.com\application\models\Home_model.php 321
+ERROR - 2020-01-10 10:43:05 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_driver::result() F:\FBP.com\application\models\Home_model.php 321
+ERROR - 2020-01-10 10:43:05 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_driver::result() F:\FBP.com\application\models\Home_model.php 321
+ERROR - 2020-01-10 10:43:06 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_driver::result() F:\FBP.com\application\models\Home_model.php 321
+ERROR - 2020-01-10 10:43:06 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_driver::result() F:\FBP.com\application\models\Home_model.php 321
+ERROR - 2020-01-10 10:47:56 --> 404 Page Not Found: 
+ERROR - 2020-01-10 10:50:37 --> 404 Page Not Found: 
+ERROR - 2020-01-10 10:52:59 --> 404 Page Not Found: 
+ERROR - 2020-01-10 10:55:51 --> 404 Page Not Found: 
+ERROR - 2020-01-10 10:58:17 --> Severity: error --> Exception: Call to undefined function money() F:\FBP.com\application\views\index.php 302
+ERROR - 2020-01-10 10:58:49 --> Severity: error --> Exception: Call to undefined function money() F:\FBP.com\application\views\index.php 302
+ERROR - 2020-01-10 10:59:01 --> 404 Page Not Found: 
+ERROR - 2020-01-10 11:00:02 --> 404 Page Not Found: 
+ERROR - 2020-01-10 11:00:55 --> 404 Page Not Found: 
+ERROR - 2020-01-10 11:01:16 --> 404 Page Not Found: 
+ERROR - 2020-01-10 11:01:55 --> 404 Page Not Found: 
+ERROR - 2020-01-10 11:02:37 --> Severity: error --> Exception: Call to undefined method Properties_model::get_testimonials() F:\FBP.com\application\controllers\Home.php 902
+ERROR - 2020-01-10 11:07:59 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1720
+ERROR - 2020-01-10 11:08:34 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1720
+ERROR - 2020-01-10 11:09:14 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1720
+ERROR - 2020-01-10 11:11:34 --> Query error: Unknown column 't,property_id' in 'where clause' - Invalid query: SELECT `t`.*, `c`.`name` as `city`, `p`.`area` as `area`, `p`.`slug` as `slug`, `p`.`title` as `project`
+FROM `testimonials` `t`
+LEFT JOIN `properties` `p` ON `p`.`id` = `t`.`property_id`
+LEFT JOIN `cities` `c` ON `c`.`id` = `p`.`city_id`
+WHERE `t`.`status` = 1
+AND `t,property_id` = '7'
+ORDER BY `t`.`id` DESC
+ERROR - 2020-01-10 11:12:07 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1720
+ERROR - 2020-01-10 06:53:58 --> Severity: error --> Exception: syntax error, unexpected ';', expecting ')' F:\FBP.com\application\controllers\Home.php 908
+ERROR - 2020-01-10 06:54:08 --> Severity: error --> Exception: syntax error, unexpected ';', expecting ')' F:\FBP.com\application\controllers\Home.php 908
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:30 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 973
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1045
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> explode() expects parameter 2 to be string, array given F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:25:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1106
+ERROR - 2020-01-10 11:26:18 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\property-design.php 1720
+ERROR - 2020-01-10 18:10:41 --> 404 Page Not Found: 
+ERROR - 2020-01-10 18:10:47 --> 404 Page Not Found: 
+ERROR - 2020-01-10 18:12:13 --> 404 Page Not Found: 
+ERROR - 2020-01-10 18:12:19 --> 404 Page Not Found: 
+ERROR - 2020-01-10 18:13:26 --> 404 Page Not Found: 
+ERROR - 2020-01-10 18:37:31 --> 404 Page Not Found: 
+ERROR - 2020-01-10 18:37:36 --> 404 Page Not Found: 
+ERROR - 2020-01-10 18:37:41 --> 404 Page Not Found: 
+ERROR - 2020-01-10 18:37:45 --> 404 Page Not Found: 
+ERROR - 2020-01-10 18:38:09 --> 404 Page Not Found: 
+ERROR - 2020-01-10 18:38:13 --> 404 Page Not Found: 
+ERROR - 2020-01-10 18:38:17 --> 404 Page Not Found: 
+ERROR - 2020-01-10 18:39:25 --> 404 Page Not Found: 
+ERROR - 2020-01-10 14:12:12 --> Severity: error --> Exception: syntax error, unexpected '}' F:\FBP.com\application\controllers\Home.php 867
+ERROR - 2020-01-10 18:42:37 --> 404 Page Not Found: 
+ERROR - 2020-01-10 18:42:47 --> 404 Page Not Found: 
+ERROR - 2020-01-10 18:42:50 --> 404 Page Not Found: 

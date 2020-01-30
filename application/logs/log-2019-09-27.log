@@ -1,0 +1,322 @@
+ERROR - 2019-09-27 08:17:34 --> Severity: 8192 --> __autoload() is deprecated, use spl_autoload_register() instead F:\FBP.com\application\config\config.php 522
+ERROR - 2019-09-27 08:17:34 --> Severity: Compile Error --> Cannot redeclare __autoload() (previously declared in F:\FBP.com\application\config\config.php:522) F:\FBP.com\application\config\config.php 528
+ERROR - 2019-09-27 08:17:42 --> Severity: 8192 --> __autoload() is deprecated, use spl_autoload_register() instead F:\FBP.com\application\config\config.php 522
+ERROR - 2019-09-27 08:17:42 --> Severity: Compile Error --> Cannot redeclare __autoload() (previously declared in F:\FBP.com\application\config\config.php:522) F:\FBP.com\application\config\config.php 528
+ERROR - 2019-09-27 08:19:17 --> Severity: 8192 --> __autoload() is deprecated, use spl_autoload_register() instead F:\FBP.com\application\config\config.php 522
+ERROR - 2019-09-27 08:19:18 --> Severity: Compile Error --> Cannot redeclare __autoload() (previously declared in F:\FBP.com\application\config\config.php:522) F:\FBP.com\application\config\config.php 528
+ERROR - 2019-09-27 08:19:18 --> Severity: 8192 --> __autoload() is deprecated, use spl_autoload_register() instead F:\FBP.com\application\config\config.php 522
+ERROR - 2019-09-27 08:19:18 --> Severity: Compile Error --> Cannot redeclare __autoload() (previously declared in F:\FBP.com\application\config\config.php:522) F:\FBP.com\application\config\config.php 528
+ERROR - 2019-09-27 08:19:19 --> Severity: 8192 --> __autoload() is deprecated, use spl_autoload_register() instead F:\FBP.com\application\config\config.php 522
+ERROR - 2019-09-27 08:19:19 --> Severity: Compile Error --> Cannot redeclare __autoload() (previously declared in F:\FBP.com\application\config\config.php:522) F:\FBP.com\application\config\config.php 528
+ERROR - 2019-09-27 08:19:19 --> Severity: 8192 --> __autoload() is deprecated, use spl_autoload_register() instead F:\FBP.com\application\config\config.php 522
+ERROR - 2019-09-27 08:19:19 --> Severity: Compile Error --> Cannot redeclare __autoload() (previously declared in F:\FBP.com\application\config\config.php:522) F:\FBP.com\application\config\config.php 528
+ERROR - 2019-09-27 08:19:20 --> Severity: 8192 --> __autoload() is deprecated, use spl_autoload_register() instead F:\FBP.com\application\config\config.php 522
+ERROR - 2019-09-27 08:19:20 --> Severity: Compile Error --> Cannot redeclare __autoload() (previously declared in F:\FBP.com\application\config\config.php:522) F:\FBP.com\application\config\config.php 528
+ERROR - 2019-09-27 08:19:20 --> Severity: 8192 --> __autoload() is deprecated, use spl_autoload_register() instead F:\FBP.com\application\config\config.php 522
+ERROR - 2019-09-27 08:19:20 --> Severity: Compile Error --> Cannot redeclare __autoload() (previously declared in F:\FBP.com\application\config\config.php:522) F:\FBP.com\application\config\config.php 528
+ERROR - 2019-09-27 08:19:20 --> Severity: 8192 --> __autoload() is deprecated, use spl_autoload_register() instead F:\FBP.com\application\config\config.php 522
+ERROR - 2019-09-27 08:19:20 --> Severity: Compile Error --> Cannot redeclare __autoload() (previously declared in F:\FBP.com\application\config\config.php:522) F:\FBP.com\application\config\config.php 528
+ERROR - 2019-09-27 08:19:20 --> Severity: 8192 --> __autoload() is deprecated, use spl_autoload_register() instead F:\FBP.com\application\config\config.php 522
+ERROR - 2019-09-27 08:19:20 --> Severity: Compile Error --> Cannot redeclare __autoload() (previously declared in F:\FBP.com\application\config\config.php:522) F:\FBP.com\application\config\config.php 528
+ERROR - 2019-09-27 08:19:21 --> Severity: 8192 --> __autoload() is deprecated, use spl_autoload_register() instead F:\FBP.com\application\config\config.php 522
+ERROR - 2019-09-27 08:19:21 --> Severity: Compile Error --> Cannot redeclare __autoload() (previously declared in F:\FBP.com\application\config\config.php:522) F:\FBP.com\application\config\config.php 528
+ERROR - 2019-09-27 08:20:59 --> Severity: error --> Exception: Class 'Public_Controller' not found F:\FBP.com\application\controllers\Home.php 3
+ERROR - 2019-09-27 08:22:38 --> Severity: error --> Exception: Class 'Public_Controller' not found F:\FBP.com\application\controllers\Home.php 3
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Undefined index: cities F:\FBP.com\application\controllers\Home.php 46
+ERROR - 2019-09-27 08:23:40 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable F:\FBP.com\application\controllers\Home.php 46
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Undefined variable: all_cities F:\FBP.com\application\views\header.php 31
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Trying to get property 'phone' of non-object F:\FBP.com\application\views\header.php 31
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Undefined variable: all_cities F:\FBP.com\application\views\header.php 31
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Trying to get property 'phone' of non-object F:\FBP.com\application\views\header.php 31
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Undefined variable: all_cities F:\FBP.com\application\views\header.php 31
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Trying to get property 'email' of non-object F:\FBP.com\application\views\header.php 31
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Undefined variable: all_cities F:\FBP.com\application\views\header.php 31
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Trying to get property 'email' of non-object F:\FBP.com\application\views\header.php 31
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Undefined variable: cities F:\FBP.com\application\views\header.php 80
+ERROR - 2019-09-27 08:23:40 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 80
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Undefined variable: cities F:\FBP.com\application\views\header.php 106
+ERROR - 2019-09-27 08:23:40 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 106
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Undefined variable: cities F:\FBP.com\application\views\index.php 181
+ERROR - 2019-09-27 08:23:40 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\index.php 181
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Undefined variable: blogs F:\FBP.com\application\views\footer.php 162
+ERROR - 2019-09-27 08:23:40 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\footer.php 162
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Undefined variable: stay_in_touch F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Undefined variable: social_links F:\FBP.com\application\views\footer.php 189
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Trying to get property 'twitter' of non-object F:\FBP.com\application\views\footer.php 189
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Undefined variable: social_links F:\FBP.com\application\views\footer.php 192
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Trying to get property 'facebook' of non-object F:\FBP.com\application\views\footer.php 192
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Undefined variable: social_links F:\FBP.com\application\views\footer.php 195
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Trying to get property 'google' of non-object F:\FBP.com\application\views\footer.php 195
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Undefined variable: social_links F:\FBP.com\application\views\footer.php 198
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Trying to get property 'instagram' of non-object F:\FBP.com\application\views\footer.php 198
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Undefined variable: social_links F:\FBP.com\application\views\footer.php 201
+ERROR - 2019-09-27 08:23:40 --> Severity: Notice --> Trying to get property 'dribble' of non-object F:\FBP.com\application\views\footer.php 201
+ERROR - 2019-09-27 08:27:03 --> Severity: error --> Exception: Class 'Public_Controller' not found F:\FBP.com\application\controllers\Home.php 3
+ERROR - 2019-09-27 08:29:04 --> Severity: error --> Exception: Class 'Public_Controller' not found F:\FBP.com\application\controllers\Home.php 3
+ERROR - 2019-09-27 08:33:35 --> Severity: error --> Exception: Class 'Public_Controller' not found F:\FBP.com\application\controllers\Home.php 3
+ERROR - 2019-09-27 08:37:54 --> Severity: error --> Exception: Class 'Public_Controller' not found F:\FBP.com\application\controllers\Home.php 3
+ERROR - 2019-09-27 08:38:30 --> Severity: error --> Exception: Class 'Public_Controller' not found F:\FBP.com\application\controllers\Home.php 3
+ERROR - 2019-09-27 08:38:55 --> Severity: 8192 --> __autoload() is deprecated, use spl_autoload_register() instead F:\FBP.com\application\config\config.php 523
+ERROR - 2019-09-27 08:38:55 --> Severity: Compile Error --> Cannot redeclare __autoload() (previously declared in F:\FBP.com\application\config\config.php:523) F:\FBP.com\application\config\config.php 529
+ERROR - 2019-09-27 08:40:21 --> Severity: 8192 --> __autoload() is deprecated, use spl_autoload_register() instead F:\FBP.com\application\config\config.php 523
+ERROR - 2019-09-27 08:40:21 --> Severity: Compile Error --> Cannot redeclare __autoload() (previously declared in F:\FBP.com\application\config\config.php:523) F:\FBP.com\application\config\config.php 529
+ERROR - 2019-09-27 08:47:52 --> Severity: 8192 --> __autoload() is deprecated, use spl_autoload_register() instead F:\FBP.com\application\config\config.php 523
+ERROR - 2019-09-27 08:47:52 --> Severity: Compile Error --> Cannot redeclare __autoload() (previously declared in F:\FBP.com\application\config\config.php:523) F:\FBP.com\application\config\config.php 529
+ERROR - 2019-09-27 12:18:51 --> Severity: Notice --> Undefined offset: 0 F:\FBP.com\application\core\Public_Controller.php 24
+ERROR - 2019-09-27 12:18:52 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 12:18:52 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 12:19:15 --> Severity: Notice --> Undefined offset: 0 F:\FBP.com\application\core\Public_Controller.php 24
+ERROR - 2019-09-27 12:19:15 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 12:19:15 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 12:19:33 --> Severity: Notice --> Undefined offset: 0 F:\FBP.com\application\core\Public_Controller.php 24
+ERROR - 2019-09-27 12:19:33 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 12:19:33 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 12:21:15 --> Severity: Notice --> Undefined offset: 0 F:\FBP.com\application\core\Public_Controller.php 24
+ERROR - 2019-09-27 12:21:15 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 12:21:15 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 12:21:37 --> Severity: Notice --> Undefined offset: 0 F:\FBP.com\application\core\Public_Controller.php 24
+ERROR - 2019-09-27 12:21:37 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 12:21:37 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 12:22:40 --> Severity: Notice --> Undefined offset: 0 F:\FBP.com\application\core\Public_Controller.php 24
+ERROR - 2019-09-27 12:22:40 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 12:22:40 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 12:23:20 --> Severity: Notice --> Undefined offset: 0 F:\FBP.com\application\core\Public_Controller.php 24
+ERROR - 2019-09-27 12:23:20 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 12:23:20 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 12:29:33 --> Severity: Notice --> Undefined offset: 0 F:\FBP.com\application\core\Public_Controller.php 24
+ERROR - 2019-09-27 12:29:34 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 12:29:35 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 12:37:14 --> Severity: Notice --> Undefined offset: 0 F:\FBP.com\application\core\Public_Controller.php 24
+ERROR - 2019-09-27 12:37:14 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 12:37:14 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 12:37:18 --> Severity: Notice --> Undefined offset: 0 F:\FBP.com\application\core\Public_Controller.php 24
+ERROR - 2019-09-27 12:37:18 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 12:37:18 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 12:39:25 --> Severity: Notice --> Undefined offset: 0 F:\FBP.com\application\core\Public_Controller.php 24
+ERROR - 2019-09-27 12:39:25 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 12:39:25 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 09:12:32 --> Severity: error --> Exception: syntax error, unexpected ';' F:\FBP.com\application\core\Public_Controller.php 25
+ERROR - 2019-09-27 09:12:57 --> Severity: error --> Exception: syntax error, unexpected ';' F:\FBP.com\application\core\Public_Controller.php 25
+ERROR - 2019-09-27 09:12:59 --> Severity: error --> Exception: syntax error, unexpected ';' F:\FBP.com\application\core\Public_Controller.php 25
+ERROR - 2019-09-27 12:44:55 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 12:44:55 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 12:45:14 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 12:45:14 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 13:37:52 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 13:37:52 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 13:38:30 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 13:38:30 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 13:45:28 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 13:45:28 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 13:45:36 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 13:45:36 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 13:46:59 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 13:48:32 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 13:48:39 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 13:51:07 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:03:19 --> Severity: Warning --> Illegal string offset 'keyword' F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 14:03:19 --> Severity: Notice --> Uninitialized string offset: 0 F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 14:03:20 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:03:35 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:06:07 --> Severity: Notice --> Undefined variable: keywords F:\FBP.com\application\views\head.php 9
+ERROR - 2019-09-27 14:06:08 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:07:20 --> Severity: Notice --> Undefined variable: keywords F:\FBP.com\application\views\head.php 9
+ERROR - 2019-09-27 14:07:20 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:12:17 --> Severity: Notice --> Undefined variable: keywords F:\FBP.com\application\views\head.php 9
+ERROR - 2019-09-27 14:12:18 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:12:22 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:12:31 --> Severity: Notice --> Undefined variable: keywords F:\FBP.com\application\views\head.php 9
+ERROR - 2019-09-27 14:12:32 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:14:40 --> Severity: Notice --> Undefined variable: keywords F:\FBP.com\application\views\head.php 10
+ERROR - 2019-09-27 14:14:41 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:15:15 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:15:42 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:16:01 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:16:07 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:16:10 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:16:17 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:17:35 --> Severity: Notice --> Undefined variable: keywords F:\FBP.com\application\views\head.php 10
+ERROR - 2019-09-27 14:17:35 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:17:40 --> Severity: Warning --> Illegal string offset 'keyword' F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 14:17:40 --> Severity: Notice --> Uninitialized string offset: 0 F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 14:17:40 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:17:46 --> Severity: Notice --> Undefined variable: keywords F:\FBP.com\application\views\head.php 10
+ERROR - 2019-09-27 14:17:47 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:18:10 --> Severity: Notice --> Undefined variable: keywords F:\FBP.com\application\views\head.php 10
+ERROR - 2019-09-27 14:18:11 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:28:30 --> Severity: Notice --> Undefined variable: keywords F:\FBP.com\application\views\head.php 10
+ERROR - 2019-09-27 14:28:31 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:28:56 --> Severity: Notice --> Undefined variable: keywords F:\FBP.com\application\views\head.php 10
+ERROR - 2019-09-27 14:28:56 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:29:51 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\city_listing.php 166
+ERROR - 2019-09-27 14:29:51 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:30:01 --> Severity: Notice --> Undefined variable: keywords F:\FBP.com\application\views\head.php 10
+ERROR - 2019-09-27 14:30:01 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:30:26 --> Severity: Notice --> Undefined variable: keywords F:\FBP.com\application\views\head.php 9
+ERROR - 2019-09-27 14:30:27 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:30:58 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:31:04 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:31:19 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\head.php 9
+ERROR - 2019-09-27 14:31:19 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 14:31:19 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:31:20 --> 404 Page Not Found: 
+ERROR - 2019-09-27 14:32:12 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 14:32:12 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:33:40 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 14:33:40 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:34:15 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 14:34:15 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:34:17 --> 404 Page Not Found: 
+ERROR - 2019-09-27 14:34:27 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 14:34:27 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:34:38 --> Severity: Notice --> Undefined variable: keywords F:\FBP.com\application\views\head.php 9
+ERROR - 2019-09-27 14:34:38 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:34:49 --> Severity: Notice --> Undefined variable: keywords F:\FBP.com\application\views\head.php 9
+ERROR - 2019-09-27 14:34:50 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:35:25 --> Severity: Notice --> Undefined variable: keywords F:\FBP.com\application\views\head.php 9
+ERROR - 2019-09-27 14:35:26 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:36:19 --> Severity: error --> Exception: syntax error, unexpected '?>' F:\FBP.com\application\views\head.php 9
+ERROR - 2019-09-27 14:36:24 --> Severity: error --> Exception: syntax error, unexpected '?>' F:\FBP.com\application\views\head.php 9
+ERROR - 2019-09-27 14:37:08 --> Severity: Notice --> Undefined variable: keywords F:\FBP.com\application\views\head.php 9
+ERROR - 2019-09-27 14:37:08 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:37:13 --> Severity: Notice --> Undefined variable: keywords F:\FBP.com\application\views\head.php 9
+ERROR - 2019-09-27 14:37:14 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:38:53 --> Severity: Notice --> Undefined variable: keywords F:\FBP.com\application\views\head.php 9
+ERROR - 2019-09-27 14:38:54 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:42:14 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:42:14 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:42:17 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:43:35 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:43:57 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:44:06 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:44:17 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:44:25 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:45:06 --> Severity: Notice --> Undefined variable: keywords F:\FBP.com\application\views\head.php 9
+ERROR - 2019-09-27 14:45:07 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:45:10 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 14:45:10 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:45:11 --> 404 Page Not Found: 
+ERROR - 2019-09-27 14:45:36 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 14:45:36 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:45:37 --> 404 Page Not Found: 
+ERROR - 2019-09-27 14:46:06 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 14:46:06 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:46:07 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 14:46:07 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:46:07 --> 404 Page Not Found: 
+ERROR - 2019-09-27 14:46:07 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 153
+ERROR - 2019-09-27 14:46:07 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:46:08 --> 404 Page Not Found: 
+ERROR - 2019-09-27 14:46:49 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 155
+ERROR - 2019-09-27 14:46:49 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:48:14 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 155
+ERROR - 2019-09-27 14:48:14 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:48:30 --> 404 Page Not Found: 
+ERROR - 2019-09-27 14:48:35 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 155
+ERROR - 2019-09-27 14:48:35 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:48:36 --> 404 Page Not Found: 
+ERROR - 2019-09-27 14:50:52 --> Severity: Warning --> Illegal string offset 'keyword' F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 14:50:52 --> Severity: Notice --> Uninitialized string offset: 0 F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 14:50:52 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:51:37 --> Severity: Warning --> Illegal string offset 'keyword' F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 14:51:37 --> Severity: Notice --> Uninitialized string offset: 0 F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 14:51:37 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:51:50 --> Severity: Warning --> Illegal string offset 'keyword' F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 14:51:50 --> Severity: Notice --> Uninitialized string offset: 0 F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 14:51:50 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:51:58 --> Severity: Warning --> Illegal string offset 'keyword' F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 14:51:58 --> Severity: Notice --> Uninitialized string offset: 0 F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 14:51:59 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:52:04 --> Severity: Warning --> Illegal string offset 'keyword' F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 14:52:04 --> Severity: Notice --> Uninitialized string offset: 0 F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 14:52:05 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 14:52:21 --> Severity: Warning --> Illegal string offset 'keyword' F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 14:52:21 --> Severity: Notice --> Uninitialized string offset: 0 F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 14:52:22 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:03:05 --> Severity: Warning --> Illegal string offset 'keyword' F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 15:03:05 --> Severity: Notice --> Uninitialized string offset: 0 F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 15:03:05 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:04:33 --> Severity: Warning --> Illegal string offset 'keyword' F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 15:04:33 --> Severity: Notice --> Uninitialized string offset: 0 F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 15:04:33 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:05:52 --> Severity: Warning --> Illegal string offset 'keyword' F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 15:05:52 --> Severity: Notice --> Uninitialized string offset: 0 F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 15:05:52 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:06:20 --> Severity: Warning --> Illegal string offset 'keyword' F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 15:06:20 --> Severity: Notice --> Uninitialized string offset: 0 F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 15:06:21 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:06:58 --> Severity: Warning --> Illegal string offset 'keyword' F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 15:06:58 --> Severity: Notice --> Uninitialized string offset: 0 F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 15:06:59 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:07:35 --> Severity: Warning --> Illegal string offset 'keyword' F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 15:07:35 --> Severity: Notice --> Uninitialized string offset: 0 F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 15:07:36 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:08:21 --> Severity: Notice --> Undefined variable: keyword F:\FBP.com\application\views\index.php 155
+ERROR - 2019-09-27 15:08:21 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:08:22 --> 404 Page Not Found: 
+ERROR - 2019-09-27 15:09:42 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:09:43 --> 404 Page Not Found: 
+ERROR - 2019-09-27 15:09:56 --> Severity: Warning --> Illegal string offset 'keyword' F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 15:09:56 --> Severity: Notice --> Uninitialized string offset: 0 F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 15:09:56 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:10:14 --> Severity: Warning --> Illegal string offset 'keyword' F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 15:10:14 --> Severity: Notice --> Uninitialized string offset: 0 F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 15:10:14 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:13:04 --> Severity: Warning --> Illegal string offset 'keyword' F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 15:13:04 --> Severity: Notice --> Uninitialized string offset: 0 F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 15:13:04 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:13:21 --> Severity: Warning --> Illegal string offset 'keyword' F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 15:13:21 --> Severity: Notice --> Uninitialized string offset: 0 F:\FBP.com\application\views\listing.php 186
+ERROR - 2019-09-27 15:13:21 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:13:59 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:14:19 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:14:34 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:14:48 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:14:55 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:15:02 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:15:08 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:15:16 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:15:22 --> Severity: Notice --> Undefined variable: keywords F:\FBP.com\application\views\head.php 3
+ERROR - 2019-09-27 15:15:23 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:15:46 --> Severity: Notice --> Undefined variable: keywords F:\FBP.com\application\views\head.php 3
+ERROR - 2019-09-27 15:15:46 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:16:05 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:16:12 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:16:22 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:16:33 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:16:38 --> Severity: Notice --> Trying to get property 'id' of non-object F:\FBP.com\application\views\property-design.php 1016
+ERROR - 2019-09-27 15:16:38 --> Severity: Notice --> Trying to get property 'id' of non-object F:\FBP.com\application\views\property-design.php 1016
+ERROR - 2019-09-27 15:16:38 --> Severity: Notice --> Trying to get property 'id' of non-object F:\FBP.com\application\views\property-design.php 1016
+ERROR - 2019-09-27 15:16:38 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\property-design.php 1140
+ERROR - 2019-09-27 15:16:50 --> Severity: Notice --> Trying to get property 'id' of non-object F:\FBP.com\application\views\property-design.php 1016
+ERROR - 2019-09-27 15:16:50 --> Severity: Notice --> Trying to get property 'id' of non-object F:\FBP.com\application\views\property-design.php 1016
+ERROR - 2019-09-27 15:16:50 --> Severity: Notice --> Trying to get property 'id' of non-object F:\FBP.com\application\views\property-design.php 1016
+ERROR - 2019-09-27 15:16:50 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\property-design.php 1140
+ERROR - 2019-09-27 15:39:44 --> Severity: Notice --> Trying to get property 'content' of non-object F:\FBP.com\application\views\footer.php 182
+ERROR - 2019-09-27 15:39:45 --> 404 Page Not Found: 
+ERROR - 2019-09-27 15:40:42 --> Severity: Notice --> Undefined variable: image F:\FBP.com\application\controllers\admin\Properties.php 126
+ERROR - 2019-09-27 15:40:42 --> Severity: Notice --> Undefined variable: slug F:\FBP.com\application\controllers\admin\Properties.php 144
+ERROR - 2019-09-27 15:41:04 --> Severity: Notice --> Undefined variable: image F:\FBP.com\application\controllers\admin\Properties.php 126
+ERROR - 2019-09-27 15:41:04 --> Severity: Notice --> Undefined variable: slug F:\FBP.com\application\controllers\admin\Properties.php 144
+ERROR - 2019-09-27 15:42:07 --> Severity: Notice --> Undefined variable: image F:\FBP.com\application\controllers\admin\Properties.php 126
+ERROR - 2019-09-27 15:42:07 --> Severity: Notice --> Undefined variable: slug F:\FBP.com\application\controllers\admin\Properties.php 144
+ERROR - 2019-09-27 15:48:49 --> Severity: Notice --> Undefined variable: image F:\FBP.com\application\controllers\admin\Properties.php 126
+ERROR - 2019-09-27 15:48:49 --> Severity: Notice --> Undefined variable: slug F:\FBP.com\application\controllers\admin\Properties.php 144
+ERROR - 2019-09-27 15:48:51 --> Severity: Notice --> Undefined variable: image F:\FBP.com\application\controllers\admin\Properties.php 126
+ERROR - 2019-09-27 15:48:51 --> Severity: Notice --> Undefined variable: slug F:\FBP.com\application\controllers\admin\Properties.php 144
+ERROR - 2019-09-27 15:48:53 --> Severity: Notice --> Undefined variable: image F:\FBP.com\application\controllers\admin\Properties.php 126
+ERROR - 2019-09-27 15:48:53 --> Severity: Notice --> Undefined variable: slug F:\FBP.com\application\controllers\admin\Properties.php 144
+ERROR - 2019-09-27 15:48:56 --> Severity: Notice --> Undefined variable: image F:\FBP.com\application\controllers\admin\Properties.php 126
+ERROR - 2019-09-27 15:48:56 --> Severity: Notice --> Undefined variable: slug F:\FBP.com\application\controllers\admin\Properties.php 144
+ERROR - 2019-09-27 15:48:58 --> Severity: Notice --> Undefined variable: image F:\FBP.com\application\controllers\admin\Properties.php 126
+ERROR - 2019-09-27 15:48:58 --> Severity: Notice --> Undefined variable: slug F:\FBP.com\application\controllers\admin\Properties.php 144
+ERROR - 2019-09-27 15:49:01 --> Severity: Notice --> Undefined variable: image F:\FBP.com\application\controllers\admin\Properties.php 126
+ERROR - 2019-09-27 15:49:01 --> Severity: Notice --> Undefined variable: slug F:\FBP.com\application\controllers\admin\Properties.php 144
+ERROR - 2019-09-27 15:54:48 --> Severity: Notice --> Undefined variable: image F:\FBP.com\application\controllers\admin\Properties.php 126
+ERROR - 2019-09-27 15:54:48 --> Severity: Notice --> Undefined variable: slug F:\FBP.com\application\controllers\admin\Properties.php 144
+ERROR - 2019-09-27 15:55:24 --> Severity: Notice --> Undefined variable: slug F:\FBP.com\application\controllers\admin\Properties.php 145
+ERROR - 2019-09-27 14:02:33 --> Severity: error --> Exception: syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) F:\FBP.com\application\controllers\admin\Properties.php 446
+ERROR - 2019-09-27 17:54:42 --> Query error: Column 'property_id' cannot be null - Invalid query: INSERT INTO `property_amenities` (`property_id`, `amenity_id`) VALUES (NULL, '2')
+ERROR - 2019-09-27 17:55:05 --> Query error: Column 'property_id' cannot be null - Invalid query: INSERT INTO `property_amenities` (`property_id`, `amenity_id`) VALUES (NULL, '2')

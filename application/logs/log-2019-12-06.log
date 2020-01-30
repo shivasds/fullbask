@@ -1,0 +1,952 @@
+ERROR - 2019-12-06 10:33:28 --> 404 Page Not Found: 
+ERROR - 2019-12-06 10:33:53 --> Severity: Warning --> file_get_contents(http://gdata.youtube.com/feeds/api/users/Tollywood): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ F:\FBP.com\application\views\property-design.php 662
+ERROR - 2019-12-06 10:33:53 --> Severity: error --> Exception: String could not be parsed as XML F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): .ttf)format('truetype');}&lt;/style&gt;&lt;script name=&quot;www-roboto&quot; &gt;if (document.fonts &amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): ttf)format('truetype');}&lt;/style&gt;&lt;script name=&quot;www-roboto&quot; &gt;if (document.fonts &amp;&amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): return ytcsi[n] || (ytcsi[n] = {tick: {},info: {}});},now: (window.performance &amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): eturn ytcsi[n] || (ytcsi[n] = {tick: {},info: {}});},now: (window.performance &amp;&amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): = {tick: {},info: {}});},now: (window.performance &amp;&amp; window.performance.timing &amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2: parser error : EntityRef: expecting ';' F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): },now: (window.performance &amp;&amp; window.performance.timing &amp;&amp;window.performance.now F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): now: (window.performance &amp;&amp; window.performance.timing &amp;&amp;window.performance.now &amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): ow: (window.performance &amp;&amp; window.performance.timing &amp;&amp;window.performance.now &amp;&amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): ate || d.webkitVisibilityState) == 'prerender';var vName = (!d.visibilityState &amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): te || d.webkitVisibilityState) == 'prerender';var vName = (!d.visibilityState &amp;&amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): ) {return false;}var ua = w.navigator.userAgent;return ua.indexOf('Gecko') &gt; 0 &amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2: parser error : EntityRef: expecting ';' F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): ;}var ua = w.navigator.userAgent;return ua.indexOf('Gecko') &gt; 0 &amp;&amp;ua.toLowerCase F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2: parser error : StartTag: invalid element name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): .userAgent;return ua.indexOf('Gecko') &gt; 0 &amp;&amp;ua.toLowerCase().indexOf('webkit') &lt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): rAgent;return ua.indexOf('Gecko') &gt; 0 &amp;&amp;ua.toLowerCase().indexOf('webkit') &lt; 0 &amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2: parser error : EntityRef: expecting ';' F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): rn ua.indexOf('Gecko') &gt; 0 &amp;&amp;ua.toLowerCase().indexOf('webkit') &lt; 0 &amp;&amp;ua.indexOf F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2: parser error : StartTag: invalid element name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): xOf('Gecko') &gt; 0 &amp;&amp;ua.toLowerCase().indexOf('webkit') &lt; 0 &amp;&amp;ua.indexOf('Edge') &lt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): 'Gecko') &gt; 0 &amp;&amp;ua.toLowerCase().indexOf('webkit') &lt; 0 &amp;&amp;ua.indexOf('Edge') &lt; 0 &amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2: parser error : EntityRef: expecting ';' F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): 0 &amp;&amp;ua.toLowerCase().indexOf('webkit') &lt; 0 &amp;&amp;ua.indexOf('Edge') &lt; 0 &amp;&amp;ua.indexOf F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2: parser error : StartTag: invalid element name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): rCase().indexOf('webkit') &lt; 0 &amp;&amp;ua.indexOf('Edge') &lt; 0 &amp;&amp;ua.indexOf('Trident') &lt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): e().indexOf('webkit') &lt; 0 &amp;&amp;ua.indexOf('Edge') &lt; 0 &amp;&amp;ua.indexOf('Trident') &lt; 0 &amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2: parser error : EntityRef: expecting ';' F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): ('webkit') &lt; 0 &amp;&amp;ua.indexOf('Edge') &lt; 0 &amp;&amp;ua.indexOf('Trident') &lt; 0 &amp;&amp;ua.indexOf F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2: parser error : StartTag: invalid element name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():  &lt; 0 &amp;&amp;ua.indexOf('Edge') &lt; 0 &amp;&amp;ua.indexOf('Trident') &lt; 0 &amp;&amp;ua.indexOf('MSIE') &lt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): dow, document);&lt;/script&gt;&lt;script &gt;var ytcfg = {d: function() {return (window.yt &amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): ow, document);&lt;/script&gt;&lt;script &gt;var ytcfg = {d: function() {return (window.yt &amp;&amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 11: parser error : error parsing attribute name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): ned&quot;,&quot;show-guide&quot;]),d=b.length,g=[];c.replace(/\S+/g,function(e){for(var k=0;k&lt;d F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 11: parser error : attributes construct error F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): ned&quot;,&quot;show-guide&quot;]),d=b.length,g=[];c.replace(/\S+/g,function(e){for(var k=0;k&lt;d F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 11: parser error : Couldn't find end of Start Tag d line 11 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): ned&quot;,&quot;show-guide&quot;]),d=b.length,g=[];c.replace(/\S+/g,function(e){for(var k=0;k&lt;d F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 13: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): tion l(c,b,d){var g=document.getElementsByTagName(&quot;html&quot;)[0],e=h(g.className);c&amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 13: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): ion l(c,b,d){var g=document.getElementsByTagName(&quot;html&quot;)[0],e=h(g.className);c&amp;&amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 13: parser error : StartTag: invalid element name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): (c,b,d){var g=document.getElementsByTagName(&quot;html&quot;)[0],e=h(g.className);c&amp;&amp;1251&lt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 13: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): g.className);c&amp;&amp;1251&lt;=(window.innerWidth||document.documentElement.clientWidth)&amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 13: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): .className);c&amp;&amp;1251&lt;=(window.innerWidth||document.documentElement.clientWidth)&amp;&amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 13: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): ow.innerWidth||document.documentElement.clientWidth)&amp;&amp;(e.push(&quot;guide-pinned&quot;),b&amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 13: parser error : EntityRef: expecting ';' F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): rWidth||document.documentElement.clientWidth)&amp;&amp;(e.push(&quot;guide-pinned&quot;),b&amp;&amp;e.push F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 13: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): ocumentElement.clientWidth)&amp;&amp;(e.push(&quot;guide-pinned&quot;),b&amp;&amp;e.push(&quot;show-guide&quot;));d&amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 13: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): cumentElement.clientWidth)&amp;&amp;(e.push(&quot;guide-pinned&quot;),b&amp;&amp;e.push(&quot;show-guide&quot;));d&amp;&amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 13: parser error : StartTag: invalid element name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): e&quot;));d&amp;&amp;(d=(window.innerWidth||document.documentElement.clientWidth)-21-50,1251&lt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 13: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): entWidth)-21-50,1251&lt;=(window.innerWidth||document.documentElement.clientWidth)&amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 13: parser error : EntityRef: expecting ';' F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): tWidth)-21-50,1251&lt;=(window.innerWidth||document.documentElement.clientWidth)&amp;&amp;c F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 13: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Width)-21-50,1251&lt;=(window.innerWidth||document.documentElement.clientWidth)&amp;&amp;c&amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 13: parser error : EntityRef: expecting ';' F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): dth)-21-50,1251&lt;=(window.innerWidth||document.documentElement.clientWidth)&amp;&amp;c&amp;&amp;b F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 13: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): th)-21-50,1251&lt;=(window.innerWidth||document.documentElement.clientWidth)&amp;&amp;c&amp;&amp;b&amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 13: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): h)-21-50,1251&lt;=(window.innerWidth||document.documentElement.clientWidth)&amp;&amp;c&amp;&amp;b&amp;&amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 13: parser error : StartTag: invalid element name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): w.innerWidth||document.documentElement.clientWidth)&amp;&amp;c&amp;&amp;b&amp;&amp;(d-=230),e.push(1262&lt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 13: parser error : StartTag: invalid element name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Element.clientWidth)&amp;&amp;c&amp;&amp;b&amp;&amp;(d-=230),e.push(1262&lt;=d?&quot;content-snap-width-3&quot;:1056&lt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 14: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): |&quot;undefined&quot;==typeof n.execScript||n.execScript(&quot;var &quot;+m[0]);for(var p;m.length&amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 14: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): &quot;undefined&quot;==typeof n.execScript||n.execScript(&quot;var &quot;+m[0]);for(var p;m.length&amp;&amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 14: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): cript(&quot;var &quot;+m[0]);for(var p;m.length&amp;&amp;(p=m.shift());)m.length||void 0===l?n[p]&amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 14: parser error : EntityRef: expecting ';' F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): ipt(&quot;var &quot;+m[0]);for(var p;m.length&amp;&amp;(p=m.shift());)m.length||void 0===l?n[p]&amp;&amp;n F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 94: parser error : Specification mandates value for attribute itemscope F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         &lt;span itemprop=&quot;author&quot; itemscope itemtype=&quot;http://schema.org/Person&quot;&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                           ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 94: parser error : attributes construct error F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         &lt;span itemprop=&quot;author&quot; itemscope itemtype=&quot;http://schema.org/Person&quot;&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                           ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 94: parser error : Couldn't find end of Start Tag span line 94 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         &lt;span itemprop=&quot;author&quot; itemscope itemtype=&quot;http://schema.org/Person&quot;&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                           ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 96: parser error : Opening and ending tag mismatch: link line 95 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 97: parser error : Specification mandates value for attribute itemscope F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         &lt;span itemprop=&quot;author&quot; itemscope itemtype=&quot;http://schema.org/Person&quot;&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                           ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 97: parser error : attributes construct error F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         &lt;span itemprop=&quot;author&quot; itemscope itemtype=&quot;http://schema.org/Person&quot;&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                           ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 97: parser error : Couldn't find end of Start Tag span line 97 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         &lt;span itemprop=&quot;author&quot; itemscope itemtype=&quot;http://schema.org/Person&quot;&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                           ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 99: parser error : Opening and ending tag mismatch: link line 98 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 120: parser error : Specification mandates value for attribute itemscope F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     &lt;span itemprop=&quot;thumbnail&quot; itemscope itemtype=&quot;http://schema.org/ImageObject F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                          ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 120: parser error : attributes construct error F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     &lt;span itemprop=&quot;thumbnail&quot; itemscope itemtype=&quot;http://schema.org/ImageObject F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                          ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 120: parser error : Couldn't find end of Start Tag span line 120 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     &lt;span itemprop=&quot;thumbnail&quot; itemscope itemtype=&quot;http://schema.org/ImageObject F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                          ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 124: parser error : Opening and ending tag mismatch: meta line 123 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():            ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 138: parser error : Opening and ending tag mismatch: link line 136 and head F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): kground-size: 40px 28px; } } .guide-sort-container {display: none}&lt;/style&gt;&lt;/head F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 143: parser error : Opening and ending tag mismatch: input line 143 and form F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): ST&quot; action=&quot;/logout&quot;&gt;&lt;input type=&quot;hidden&quot; name=&quot;action_logout&quot; value=&quot;1&quot;&gt;&lt;/form&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 155: parser error : Opening and ending tag mismatch: input line 155 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): ext&quot; tabindex=&quot;1&quot; placeholder=&quot;Search&quot; title=&quot;Search&quot; aria-label=&quot;Search&quot;&gt;&lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 155: parser error : Opening and ending tag mismatch: div line 155 and form F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): bindex=&quot;1&quot; placeholder=&quot;Search&quot; title=&quot;Search&quot; aria-label=&quot;Search&quot;&gt;&lt;/div&gt;&lt;/form&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 155: parser error : Opening and ending tag mismatch: form line 155 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): =&quot;1&quot; placeholder=&quot;Search&quot; title=&quot;Search&quot; aria-label=&quot;Search&quot;&gt;&lt;/div&gt;&lt;/form&gt;&lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 159: parser error : Opening and ending tag mismatch: img line 158 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/a&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 168: parser error : Opening and ending tag mismatch: a line 157 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/li&gt;&lt;/ul&gt;  &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                   ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 268: parser error : Opening and ending tag mismatch: hr line 267 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 296: parser error : Opening and ending tag mismatch: img line 293 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 306: parser error : Opening and ending tag mismatch: span line 287 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/a&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 308: parser error : Opening and ending tag mismatch: a line 282 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 328: parser error : Opening and ending tag mismatch: img line 325 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 338: parser error : Opening and ending tag mismatch: span line 319 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/a&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 340: parser error : Opening and ending tag mismatch: a line 314 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 360: parser error : Opening and ending tag mismatch: img line 357 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 370: parser error : Opening and ending tag mismatch: span line 351 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/a&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 372: parser error : Opening and ending tag mismatch: a line 346 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 392: parser error : Opening and ending tag mismatch: img line 389 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 402: parser error : Opening and ending tag mismatch: span line 383 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/a&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 404: parser error : Opening and ending tag mismatch: a line 378 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 424: parser error : Opening and ending tag mismatch: img line 421 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 434: parser error : Opening and ending tag mismatch: span line 415 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/a&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 436: parser error : Opening and ending tag mismatch: a line 410 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 456: parser error : Opening and ending tag mismatch: img line 453 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 466: parser error : Opening and ending tag mismatch: span line 447 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/a&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 468: parser error : Opening and ending tag mismatch: a line 442 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 488: parser error : Opening and ending tag mismatch: img line 485 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 498: parser error : Opening and ending tag mismatch: span line 479 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/a&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 500: parser error : Opening and ending tag mismatch: a line 474 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 520: parser error : Opening and ending tag mismatch: img line 517 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 530: parser error : Opening and ending tag mismatch: span line 511 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/a&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 532: parser error : Opening and ending tag mismatch: a line 506 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 552: parser error : Opening and ending tag mismatch: img line 549 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 562: parser error : Opening and ending tag mismatch: span line 543 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/a&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 564: parser error : Opening and ending tag mismatch: a line 538 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 566: parser error : Opening and ending tag mismatch: li line 535 and ul F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/ul&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():            ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 567: parser error : Opening and ending tag mismatch: li line 503 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():           ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 569: parser error : Opening and ending tag mismatch: hr line 568 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 600: parser error : Opening and ending tag mismatch: hr line 599 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 611: parser error : Opening and ending tag mismatch: li line 571 and ul F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     &lt;/ul&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():          ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 612: parser error : Opening and ending tag mismatch: li line 471 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 614: parser error : Opening and ending tag mismatch: li line 439 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():           ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 615: parser error : Opening and ending tag mismatch: li line 407 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 795: parser error : Opening and ending tag mismatch: li line 375 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/div&gt;&lt;div class=&quot;alerts-wrapper&quot;&gt;&lt;div id=&quot;alerts&quot; class=&quot;content-alignment&quot;&gt;   F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 828: parser error : AttValue: &quot; or ' expected F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     &lt;label class=&quot;autoplay-label&quot; for=autoplay-toggle-id&gt;&lt;/label&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                       ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 828: parser error : attributes construct error F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     &lt;label class=&quot;autoplay-label&quot; for=autoplay-toggle-id&gt;&lt;/label&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                       ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 828: parser error : Couldn't find end of Start Tag label line 828 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     &lt;label class=&quot;autoplay-label&quot; for=autoplay-toggle-id&gt;&lt;/label&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                       ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 828: parser error : Opening and ending tag mismatch: div line 827 and label F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     &lt;label class=&quot;autoplay-label&quot; for=autoplay-toggle-id&gt;&lt;/label&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                  ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 864: parser error : Opening and ending tag mismatch: li line 343 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/div&gt;&lt;div id=&quot;content&quot; class=&quot;  content-alignment&quot; role=&quot;main&quot;&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 898: parser error : Opening and ending tag mismatch: img line 897 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     &lt;/a&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 899: parser error : Opening and ending tag mismatch: a line 896 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 904: parser error : Opening and ending tag mismatch: img line 903 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     &lt;/a&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 905: parser error : Opening and ending tag mismatch: a line 902 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 910: parser error : Opening and ending tag mismatch: img line 909 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     &lt;/a&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 911: parser error : Opening and ending tag mismatch: a line 908 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 916: parser error : Opening and ending tag mismatch: img line 915 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     &lt;/a&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 917: parser error : Opening and ending tag mismatch: a line 914 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 919: parser error : Opening and ending tag mismatch: li line 913 and ul F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/ul&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():            ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 928: parser error : Opening and ending tag mismatch: img line 924 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     &lt;/a&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 929: parser error : Opening and ending tag mismatch: a line 923 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 931: parser error : Opening and ending tag mismatch: li line 922 and ul F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/ul&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():            ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 932: parser error : Opening and ending tag mismatch: ul line 921 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 937: parser error : Opening and ending tag mismatch: img line 936 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     &lt;/a&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 939: parser error : Opening and ending tag mismatch: a line 935 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 941: parser error : Opening and ending tag mismatch: li line 907 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():           ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1050: parser error : Opening and ending tag mismatch: input line 1050 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): value=&quot;&quot; placeholder=&quot;Search Channel&quot; maxlength=&quot;100&quot; autocomplete=&quot;off&quot;&gt;&lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1050: parser error : Opening and ending tag mismatch: span line 1050 and form F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): &quot; placeholder=&quot;Search Channel&quot; maxlength=&quot;100&quot; autocomplete=&quot;off&quot;&gt;&lt;/span&gt;&lt;/form&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1050: parser error : Opening and ending tag mismatch: form line 1050 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): ceholder=&quot;Search Channel&quot; maxlength=&quot;100&quot; autocomplete=&quot;off&quot;&gt;&lt;/span&gt;&lt;/form&gt;&lt;/div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1051: parser error : Opening and ending tag mismatch: div line 1050 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1052: parser error : Opening and ending tag mismatch: li line 1049 and ul F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     &lt;/ul&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():          ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1053: parser error : Opening and ending tag mismatch: ul line 1030 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1060: parser error : Opening and ending tag mismatch: li line 901 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():             ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1159: parser error : Opening and ending tag mismatch: img line 1156 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1162: parser error : Opening and ending tag mismatch: span line 1151 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/a&gt;    &lt;span class=&quot;video-time&quot; aria-hidden=&quot;true&quot;&gt;&lt;span aria-label=&quot;5 minutes, F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1168: parser error : Opening and ending tag mismatch: a line 1151 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1170: parser error : Opening and ending tag mismatch: span line 1151 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1193: parser error : Opening and ending tag mismatch: div line 1144 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1214: parser error : Opening and ending tag mismatch: img line 1211 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1217: parser error : Opening and ending tag mismatch: span line 1206 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/a&gt;    &lt;span class=&quot;video-time&quot; aria-hidden=&quot;true&quot;&gt;&lt;span aria-label=&quot;2 minutes, F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1223: parser error : Opening and ending tag mismatch: a line 1206 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1225: parser error : Opening and ending tag mismatch: span line 1206 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1248: parser error : Opening and ending tag mismatch: div line 1199 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1269: parser error : Opening and ending tag mismatch: img line 1266 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1272: parser error : Opening and ending tag mismatch: span line 1261 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/a&gt;    &lt;span class=&quot;video-time&quot; aria-hidden=&quot;true&quot;&gt;&lt;span aria-label=&quot;3 minutes, F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1278: parser error : Opening and ending tag mismatch: a line 1261 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1280: parser error : Opening and ending tag mismatch: span line 1261 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1303: parser error : Opening and ending tag mismatch: div line 1254 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1324: parser error : Opening and ending tag mismatch: img line 1321 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1327: parser error : Opening and ending tag mismatch: span line 1316 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/a&gt;    &lt;span class=&quot;video-time&quot; aria-hidden=&quot;true&quot;&gt;&lt;span aria-label=&quot;2 minutes, F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1333: parser error : Opening and ending tag mismatch: a line 1316 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1335: parser error : Opening and ending tag mismatch: span line 1316 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1358: parser error : Opening and ending tag mismatch: div line 1309 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1379: parser error : Opening and ending tag mismatch: img line 1376 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1382: parser error : Opening and ending tag mismatch: span line 1371 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/a&gt;    &lt;span class=&quot;video-time&quot; aria-hidden=&quot;true&quot;&gt;&lt;span aria-label=&quot;3 minutes, F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1388: parser error : Opening and ending tag mismatch: a line 1371 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1390: parser error : Opening and ending tag mismatch: span line 1371 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1413: parser error : Opening and ending tag mismatch: div line 1364 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1434: parser error : Opening and ending tag mismatch: img line 1431 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1437: parser error : Opening and ending tag mismatch: span line 1426 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/a&gt;    &lt;span class=&quot;video-time&quot; aria-hidden=&quot;true&quot;&gt;&lt;span aria-label=&quot;5 minutes, F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():     ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1443: parser error : Opening and ending tag mismatch: a line 1426 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1445: parser error : Opening and ending tag mismatch: span line 1426 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1468: parser error : Opening and ending tag mismatch: div line 1419 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():         &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1489: parser error : Opening and ending tag mismatch: img line 1486 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:45 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1492: parser error : Opening and ending tag mismatch: span line 1481 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/a&gt;    &lt;span class=&quot;video-time&quot; aria-hidden=&quot;true&quot;&gt;&lt;span aria-label=&quot;3 minutes, F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():     ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1498: parser error : Opening and ending tag mismatch: a line 1481 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1500: parser error : Opening and ending tag mismatch: span line 1481 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1523: parser error : Opening and ending tag mismatch: div line 1474 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():         &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1544: parser error : Opening and ending tag mismatch: img line 1541 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1547: parser error : Opening and ending tag mismatch: span line 1536 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/a&gt;    &lt;span class=&quot;video-time&quot; aria-hidden=&quot;true&quot;&gt;&lt;span aria-label=&quot;5 minutes, F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():     ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1553: parser error : Opening and ending tag mismatch: a line 1536 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1555: parser error : Opening and ending tag mismatch: span line 1536 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1578: parser error : Opening and ending tag mismatch: div line 1529 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():         &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1599: parser error : Opening and ending tag mismatch: img line 1596 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1602: parser error : Opening and ending tag mismatch: span line 1591 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/a&gt;    &lt;span class=&quot;video-time&quot; aria-hidden=&quot;true&quot;&gt;&lt;span aria-label=&quot;3 minutes, F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():     ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1608: parser error : Opening and ending tag mismatch: a line 1591 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1610: parser error : Opening and ending tag mismatch: span line 1591 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1633: parser error : Opening and ending tag mismatch: div line 1584 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():         &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1654: parser error : Opening and ending tag mismatch: img line 1651 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1657: parser error : Opening and ending tag mismatch: span line 1646 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/a&gt;    &lt;span class=&quot;video-time&quot; aria-hidden=&quot;true&quot;&gt;&lt;span aria-label=&quot;2 minutes, F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():     ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1663: parser error : Opening and ending tag mismatch: a line 1646 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1665: parser error : Opening and ending tag mismatch: span line 1646 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1688: parser error : Opening and ending tag mismatch: div line 1639 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():         &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1709: parser error : Opening and ending tag mismatch: img line 1706 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1712: parser error : Opening and ending tag mismatch: span line 1701 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/a&gt;    &lt;span class=&quot;video-time&quot; aria-hidden=&quot;true&quot;&gt;&lt;span aria-label=&quot;2 minutes, F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():     ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1718: parser error : Opening and ending tag mismatch: a line 1701 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1720: parser error : Opening and ending tag mismatch: span line 1701 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1743: parser error : Opening and ending tag mismatch: div line 1694 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():         &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1764: parser error : Opening and ending tag mismatch: img line 1761 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1767: parser error : Opening and ending tag mismatch: span line 1756 and a F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/a&gt;    &lt;span class=&quot;video-time&quot; aria-hidden=&quot;true&quot;&gt;&lt;span aria-label=&quot;6 minutes, F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():     ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1773: parser error : Opening and ending tag mismatch: a line 1756 and span F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/span&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1775: parser error : Opening and ending tag mismatch: span line 1756 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1798: parser error : Opening and ending tag mismatch: div line 1749 and li F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():         &lt;/li&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():              ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1799: parser error : Opening and ending tag mismatch: li line 1744 and ul F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():     &lt;/ul&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():          ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1800: parser error : Opening and ending tag mismatch: li line 1689 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1807: parser error : Opening and ending tag mismatch: li line 1634 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():     &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():           ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1810: parser error : Opening and ending tag mismatch: li line 1579 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1817: parser error : Opening and ending tag mismatch: li line 1524 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1821: parser error : Opening and ending tag mismatch: li line 1469 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():         &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():               ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1822: parser error : Opening and ending tag mismatch: li line 1414 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():       &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():             ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1823: parser error : Opening and ending tag mismatch: li line 1359 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():     &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():           ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1829: parser error : Opening and ending tag mismatch: li line 1249 and ul F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():     &lt;/ul&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():          ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1836: parser error : Opening and ending tag mismatch: li line 1194 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():   &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():         ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1838: parser error : Opening and ending tag mismatch: li line 1139 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():           &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():                 ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1839: parser error : Opening and ending tag mismatch: ul line 1138 and div F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():         &lt;/div&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():               ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1990: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): aders'] = {'X-YouTube-Ad-Signals': {toString: function() {return (window['yt'] &amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1990: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ders'] = {'X-YouTube-Ad-Signals': {toString: function() {return (window['yt'] &amp;&amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1990: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): YouTube-Ad-Signals': {toString: function() {return (window['yt'] &amp;&amp; yt['ads_'] &amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1990: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ouTube-Ad-Signals': {toString: function() {return (window['yt'] &amp;&amp; yt['ads_'] &amp;&amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1990: parser error : xmlParseEntityRef: no name F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): oString: function() {return (window['yt'] &amp;&amp; yt['ads_'] &amp;&amp; yt.ads_['signals_'] &amp; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 1990: parser error : EntityRef: expecting ';' F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): () {return (window['yt'] &amp;&amp; yt['ads_'] &amp;&amp; yt.ads_['signals_'] &amp;&amp;yt.ads_.signals_ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():                                                                                ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2062: parser error : Opening and ending tag mismatch: li line 1116 and body F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/body&gt;&lt;/html&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():        ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2062: parser error : Opening and ending tag mismatch: ul line 1068 and html F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): &lt;/body&gt;&lt;/html&gt; F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():               ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag div line 1066 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag div line 1065 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag div line 1064 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag div line 1063 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag div line 1062 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag li line 895 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag ul line 894 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag div line 893 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag div line 889 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag div line 870 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag div line 869 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag div line 868 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag div line 867 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag div line 864 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag li line 311 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag li line 279 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag ul line 277 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag div line 272 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag li line 270 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag li line 176 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag ul line 175 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag div line 174 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag div line 173 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag div line 172 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag div line 172 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag div line 172 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag div line 172 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag div line 147 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag div line 143 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag form line 143 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag div line 143 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag body line 140 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag link line 132 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag link line 131 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 128 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 127 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 122 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag link line 121 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag link line 119 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 91 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 89 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 86 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 85 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag link line 84 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 82 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 81 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 80 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 79 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 78 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 77 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 76 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 75 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 74 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 73 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 72 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 71 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 70 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 69 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 68 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 66 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 64 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 63 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 62 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 61 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 60 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 58 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 56 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 55 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 54 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 53 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 51 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 50 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 49 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 47 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 45 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 44 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 43 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 42 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 41 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 40 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag link line 39 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 39 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag link line 39 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag link line 39 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag link line 39 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag link line 39 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag link line 39 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag link line 39 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag link line 39 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 38 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 36 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag meta line 34 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag link line 34 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag link line 34 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag link line 34 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag link line 30 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag link line 29 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag link line 27 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag link line 26 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag link line 25 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag head line 2 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): Entity: line 2065: parser error : Premature end of data in tag html line 2 F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct():  F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: Warning --> SimpleXMLElement::__construct(): ^ F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 10:36:46 --> Severity: error --> Exception: String could not be parsed as XML F:\FBP.com\application\views\property-design.php 664
+ERROR - 2019-12-06 13:36:37 --> 404 Page Not Found: 
+ERROR - 2019-12-06 15:03:02 --> 404 Page Not Found: 

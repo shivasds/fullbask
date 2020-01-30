@@ -1,0 +1,11 @@
+ERROR - 2020-01-08 11:12:52 --> Severity: error --> Exception: syntax error, unexpected ')' F:\FBP.com\application\views\index.php 292
+ERROR - 2020-01-08 11:14:25 --> Severity: error --> Exception: syntax error, unexpected '}' F:\FBP.com\application\views\index.php 315
+ERROR - 2020-01-08 11:14:46 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\index.php 314
+ERROR - 2020-01-08 11:14:46 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\index.php 314
+ERROR - 2020-01-08 11:14:46 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\index.php 314
+ERROR - 2020-01-08 11:14:46 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\index.php 314
+ERROR - 2020-01-08 11:14:46 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\index.php 314
+ERROR - 2020-01-08 11:14:46 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\index.php 314
+ERROR - 2020-01-08 11:14:46 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\index.php 314
+ERROR - 2020-01-08 11:28:03 --> Severity: error --> Exception: syntax error, unexpected ')' F:\FBP.com\application\views\index.php 315
+ERROR - 2020-01-08 11:29:51 --> Severity: error --> Exception: Cannot use object of type stdClass as array F:\FBP.com\application\views\index.php 316

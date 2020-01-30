@@ -1,0 +1,4 @@
+ERROR - 2019-12-30 10:14:40 --> Severity: error --> Exception: syntax error, unexpected '<' F:\FBP.com\application\views\index.php 487
+ERROR - 2019-12-30 14:29:49 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\admin\faq.php 25
+ERROR - 2019-12-30 14:29:58 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\admin\faq.php 25
+ERROR - 2019-12-30 16:19:23 --> Query error: Unknown column 'q_faq' in 'field list' - Invalid query: INSERT INTO `faqs` (`property_id`, `q_faq`, `a_faq`) VALUES ('7', 'asadfs', 'sadfasdf')

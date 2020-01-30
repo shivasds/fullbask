@@ -1,0 +1,3 @@
+ERROR - 2019-11-26 10:42:19 --> 404 Page Not Found: 
+ERROR - 2019-11-26 06:14:56 --> Severity: error --> Exception: syntax error, unexpected '$this' (T_VARIABLE) F:\FBP.com\application\models\Properties_model.php 45
+ERROR - 2019-11-26 06:14:57 --> Severity: error --> Exception: syntax error, unexpected '$this' (T_VARIABLE) F:\FBP.com\application\models\Properties_model.php 45

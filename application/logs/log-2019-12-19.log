@@ -1,0 +1,8 @@
+ERROR - 2019-12-19 10:29:51 --> Severity: error --> Exception: syntax error, unexpected 'if' (T_IF), expecting ',' or ';' F:\FBP.com\application\views\admin\testimonials\edit.php 39
+ERROR - 2019-12-19 10:30:25 --> Severity: error --> Exception: syntax error, unexpected 'if' (T_IF), expecting ',' or ';' F:\FBP.com\application\views\admin\testimonials\edit.php 39
+ERROR - 2019-12-19 10:30:43 --> Severity: error --> Exception: syntax error, unexpected 'if' (T_IF), expecting ',' or ';' F:\FBP.com\application\views\admin\testimonials\edit.php 39
+ERROR - 2019-12-19 10:30:44 --> Severity: error --> Exception: syntax error, unexpected 'if' (T_IF), expecting ',' or ';' F:\FBP.com\application\views\admin\testimonials\edit.php 39
+ERROR - 2019-12-19 10:30:45 --> Severity: error --> Exception: syntax error, unexpected 'if' (T_IF), expecting ',' or ';' F:\FBP.com\application\views\admin\testimonials\edit.php 39
+ERROR - 2019-12-19 10:31:20 --> Severity: error --> Exception: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) F:\FBP.com\application\views\admin\testimonials\edit.php 39
+ERROR - 2019-12-19 10:31:49 --> Severity: error --> Exception: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) F:\FBP.com\application\views\admin\testimonials\edit.php 39
+ERROR - 2019-12-19 10:33:16 --> Severity: error --> Exception: syntax error, unexpected '?>' F:\FBP.com\application\views\admin\testimonials\edit.php 41

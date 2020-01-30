@@ -1,0 +1,3 @@
+ERROR - 2019-11-27 10:27:26 --> 404 Page Not Found: 
+ERROR - 2019-11-27 11:25:41 --> Severity: error --> Exception: Call to undefined method Properties_model::getBanners() F:\FBP.com\application\controllers\Home.php 840
+ERROR - 2019-11-27 12:33:26 --> Severity: error --> Exception: Call to undefined method Properties_model::getBanners() F:\FBP.com\application\controllers\Home.php 840
