@@ -1,6 +1,0 @@
-ERROR - 2020-01-30 08:44:54 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'nkmtein_fullbasket_new' C:\Users\Shwet-PC\Desktop\FBP.com\system\database\drivers\mysqli\mysqli_driver.php 201
-ERROR - 2020-01-30 08:44:54 --> Unable to connect to the database
-ERROR - 2020-01-30 08:44:54 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'nkmtein_fullbasket_new' C:\Users\Shwet-PC\Desktop\FBP.com\system\database\drivers\mysqli\mysqli_driver.php 201
-ERROR - 2020-01-30 08:44:54 --> Unable to connect to the database
-ERROR - 2020-01-30 13:20:09 --> 404 Page Not Found: 
-ERROR - 2020-01-30 13:24:03 --> 404 Page Not Found: 

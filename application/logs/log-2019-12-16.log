@@ -1,5 +1,0 @@
-ERROR - 2019-12-16 17:17:34 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\builder_properties.php 57
-ERROR - 2019-12-16 17:19:49 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\builder_properties.php 59
-ERROR - 2019-12-16 17:31:49 --> Severity: error --> Exception: syntax error, unexpected '}', expecting end of file F:\FBP.com\application\views\builder_properties.php 49
-ERROR - 2019-12-16 13:41:32 --> Severity: error --> Exception: syntax error, unexpected ';', expecting ')' F:\FBP.com\application\controllers\Builders.php 40
-ERROR - 2019-12-16 18:12:24 --> 404 Page Not Found: 

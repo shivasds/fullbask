@@ -21,6 +21,7 @@ class Achievements extends Admin_Controller {
 
         // load the aboutUs model
         $this->load->model('achievements_model');
+        $this->load->model('builders_model');
 
         // set constants
         define('REFERRER', "referrer");
@@ -90,7 +91,8 @@ class Achievements extends Admin_Controller {
                         'image_desc'=>$this->input->post('image_description'),
                         'date_added' => date('Y-m-d'),
                         'date' =>$this->input->post('date').'-01-01',
-                        'city_id' => $this->input->post('cities')
+                        'city_id' => $this->input->post('cities'),
+                        'b_id' => $this->input->post('builders')
                     );
                     $this->achievements_model->insertRow($data, 'achievements');
 
@@ -101,10 +103,11 @@ class Achievements extends Admin_Controller {
                     redirect('admin/achievements/add');
                 }
             }
-        }
+        } 
         $current_year = date('Y');
         $data1['date_range'] = range($current_year, $current_year-10);
         $data1['cities'] = $this->achievements_model->getAll('cities');
+        $data1['builders'] = $this->builders_model->getAll('builders');
         $this->set_title(lang('achievements title addAchievement'))
                 ->add_external_js(array('//cdnjs.cloudflare.com/ajax/libs/ckeditor/4.7.2/ckeditor.js',
                     base_url($this->settings->themes_folder . '/admin/js/blogs.js')));
@@ -151,7 +154,8 @@ class Achievements extends Admin_Controller {
                       'image_desc'=>$this->input->post('image_description') ? $this->input->post('image_description') : $achievement->image_desc,
                     'image' => $image,
                     'date' =>$this->input->post('date').'-01-01',
-                    'city_id' =>$this->input->post('cities')
+                    'city_id' =>$this->input->post('cities'),
+                    'b_id' => $this->input->post('builders')
 
                 );
                 
@@ -170,6 +174,7 @@ class Achievements extends Admin_Controller {
          $current_year = date('Y');
        $this->data['date_range'] = range($current_year, $current_year-10);
         $this->data['cities'] = $this->achievements_model->getAll('cities');
+        $this->data['builders'] = $this->builders_model->getAll('builders');
         $content_data = $this->data;
 
         $data['content'] = $this->load->view('admin/achievements/edit', $content_data, TRUE);

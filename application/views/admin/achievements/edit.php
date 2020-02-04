@@ -1,8 +1,4 @@
-<?php/*
-print_r($cities);
-echo $cities[0]->id;
-die;*/
-?>
+ 
  <section class="content">
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
@@ -61,6 +57,24 @@ die;*/
                                         { 
                                         ?>
                                         <option value="<?= $type->id?>"<?php if(($type->id)==$achievement->City_id) echo 'selected' ?>><?= $type->name ?></option>
+                                        <?php
+                                    }
+                                }
+                                    ?>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                             <label   class="col-sm-2 control-label">Builders</label>
+                            <div class="col-sm-10  ">
+                                <select class="form-control" name="builders">
+                                    <option value="Select">Select</option>
+                                    <?php 
+                                    foreach ($builders as $type) {
+                                        if($type->status==1)
+                                        { 
+                                        ?>
+                                        <option value="<?= $type->id?>"<?php if(($type->id)==$achievement->b_id) echo 'selected' ?>><?= $type->name ?></option>
                                         <?php
                                     }
                                 }
