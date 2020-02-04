@@ -50,6 +50,24 @@
                             </div>
                         </div>
                         <div class="form-group">
+                             <label   class="col-sm-2 control-label">Builders</label>
+                            <div class="col-sm-10  ">
+                                <select class="form-control" name="builders">
+                                    <option value="Select">Select</option>
+                                    <?php
+                                    foreach ($builders as $type) {
+                                        if($type->status==1)
+                                        {
+                                        ?>
+                                        <option value="<?= $type->id ?>"<?php if(($this->session->userdata("cities"))==$type->name) echo 'selected' ?>><?= $type->name ?></option>
+                                        <?php
+                                    }
+                                }
+                                    ?>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
                              <label   class="col-sm-2 control-label">Year</label>
                             <div class="col-sm-10  ">
                                 <select class="form-control" name="date">
