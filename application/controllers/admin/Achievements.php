@@ -104,6 +104,7 @@ class Achievements extends Admin_Controller {
                 }
             }
         }
+        // echo "first commit";
         $current_year = date('Y');
         $data1['date_range'] = range($current_year, $current_year-10);
         $data1['cities'] = $this->achievements_model->getAll('cities');
