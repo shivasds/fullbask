@@ -987,4 +987,21 @@ class Home extends Public_Controller
             redirect(base_url('thankyou?type=instant'));
         }
   }
+  public function achievements()
+  {
+    $this->data['meta'] = array(
+        'title'         => 'Full Basket Property Blogs | Latest Property Updates and Trends', 
+        'description'   => 'Get the latest real estate property updates, news, opinions and trends in India. Expert insights to the events in the Indian Real Estate Market. ',
+        'keywords'      =>'Fullbasket property achivements'
+    );
+  //  $this->load->model('blogs_model');
+    $achievements = $this->home_model->getWhere(array('status' => 1), 'achievements');
+    if ($achievements && isset($achievements[0])) {
+        $this->data['achievements'] = $achievements;
+        $this->data['view_page'] = 'achievements';
+        $this->load->view('template', $this->data);
+    } else {
+        redirect(site_url());
+    }
+  }
 }

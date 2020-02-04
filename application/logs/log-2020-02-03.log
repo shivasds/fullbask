@@ -1,0 +1,38 @@
+ERROR - 2020-02-03 14:18:48 --> 404 Page Not Found: 
+ERROR - 2020-02-03 14:18:56 --> 404 Page Not Found: 
+ERROR - 2020-02-03 14:19:06 --> 404 Page Not Found: 
+ERROR - 2020-02-03 14:19:10 --> 404 Page Not Found: 
+ERROR - 2020-02-03 14:20:40 --> 404 Page Not Found: 
+ERROR - 2020-02-03 14:25:17 --> 404 Page Not Found: 
+ERROR - 2020-02-03 14:28:37 --> 404 Page Not Found: 
+ERROR - 2020-02-03 14:29:29 --> 404 Page Not Found: 
+ERROR - 2020-02-03 14:32:52 --> 404 Page Not Found: 
+ERROR - 2020-02-03 14:34:38 --> 404 Page Not Found: 
+ERROR - 2020-02-03 14:36:39 --> 404 Page Not Found: 
+ERROR - 2020-02-03 14:42:19 --> 404 Page Not Found: 
+ERROR - 2020-02-03 10:20:05 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ F:\SDS\FBP.com\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2020-02-03 10:20:05 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ F:\SDS\FBP.com\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2020-02-03 10:20:05 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ F:\SDS\FBP.com\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2020-02-03 10:20:05 --> Unable to connect to the database
+ERROR - 2020-02-03 10:20:05 --> Unable to connect to the database
+ERROR - 2020-02-03 10:20:05 --> Unable to connect to the database
+ERROR - 2020-02-03 14:51:22 --> 404 Page Not Found: 
+ERROR - 2020-02-03 14:55:24 --> 404 Page Not Found: 
+ERROR - 2020-02-03 15:27:20 --> 404 Page Not Found: 
+ERROR - 2020-02-03 15:34:51 --> 404 Page Not Found: 
+ERROR - 2020-02-03 15:35:03 --> 404 Page Not Found: 
+ERROR - 2020-02-03 15:38:46 --> 404 Page Not Found: 
+ERROR - 2020-02-03 15:39:39 --> 404 Page Not Found: 
+ERROR - 2020-02-03 15:45:10 --> 404 Page Not Found: 
+ERROR - 2020-02-03 20:38:51 --> 404 Page Not Found: 
+ERROR - 2020-02-03 20:39:24 --> 404 Page Not Found: 
+ERROR - 2020-02-03 23:01:34 --> 404 Page Not Found: 
+ERROR - 2020-02-03 23:02:35 --> Severity: error --> Exception: Call to undefined method Home_model::get_city_id() F:\SDS\FBP.com\application\controllers\Home.php 861
+ERROR - 2020-02-03 23:03:07 --> 404 Page Not Found: 
+ERROR - 2020-02-03 23:05:50 --> 404 Page Not Found: 
+ERROR - 2020-02-03 23:07:09 --> 404 Page Not Found: 
+ERROR - 2020-02-03 23:16:42 --> 404 Page Not Found: 
+ERROR - 2020-02-03 23:18:30 --> 404 Page Not Found: 

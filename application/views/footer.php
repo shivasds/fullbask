@@ -210,13 +210,15 @@ Karnataka - 560025</p>
                     <li><a data-toggle="modal" href="#submitContact">SUBMIT PROPERTY</a></li>
                     <li><a href="#">SERVICES</a></li>
                     <li><a target="_blank" href="<?=site_url('disclaimer')?>">Vastu</a></li>
-                <li><a target="_blank" href="<?=site_url('disclaimer')?>">NRI Corner</a></li>
+                <li><a target="_blank" href="<?=site_url('nri')?>">NRI Corner</a></li>
                     <li><a target="_blank" href="<?=site_url('blog')?>">BLOG</a></li>
+                    <li><a target="_blank" href="<?=site_url('achievements')?>">ACHIEVEMENTS</a></li>
                     <li><a target="_blank" href="<?=site_url('testimonials')?>">TESTIMONIALS</a></li>
                     <li><a target="_blank" href="<?=site_url('careers')?>">CAREERS</a></li>
                     <li><a target="_blank" href="<?=site_url('privacy-policy')?>">TERMS</a></li>
                     <li><a target="_blank" href="<?=site_url('disclaimer')?>">DISCLAIMER</a></li>
                      <li><a target="_blank" href="<?=site_url('contact')?>">CONTACT US</a></li>
+                    
                     <!--<li><a target="_blank" href="<?= site_url('user/register') ?>">SIGNUP</a></li>-->
                     
                 </ul>
