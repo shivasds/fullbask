@@ -5,6 +5,7 @@
 }
 .card{
     background: white;
+    margin-bottom:20px;
 }
 /* .well{
     background-image: url("http://localhost:8081/assets/img/listing-bg.png");
@@ -207,7 +208,7 @@ if($x==1)
         <br>
     </div>
  
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -226,4 +227,4 @@ if($x==1)
     </div>
   </div>
 </div>
-</div>
+</div> -->

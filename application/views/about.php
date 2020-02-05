@@ -4,14 +4,14 @@
         width: 100%;
     }
     
-    footer {
+    /* footer {
     background: #e9e5e4;
     padding-top: 40px;
     opacity: 0.9;
     background-image: url("http://localhost:8081/assets/img/img1.jpg");
     background-position: 100% 100%;
     background-size: cover;
-    }
+    } */
     .grid { 
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -242,7 +242,7 @@ body {
     <br>
 
     <div class="container-fluid">
-        <div class="row" style=" margin-bottom: 30px;">
+        <div class="row" style=" margin-bottom: 10px;">
                 <div class="col-xs-12 col-sm-6 col-md-8 about">
                     <img src="<?= base_url('assets/images/about-us-01.jpg');?>">
                 </div>
@@ -271,11 +271,11 @@ body {
                                         <br>
                                         <br> 
                                 
-                                        <div class="orange-text">
+                                        <!-- <div class="orange-text">
                                             <div class="link">
-                                                    <h4>Home--> About-us</h4>
+                                                    <h4>Home-- About-us</h4>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                         
@@ -285,11 +285,12 @@ body {
                     </div>
                 </div>
         </div> 
+        <br>
   <!-- SERVICES WE OFFER-->
-  <div class="container">
+  <div class="container" style=" margin-bottom: 10px;">
     <div class="Services">
        <span class="orangeText">SERVICES &nbsp;</span>&nbsp;<span class="blackText">WE OFFER</span>
-         <div class="row service-content">
+         <div class="row service-content" >
             <div class="col-xs-12 col-sm-8 col-md-8">
            
           
@@ -314,7 +315,7 @@ body {
         
             <div class="col-xs-12 col-sm-4 col-md-4 about">
             
-                <img src="<?= base_url('assets/images/about-us-02.jpg');?>" class="" alt="Table Setting" style="">
+                <img src="<?= base_url('assets/images/about-us-02.jpg');?>" class="" alt="Table Setting">
             </div>
            
              
@@ -327,7 +328,7 @@ body {
 <br>
 <br>
 <!-- Third -->
-<div class="container">
+<div class="container" style=" margin-bottom: 10px;">
      <div class="row">
                 <div class="col-xs-6 col-sm-4 col-md-4 about">
                 
@@ -353,14 +354,14 @@ body {
         </div>
     </div>
 
-
+    <br>
     <!-- End of third -->
     <div class="clearfix"></div>
 
     <!-- Fourth -->
-    <div class="container">
+    <div class="container" style=" margin-bottom: 10px;">
     <div class="row about-content">
-        <div class="col-sm-12">
+        <div class="col-xs-12 col-sm-12 col-md-12">
            
 
         <div class="aboutContent text-center" >
@@ -378,7 +379,7 @@ body {
       
       
 
-        <div class="col-sm-12">
+        <div class="col-xs-12 col-sm-12 col-md-12">
             <div class=" secondContent text-center">
                 <h3 class="second-title">OUR Mission</h3>
                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -439,7 +440,7 @@ body {
  <div class="container">
 
        <div class="row">
-            <div class="col-lg-8">
+            <div class="col-xs-12 col-sm-8 col-md-8">
             <span class="blackText">OUR CORE</span><span class="orangeText">&nbsp;VALUES </span>
            <br>
            <br>
@@ -462,8 +463,9 @@ body {
             </div>
             
         
-            <div class="col-lg-4 aboutbg1">
-                <img src="../assets/images/about-us-03.jpg" class="" alt="Table Setting" style=" width: 80%;">
+            <div class="col-xs-12 col-sm-4 col-md-4 aboutbg1">
+            
+                <img src="<?= base_url('assets/images/about-us-03.jpg');?>" class="" alt="Table Setting" >
             </div>
            
              

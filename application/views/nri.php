@@ -22,14 +22,14 @@
         text-decoration: none;
         font-size: 17px;
     }
-    footer {
+    /* footer {
         background: #e9e5e4;
         padding-top: 40px;
         opacity: 0.9;
         background-image: url("../assets/img/img1.jpg");
         background-position: 100% 100%;
         background-size: cover;
-    }
+    } */
     .circle {
     /* background: #456BD9; */
     border-radius: 50%;
