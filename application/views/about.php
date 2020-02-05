@@ -3,6 +3,7 @@
         border-collapse: collapse;
         width: 100%;
     }
+    
     footer {
     background: #e9e5e4;
     padding-top: 40px;
@@ -10,7 +11,7 @@
     background-image: url("http://localhost:8081/assets/img/img1.jpg");
     background-position: 100% 100%;
     background-size: cover;
-}
+    }
     .grid { 
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -215,7 +216,7 @@ body {
     <div class="container-fluid">
         <div class="row">
                 <div class="col-xs-6 col-sm-8 col-md-8 about">
-                    <img src="../assets/images/about-us-01.jpg" class="" alt="" style="">
+                    <img src="<?= base_url('assets/images/about-us-01.jpg');?>" class="" alt="" style="">
                 </div>
                 
             
@@ -272,7 +273,8 @@ body {
             
         
             <div class="col-lg-4 about">
-                <img src="../assets/images/about-us-02.jpg" class="" alt="Table Setting" style="">
+            
+                <img src="<?= base_url('assets/images/about-us-02.jpg');?>" class="" alt="Table Setting" style="">
             </div>
            
              
@@ -288,7 +290,8 @@ body {
 <div class="container">
      <div class="row">
                 <div class="col-xs-6 col-sm-4 col-md-4 about">
-                    <img src="../assets/images/about-us-03.jpg" class="" style="">
+                
+                    <img src="<?= base_url('assets/images/about-us-03.jpg');?>" class="" style="">
                 </div>
                 
             
