@@ -84,8 +84,12 @@ foreach ($achievements as $achievements  ) {
     }
     elseif ($s_date>date('Y', strtotime($achievements->award_date))) {
         $s_date = date('Y', strtotime($achievements->award_date));
-
-         echo '<li><a href="#tab-'.$i.'" data-toggle="tab">Award '.$s_date.'</a></li>'; $year[$i] = $s_date;$i++;
+        if($i==1)
+        {
+echo '<li class=active><a href="#tab-'.$i.'" data-toggle="tab">Award '.$s_date.'</a></li>'; $year[$i] = $s_date;$s_date = $s_date-1;$i++;}
+          else{
+         //echo '<li><a href="#tab-'.$i.'" data-toggle="tab">Award '.$s_date.'</a></li>'; $year[$i] = $s_date;$i++;
+          }
       }  
       else
       {
