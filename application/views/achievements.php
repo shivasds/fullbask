@@ -34,172 +34,162 @@
                 </div>
             </div>
             <div class="clearfix"></div>
-   <!-- Nav pills -->
+
 <ul class="nav nav-pills">
-  <li class="active"><a href="#tab-1" data-toggle="tab">Award 2020</a></li>
-  <li><a href="#tab-2" data-toggle="tab">Award 2019</a></li>
-  <li><a href="#tab-3" data-toggle="tab">Award 2018</a></li>
-  <li><a href="#tab-4" data-toggle="tab">Award 2017</a></li>
-  
+            <?php 
+           // $achievements = json_decode(json_encode($achievements),true);
+           // print_r($achievements);
+           // echo array_count_values(date('Y', strtotime($achievements->award_date)));
+ 
+$s_date = date('Y');
+$c_date='1947'; 
+$year =array();
+$i=1;
+
+foreach ($achievements as $achievements  ) { 
+    //echo $s_date.'=='.date('Y', strtotime($achievements->award_date)).' \n';
+    if($s_date==date('Y', strtotime($achievements->award_date)))
+    {   
+
+            if($s_date == date('Y'))
+            {
+                echo '<li class="active"><a href="#tab-'.$i.'" data-toggle="tab">Award '.$s_date.'</a></li>';
+                $year[$i] = $s_date; 
+                $s_date = $s_date-1;
+                //echo $s_date;
+                $i++;
+            }
+            elseif($s_date == date('Y')-1 && $i==1)
+            {
+ 
+                echo '<li class="active"><a href="#tab-'.$i.'" data-toggle="tab">Award '.$s_date.'</a></li>'; 
+                $year[$i] = $s_date;
+                $s_date = $s_date-1;
+                $i++;
+            } 
+            else 
+            {
+               echo '<li><a href="#tab-'.$i.'" data-toggle="tab">Award '.$s_date.'</a></li>'; 
+               $year[$i] = $s_date;
+               $s_date = $s_date-1;
+                $i++;
+            } 
+       
+    }
+    elseif ($s_date>date('Y', strtotime($achievements->award_date))) {
+        $s_date = date('Y', strtotime($achievements->award_date));
+
+         echo '<li><a href="#tab-'.$i.'" data-toggle="tab">Award '.$s_date.'</a></li>'; $year[$i] = $s_date;$i++;
+      }  
+      else
+      {
+//echo "null manual";
+      }
+
+  /*  else
+         {$s_date = date('Y', strtotime($achievements->award_date));}
+
+   /* else
+    {
+        echo '<li><a href="#tab-'.$i.'" data-toggle="tab">Award '.$s_date.'</a></li>'; 
+               $s_date = $s_date-1;
+               echo $s_date;
+                $i++;
+    } */
+    
+} 
+  //echo $i;           ?>
+   <!-- Nav pills --> 
+ 
  
 </ul>
 
 <!-- Tab panes -->
 <div class="tab-content well">
-  <div class="tab-pane active" id="tab-1">
+    <?php
+    //print_r($year);
+    for($x=$i-1;$x>0;$x--)
+
+    { 
+if($x==1)
+{
+  //echo $year[$x]. ' = '. $x;
+    $this->load->model('achievements_model');
+    $data =  $this->achievements_model->load_by_year($year[$x]);
+   // print_r($data);
+   ?>
+    <div class="tab-pane active" id="tab-<?=$x?>">
       <div class="row">
+        <?php
+         foreach ($data as $data) {
+       
+  
+    ?>
             <div class="col-sm-4 col-md-4 col-lg-4">
                         <a href=""  class="card-link">
                             </a>
                             <div class="card">
                                 <a href=""  class="card-link">
-                                <img class="card-img-top" style="height: 250px;background-image:url(http://localhost:8081/uploads/achievements/46e69417e1b7f0ebb201bf4fb7c1ca29.jpg);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;">
+                                <img class="card-img-top" style="height: 250px;background-image:url(<?=base_url('uploads/achievements/').$data['image'];?>);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;">
                                 </a>
                                 <div class="card-block" style="min-height: 270px;margin-bottom: 5px;position: relative;"><a href=""  class="card-link">
-                                    <h4 class="card-title mt-3"></h4><h3>Sobha Excellence Award </h3>
-                                    These days in Mumbai it is extremely difficult to find a home for a family. On account of congestion during the years there's no space left to have a strong living. Apartments in Thane resemble a ..
+                                    <h4 class="card-title mt-3"></h4><h3><?=$data['image_desc'];?></h3>
+                                    <?=$data['comment'];?>
 
-                                    </a><div style="position: absolute;bottom: 10px; right: 5px; position: absolute;width: 100%"><a class="btn btn-primary pull-right" style="border-radius: 0; "  href="">Read More <i class="fa fa-chevron-circle-right"></i></a>
-                                    </div>
+                                    </a><!--<div style="position: absolute;bottom: 10px; right: 5px; position: absolute;width: 100%"><a class="btn btn-primary pull-right" style="border-radius: 0; "  href="">Read More <i class="fa fa-chevron-circle-right"></i></a>
+                                    </div>-->
                                 </div>
                             </div>
                         
-                    </div>
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <a href=""  class="card-link">
-                            </a>
-                            <div class="card">
-                                <a href=""  class="card-link">
-                                <img class="card-img-top" style="height: 250px;background-image:url(http://localhost:8081/uploads/achievements/610872ed87b6b2a9f7acb21652cf08fa.jpg);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;">
-                                </a>
-                                <div class="card-block" style="min-height: 270px;margin-bottom: 5px;position: relative;"><a href=""  class="card-link">
-                                    <h4 class="card-title mt-3"></h4><h3>Sobha Dream Acres Dream Award 2017</h3>
-                                    These days in Mumbai it is extremely difficult to find a home for a family. On account of congestion during the years there's no space left to have a strong living. Apartments in Thane resemble a ..
-
-                                    </a><div style="position: absolute;bottom: 10px; right: 5px; position: absolute;width: 100%"><a class="btn btn-primary pull-right" style="border-radius: 0; "  href="">Read More <i class="fa fa-chevron-circle-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        
-                    </div>
+                    </div> 
+                <?php } ?>
         </div>
   </div>
+    <?php
 
-  <div class="tab-pane" id="tab-2">
+
+}
+else
+{
+  // echo $year[$x]. ' = '. $x;
+    
+    $data =  $this->achievements_model->load_by_year($year[$x]);
+?>
+
+  <div class="tab-pane" id="tab-<?=$x?>">
       <div class="row">
-      <div class="col-sm-4 col-md-4 col-lg-4">
-                <a href=""  class="card-link">
-                    </a>
-                    <div class="card">
-                        <a href=""  class="card-link">
-                        <img class="card-img-top" style="height: 250px;background-image:url(http://localhost:8081/uploads/achievements/db27e9a9f83d7e6cda7cba06a96657ff.jpg);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;">
-                        </a>
-                        <div class="card-block" style="min-height: 270px;margin-bottom: 5px;position: relative;"><a href=""  class="card-link">
-                            <h4 class="card-title mt-3"></h4><h3>Thane : Better option for Mumbaikar</h3>
-                            These days in Mumbai it is extremely difficult to find a home for a family. On account of congestion during the years there's no space left to have a strong living. Apartments in Thane resemble a ..
-
-                            </a><div style="position: absolute;bottom: 10px; right: 5px; position: absolute;width: 100%"><a class="btn btn-primary pull-right" style="border-radius: 0; "  href="">Read More <i class="fa fa-chevron-circle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                
-            </div>
-       <div class="col-sm-4 col-md-4 col-lg-4">
-                <a href=""  class="card-link">
-                    </a>
-                    <div class="card">
-                        <a href=""  class="card-link">
-                        <img class="card-img-top" style="height: 250px;background-image:url(http://localhost:8081/uploads/achievements/3845f7733c4e3008a12dd772d1d5e41c.jpg);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;">
-                        </a>
-                        <div class="card-block" style="min-height: 270px;margin-bottom: 5px;position: relative;"><a href=""  class="card-link">
-                            <h4 class="card-title mt-3"></h4><h3>Century Real Estate Preferred Partner</h3>
-                            These days in Mumbai it is extremely difficult to find a home for a family. On account of congestion during the years there's no space left to have a strong living. Apartments in Thane resemble a ..
-
-                            </a><div style="position: absolute;bottom: 10px; right: 5px; position: absolute;width: 100%"><a class="btn btn-primary pull-right" style="border-radius: 0; "  href="">Read More <i class="fa fa-chevron-circle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                
-            </div>
-            </div>
-  </div>
+         <?php
+         foreach ($data as $data) {
+       
   
-  <div class="tab-pane" id="tab-3">
-      <div class="row">
-      <div class="col-sm-4 col-md-4 col-lg-4">
-                <a href=""  class="card-link">
-                    </a>
-                    <div class="card">
-                        <a href=""  class="card-link">
-                        <img class="card-img-top" style="height: 250px;background-image:url(http://localhost:8081/uploads/achievements/fdb7bfd35df8d381e003a7f6ecb12fa6.jpg);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;">
-                        </a>
-                        <div class="card-block" style="min-height: 270px;margin-bottom: 5px;position: relative;"><a href=""  class="card-link">
-                            <h4 class="card-title mt-3"></h4><h3>Mahindra Life Spaces Windchimes - 2017</h3>
-                            These days in Mumbai it is extremely difficult to find a home for a family. On account of congestion during the years there's no space left to have a strong living. Apartments in Thane resemble a ..
-
-                            </a><div style="position: absolute;bottom: 10px; right: 5px; position: absolute;width: 100%"><a class="btn btn-primary pull-right" style="border-radius: 0; "  href="">Read More <i class="fa fa-chevron-circle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                
-            </div>
-           <div class="col-sm-4 col-md-4 col-lg-4">
-                <a href=""  class="card-link">
-                    </a>
-                    <div class="card">
-                        <a href=""  class="card-link">
-                        <img class="card-img-top" style="height: 250px;background-image:url(http://localhost:8081/uploads/achievements/3f9c572766e11882313317c49f7fa2a8.jpg);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;" class="img-responsive">
-                        </a>
-                        <div class="card-block" style="min-height: 270px;margin-bottom: 5px;position: relative;"><a href=""  class="card-link">
-                            <h4 class="card-title mt-3"></h4><h3>Shapoorji Real Estate Parkwest 2016</h3>
-                            These days in Mumbai it is extremely difficult to find a home for a family. On account of congestion during the years there's no space left to have a strong living. Apartments in Thane resemble a ..
-
-                            </a><div style="position: absolute;bottom: 10px; right: 5px; position: absolute;width: 100%"><a class="btn btn-primary pull-right" style="border-radius: 0; "  href="">Read More <i class="fa fa-chevron-circle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                
-            </div>
-     </div>
-  </div>
-  <div class="tab-pane" id="tab-4">
-      <div class="row">
-         <div class="col-sm-4 col-md-4 col-lg-4">
-                <a href=""  class="card-link">
-                    </a>
-                    <div class="card">
-                        <a href=""  class="card-link">
-                        <img class="card-img-top" style="height: 250px;background-image:url(http://localhost:8081/uploads/achievements/0fc5fc8f49a22c0f200083081d18f56b.jpg);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;">
-                        </a>
-                        <div class="card-block" style="min-height: 270px;margin-bottom: 5px;position: relative;"><a href=""  class="card-link">
-                            <h4 class="card-title mt-3"></h4><h3>Godrej Properties - Top Performing Channel Partner 2017</h3>
-                            These days in Mumbai it is extremely difficult to find a home for a family. On account of congestion during the years there's no space left to have a strong living. Apartments in Thane resemble a ..
-
-                            </a><div style="position: absolute;bottom: 10px; right: 5px; position: absolute;width: 100%"><a class="btn btn-primary pull-right" style="border-radius: 0; "  href="">Read More <i class="fa fa-chevron-circle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                
-            </div>
+    ?>
             <div class="col-sm-4 col-md-4 col-lg-4">
-                <a href=""  class="card-link">
-                    </a>
-                    <div class="card">
                         <a href=""  class="card-link">
-                        <img class="card-img-top" style="height: 250px;background-image:url(http://localhost:8081/uploads/achievements/46e69417e1b7f0ebb201bf4fb7c1ca29.jpg);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;">
-                        </a>
-                        <div class="card-block" style="min-height: 270px;margin-bottom: 5px;position: relative;"><a href=""  class="card-link">
-                            <h4 class="card-title mt-3"></h4><h3>Thane : Better option for Mumbaikar</h3>
-                            These days in Mumbai it is extremely difficult to find a home for a family. On account of congestion during the years there's no space left to have a strong living. Apartments in Thane resemble a ..
+                            </a>
+                            <div class="card">
+                                <a href=""  class="card-link">
+                                <img class="card-img-top" style="height: 250px;background-image:url(<?=base_url('uploads/achievements/').$data['image'];?>);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;">
+                                </a>
+                                <div class="card-block" style="min-height: 270px;margin-bottom: 5px;position: relative;"><a href=""  class="card-link">
+                                    <h4 class="card-title mt-3"></h4><h3><?=$data['image_desc'];?></h3>
+                                    <?=$data['comment'];?>
 
-                            </a><div style="position: absolute;bottom: 10px; right: 5px; position: absolute;width: 100%"><a class="btn btn-primary pull-right" style="border-radius: 0; "  href="">Read More <i class="fa fa-chevron-circle-right"></i></a>
+                                    </a><!--<div style="position: absolute;bottom: 10px; right: 5px; position: absolute;width: 100%"><a class="btn btn-primary pull-right" style="border-radius: 0; "  href="">Read More <i class="fa fa-chevron-circle-right"></i></a>
+                                    </div>-->
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                
-            </div>
+                        
+                    </div> 
+                <?php } ?>
             </div>
   </div>
+  <?php
+}
+$i--;
+    }
+    ?>
+  
+  
 </div>
 
 
