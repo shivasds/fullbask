@@ -1,6 +1,6 @@
 <style>
    .nri-bg {
-    background-image: url(http://localhost:8081/assets/images/about-us-01.jpg);
+    background-image: url("../assets/images/about-us-01.jpg");
     background-size: cover;
     height: 100%;
     padding: 390px 50px 0px;
@@ -26,7 +26,7 @@
         background: #e9e5e4;
         padding-top: 40px;
         opacity: 0.9;
-        background-image: url("http://localhost:8081/assets/img/img1.jpg");
+        background-image: url("../assets/img/img1.jpg");
         background-position: 100% 100%;
         background-size: cover;
     }
@@ -49,7 +49,7 @@
     }
 
     .objective{
-        background-image: url("http://localhost:8081/assets/img/listing-bg.png");
+        background-image: url("../assets/img/listing-bg.png");
         background-size: cover;
         padding: 10px;
         margin-bottom: 20px;
@@ -237,7 +237,7 @@
             </div> -->
             <div class="row about-content objective ">
                 <div class="col-sm-3 col-md-3 col-lg-3 text-center">
-                    <div class="" style="background-image: url('../assets/img/trust4.png');background-size: cover;background-repeat: no-repeat;width: 133px;height:130px;border-radius: 50%;display: inline-block;"></div>
+                    <div class="" style="background-image: url('<?= base_url('assets/img/trust4.png');?>');background-size: cover;background-repeat: no-repeat;width: 133px;height:130px;border-radius: 50%;display: inline-block;"></div>
                      <div class="text-center">
                         <strong></strong><br>
                         <span class="WHITE">Recognising clients Requirement</span>
@@ -245,7 +245,7 @@
                 </div>
 
                 <div class="col-sm-3 col-md-3 col-lg-3 text-center">
-                    <div class="" style="background-image: url('../assets/img/trust1.png');background-size: cover;background-repeat: no-repeat;width: 133px;height:130px;border-radius: 50%;display: inline-block;"></div>
+                    <div class="" style="background-image: url('<?= base_url('assets/img/trust1.png');?>');background-size: cover;background-repeat: no-repeat;width: 133px;height:130px;border-radius: 50%;display: inline-block;"></div>
                      <div class="text-center">
                         <strong></strong><br>
                         <span class="WHITE">Comprehension and Evaluation</span>
@@ -253,7 +253,7 @@
                 </div>
 
                 <div class="col-sm-3 col-md-3 col-lg-3 text-center">
-                    <div class="" style="background-image: url('../assets/img/trust2.png');background-size: cover;background-repeat: no-repeat;width: 133px;height:130px;border-radius: 50%;display: inline-block;"></div>
+                    <div class="" style="background-image: url('<?= base_url('assets/img/trust2.png');?>');background-size: cover;background-repeat: no-repeat;width: 133px;height:130px;border-radius: 50%;display: inline-block;"></div>
                      <div class="text-center">
                         <strong></strong><br>
                         <span class="WHITE">Offering relevant services</span>
@@ -261,7 +261,7 @@
                 </div>
 
                 <div class="col-sm-3 col-md-3 col-lg-3 text-center">
-                    <div class="" style="background-image: url('../assets/img/trust3.png');background-size: cover;background-repeat: no-repeat;width: 133px;height:130px;border-radius: 50%;display: inline-block;"></div>
+                    <div class="" style="background-image: url('<?= base_url('assets/img/trust3.png');?>');background-size: cover;background-repeat: no-repeat;width: 133px;height:130px;border-radius: 50%;display: inline-block;"></div>
                      <div class="text-center">
                         <strong></strong><br>
                         <span class="WHITE">Arrange special discount</span>

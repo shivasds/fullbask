@@ -3,6 +3,7 @@
         border-collapse: collapse;
         width: 100%;
     }
+    
     footer {
     background: #e9e5e4;
     padding-top: 40px;
@@ -10,7 +11,7 @@
     background-image: url("http://localhost:8081/assets/img/img1.jpg");
     background-position: 100% 100%;
     background-size: cover;
-}
+    }
     .grid { 
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -103,21 +104,49 @@
 
     }
     @media (min-width: 768px){
-    /* .about img{
-        width:40%;
+       .text-center{
+        font-size: 25px;
+       }
+       .about img{
+        width:100%;
+        }
+        .aboutbg1 img{
+            width:80%;
+        }
+        .about-para li{
+        margin-bottom:8px;
+        font-weight: 400;
+        font-size: 13px;
+        }
+        .about-para p{
+            font-size: 13px;
+            font-weight: 400;
+        }
+        
+        .orange-text{
+        text-align: center;
+        padding: 8px;
+        width: 109% !important;
+        margin: 48px -35px 24px;
+        /* margin: 116px -30px 36px; */
+        background: #f7771b;
+        color: white;
+    }
+    .service-content{
+        margin-top:15px;
     }
 
-    .aboutbg1 img{
-        width:40%;
-    } */
+    }
 
+    .service-content{
+        margin-top:25px;
     }
     .orange-text{
         text-align: center;
         padding: 10px;
         width: 109% !important;
         /* margin: 5px -30px -2px; */
-        margin: 116px -30px 36px;
+        margin: 22px -30px 0px;
         background: #f7771b;
         color: white;
     }
@@ -213,45 +242,57 @@ body {
     <br>
 
     <div class="container-fluid">
-        <div class="row">
-                <div class="col-xs-6 col-sm-8 col-md-8 about">
-                    <img src="../assets/images/about-us-01.jpg" class="" alt="" style="">
+        <div class="row" style=" margin-bottom: 30px;">
+                <div class="col-xs-12 col-sm-6 col-md-8 about">
+                    <img src="<?= base_url('assets/images/about-us-01.jpg');?>">
                 </div>
                 
             
-        <div class="col-xs-6 col-sm-4 col-md-4">
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                    <h1 class="text-center" >WHO ARE WE....?</h1><br>
-                    <div class="about-para">
-                        <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu. <p>
-                    </div>
-                    <div style="position: absolute; right: 5px; position: absolute;width: 100%"><a class="btn btn-primary" style="border-radius: 0; "  href="">Read More</a>
-                    </div>
-                    <!-- <br>
-                    <br> -->
-                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <h1 class="text-center" >WHO ARE WE....?</h1><br>
+                            <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12">
+                                        <div class="about-para">
+                                            <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu. <p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                                    <br>
+                                        <div style="position: absolute; right: 5px; position: absolute;width: 100%"><a class="btn btn-primary" style="border-radius: 0; ">Read More</a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <br>
+
+                                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                                        <br>
+                                        <br> 
+                                
+                                        <div class="orange-text">
+                                            <div class="link">
+                                                    <h4>Home--> About-us</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                        </div>
+                            
                     
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                  <div class="orange-text">
-                    <div class="link">
-                      <h4>Home--> About-us</h4>
                     </div>
-                  </div>
-                
                 </div>
-            </div>
-        </div>
-         <br>
-         <br>
+        </div> 
   <!-- SERVICES WE OFFER-->
   <div class="container">
-
-       <div class="row">
-            <div class="col-lg-8">
-            <span class="orangeText">SERVICES &nbsp;</span>&nbsp;<span class="blackText">WE OFFER</span>
-           <br>
-           <br>
+    <div class="Services">
+       <span class="orangeText">SERVICES &nbsp;</span>&nbsp;<span class="blackText">WE OFFER</span>
+         <div class="row service-content">
+            <div class="col-xs-12 col-sm-8 col-md-8">
+           
+          
            <div class="about-para">
            <ul>
                 <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</li>
@@ -271,14 +312,15 @@ body {
             </div>
             
         
-            <div class="col-lg-4 about">
-                <img src="../assets/images/about-us-02.jpg" class="" alt="Table Setting" style="">
+            <div class="col-xs-12 col-sm-4 col-md-4 about">
+            
+                <img src="<?= base_url('assets/images/about-us-02.jpg');?>" class="" alt="Table Setting" style="">
             </div>
            
              
         </div>
     </div>
-
+    </div>
   <br>
  <!-- SERVICES-End -->
 
@@ -288,7 +330,8 @@ body {
 <div class="container">
      <div class="row">
                 <div class="col-xs-6 col-sm-4 col-md-4 about">
-                    <img src="../assets/images/about-us-03.jpg" class="" style="">
+                
+                    <img src="<?= base_url('assets/images/about-us-03.jpg');?>" class="" style="">
                 </div>
                 
             
