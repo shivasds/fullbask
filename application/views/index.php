@@ -64,7 +64,7 @@ $(document).ready(function(){
 </script>
 
 
-<div id="carousel" class="carousel slide home-slider .visible-xs-block hidden-xs " data-ride="carousel">
+<div id="carousel" class="carousel slide home-slider hidden-xs-block hidden-xs " data-ride="carousel">
     <div class="carousel-inner">
         <?php $i = 0;
         foreach ($sliders as $slider) {
@@ -81,7 +81,7 @@ $(document).ready(function(){
     </div>
 </div>
 
-<div id="carousel" class="carousel slide home-slider .visible-lg-block  hidden-lg" data-ride="carousel">
+<div id="carousel" class="carousel slide home-slider visible-lg-block visible-xs-block  hidden-lg" data-ride="carousel">
     <div class="carousel-inner ">
         <?php $i = 0;
         foreach ($mobilesliders as $slider) {

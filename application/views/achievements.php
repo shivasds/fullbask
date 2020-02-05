@@ -7,12 +7,6 @@
     background: white;
     margin-bottom:20px;
 }
-/* .well{
-    background-image: url("http://localhost:8081/assets/img/listing-bg.png");
-}
-.card-block{
-    background: #d1dfe0;
-  } */
 
 </style>
 <div class="container-fluid">
@@ -48,12 +42,12 @@
            // print_r($achievements);
            // echo array_count_values(date('Y', strtotime($achievements->award_date)));
  
-        $s_date = date('Y');
-        $c_date='1947'; 
-        $year =array();
-        $i=1;
+$s_date = date('Y');
+$c_date='1947'; 
+$year =array();
+$i=1;
 
- foreach ($achievements as $achievements  ) { 
+foreach ($achievements as $achievements  ) { 
     //echo $s_date.'=='.date('Y', strtotime($achievements->award_date)).' \n';
     if($s_date==date('Y', strtotime($achievements->award_date)))
     {   
@@ -85,8 +79,12 @@
     }
     elseif ($s_date>date('Y', strtotime($achievements->award_date))) {
         $s_date = date('Y', strtotime($achievements->award_date));
-
-         echo '<li><a href="#tab-'.$i.'" data-toggle="tab">Award '.$s_date.'</a></li>'; $year[$i] = $s_date;$i++;
+        if($i==1)
+        {
+echo '<li class=active><a href="#tab-'.$i.'" data-toggle="tab">Award '.$s_date.'</a></li>'; $year[$i] = $s_date;$s_date = $s_date-1;$i++;}
+          else{
+         //echo '<li><a href="#tab-'.$i.'" data-toggle="tab">Award '.$s_date.'</a></li>'; $year[$i] = $s_date;$i++;
+          }
       }  
       else
       {
@@ -127,74 +125,75 @@ if($x==1)
    ?>
     <div class="tab-pane active" id="tab-<?=$x?>">
       <div class="row">
-            <?php
-            foreach ($data as $data) {
-        
-    
-        ?>
+        <?php
+         foreach ($data as $data) {
+       
+  
+    ?>
             <div class="col-sm-4 col-md-4 col-lg-4">
-                     
-                            <div class="card" data-toggle="modal" data-target="#exampleModal">
-                                <div class="card-link">
-                                   <img class="card-img-top" style="height: 250px;background-image:url(<?=base_url('uploads/achievements/').$data['image'];?>);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;">
-                                </div>
-                                <div class="card-block" style="min-height:190px;margin-bottom: 5px;position: relative;">
-                                <div class="card-link">
+                        <a href=""  class="card-link">
+                            </a>
+                            <div class="card">
+                                <a href=""  class="card-link">
+                                <img class="card-img-top" style="height: 250px;background-image:url(<?=base_url('uploads/achievements/').$data['image'];?>);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;">
+                                </a>
+                                <div class="card-block" style="min-height: 270px;margin-bottom: 5px;position: relative;"><a href=""  class="card-link">
                                     <h4 class="card-title mt-3"></h4><h3><?=$data['image_desc'];?></h3>
                                     <?=$data['comment'];?>
 
-                                  </div>
+                                    </a><!--<div style="position: absolute;bottom: 10px; right: 5px; position: absolute;width: 100%"><a class="btn btn-primary pull-right" style="border-radius: 0; "  href="">Read More <i class="fa fa-chevron-circle-right"></i></a>
+                                    </div>-->
                                 </div>
                             </div>
                         
-            </div> 
-              <?php } ?>
+                    </div> 
+                <?php } ?>
         </div>
   </div>
     <?php
 
 
-    }
-    else
-    {
-    // echo $year[$x]. ' = '. $x;
-        
-        $data =  $this->achievements_model->load_by_year($year[$x]);
-    ?>
+}
+else
+{
+  // echo $year[$x]. ' = '. $x;
+    
+    $data =  $this->achievements_model->load_by_year($year[$x]);
+?>
 
-<div class="tab-pane" id="tab-<?=$x?>">
+  <div class="tab-pane" id="tab-<?=$x?>">
       <div class="row">
          <?php
          foreach ($data as $data) {
        
   
-           ?>
+    ?>
             <div class="col-sm-4 col-md-4 col-lg-4">
-                        
-                            <div class="card" data-toggle="modal" data-target="#exampleModal">
-                                <div class="card-link">
+                        <a href=""  class="card-link">
+                            </a>
+                            <div class="card">
+                                <a href=""  class="card-link">
                                 <img class="card-img-top" style="height: 250px;background-image:url(<?=base_url('uploads/achievements/').$data['image'];?>);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;">
-                                </div>
-                                <div class="card-block" style="min-height: 190px;margin-bottom: 5px;position: relative;">
-                                
-                                <div class="card-link">
+                                </a>
+                                <div class="card-block" style="min-height: 270px;margin-bottom: 5px;position: relative;"><a href=""  class="card-link">
                                     <h4 class="card-title mt-3"></h4><h3><?=$data['image_desc'];?></h3>
                                     <?=$data['comment'];?>
 
-                                    </div>
+                                    </a><!--<div style="position: absolute;bottom: 10px; right: 5px; position: absolute;width: 100%"><a class="btn btn-primary pull-right" style="border-radius: 0; "  href="">Read More <i class="fa fa-chevron-circle-right"></i></a>
+                                    </div>-->
                                 </div>
                             </div>
                         
                     </div> 
                 <?php } ?>
             </div>
-      </div>
+  </div>
   <?php
+}
+$i--;
     }
-    $i--;
-        }
-        ?>
-    
+    ?>
+  
   
 </div>
 
