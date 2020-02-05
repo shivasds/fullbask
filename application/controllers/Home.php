@@ -14,6 +14,8 @@ class Home extends Public_Controller
         $this->lang->load('welcome');
         $this->load->model('home_model');
         $this->load->model('properties_model');
+        $this->load->model('achievements_model');
+
         // $this->session->unset_userdata('city');
         $this->data['property_types'] = $this->home_model->getWhere(array('status' => 1), 'property_types');
 
@@ -996,15 +998,11 @@ class Home extends Public_Controller
         'description'   => 'Get the latest real estate property updates, news, opinions and trends in India. Expert insights to the events in the Indian Real Estate Market. ',
         'keywords'      =>'Fullbasket property achivements'
     );
-  //  $this->load->model('blogs_model');
-    $achievements = $this->home_model->getWhere(array('status' => 1), 'achievements');
-    if ($achievements && isset($achievements[0])) {
-        $this->data['achievements'] = $achievements;
-        $this->data['view_page'] = 'achievements';
-        $this->load->view('template', $this->data);
-    } else {
-        redirect(site_url());
-    }
+ $content = $this->input->get('content');
+  $data['achievements'] = $this->achievements_model->loadAchievements($perpage, $page, FALSE, $content);
+        
+        $data['view_page'] = 'achievements';
+        $this->load->view('template', $data); 
   }
 
   public function nri()
