@@ -6,6 +6,12 @@
 .card{
     background: white;
 }
+/* .well{
+    background-image: url("http://localhost:8081/assets/img/listing-bg.png");
+}
+.card-block{
+    background: #d1dfe0;
+  } */
 
 </style>
 <div class="container-fluid">

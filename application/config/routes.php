@@ -64,6 +64,7 @@ $route['admin/flat_type/edit/(:num)']      = 'admin/flatTypes/edit/$1';
 $route['admin/flat_type/delete/(:num)']      = 'admin/flatTypes/delete/$1';
 $route['admin/builders/(:num)'] = 'admin/builders/index';
 $route['admin/achievements/(:num)'] = 'admin/achievements/index';
+$route['admin/nri/(:num)'] = 'admin/nri/index';
 $route['admin/amenities/(:num)'] = 'admin/amenities/index';
 $route['admin/blogs/(:num)'] = 'admin/blogs/index';
 $route['admin/career/(:num)'] = 'admin/career/index';
@@ -98,7 +99,7 @@ $route['privacy-policy'] = "home/privacy";
 $route['disclaimer'] = "home/disclaimer";
 $route['blog'] = "home/blog";
 $route['achievements'] = "home/achievements";
-
+$route['nri'] = 'home/nri';
 $route['blog/(:any)'] = "home/blog_view/$1";
 $route['contact'] = "home/contact";
 $route['careers'] = "home/careers";

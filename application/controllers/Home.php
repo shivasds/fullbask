@@ -40,6 +40,8 @@ class Home extends Public_Controller
         //$this->data['testimonials'] = $this->home_model->getWherelimit(array('status' => 1), 'testimonials', 20,1);
         $this->data['testimonials'] = $this->home_model->get_testimonials();
         $this->data['achievements'] = $this->home_model->getWhere(array('status' => 1), 'achievements');
+      //  $this->data['nri'] = $this->home_model->getWhere(array('status' => 1), 'nri');
+       
         $this->data['amenities'] = $this->home_model->getWhere(array('status' => 1), 'amenities');
         $this->data['properties'] = $this->home_model->getProperties('properties', 7);
         $this->data['sliders'] = $this->home_model->order_by('id', 'desc')->getWhere(array('status' => 1, 'type'=>'H','banner_type'=>'desk'), 'sliders');
@@ -992,7 +994,7 @@ class Home extends Public_Controller
   public function achievements()
   {
     $this->data['meta'] = array(
-        'title'         => 'Full Basket Property Blogs | Latest Property Updates and Trends', 
+        'title'         => 'Full Basket Property Achivements | Latest Property Updates and Trends', 
         'description'   => 'Get the latest real estate property updates, news, opinions and trends in India. Expert insights to the events in the Indian Real Estate Market. ',
         'keywords'      =>'Fullbasket property achivements'
     );
@@ -1001,5 +1003,22 @@ class Home extends Public_Controller
         
         $data['view_page'] = 'achievements';
         $this->load->view('template', $data); 
+  }
+
+  public function nri()
+  {
+    $this->data['meta'] = array(
+        'title'         => 'Full Basket Property NRI | Latest Property Updates and Trends', 
+        'description'   => 'Get the latest real estate property updates, news, opinions and trends in India. Expert insights to the events in the Indian Real Estate Market. ',
+        'keywords'      =>'Fullbasket property NRI'
+    );
+  //  $nri = $this->home_model->getWhere(array('status' => 1), 'nri');
+  //  if ($nri && isset($nri[0])) {
+        $this->data['nri'] = $nri;
+        $this->data['view_page'] = 'nri';
+        $this->load->view('template', $this->data);
+ /*   } else {
+        redirect(site_url());
+    }*/
   }
 }
