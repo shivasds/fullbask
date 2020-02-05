@@ -998,11 +998,11 @@ class Home extends Public_Controller
         'description'   => 'Get the latest real estate property updates, news, opinions and trends in India. Expert insights to the events in the Indian Real Estate Market. ',
         'keywords'      =>'Fullbasket property achivements'
     );
- $content = $this->input->get('content');
-  $data['achievements'] = $this->achievements_model->loadAchievements($perpage, $page, FALSE, $content);
-        
-        $data['view_page'] = 'achievements';
-        $this->load->view('template', $data); 
+      //  $content = $this->input->get('content');
+        $this->data['achievements'] = $this->achievements_model->loadAchievements($perpage, $page, FALSE, $content);
+   
+        $this->data['view_page'] = 'achievements';
+        $this->load->view('template', $this->data); 
   }
 
   public function nri()

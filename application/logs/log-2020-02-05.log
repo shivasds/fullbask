@@ -1,2 +1,41 @@
 ERROR - 2020-02-05 16:07:05 --> 404 Page Not Found: 
 ERROR - 2020-02-05 16:07:08 --> 404 Page Not Found: 
+ERROR - 2020-02-05 17:17:20 --> 404 Page Not Found: 
+ERROR - 2020-02-05 17:17:59 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 81
+ERROR - 2020-02-05 17:17:59 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 107
+ERROR - 2020-02-05 17:21:48 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 81
+ERROR - 2020-02-05 17:21:48 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 107
+ERROR - 2020-02-05 17:21:53 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 81
+ERROR - 2020-02-05 17:21:53 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 107
+ERROR - 2020-02-05 17:24:49 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 81
+ERROR - 2020-02-05 17:24:49 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 107
+ERROR - 2020-02-05 17:26:17 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 81
+ERROR - 2020-02-05 17:26:17 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 107
+ERROR - 2020-02-05 17:27:42 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 81
+ERROR - 2020-02-05 17:27:42 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 107
+ERROR - 2020-02-05 17:27:42 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 81
+ERROR - 2020-02-05 17:27:42 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 107
+ERROR - 2020-02-05 17:28:17 --> Severity: error --> Exception: syntax error, unexpected 'if' (T_IF) F:\FBP.com\application\views\header.php 31
+ERROR - 2020-02-05 17:28:24 --> Severity: error --> Exception: syntax error, unexpected 'if' (T_IF) F:\FBP.com\application\views\header.php 31
+ERROR - 2020-02-05 17:29:20 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 81
+ERROR - 2020-02-05 17:29:20 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 107
+ERROR - 2020-02-05 17:29:56 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 81
+ERROR - 2020-02-05 17:29:56 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 107
+ERROR - 2020-02-05 17:29:59 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 81
+ERROR - 2020-02-05 17:29:59 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 107
+ERROR - 2020-02-05 17:30:10 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 81
+ERROR - 2020-02-05 17:30:10 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 107
+ERROR - 2020-02-05 17:30:11 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 81
+ERROR - 2020-02-05 17:30:11 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 107
+ERROR - 2020-02-05 17:30:40 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 81
+ERROR - 2020-02-05 17:30:40 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 107
+ERROR - 2020-02-05 17:31:08 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 81
+ERROR - 2020-02-05 17:31:08 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 107
+ERROR - 2020-02-05 17:31:10 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 81
+ERROR - 2020-02-05 17:31:10 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 107
+ERROR - 2020-02-05 17:31:42 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 81
+ERROR - 2020-02-05 17:31:42 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 107
+ERROR - 2020-02-05 17:31:44 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 81
+ERROR - 2020-02-05 17:31:44 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 107
+ERROR - 2020-02-05 17:32:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 81
+ERROR - 2020-02-05 17:32:31 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 107
