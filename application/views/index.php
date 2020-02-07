@@ -53,6 +53,7 @@ height: 70%;
      
     .morecontent span {
         display: none;
+    }
 </style>
 <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
 <script>
