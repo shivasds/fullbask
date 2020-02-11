@@ -166,12 +166,12 @@
 
     .about-para li{
       margin-bottom:8px;
-      font-weight: 500;
+      /* font-weight: 500; */
       font-size: 15px;
     }
     .about-para p{
         font-size: 15px;
-        font-weight: 500;
+        /* font-weight: 500; */
     }
     .aboutContent {
     border-left: 2px solid #00000012;

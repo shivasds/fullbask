@@ -1,11 +1,4 @@
 <style>
-    .carousel-inner>.item>img, .carousel-inner>.item>a>img {
-display: block;
-height: auto;
-max-width: 100%;
-line-height: 1;
-width: 100%; // Add this
-}
 #ac-wrapper {
 position: fixed;
 top: 0;
@@ -51,16 +44,19 @@ height: 70%;
     opacity: 0.5;
     padding: 30px;
 }
-#bg3{
+
+  #bg3{
     height: 84%;
     background-color: transparent;
     background-position: bottom;
     opacity: 0.5;
-}
+   }
      
-    .morecontent span {
+ .morecontent span {
         display: none;
     }
+
+ 
 </style>
 <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
 <script>
@@ -71,23 +67,6 @@ $(document).ready(function(){
 });
 </script>
 
-
-<div id="carousel" class="carousel slide home-slider hidden-xs-block hidden-xs " data-ride="carousel">
-    <div class="carousel-inner">
-        <?php $i = 0;
-        foreach ($sliders as $slider) {
-        ?>
-            <div class="<?= $i ? '' : 'active'  ?> item fadeInRight animated img-responsive"
-                 style="background: url(<?= base_url('uploads/sliders/' . $slider->image) ?>);">
-                <div class="carousel-caption fadeInUp animated">
-                    <h1><b><?= $slider->title ?></b></h1>
-                    <p><?= $slider->heading ?></p>
-                </div>
-            </div>
-            <?php $i++;
-        } ?>
-    </div>
-</div>
 
 <div id="carousel" class="carousel slide home-slider visible-lg-block visible-xs-block  hidden-lg" data-ride="carousel">
     <div class="carousel-inner ">
@@ -111,7 +90,54 @@ $(document).ready(function(){
         } ?>
     </div>
 </div>
-<div class="clearfix"></div><br><br><br>
+
+     <!-- <div id="carousel" class="carousel slide home-slider hidden-xs-block hidden-xs " data-ride="carousel">
+        <div class="carousel-inner">
+            <?php $i = 0;
+            foreach ($sliders as $slider) {
+            ?>
+                <div class="<?= $i ? '' : 'active'  ?> item fadeInRight animated img-responsive"
+                    style="100%!important; background: url(<?= base_url('uploads/sliders/' . $slider->image) ?>);">
+                    <div class="carousel-caption fadeInUp animated">
+                        <h1><b><?= $slider->title ?></b></h1>
+                        <p><?= $slider->heading ?></p>
+                    </div>
+                </div>
+                <?php $i++;
+            } ?>
+        </div>
+    </div>  -->
+
+  <!-- <h2>Carousel Example</h2>   -->
+  <div id="myCarousel" class="carousel slide home-slider hidden-xs-block hidden-xs" data-ride="carousel">
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <?php
+        $i = 0;
+        foreach ($sliders as $slider) {
+            $img=array();
+            $img=explode('.', $slider->image);
+            if($i==1)
+    {
+        ?>
+      <div class="item active">
+        <img src="<?= base_url('uploads/sliders/' .  $slider->image) ?>" style="width: 100%!important;" alt="slider1">
+      </div>
+        <?php}
+        else{
+        ?>
+      <div class="item">
+        <img src="<?= base_url('uploads/sliders/' .  $slider->image) ?>" style="width: 100%!important;" alt="slider2">
+      </div> 
+        <?php }$i++;
+        } ?>
+    </div> 
+
+   
+  </div>
+
+
 <!-- contact form start -->
 <div class="floating-form" id="contact_form">
     <div class="contact-opener">Speak to Our Expert!</div>
