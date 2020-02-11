@@ -195,20 +195,15 @@
     </div>
    <div class="container" id="nricontect">
         <div class="about-para">
-                <p>We are Full Basket Property, established with an aim to revolutionize the real estate market. We help you to select your ideal home by providing end to end support. We work hard to make a real difference in the real estate market with an assurance of transparency and quality service. Our effort is to deliver world-class services to our clients, with the emphasis on supplying simple and hassle-free procedure for finding the right property. Since inception, we have been successful 
-                to earn the respect and trust of our clients and will strive to continue this trendWhen people ask, “What’s different about Full Basket Property?” The answer resides with our group of passionate real estate experts and their endless dedication to provide customer satisfaction and to solve their property searching complexities. Furthermore, it is in the beliefs and fundamental sense of purpose to offer the best in what we do.
-
-                We understand that house hunting can be difficult.
-                <br>
-                <br>
-                Selecting the right home is the most important decision for most of you. We not only focus on providing you with the right home, but we also believe in educating you regarding the overall XdsFvreal estate market. Therefore, we ensure you exceptional home searching experience that you haven’t experienced before. bfzxvcxzadffbd
-
-                We have a separate team of experts managing different departments and they evaluate every project in detail to give you the flawless end result. Our professionals are trained and equipped with complete resources to deliver you the dream home that you were exploring for so long.
-
-                Over the years, Full Basket Property has successfully offered homes to countless families. Besides new clients, we have a list of happy customers who often entrust us for further queries regarding their properties to be sold or when they want properties in a new city.
-
-                We boast on the excellent partnership with the premier builders, landlords, contractors in the country. Thus, you will be accurately informed about trustworthy builders through<p>
+                 <?= $this->aboutUs_model->getOption('nri_first_title') ?> 
         </div>
+        
+        <br>
+        <br>
+       <div class="about-para">
+          <?= $this->aboutUs_model->getOption('nri_second_content') ?> 
+
+          </div> 
     </div>
     <div class="container">
         <div class="col-sm-12 text-center">
@@ -273,23 +268,12 @@
     <br>
     <div class="container">
        <div class="col-sm-12">
-            <h3>ADVANTAGES FOR NRI'S </h3>
+            <h3> <?= $this->aboutUs_model->getOption('nri_second_title') ?> </h3>
         </div>
         <br>
         <br>
        <div class="about-para">
-           <ul>
-                <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</li>
-
-                <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s500s, when an unknown pem Ipsum has been the.</li>
-
-                <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and .</li>
-
-                <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</li>
-
-                <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</li>
-
-            </ul>  
+          <?= $this->aboutUs_model->getOption('nri_second_content') ?> 
 
           </div> 
      </div> 

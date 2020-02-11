@@ -240,28 +240,31 @@ body {
 
     <br>
     <br>
-
+<?php
+$images = $this->aboutUs_model->getWhere(array('name' => 'first_images'), 'about_us_images');
+ $who_we_are_image = $images[0]->image;
+?>
     <div class="container-fluid">
         <div class="row" style=" margin-bottom: 10px;">
                 <div class="col-xs-12 col-sm-6 col-md-8 about">
-                    <img src="<?= base_url('assets/images/about-us-01.jpg');?>">
+                    <img src="<?= base_url(). $who_we_are_image;?>">
                 </div>
                 
             
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12">
-                            <h1 class="text-center" >WHO ARE WE....?</h1><br>
+                            <h1 class="text-center" ><?= $this->aboutUs_model->getOption('first_title') ?></h1><br>
                             <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12">
                                         <div class="about-para">
-                                            <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu. <p>
+                                            <p><?= $this->aboutUs_model->getOption('first_content') ?> <p>
                                         </div>
                                     </div>
 
                                     <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                                     <br>
-                                        <div style="position: absolute; right: 5px; position: absolute;width: 100%"><a class="btn btn-primary" style="border-radius: 0; ">Read More</a>
+                                        <div style="position: absolute; right: 5px;/* position: absolute;*/width: 100%"><a class="btn btn-primary" style="border-radius: 0; " href="#">Read More</a>
                                         </div>
                                     </div>
                                     <br>
@@ -286,28 +289,20 @@ body {
                 </div>
         </div> 
         <br>
+        <?php
+$images = $this->aboutUs_model->getWhere(array('name' => 'third_images'), 'about_us_images');
+ $who_we_are_image = $images[0]->image;
+?>
   <!-- SERVICES WE OFFER-->
   <div class="container" style=" margin-bottom: 10px;">
     <div class="Services">
-       <span class="orangeText">SERVICES &nbsp;</span>&nbsp;<span class="blackText">WE OFFER</span>
+       <span class="orangeText">SERVICES &nbsp;</span>&nbsp;<span class="blackText"><?= $this->aboutUs_model->getOption('third_title') ?></span>
          <div class="row service-content" >
             <div class="col-xs-12 col-sm-8 col-md-8">
            
           
            <div class="about-para">
-           <ul>
-                <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</li>
-
-                <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s500s, when an unknown pem Ipsum has been the.</li>
-
-                <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and .</li>
-
-                <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</li>
-
-                <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</li>
-
-                </ul>  
-
+          <?= $this->aboutUs_model->getOption('third_content') ?> 
                 </div> 
                
             </div>
@@ -315,7 +310,7 @@ body {
         
             <div class="col-xs-12 col-sm-4 col-md-4 about">
             
-                <img src="<?= base_url('assets/images/about-us-02.jpg');?>" class="" alt="Table Setting">
+                <img src="<?= base_url(). $who_we_are_image;?>" class="" alt="Table Setting">
             </div>
            
              
@@ -328,26 +323,30 @@ body {
 <br>
 <br>
 <!-- Third -->
+<?php
+$images = $this->aboutUs_model->getWhere(array('name' => 'second_images'), 'about_us_images');
+ $who_we_are_image_2 = $images[0]->image;
+?>
 <div class="container" style=" margin-bottom: 10px;">
      <div class="row">
                 <div class="col-xs-6 col-sm-4 col-md-4 about">
                 
-                    <img src="<?= base_url('assets/images/about-us-03.jpg');?>" class="" style="">
+                    <img src="<?= base_url().$who_we_are_image_2;?>" class="" style="">
                 </div>
                 
             
                 <div class="col-xs-6 col-sm-8 col-md-8">
                 <div class="about-para">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem  Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
-                        . Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu. <p>
+                    <h1 class="text-center" ><?= $this->aboutUs_model->getOption('second_title') ?></h1><br>
+                       <?= $this->aboutUs_model->getOption('second_content') ?>
                     </div>
                 
                     <br>
                     <br>
 
-                    <div class="about-para">
+                   <!-- <div class="about-para">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
-                    </div>
+                    </div>-->
                     
                 
                 </div>
@@ -365,10 +364,8 @@ body {
            
 
         <div class="aboutContent text-center" >
-                <h3 class="first-title">Our Vision</h3>
-               <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of type and scrambled.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s500s, when an unknown pem Ipsum has been the.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and .</p>
+                <h3 class="first-title"><?= $this->aboutUs_model->getOption('vision_title') ?></h3>
+               <p><?= $this->aboutUs_model->getOption('vision_content') ?></p>
                 <br>
                 <br>
               
@@ -381,10 +378,8 @@ body {
 
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class=" secondContent text-center">
-                <h3 class="second-title">OUR Mission</h3>
-               <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of type and scrambled.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s500s, when an unknown pem Ipsum has been the.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and </p>
+                <h3 class="second-title"><?= $this->aboutUs_model->getOption('mision_title') ?></h3>
+               <p><?= $this->aboutUs_model->getOption('mision_content') ?> </p>
                 <br><br>
                
             </div>
@@ -441,31 +436,23 @@ body {
 
        <div class="row">
             <div class="col-xs-12 col-sm-8 col-md-8">
-            <span class="blackText">OUR CORE</span><span class="orangeText">&nbsp;VALUES </span>
+            <span class="blackText"><?= $this->aboutUs_model->getOption('core_title') ?></span><span class="orangeText">&nbsp;VALUES </span>
            <br>
            <br>
            <div class="about-para">
-           <ul>
-                <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</li>
-
-                <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s500s, when an unknown pem Ipsum has been the.</li>
-
-                <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and .</li>
-
-                <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</li>
-
-                <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</li>
-
-                </ul>  
+          <?= $this->aboutUs_model->getOption('core_content') ?> 
 
                 </div> 
                
             </div>
             
-        
+        <?php
+$images = $this->aboutUs_model->getWhere(array('name' => 'core_images'), 'about_us_images');
+ $who_we_are_image_2 = $images[0]->image;
+?>
             <div class="col-xs-12 col-sm-4 col-md-4 aboutbg1">
             
-                <img src="<?= base_url('assets/images/about-us-03.jpg');?>" class="" alt="Table Setting" >
+                <img src="<?= base_url().$who_we_are_image_2;?>" class="" alt="Table Setting" >
             </div>
            
              
@@ -483,26 +470,74 @@ body {
             <div class="row">
                 <div class="col-sm-12">
                         <div class="" style="word-break: break-all;word-wrap: break-word">
-                          <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            <?php
+                    if (($option = $this->aboutUs_model->getOption('client_title')) != null) {
+                        ?>
+                        <h2 class="text-center"><?= $option ?></h2><br>
+                        <?php
+                    }
+                    ?>
+                          <!--<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                             when an unknown printer took a galley of type and scrambled.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s500s, when an unknown pem Ipsum has been the.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
-                            n unknown printer took a galley.</p>
+                            n unknown printer took a galley.</p>-->
                         </div>
-                        <div class="text-center">
+                       <!-- <div class="text-center">
                         <div class="" style="word-break: break-all;word-wrap: break-word">
                            <span style="font-weight: 500;font-size: 17px;">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</span>
                         </div>
-                    </div>  
+                    </div>  -->
                     <div class="text-center">
+                        <div class="" style="word-break: break-all;word-wrap: break-word">
+                            <?= $this->aboutUs_model->getOption('client_content') ?>
+                        </div>
+                    </div>
+                    <!--<div class="text-center">
                         <div class="" style="word-break: break-all;word-wrap: break-word">
                            <span style="font-weight: 400;font-size: 17px;">Lorem Ipsum has been </span>
                         </div>
-                    </div>  
+                    </div>  -->
+
                    
-                </section>  
+            </div>
+                 <div class="col-sm-12">
+                        <div class="" style="word-break: break-all;word-wrap: break-word">
+                            <?php
+                    if (($option = $this->aboutUs_model->getOption('client_title_3')) != null) {
+                        ?>
+                        <h2 class="text-center"><?= $option ?></h2><br>
+                        <?php
+                    }
+                    ?>
+                          <!--<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and scrambled.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s500s, when an unknown pem Ipsum has been the.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
+                            n unknown printer took a galley.</p>-->
+                        </div>
+                       <!-- <div class="text-center">
+                        <div class="" style="word-break: break-all;word-wrap: break-word">
+                           <span style="font-weight: 500;font-size: 17px;">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</span>
+                        </div>
+                    </div>  -->
+                    <div class="text-center">
+                        <div class="" style="word-break: break-all;word-wrap: break-word">
+                            <?= $this->aboutUs_model->getOption('client_content_3') ?>
+                        </div>
+                    </div>
+                    <!--<div class="text-center">
+                        <div class="" style="word-break: break-all;word-wrap: break-word">
+                           <span style="font-weight: 400;font-size: 17px;">Lorem Ipsum has been </span>
+                        </div>
+                    </div>  -->
+
+                   
             </div>
         </div>
     </div>
+
+</div>
+
+</section>  
     <div class="clearfix"></div>
       <br>          
 

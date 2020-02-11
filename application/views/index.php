@@ -1,4 +1,11 @@
 <style>
+    .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+display: block;
+height: auto;
+max-width: 100%;
+line-height: 1;
+width: 100%; // Add this
+}
 #ac-wrapper {
 position: fixed;
 top: 0;
@@ -53,6 +60,7 @@ height: 70%;
      
     .morecontent span {
         display: none;
+    }
 </style>
 <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
 <script>
@@ -103,6 +111,7 @@ $(document).ready(function(){
         } ?>
     </div>
 </div>
+<div class="clearfix"></div><br><br><br>
 <!-- contact form start -->
 <div class="floating-form" id="contact_form">
     <div class="contact-opener">Speak to Our Expert!</div>

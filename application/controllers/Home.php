@@ -1011,14 +1011,9 @@ class Home extends Public_Controller
         'title'         => 'Full Basket Property NRI | Latest Property Updates and Trends', 
         'description'   => 'Get the latest real estate property updates, news, opinions and trends in India. Expert insights to the events in the Indian Real Estate Market. ',
         'keywords'      =>'Fullbasket property NRI'
-    );
-  //  $nri = $this->home_model->getWhere(array('status' => 1), 'nri');
-  //  if ($nri && isset($nri[0])) {
-        $this->data['nri'] = $nri;
+    );  
         $this->data['view_page'] = 'nri';
         $this->load->view('template', $this->data);
- /*   } else {
-        redirect(site_url());
-    }*/
+ 
   }
 }
