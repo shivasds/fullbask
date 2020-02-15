@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
     <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
 
     <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -101,7 +101,7 @@
         
     .morecontent span {
         display: none;
-
+    }
     </style>
         <style type="text/css">
             #sppb-addon-1507611918 .sppb-addon-title {
@@ -623,11 +623,9 @@
                                                     ?>
                                                         <div class="item">
                                                             <?php
-
                  echo '<img class="d-banner" src="'. base_url().$images[$ban]['banner_path'] .'"   style="width: 100%">';
                 echo '<img class="m-banner" src="'. base_url().$m_images[$ban]['mobile_banner_path'].'" alt="" style="width: 100%">';
                                                             ?>
-
                                            </div>
                                                     <?php
                                                    
@@ -941,9 +939,7 @@
                                 </section>
                                 <!--
  <?php
-
                         if (($specifications = $this->properties_model->getPropertySpecification($property->id)) != null) {
-
                             ?>
     <section id="section-id-1507611930" class="sppb-section   rooms-suits">
                                     <div class="sppb-row-container">
@@ -958,13 +954,9 @@
                                                     <div class="sppb-column-addons">
                                         <?php
                                         foreach ($specifications as $k => $specification) {
-
-
                                             if (($items = $this->properties_model->getPropertySpecification($property->id,
                                                     $specification->id)) != null) {
-
                                                 ?>
-
                                                         <h4><?= $specification->name ?></h4>
                                                        <?php
                                                 echo "<ul>";
@@ -972,7 +964,6 @@
                                                 foreach (explode(',', $items) as $item) {
                                                     ?>
                                                     <li><?= $s.". ".$item ?></li>
-
                                                     <?php
                                                     $s++;
                                                 }
@@ -981,10 +972,7 @@
                                             }
                                             
                                         }
-
                                         ?>
-
-
                                                     </div>
                                                 </div>
                                             </center>
@@ -1533,7 +1521,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="mainContentWidth container">
+                                 </div>            
+      <div class="mainContentWidth container">
         <div class="row">
             <div class="col-md-12">
               

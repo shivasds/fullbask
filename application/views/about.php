@@ -212,9 +212,9 @@
 h1 {
     margin: auto;  
 }
-body {
+/* body {
     margin: 10px;
-}
+} */
 
 
 </style>

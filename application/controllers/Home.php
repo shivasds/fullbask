@@ -859,16 +859,7 @@ class Home extends Public_Controller
         
         if (is_null($slug) || ($property = $this->home_model->getProperty($slug)) == null) {
             show_404();
-        }
-        if(($property = $this->home_model->getProperty($slug)) != null)
-        {
-            $c_id = $this->home_model->get_city_id($city);
-            $c_id1 = $this->home_model->get_city_id($property->city_name);
-
-            if($c_id!=$c_id1 || $location!=$property->title)
-                show_404();
-            
-        }
+        } 
         if ($this->input->post()) {
             $this->load->model('Builders_model', 'bm');
             $builder  = $this->bm->getBuilderById('name', ['id'=>$property->builder_id]);     
