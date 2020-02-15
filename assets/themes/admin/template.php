@@ -5,8 +5,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 ?><!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=<?php echo $this->settings->site_version; ?>">
@@ -30,8 +30,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
-        <script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
     <body class="skin-blue">
@@ -171,7 +171,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </a>
                         <ul class="treeview-menu">
                             <li class="active"><a href="<?= site_url('admin/properties/add') ?>"><i class="fa fa-circle-o"></i> Add Property </a></li>
-                            <li class="active"><a href="<?= site_url('admin/properties/new_add') ?>"><i class="fa fa-circle-o"></i> Add Property New Template </a></li>
                             <li><a href="<?= site_url('admin/properties') ?>"><i class="fa fa-list"></i> View/Edit Properties </a></li>
                             <li><a href="<?= site_url('admin/properties/rera') ?>"><i class="fa fa-list"></i> RERA Approval </a></li>
                         </ul>
@@ -230,6 +229,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <li class="<?php echo (uri_string() == 'admin/users') ? 'active' : ''; ?>"><a href="<?php echo base_url('/admin/users'); ?>"><?php echo lang('admin button users'); ?></a></li>
                     <li class="<?php echo (uri_string() == 'admin/settings') ? 'active' : ''; ?>"><a href="<?php echo base_url('/admin/settings'); ?>"><?php echo lang('admin button settings'); ?></a></li>
                     <li class="<?php echo (uri_string() == 'admin' OR uri_string() == 'admin/aboutUs') ? 'active' : ''; ?>"><a href="<?php echo base_url('/admin/aboutUs'); ?>">About Us</a></li>
+                    <li class="<?php echo (uri_string() == 'admin' OR uri_string() == 'admin/nri') ? 'active' : ''; ?>"><a href="<?php echo base_url('/admin/aboutUs'); ?>">Nri</a></li>
                     <li class="<?php echo (uri_string() == 'admin' OR uri_string() == 'admin/socialMedia') ? 'active' : ''; ?>"><a href="<?php echo base_url('/admin/socialMedia'); ?>">Social Media</a></li>
                     <li class="<?php echo (uri_string() == 'admin' OR uri_string() == 'admin/allCities') ? 'active' : ''; ?>"><a href="<?php echo base_url('/admin/allCities'); ?>">All City Details</a></li>
                     <li class="<?php echo (uri_string() == 'admin' OR uri_string() == 'admin/terms') ? 'active' : ''; ?>"><a href="<?php echo base_url('/admin/terms'); ?>"><i class="fa fa-legal" aria-hidden="true"></i> Privacy Policy</a></li>

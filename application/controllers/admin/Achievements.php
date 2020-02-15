@@ -90,10 +90,11 @@ class Achievements extends Admin_Controller {
                         'alt_title'=>$this->input->post('alt_title'),
                         'image_desc'=>$this->input->post('image_description'),
                         'date_added' => date('Y-m-d'),
-                        'date' =>$this->input->post('date').'-01-01',
+                        'award_date' =>$this->input->post('date').'-01-01',
                         'city_id' => $this->input->post('cities'),
                         'b_id' => $this->input->post('builders')
                     );
+                    print_r($data);die;
                     $this->achievements_model->insertRow($data, 'achievements');
 
                     $this->session->set_flashdata('message', 'Achievement added Successfully');
@@ -153,7 +154,7 @@ class Achievements extends Admin_Controller {
                     'alt_title'=>$this->input->post('alt_title') ? $this->input->post('alt_title') : $achievement->alt_title,
                       'image_desc'=>$this->input->post('image_description') ? $this->input->post('image_description') : $achievement->image_desc,
                     'image' => $image,
-                    'date' =>$this->input->post('date').'-01-01',
+                    'award_date' =>$this->input->post('date').'-01-01',
                     'city_id' =>$this->input->post('cities'),
                     'b_id' => $this->input->post('builders')
 

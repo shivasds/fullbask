@@ -91,7 +91,7 @@
                                     //print_r($cities);die;
                                     foreach ($date_range as $type => $value) { 
                                         ?>
-                                        <option value="<?= $value?>"<?php if(($value)==date('Y', strtotime($achievement->Date))) echo 'selected' ?>><?=$value ?></option>
+                                        <option value="<?= $value?>"<?php if(($value)==date('Y', strtotime($achievement->award_date))) echo 'selected' ?>><?=$value ?></option>
                                         <?php
                                    
                                 }

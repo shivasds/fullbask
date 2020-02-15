@@ -92,7 +92,7 @@
         </div>
 
         <!--    Second Column-->
-        <div class="row">
+         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="box box-primary">
                     <div class="box-header">
@@ -150,7 +150,140 @@
                 </div>
             </div>
         </div>
+        
+        <!--- Third Column -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="box box-primary">
+                    <div class="box-header">
+                        <h3 class="box-title">Modify Top Third Column</h3>
+                    </div><!-- /.box-header -->
+                    <!-- form start -->
 
+                    <div class="box-body">
+                        <div class="form-group">
+                            <input type="text" name="third_title" id="third_title" class="form-control"
+                                   placeholder="Section Title" title=""
+                                   value="<?= $this->aboutUs_model->getOption('third_title') ?>">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="third_content" placeholder="Content"
+                                      name="third_content"><?= $this->aboutUs_model->getOption('third_content') ?></textarea>
+                        </div>
+                        <div class="form-group">
+                            <div class="dropzone third_image">
+                                <div id="hiddenthirdimages" class="hide"></div>
+                            </div>
+                            <span class="help-block">(Recommended Dimension : 527x388)</span>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                                <input type="url" class="form-control" name="third_facebook"
+                                       placeholder="http://facebook.com/xxxxxxxxx"
+                                       value="<?= $this->aboutUs_model->getOption('third_facebook') ?>">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                                <input type="url" class="form-control" name="third_twitter"
+                                       placeholder="http://twitter.com/@xxxxxxx"
+                                       value="<?= $this->aboutUs_model->getOption('third_twitter') ?>">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-google-plus"
+                                                                   aria-hidden="true"></i></span>
+                                <input type="url" class="form-control" name="third_google"
+                                       placeholder="http://plus.google.com/+xxxxxxxxx"
+                                       value="<?= $this->aboutUs_model->getOption('third_google') ?>">
+                            </div>
+                        </div>
+                    </div><!-- /.box-body -->
+
+                    <div class="box-footer">
+                        <input type="submit" class="btn btn-primary" id="submit3" value="Submit"/>
+                        <input type="button" onclick="history.go(-1);" class="btn btn-default" value="Back"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---- Our vision & Our Mission -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="box box-primary">
+                    <div class="box-header">
+                        <h3 class="box-title">Manage Our Vision & Misson Section</h3>
+                    </div><!-- /.box-header -->
+                    <!-- form start -->
+
+                    <div class="box-body">
+                        <div class="form-group">
+                            <label>Our Vision  </label>
+                            <input type="text" name="Vision_title" id="Vision_title" class="form-control"
+                                   placeholder="Our Vision" title=""
+                                   value="<?= $this->aboutUs_model->getOption('Vision_title') ?>">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="mision_title" placeholder="Content"
+                                      name="vision_content"><?= $this->aboutUs_model->getOption('vision_content') ?></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>Our Mision</label>
+                            <input type="text" name="mision_title" id="mision_title" class="form-control"
+                                   placeholder="Our Mision" title=""
+                                   value="<?= $this->aboutUs_model->getOption('mision_title') ?>">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="mision_content" placeholder="Content"
+                                      name="mision_content"><?= $this->aboutUs_model->getOption('mision_content') ?></textarea>
+                        </div>  
+                    </div><!-- /.box-body -->
+
+                    <div class="box-footer">
+                        <input type="submit" class="btn btn-primary" id="submit3" value="Submit"/>
+                        <input type="button" onclick="history.go(-1);" class="btn btn-default" value="Back"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--- Core Value -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="box box-primary">
+                    <div class="box-header">
+                        <h3 class="box-title">Modify Core Values</h3>
+                    </div><!-- /.box-header -->
+                    <!-- form start -->
+
+                    <div class="box-body">
+                        <div class="form-group">
+                            <input type="text" name="core_title" id="core_title" class="form-control"
+                                   placeholder="Section Title" title=""
+                                   value="<?= $this->aboutUs_model->getOption('core_title') ?>">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="core_content" placeholder="Content"
+                                      name="core_content"><?= $this->aboutUs_model->getOption('core_content') ?></textarea>
+                        </div>
+                        <div class="form-group">
+                            <div class="dropzone core_image">
+                                <div id="hiddencoreimages" class="hide"></div>
+                            </div>
+                            <span class="help-block">(Recommended Dimension : 527x388)</span>
+                        </div> 
+                        </div>
+                    </div><!-- /.box-body -->
+
+                    <div class="box-footer">
+                        <input type="submit" class="btn btn-primary" id="submit3" value="Submit"/>
+                        <input type="button" onclick="history.go(-1);" class="btn btn-default" value="Back"/>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!--    Clients-->
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
