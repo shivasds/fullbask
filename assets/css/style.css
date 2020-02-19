@@ -5,9 +5,9 @@ html,body{
     padding: 0;
     overflow-x: hidden;
     }
-.container{
+/* .container{
     width:auto;
-}
+} */
 .top-header {
     padding: 10px 0;
     color: #676568;

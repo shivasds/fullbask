@@ -90,7 +90,7 @@
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <a href="<?= site_url() ?>">HOME</a>
                     <a href="<?= site_url('listing') ?>">PROPERTIES</a>
-                    <a href="#">ABOUT</a>
+                    <a href="<?= site_url('about') ?>">ABOUT</a>
                     <a href="<?=site_url('blog')?>">BLOG</a>
                     <a href="<?=site_url('contact')?>">CONTACT</a>
                 </div>
