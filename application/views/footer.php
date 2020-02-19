@@ -1,3 +1,8 @@
+<style>
+    .last_news{
+        display:none;
+    }
+</style>
 <div class="modal fade" id="submitContact">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -189,9 +194,9 @@
                 <p class="address"><i class="fa fa-map-marker"></i> &nbsp;Corporate Office</p>
                 <p>Sigma TridentNo - 11/2/1 , Hayes Road , Bengaluru
 
-Karnataka - 560025</p>
+                    Karnataka - 560025</p>
 
-<p>L: 080-40913468</p>
+                    <p>L: 080-40913468</p>
                 <p class="address"><i class="icon ion-ios-email-outline"></i> &nbsp;<a href="mailto:sales@fullbasketproperty.com" style="color: #717171">sales@fullbasketproperty.com</p>
                 <p class="address"><a href="tel:++919019011888"><i class="icon ion-ios-telephone-outline"></i> &nbsp;+91 901 901 1888</a> </p>
                <!-- <div class="foot_link">
@@ -230,7 +235,7 @@ Karnataka - 560025</p>
                     </ul>
                 </div> -->
             </div>
-            <div class="col-md-3 col-sm-6 last_news hide">
+            <div class="col-md-4 col-sm-6 last_news">
                 <h3>LAST NEWS</h3>
                 
                 <br><br>
@@ -256,7 +261,7 @@ Karnataka - 560025</p>
                 <br><br>
                 <!-- <p><?= $stay_in_touch->content ?></p><br> -->
                   <form id="contact-form" action="<?=base_url('home/sendEmail');?>" name="contact-form" method="POST" onsubmit="return save_landing_pageinfo('contact-form');">
-    <input type="hidden" name="property_id" value="<?= $property->id ?>">
+                  <input type="hidden" name="property_id" value="<?= $property->id ?>">
                             <div class="form-group col-md-12">
                                 <div class="input-group">
                                     <div class="input-group-addon"><i
@@ -269,17 +274,17 @@ Karnataka - 560025</p>
                                 <label for="fname" generated="true"
                                        class="error"></label>
                             </div>
-                           <div class="form-group col-md-12" style="margin-top: -22px;">
+                           <div class="form-group col-md-12" style="">
                                 
                                 <input type="tel" placeholder="Phone*"
                                        name="phone" class="validate"
-                                       id="contctform-phone3" style="display: block;width: 128%;
-height: 34px;
-font-size: 14px;
-line-height: 1.42857143;
-background-color: #fff;
-border: 1px solid #ccc;
-border-radius: 4px;" required>
+                                       id="contctform-phone3" style="display: block;height: 34px;
+                                       width: 120%;
+                                       font-size: 14px;
+                                        line-height: 1.42857143;
+                                        background-color: #fff;
+                                        border: 1px solid #ccc;
+                                        border-radius: 4px;" required>
                                 <input type="hidden" name="countrycode" id="cplusm" value=""> 
 
                             </div>
@@ -293,20 +298,20 @@ border-radius: 4px;" required>
                 <div class="clearfix"></div>
                 <ul>
                     <li><a target="_blank" href="<?= $social_links->twitter ?>"style="
-    margin-right: 4px;
-"><i class="fa fa-twitter"></i></a></li>
-                    <li><a target="_blank" href="<?= $social_links->facebook ?>"style="
-    margin-right: 4px;
-"><i class="fa fa-facebook"></i></a></li>
-                    <li><a target="_blank" href="<?= $social_links->youtube ?>"style="
-    margin-right: 4px;
-"><i class="fa fa-youtube"></i></a></li>
-                    <li><a target="_blank" href="<?= $social_links->instagram ?>"style="
-    margin-right: 4px;
-"><i class="fa fa-instagram"></i></a></li>
-                    <li><a target="_blank" href="<?= $social_links->dribble ?>"style="
-    margin-right: 4px;
-"><i class="fa fa-linkedin"></i></a></li>
+                    margin-right: 4px;
+                "><i class="fa fa-twitter"></i></a></li>
+                                    <li><a target="_blank" href="<?= $social_links->facebook ?>"style="
+                    margin-right: 4px;
+                "><i class="fa fa-facebook"></i></a></li>
+                                    <li><a target="_blank" href="<?= $social_links->youtube ?>"style="
+                    margin-right: 4px;
+                "><i class="fa fa-youtube"></i></a></li>
+                                    <li><a target="_blank" href="<?= $social_links->instagram ?>"style="
+                    margin-right: 4px;
+                "><i class="fa fa-instagram"></i></a></li>
+                                    <li><a target="_blank" href="<?= $social_links->dribble ?>"style="
+                    margin-right: 4px;
+                "><i class="fa fa-linkedin"></i></a></li>
                     <a class="btn btn-primary pull-right" style="border-radius: 13px;background: none;margin-top: 9px;color: black;"data-toggle="modal" href="#submitcallback">Call Back</a>
                 </ul>
                 <a href="<?=base_url();?>">
@@ -359,19 +364,22 @@ border-radius: 4px;" required>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="http://www.googletagmanager.com/gtag/js?id=UA-122622140-1"></script>
 <script src="<?= base_url() ?>assets/property/intl-tel-input/js/intlTelInput5152.js?ver=1.0"></script>
+
 <script>
+  jQuery(document).ready(function($){
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-122622140-1');
+});
 </script>
   <script>
-        jQuery(document).ready(function ($) {
-
-            var telInput = $(".validate"),
+        jQuery(document).ready(function ($){
+               var telInput = $(".validate"),
                 errorMsg = $(".error-msg"),
                 validMsg = $(".valid-msg");
+                
     // initialise plugin
             telInput.intlTelInput({
                 initialCountry: "in",

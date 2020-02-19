@@ -1554,7 +1554,7 @@
                                        class="builder_projects">
                                         <div class="col-md-4">
                                             <img src="<?= base_url("uploads/$project->slug/$project->image") ?>"
-                                                 class="img-responsive" style="padding: 0;width: 400px;background-position: 50% 50%; background-size:cover;position: relative;height:260px;" alt="<?=$project->alt?>"  
+                                                 class="img-responsive" style="padding: 0;width: 260px;background-position: 50% 50%;position: relative;height:260px;" alt="<?=$project->alt?>"  
                                                  title="<?=$project->image_desc?>"> 
                                             <div class="builder_proj">
                                                 <h4><?= $project->title ?></h4>
@@ -1590,10 +1590,11 @@
                                     <a href="<?= site_url(url_title($project->city_name) . "/" . (url_title($project->area)) . "/$project->slug/") ?>"
                                        class="builder_projects">
                                         <div class="col-md-4">
-                                            <img src="<?= base_url("uploads/$project->slug/$project->image") ?>"  style="padding: 0;width: 400px;background-position: 50% 50%; background-size:cover;position: relative;height:260px;" 
+                                        <div class="container">
+                                            <img src="<?= base_url("uploads/$project->slug/$project->image") ?>"  style="padding: 0;" 
                                                  class="img-responsive" style="padding: 0" alt="<?=$project->alt?>"
                                                  title="<?=$project->image_desc?>"> 
-                                                 
+                                          </div>       
 
 
                                             <div class="builder_proj">
@@ -1658,6 +1659,48 @@
 
                                 </section>
 
+                                <section id="section-id-1507611944" class="sppb-section wow">
+                                   <div class="container">
+                                  
+                                    <div class="sppb-row">
+                                        <div class="sppb-section-title sppb-text-center">
+                                            <h2 class="sppb-title-heading myt1 delay-09s animated wow fadeInDown animated"
+                                                style="visibility: visible; animation-name: fadeInDown;">Project Highlights</h2>
+                                                
+                                            <div class="underline">&nbsp;</div>
+                                        </div>
+                                        <br>
+                                          <br>
+                                        <div class="sppb-col-sm-12">
+										<p style="text-align: center;"> 
+                                        - Transportation: MMTS, Metro, RTC Buses and Airport (ORR).<br/>
+                                        - Education: CHIREC School, Arbor School, Jain Heritage School, Hyderabad University
+                                        (UoH), ISB, IIIT, NIFT and more.<br/>
+                                        - Healthcare: Apollo Cradle, KIMS, Care, AIG,
+                                        Citizen, Continental, Century, Pace, Rainbow,
+                                        Max vision and others.<br/>
+                                        - Lifestyle & recreation: Sharath City Mall,
+                                        Ratnadeep, HeritageFresh, Botanical
+                                        Gardens, Cycling Track, Marriott Hotel,
+                                        Radisson Blu Hotel, Le Meridien Hotel,
+                                        Trident Hotel, ITC Kohenur, IKEA,
+                                        Shilparamam, cultural centers and more<br/> 
+                                        </p>
+
+                                       </div>
+										<div class="col-md-12"><br/>
+                                    <center><a class="btn interested fix-link i-am"><img src="<?=base_url('assets/images/enquiry.png');?>" style="margin: 0px auto; margin-bottom: 20px;"></a>
+										    <p style="margin: 0;color: #fff;font-size: 14px;">
+                                            </p></center><br/>
+                                                </div>
+
+
+                                    </div> 
+                                </div>
+
+
+                            </section>
+
                                 <section id="section-id-1507611947"
                                          class="sppb-section resort-title-heading resort-location-wrapper resort-discount wow">
                                     <div class="overlay" style="padding-bottom: 50px;">
@@ -1670,24 +1713,24 @@
                                             </div><br/>
                                             <center>
                                                                  <div class="col-md-12">
-<div class="col-sm-12 col-md-12 col-lg-12">
-<a href="https://twitter.com/intent/tweet?screen_name=fbptweets&ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Tweet to @fbptweets</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                  
-</div>
-<div class="col-sm-12 col-md-12 col-lg-12">
+                                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                            <a href="https://twitter.com/intent/tweet?screen_name=fbptweets&ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Tweet to @fbptweets</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                                            
+                                            </div>
+                                            <div class="col-sm-12 col-md-12 col-lg-12">
 
-<script src="https://apis.google.com/js/platform.js"></script>
+                                            <script src="https://apis.google.com/js/platform.js"></script>
 
-<div class="g-ytsubscribe" data-channelid="UCGr-on8k7dRMKBFW-X2G05A" data-layout="default" data-count="hidden"></div>
-</div>
-</div>
+                                            <div class="g-ytsubscribe" data-channelid="UCGr-on8k7dRMKBFW-X2G05A" data-layout="default" data-count="hidden"></div>
+                                            </div>
+                                            </div>
 
-<div class="col-sm-12 col-md-12 col-lg-12">
+                                            <div class="col-sm-12 col-md-12 col-lg-12">
 
-<div class="fb-like" data-href="https://www.facebook.com/fullbasketpropertypage/" data-width="" data-layout="button" data-action="like" data-size="small" data-share="false"></div>
-</div>
-</center>
-<div class="clearfix"></div>
+                                            <div class="fb-like" data-href="https://www.facebook.com/fullbasketpropertypage/" data-width="" data-layout="button" data-action="like" data-size="small" data-share="false"></div>
+                                            </div>
+                                            </center>
+                                            <div class="clearfix"></div>
                                              <p class="foo-txt">For More Information Please Call</p>
                                                                     <p class="footer-call"><i class="fa fa-phone"></i>
                                                                         <a href="tel:9019011888">9019011888</a>
@@ -2476,30 +2519,30 @@ border-radius: 4px;" required>
         });
     </script>
     <script>
-        jQuery(document).ready(function ($) {
-            // Add smooth scrolling to all links
-            $(".m-link").on('click', function (event) {
+        // jQuery(document).ready(function ($) {
+        //     // Add smooth scrolling to all links
+        //     $(".m-link").on('click', function (event) {
 
-                // Make sure this.hash has a value before overriding default behavior
-                if (this.hash !== "") {
-                    // Prevent default anchor click behavior
-                    event.preventDefault();
+        //         // Make sure this.hash has a value before overriding default behavior
+        //         if (this.hash !== "") {
+        //             // Prevent default anchor click behavior
+        //             event.preventDefault();
 
-                    // Store hash
-                    var hash = this.hash;
+        //             // Store hash
+        //             var hash = this.hash;
 
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 800, function () {
+        //             // Using jQuery's animate() method to add smooth page scroll
+        //             // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        //             $('html, body').animate({
+        //                 scrollTop: $(hash).offset().top
+        //             }, 800, function () {
 
-                        // Add hash (#) to URL when done scrolling (default click behavior)
-                        // window.location.hash = hash;
-                    });
-                } // End if
-            });
-        });
+        //                 // Add hash (#) to URL when done scrolling (default click behavior)
+        //                 // window.location.hash = hash;
+        //             });
+        //         } // End if
+        //     });
+        // });
     </script>
 
     <script type="text/javascript">
@@ -2586,6 +2629,58 @@ border-radius: 4px;" required>
             document.createElement('form').submit.call(document.getElementById(elm));
         }
     </script>
+
+<script type="text/javascript">
+jQuery(document).ready(function () {
+    jQuery(document).on("scroll", onScroll);
+    
+    //smoothscroll
+    jQuery('a[href^="#"]').on('click', function (e) {
+        
+        e.preventDefault();
+        jQuery(document).off("scroll");
+        
+        jQuery('li').each(function () {
+            jQuery(this).removeClass('current-item active');
+        })
+        jQuery(this).parent('li').addClass('current-item active');
+      
+        var target = this.hash,
+            menu = target;
+        $target = jQuery(target);
+        jQuery('html, body').stop().animate({
+            'scrollTop': $target.offset().top+2
+        }, 500, 'swing', function () {
+           // window.location.hash = target;
+            jQuery(document).on("scroll", onScroll);
+        });
+    });
+});
+
+function onScroll(event){
+    var scrollPos = jQuery(document).scrollTop();
+    jQuery('.sp-megamenu-parent a').each(function () {
+        var currLink = jQuery(this);
+        // console.log(currLink);
+        var refElement = jQuery(currLink.attr("href"));
+        // console.log(scrollPos)
+        if(scrollPos<430)
+        {
+            jQuery('.sp-megamenu-parent li').removeClass("current-item active");
+            jQuery('.sp-megamenu-parent li')[0].addClass("current-item active");
+        }
+        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+            // console.log(refElement);
+            jQuery('.sp-megamenu-parent li').removeClass("current-item active");
+            jQuery(this).parent('li').addClass("current-item active");
+        }
+        else{
+            
+        }
+    });
+}
+
+</script>
 
 
     </body>

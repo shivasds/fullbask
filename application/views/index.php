@@ -55,7 +55,7 @@ height: 70%;
  .morecontent span {
         display: none;
     }
-
+  
  
 </style>
 <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
@@ -119,7 +119,7 @@ $(document).ready(function(){
             $img=array();
             $img=explode('.', $slider->image);
             if($i==1)
-    {
+       {
         ?>
       <div class="item active">
         <img src="<?= base_url('uploads/sliders/' .  $slider->image) ?>" style="width: 100%!important;" alt="slider1">
@@ -176,8 +176,9 @@ $(document).ready(function(){
         </div>
     </form>
 </div>
+
 <!-- contact form end -->
-<div class="row city-section" style="margin-top: -110px;">
+<div class="row city-section" style="margin-top:-70px">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">

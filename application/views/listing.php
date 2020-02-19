@@ -11,14 +11,14 @@
     </style>
 <script>
 
-/*
 
-$(document).ready(function(){
-  $("#foo").click(function(){
-    $(".toggleSearch").slideToggle("slow");
-  });
-});
-    */
+
+// $(document).ready(function(){
+//   $("#foo").click(function(){
+//     $(".toggleSearch").slideToggle("slow");
+//   });
+// });
+  
 </script>
 <div class="modal fade" id="prop-contact" onload="myfunction();">
     <div class="modal-dialog">
@@ -72,6 +72,7 @@ $(document).ready(function(){
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 <!--End Contact Builder form-->
+
 <div class="container-fluid">
 	<div class="row list-header" style="background-image: url('<?= base_url('assets/img/list-bg.jpg') ?>');">
 		<div class="container">
@@ -83,9 +84,10 @@ $(document).ready(function(){
 				</div>
 			</div>
 		</div>
-		<div class="row menu-section">
-			<div class="container">
-				<div class="row">
+        <div class="container">
+	    	<div class="row menu-section">
+			
+				<div class="">
 					<div class="col-sm-10">
 						<ul class="hide">
 							<li style="color: #fff">Refine Search : </li>
@@ -450,22 +452,17 @@ s0.parentNode.insertBefore(s1,s0);
         var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
         s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
         var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-    })();
-    
-    <script>$(document).ready(function () {
+    });
+    </script>
+    <script>
+    $(document).ready(function () {
     load(function() {
         $('.city-section .search-area').slideToggle();
         
        // return false;
     })
-})
-$(document).ready(function(){
-  load(function(){
-     
-        $('.city-section .search-area').slideToggle();
-
-});
-</script>
+    });
+    </script>
     
-</script>
+
 <!-- /WhatsHelp.io widget -->
