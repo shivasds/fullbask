@@ -3047,3 +3047,26 @@ a.bld-link{text-decoration: none; color: #fff;}
     }
 }
 
+
+::-webkit-scrollbar {
+	width: 10px;
+	overflow:auto;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	/* box-shadow: blue;  */
+	background: #234372; 
+	
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #4fb7bc; 
+	
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #4fb7bc; 
+  }
