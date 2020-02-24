@@ -1,4 +1,4 @@
-<!--Contact Builder Form-->
+!--Contact Builder Form-->
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <style>
@@ -300,7 +300,7 @@
 					<div class="col-sm-12">
 						<div id="products" class="row list-group">
 							<?php foreach ($properties as $property) { ?>
-							<div class="item col-xs-12 col-sm-6 col-lg-6 <?= (isset($showPattern) && $showPattern) ? $showPattern : 'list-group-item' ?>">
+							<div class="item col-xs-12 col-sm-6 col-lg-4 <?= (isset($showPattern) && $showPattern) ? $showPattern : 'list-group-item' ?>">
 								<div class="thumbnail">
 									<div class="row">
 										<div class="prop-img col-md-3 col-sm-4">

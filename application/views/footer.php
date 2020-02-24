@@ -2,6 +2,13 @@
     .last_news{
         display:none;
     }
+    .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 .selected-flag {
+    width: 82px!important;
+    background-color: #eeeeee!important;
+}
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel] {
+    padding-left: 25px!important;
+}
 </style>
 <div class="modal fade" id="submitContact">
     <div class="modal-dialog">
@@ -140,13 +147,13 @@
                                                                             
                                                                             <input type="tel" placeholder=" " style="    display: block;
     
-    height: 37px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    background-color: #fff;
-        padding: 18px 186px;
-    border: 1px solid #ccc;
-    border-radius: 4px;" 
+                                                                                        height: 37px;
+                                                                                        font-size: 14px;
+                                                                                        line-height: 1.42857143;
+                                                                                        background-color: #fff;
+                                                                                            padding: 18px 186px;
+                                                                                        border: 1px solid #ccc;
+                                                                                        border-radius: 4px;" 
                                                                                    name="phone" class="validate"
                                                                                    id="contctform-phone3" required>
                                                                             <input type="hidden" name="countrycode" id="cplusm" value="">
@@ -261,7 +268,8 @@
                 <br><br>
                 <!-- <p><?= $stay_in_touch->content ?></p><br> -->
                   <form id="contact-form" action="<?=base_url('home/sendEmail');?>" name="contact-form" method="POST" onsubmit="return save_landing_pageinfo('contact-form');">
-                  <input type="hidden" name="property_id" value="<?= $property->id ?>">
+                    <div class="row">
+                      <input type="hidden" name="property_id" value="<?= $property->id ?>">
                             <div class="form-group col-md-12">
                                 <div class="input-group">
                                     <div class="input-group-addon"><i
@@ -279,12 +287,11 @@
                                 <input type="tel" placeholder="Phone*"
                                        name="phone" class="validate"
                                        id="contctform-phone3" style="display: block;height: 34px;
-                                       width: 120%;
-                                       font-size: 14px;
+                                       font-size: 14px;width: 100%;
                                         line-height: 1.42857143;
                                         background-color: #fff;
                                         border: 1px solid #ccc;
-                                        border-radius: 4px;" required>
+                                        border-radius: 4px;margin-left:72px;" required>
                                 <input type="hidden" name="countrycode" id="cplusm" value=""> 
 
                             </div>
@@ -294,7 +301,8 @@
                                     class="btn btn-default form-btn">Submit
                             </button>
                             </center>
-                        </form>
+                    </div>
+                  </form>
                 <div class="clearfix"></div>
                 <ul>
                     <li><a target="_blank" href="<?= $social_links->twitter ?>"style="

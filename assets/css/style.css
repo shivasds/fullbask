@@ -2724,6 +2724,10 @@ a.bld-link{text-decoration: none; color: #fff;}
 
 
 @media (max-width: 1199px) {
+    .footerphone input{
+        width: 111%;
+    }
+
     .achievemnts {
         width: 160px;
     }
@@ -3011,6 +3015,10 @@ a.bld-link{text-decoration: none; color: #fff;}
 }
 
 @media (max-width: 480px) {
+    .footerphone input{
+        width: 111%;
+    }
+    
     .contact {
         display: none;
     }
@@ -3032,6 +3040,10 @@ a.bld-link{text-decoration: none; color: #fff;}
 }
 
 @media (min-width: 320px) and (max-width: 1024px) {
+    .footerphone input{
+        width: 111%;
+    }
+    
     .blog-sticky{
         right: -270px;
         display: block;
@@ -3056,7 +3068,7 @@ a.bld-link{text-decoration: none; color: #fff;}
   /* Track */
   ::-webkit-scrollbar-track {
 	/* box-shadow: blue;  */
-	background: #234372; 
+	background: #d4d5d6; 
 	
   }
    

@@ -55,6 +55,11 @@ height: 70%;
  .morecontent span {
         display: none;
     }
+
+    .section2 p {
+    font-size: 15px;
+    line-height: 25px;
+}
   
  
 </style>
@@ -342,6 +347,7 @@ $i=0;
                         <div class="property-details">
                             <h4><?= $property->title ?></h4>
                             <div class="down"></div>
+                            <div class="" style="">
                             <p class="pull-left"><b>Location</b> : <?= $property->location ?></p>
                             <p class="pull-right">₹
 
@@ -356,6 +362,7 @@ $i=0;
                            
 ?>
                     </a>
+                    </div>
                     <div class="clearfix"></div>
 <!--                    <div class="sharethis-inline-share-buttons"></div>-->
                     <a target="_blank" href="<?= site_url(url_title($property->city_name)."/".( url_title($property->area) )."/$property->slug")?>" class="btn btn-primary btn-block" style="border-radius: 0">View</a>
