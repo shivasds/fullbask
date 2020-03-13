@@ -6,9 +6,9 @@
     width: 82px!important;
     background-color: #eeeeee!important;
 }
-.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel] {
+/* .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel] {
     padding-left: 25px!important;
-}
+} */
 .social-top .fa-linkedin:hover {
     background-color: #0da1bb ;
     color:white;
@@ -309,7 +309,7 @@
                                 
                                 <input type="tel" placeholder="Phone*"
                                        name="phone" class="phone validate"
-                                       id="contctform-phone3" style="display: block;height: 34px; font-size: 14px; line-height: 1.42857143; background-color: #fff; border: 1px solid #ccc; border-radius: 4px;margin-left:72px;" required>
+                                       id="contctform-phone3" style="display: block;height: 34px; font-size: 14px; line-height: 1.42857143; background-color: #fff; border: 1px solid #ccc; border-radius: 4px;margin-left: 43px;" required>
                                 <input type="hidden" name="countrycode" id="cplusm" value=""> 
 
                             </div>
@@ -332,27 +332,28 @@
                         <li><a href="#">Safe link</a></li>
                     </ul>
                 </div> -->
+                
                 <div class="clearfix"></div>
-                <div class="social-top">
-                <ul style="text-align: center;">
-                    <li><a target="_blank" href="<?= $social_links->twitter ?>"style=" margin-right: 4px;">
-                       <i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li><a target="_blank" href="<?= $social_links->facebook ?>"style="margin-right: 4px; ">
-                       <i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li><a target="_blank" href="<?= $social_links->youtube ?>"style="margin-right: 4px; ">
-                       <i class="fa fa-youtube"></i></a>
-                    </li>
-                    <li><a target="_blank" href="<?= $social_links->instagram ?>"style="margin-right: 4px; ">
-                        <i class="fa fa-instagram"></i></a>
-                    </li>
-                     <li><a target="_blank" href="<?= $social_links->dribble ?>"style="margin-right: 4px; ">
-                        <i class="fa fa-linkedin"></i></a>
-                    </li>
+                 <div class="social-top">
+                    <ul style="text-align: center;">
+                        <li><a target="_blank" href="<?= $social_links->twitter ?>"style=" margin-right: 4px;">
+                        <i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a target="_blank" href="<?= $social_links->facebook ?>"style="margin-right: 4px; ">
+                        <i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a target="_blank" href="<?= $social_links->youtube ?>"style="margin-right: 4px; ">
+                        <i class="fa fa-youtube"></i></a>
+                        </li>
+                        <li><a target="_blank" href="<?= $social_links->instagram ?>"style="margin-right: 4px; ">
+                            <i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li><a target="_blank" href="<?= $social_links->dribble ?>"style="margin-right: 4px; ">
+                            <i class="fa fa-linkedin"></i></a>
+                        </li>
 
-                    <a class="btn btn-primary" style="border-radius: 13px;background: none;margin-top: 9px;color: black;"data-toggle="modal" href="#submitcallback">Call Back</a>
-                </ul>
+                        <a class="btn btn-primary" style="border-radius: 13px;background: none;margin-top: 9px;color: black;"data-toggle="modal" href="#submitcallback">Call Back</a>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -391,7 +392,7 @@
 <script type="text/javascript"> var base_url = "<?= base_url() ?>" </script>
 <script type="text/javascript"> var site_url = "<?= site_url() ?>"; if (typeof mapInit != 'undefined'){initMap();}</script>
 <script id="dsq-count-scr" src="//fullbasket-property.disqus.com/count.js" async></script>
-<script type="text/javascript" src="<?= base_url('assets/js/script.js') ?>?v=<?=uniqid()?>"></script>
+// <script type="text/javascript" src="<?= base_url('assets/js/script.js') ?>?v=<?=uniqid()?>"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="http://www.googletagmanager.com/gtag/js?id=UA-122622140-1"></script>
 <script src="<?= base_url() ?>assets/property/intl-tel-input/js/intlTelInput5152.js?ver=1.0"></script>

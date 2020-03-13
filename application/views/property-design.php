@@ -21,13 +21,13 @@
         <meta name="twitter:site" content="@Fullbasketproperty"/>
         <meta name="twitter:title" content="<?= $property->title ? $property->title : '' ?>"/>
         <meta name="twitter:description" content="<?= substr(strip_tags($property->description), 0, 1000) ?>"/>
-        <meta name="twitter:image" content="<?= base_url("uploads/$property->slug/$property->image") ?>"/>
-        <script type='text/javascript' src='<?= base_url() ?>assets/property/unitegallery/js/jquery-11.0.min.js'></script>
+        <!-- <meta name="twitter:image" content="<?= base_url("uploads/$property->slug/$property->image") ?>"/>
+        <script type='text/javascript' src='<?= base_url() ?>assets/property/unitegallery/js/jquery-11.0.min.js'></script> -->
         <link rel="shortcut icon" type="image/x-icon" href="<?= site_url('') ?>assets/img/logo.png"/>
 
         <link rel="canonical" href="<?= current_url() ?>">
         <link rel="icon" href="https://www.fullbasketproperty.com/assets/img/favicon.ico" type="image/gif" sizes="16x16">
-    <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/jquery.min.js"></script> -->
         <link rel="manifest" href="http://orchards.realatte.com/manifest.json">
         <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/bootstrap-select.min.js"></script>
         <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/copy_bootstrap_min.js"></script>
@@ -97,7 +97,34 @@
     };
     </script>
     <style>
+        
+@media (max-width: 1600px) {
+.phone{
+    margin-left: 0px!important;
+       width: 100%!important;
+    height: 41px!important;
+}
+}
+/* .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel] {
+    padding-left: 84px!important;
+} */
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel] {
+    padding-left: 90px!important;
+}
 
+@media (max-width: 414px) {
+.phone{
+    width: 97%;
+}
+}
+   #contact-form .selected-flag {
+    background: #53ABBD !important;
+   
+}
+    #section-id-1507611922 {
+        padding-top: 0px;
+        /* padding-bottom: 80px; */
+    }
         
     .morecontent span {
         display: none;
@@ -506,8 +533,7 @@
                                 <h1>
                                     <img class="sp-default-logo" src="<?=base_url();?>assets/img/footer-logo.png" style="height: 66px;width: 80px;"> 
                                     <img class="sp-retina-logo" src="<?=base_url();?>assets/img/footer-logo.png"
-                                         style="    height: 57px;
-    width: 60px !important;">
+                                         style=" height: 57px;width: 60px !important;">
 
                                     
                                 </h1>
@@ -537,27 +563,27 @@
                                     </li>
                                     <li class="sp-menu-item">
                                                                             <?php
-    if(($logos = $this->properties_model->getWhere(array('property_id' => $property->id),
-                                                    'property_logo')) != null)
-    {
-        $logos=json_decode( json_encode($logos), true);
-        //builder_image;
-        ?>
-    <img class="sp-default-logo" src="<?= base_url().'uploads/'.$property->slug.'/logos/'.$map[0] ?>" style="    margin-left: 113px;
-    margin-right: -83px;"> 
-        <?php
+                            if(($logos = $this->properties_model->getWhere(array('property_id' => $property->id),
+                                                                            'property_logo')) != null)
+                            {
+                                $logos=json_decode( json_encode($logos), true);
+                                //builder_image;
+                                ?>
+                            <img class="sp-default-logo" src="<?= base_url().'uploads/'.$property->slug.'/logos/'.$map[0] ?>" style="    margin-left: 113px;
+                            margin-right: -83px;"> 
+                                <?php
 
-    }
-    else
-    {
-        $map[0]= $property->builder_image;
-    ?>
+                            }
+                            else
+                            {
+                                $map[0]= $property->builder_image;
+                            ?>
 
-        <img class="sp-default-logo" src="<?= base_url().'uploads/builders/'.$map[0] ?>" style="    margin-left: 113px;
-    margin-right: -83px;"> 
+                                <img class="sp-default-logo" src="<?= base_url().'uploads/builders/'.$map[0] ?>" style="    margin-left: 113px;
+                            margin-right: -83px;"> 
 
-    <?php
-    }
+                            <?php
+                            }
 
 
                                     ?>
@@ -648,7 +674,7 @@
                                     </div>
                                 </div>   
                                 <br>
-                             <div class="col-md-12">
+ <div class="col-md-12">
 <div class="col-sm-3 col-md-3 col-lg-3" style="padding: 7px;">
 <div class="fb-like" data-href="https://www.facebook.com/fullbasketpropertypage/" data-width="10px" data-layout="standard" data-action="like" data-size="small" data-share="false"></div>
 </div>
@@ -663,15 +689,13 @@
 </div>
 <div class="col-sm-3 col-md-3 col-lg-3">
     <h2>
-                                <div style="/*float: right*/" class="sharethis-inline-share-buttons"></div>
-                                <a target="_blank" href="<?= site_url(url_title($property->city_name)."/".( url_title($property->area) )."/$property->slug")?>" class="btn btn-primary btn-block" style="border-radius: 0;background-color: white;border-color: white;height: 33px;"></a>
-                                </h2>
+      <div style="/*float: right*/" class="sharethis-inline-share-buttons"></div>
+         <a target="_blank" href="<?= site_url(url_title($property->city_name)."/".( url_title($property->area) )."/$property->slug")?>" class="btn btn-primary btn-block" style="border-radius: 0;background-color: white;border-color: white;height: 33px;"></a>
+       </h2>
 </div>
 </div>
 <div class="clearfix"></div>
-                                
-
-             <section id="section-id-1507611922"  class="sppb-section   rooms-suits resort-title-heading wow">
+                <section id="section-id-1507611922"  class="sppb-section   rooms-suits resort-title-heading wow">
                                     <div class="sppb-row-container">
                                         <div class="sppb-section-title sppb-text-center">
                                             <h1 class="sppb-title-heading delay-10s animated wow fadeInDown animated"
@@ -1554,7 +1578,7 @@
                                        class="builder_projects">
                                         <div class="col-md-4">
                                             <img src="<?= base_url("uploads/$project->slug/$project->image") ?>"
-                                                 class="img-responsive" style="padding: 0;width: 260px;background-position: 50% 50%;position: relative;height:260px;" alt="<?=$project->alt?>"  
+                                                 class="img-responsive" style="padding: 0;width: 100%;background-position: 50% 50%;position: relative;height:260px;" alt="<?=$project->alt?>"  
                                                  title="<?=$project->image_desc?>"> 
                                             <div class="builder_proj">
                                                 <h4><?= $project->title ?></h4>
@@ -1795,7 +1819,7 @@
                                                                        <div class="form-group col-md-12">
                                                                             
                                                                             <input type="tel" placeholder="Phone*"
-                                                                                   name="phone" class="validate"
+                                                                                   name="phone" class="phone validate"
                                                                                    id="contctform-phone3" required>
                                                                             <input type="hidden" name="countrycode" id="cplusm" value="">
                                                                             <span class="hide valid-msg">✓ Valid</span>
