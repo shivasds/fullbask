@@ -206,6 +206,7 @@
     background-color: #e4eaea;
     background-size: cover;
     display: flex;
+    z-index: 1;
   
 }
 

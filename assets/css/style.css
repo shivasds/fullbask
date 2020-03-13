@@ -222,7 +222,7 @@ a.google:hover {
 }
 
 .carousel-fade .carousel-control {
-    z-index: 2;
+    z-index: 1;
 }
 
 @media all and (transform-3d),
@@ -1172,7 +1172,7 @@ footer li a:hover {
     height: 200px;
     position: relative;
     background-size: cover;
-    z-index: 9;
+    z-index: 1;
     background-position: 100% 100%;
 }
 
@@ -1223,7 +1223,7 @@ footer li a:hover {
 .rating-md {
     font-size: 17px;
     position: absolute;
-    z-index: 9;
+    z-index: 1;
     top: 0px;
     right: 7%;
     background: rgba(0, 0, 0, 0.39);
@@ -1232,7 +1232,7 @@ footer li a:hover {
 .img-count {
     position: absolute;
     left: 209px;
-    z-index: 9;
+    z-index: 1;
     background: #272526;
     color: #fff;
     padding: 5px 10px;
@@ -1337,7 +1337,7 @@ footer li a:hover {
     height: 240px;
     position: relative;
     background-size: cover;
-    z-index: 9;
+    z-index: 1;
     background-position: 100% 100%;
 }
 
@@ -1386,7 +1386,7 @@ span.prop-badge {
     top: 130px;
     color: #418d4f;
     cursor: default;
-    z-index: 9;
+    z-index: 1;
     font-style: italic;
     font-weight: bold;
     left: 4px;
@@ -1661,7 +1661,7 @@ span.prop-badge:after {
     width: 80px;
     height: 60px;
     position: relative;
-    z-index: 9;
+    z-index: 1;
     opacity: 1;
 }
 
@@ -1814,7 +1814,7 @@ span.prop-badge:after {
     border: 1px solid #ddd;
     right: 10px;
     position: fixed;
-    z-index: 9;
+    z-index: 1;
     box-shadow: -2px -0px 8px rgba(43, 33, 33, 0.06);
     -moz-box-shadow: -2px -0px 8px rgba(43, 33, 33, 0.06);
     -webkit-box-shadow: -2px -0px 8px rgba(43, 33, 33, 0.06);

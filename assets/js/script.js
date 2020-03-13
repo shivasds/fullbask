@@ -161,7 +161,7 @@ if (typeof search != 'undefined' && search != null) {
 function openNav() {
     document.getElementById("mySidenav").style.display = "block";
     document.getElementById("mySidenav").style.width = "335px";
-    document.getElementById("main").style.marginLeft = "335px";
+    //document.getElementById("main").style.marginLeft = "335px";
     document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 }
 
