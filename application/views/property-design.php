@@ -26,7 +26,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="<?= site_url('') ?>assets/img/logo.png"/>
 
         <link rel="canonical" href="<?= current_url() ?>">
-        <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
+        <link rel="icon" href="https://www.fullbasketproperty.com/assets/img/favicon.ico" type="image/gif" sizes="16x16">
     <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/jquery.min.js"></script>
         <link rel="manifest" href="http://orchards.realatte.com/manifest.json">
         <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/bootstrap-select.min.js"></script>
@@ -302,9 +302,9 @@
                 padding: 35px 0 0 0;
             }
              .fa-youtube:hover {
-    color: red;
-    background-color: white; 
-}
+                color: red;
+                background-color: white; 
+            }
         </style>
          <style>
  .rooms-suits .sppb-addon-cta .text-center {
@@ -715,7 +715,7 @@
                                                 <div class="col-md-8">
                                                     <p style="text-align: justify;" class="comment more">
                                                       <?= $property->builder_description ?>
-                                                    <br/><br/>
+                                                   
 
                                                     
                                                     </p>
@@ -1853,165 +1853,7 @@
                 </div>
             </div>
         </section>
-        <footer>
-        <style type="text/css">
-    .colorblack p 
-    {
-        color:black;
-        font-weight: 500;
-
-    }
-      .colorblack h3
-    {
-        color:black;
-
-    }
-     .colorblack a
-    {
-        color:black !important;
-
-    }
-</style>
-        <div class="container colorblack">
-            <div class="row">
-                <div class="col-md-4 col-sm-4">
-                    <h3>ABOUT US</h3>
-                    <!--<hr>-->
-                    <p style="padding-top: 30px; text-align:justify;"> We are Full Basket Property, established with the objective to serve you with any real estate support. 
-    Since inception, we have successfully improved our brand name by offering world-class services to our clients who 
-    have trusted us throughout the process of finding the properties and settling down the deed.</p>
-                    <br>
-                    <p class="address"><i class="fa fa-map-marker"></i> &nbsp;Corporate Office</p>
-                    <p>Sigma Trident,No - 11/2/1 , Hayes Road , Bangaluru, Karnataka - 560025</p>
-                    <p>L: 080-40913468</p>
-                    <p class="address"><i class="icon ion-ios-email-outline"></i> &nbsp;<a
-                                href="mailto:sales@fullbasketproperty.com" style="color: #717171">sales@fullbasketproperty.com
-                    </p>
-                    <p class="address"><a href="tel:+919019011888"><i class="icon ion-ios-telephone-outline"></i> &nbsp;+91
-                            901 901 1888</a></p>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                    <h3>QUICK LINKS</h3>
-                    <!--<hr>-->
-                    <ul>
-                        <li><a href="<?= site_url('listing') ?>">PROPERTIES</a></li>
-                        <li><a href="#">SERVICES</a></li>
-                        <li><a data-toggle="modal" href="#submitContact">SUBMIT PROPERTY</a></li>
-                        <li><a href="<?= site_url('contact') ?>">CONTACT US</a></li>
-                        <li><a href="<?= site_url('blog') ?>">BLOG</a></li>
-                        <li><a href="<?= site_url('careers') ?>">CAREERS</a></li>
-                        <li><a href="<?= site_url('testimonials') ?>">TESTIMONIALS</a></li>
-                        <li><a href="<?= site_url('privacy-policy') ?>">TERMS</a></li>
-                        <li><a href="<?= site_url('disclaimer') ?>">DISCLAIMER</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-6 last_news hide">
-                    <h3>LAST NEWS</h3>
-                    <!--<hr>-->
-                    <br>
-                    <?php foreach ($blogs as $blog) { ?>
-                        <div class="latest_news">
-                            <div class="news">
-                                <div style="background-image: url(<?= base_url('uploads/blog_images/' . $blog->image) ?>);">
-                                    <span><?= date('Y-m-d', strtotime($blog->date_added)) ?></span>
-                                </div>
-                            </div>
-                            <div class="news-content">
-                                <a href="#">
-                                    <h5><?= strlen(strip_tags($blog->title)) < 10 ? strip_tags($blog->title) : substr((strip_tags($blog->title)),
-                                                0, 10) . '...' ?></h5>
-                                    <p><?= strlen(strip_tags($blog->content)) < 30 ? strip_tags($blog->content) : substr(strip_tags($blog->content),
-                                                0, 30) . '...' ?></p>
-                                </a>
-                            </div>
-                        </div>
-                    <?php } ?>
-                </div>
-                <div class="col-md-4 col-sm-4 social">
-                    <h3>CONNECT WITH US</h3>
-                    <!--<hr>-->
-                    <br>
-                    <!-- <p><?= $stay_in_touch->content ?></p><br> -->
-                     <form id="contact-form" action="<?=base_url('home/sendEmail');?>" name="contact-form" method="POST" onsubmit="return save_landing_pageinfo('contact-form');">
-    <input type="hidden" name="property_id" value="<?= $property->id ?>">
-                            <div class="form-group col-md-12">
-                                <div class="input-group" >
-                                    <div class="input-group-addon"><i
-                                                class="fa fa-user form-ico" style="width: 29px;"
-                                                aria-hidden="true"></i></div>
-                                    <input type="text" class="form-control"
-                                           name="name"
-                                           placeholder="Your Name">
-                                </div>
-                                <label for="fname" generated="true"
-                                       class="error"></label>
-                            </div>
-                            <br>
-                           <div class="form-group col-md-12" style="margin-top: -12px;" >
-                                
-                                <input type="tel" placeholder="Phone*"
-                                       name="phone" class="validate"
-                                       id="contctform-phone3" style="display: block;width: 100%;
-height: 40px;
-font-size: 14px;
-line-height: 1.42857143;
-background-color: #fff;
-border: 1px solid #ccc;
-border-radius: 4px;" required>
-                                <input type="hidden" name="countrycode" id="cplusm" value=""> 
-
-                            </div>
-
-                            <center>
-                            <button type="submit"
-                                    class="btn btn-default form-btn">Submit
-                            </button>
-                            </center>
-                        </form>
-                    <div class="clearfix"></div>
-                    <ul>
-                        <li><a target="_blank" href="<?= $social_links->twitter ?>"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a target="_blank" href="<?= $social_links->facebook ?>"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a target="_blank" href="<?= $social_links->youtube ?>" >
-                            <i class="fa fa-youtube" ></i></a></li>
-                        <li><a target="_blank" href="<?= $social_links->instagram ?>"><i
-                                        class="fa fa-instagram"></i></a></li>
-                        <li><a target="_blank" href="<?= $social_links->dribble ?>"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                   <a href="<?=base_url();?>">
-                <img src="<?= base_url('assets/img/footer-logo.png') ?>" class="img-responsive center-block" alt="footerlogo" discription="full basket Footer logo"></a>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row copyright">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <p>&copy; <span style="color: #fff;">Full Basket Property Services Pvt Ltd</span>, All rights reserved 2019</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <ul>
-                                <!--
-                                <li><a href="<?= site_url() ?>">Home</a></li>
-                                <li><a href="http://fullbasketproperty.com/listing">Property</a></li>
-                                <li><a href="#">Faq</a></li>
-                                <li><a href="http://fullbasketproperty.com/contact">Contact</a></li>
-                            -->
-                            
-                            <li>Designed & Developed by</li>
-                            <li><a href="https://secondsdigital.com/web-development-services-in-bangalore/">Seconds Digital Solutions</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+        <?php $this->load->view('footer');?>
 
 
         <div class="offcanvas-menu wow">

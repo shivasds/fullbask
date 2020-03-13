@@ -9,6 +9,39 @@
 .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel] {
     padding-left: 25px!important;
 }
+.social-top .fa-linkedin:hover {
+    background-color: #0da1bb ;
+    color:white;
+    border-radius:100%;
+ 
+}
+
+@media (max-width: 1600px) {
+.phone{
+    width: 109%;
+}
+}
+@media (max-width: 414px) {
+.phone{
+    width: 97%;
+}
+}
+
+/* @media (max-width: 550px){
+.phone {
+    width: 108%;
+}
+}
+@media (max-width: 850px){
+.phone {
+    width: 76%;
+}
+}
+@media (max-width: 1025px){
+.phone {
+    width: 109%;
+}
+} */
 </style>
 <div class="modal fade" id="submitContact">
     <div class="modal-dialog">
@@ -129,9 +162,7 @@
                    <form id="contact-form" action="" name="contact-form" method="POST" onsubmit="return save_landing_pageinfo('contact-form');">
                      
     <input type="hidden" name="property_id" value="<?= $property->id ?>">
-                                                                        <div class="form-group col-md-12" style="
-    margin-top: 43px;
-">
+                                                                        <div class="form-group col-md-12" style="margin-top: 43px;">
                                                                             <div class="input-group">
                                                                                 <div class="input-group-addon"><i
                                                                                             class="fa fa-user form-ico"
@@ -143,25 +174,17 @@
                                                                             <label for="fname" generated="true"
                                                                                    class="error"></label>
                                                                         </div>
-                                                                       <div class="form-group col-md-12" style="margin-bottom: 35px">
-                                                                            
-                                                                            <input type="tel" placeholder=" " style="    display: block;
-    
-                                                                                        height: 37px;
-                                                                                        font-size: 14px;
-                                                                                        line-height: 1.42857143;
-                                                                                        background-color: #fff;
-                                                                                            padding: 18px 186px;
-                                                                                        border: 1px solid #ccc;
-                                                                                        border-radius: 4px;" 
-                                                                                   name="phone" class="validate"
-                                                                                   id="contctform-phone3" required>
-                                                                            <input type="hidden" name="countrycode" id="cplusm" value="">
-                                                                            
+                                                                       <div class="form-group col-md-12" style="margin-bottom:35px">
+                                                                       <div class="input-group">
+                                                                           <div class="input-group-addon"><i class="fa fa-phone"></i></div>
+                                                                            <input type="tel" class="" placeholder=" " style="display: block;height: 37px;    width: 100%; font-size: 14px; line-height: 1.42857143; background-color: #fff; padding: 17px 48px; border: 1px solid #ccc; border-radius: 4px;" 
+                                                                                   name="phone" class="validate" id="contctform-phone3" required>
+                                                                                   <input type="hidden" name="countrycode" id="cplusm" value="">
+                                                                             </div>
 
                                                                         </div>
 
-                                                                    
+                                                                
 
                                                                         <button type="submit"
                                                                                 class="btn btn-default form-btn">Submit
@@ -285,13 +308,8 @@
                            <div class="form-group col-md-12" style="">
                                 
                                 <input type="tel" placeholder="Phone*"
-                                       name="phone" class="validate"
-                                       id="contctform-phone3" style="display: block;height: 34px;
-                                       font-size: 14px;width: 100%;
-                                        line-height: 1.42857143;
-                                        background-color: #fff;
-                                        border: 1px solid #ccc;
-                                        border-radius: 4px;margin-left:72px;" required>
+                                       name="phone" class="phone validate"
+                                       id="contctform-phone3" style="display: block;height: 34px; font-size: 14px; line-height: 1.42857143; background-color: #fff; border: 1px solid #ccc; border-radius: 4px;margin-left:72px;" required>
                                 <input type="hidden" name="countrycode" id="cplusm" value=""> 
 
                             </div>
@@ -304,24 +322,7 @@
                     </div>
                   </form>
                 <div class="clearfix"></div>
-                <ul>
-                    <li><a target="_blank" href="<?= $social_links->twitter ?>"style="
-                    margin-right: 4px;
-                "><i class="fa fa-twitter"></i></a></li>
-                                    <li><a target="_blank" href="<?= $social_links->facebook ?>"style="
-                    margin-right: 4px;
-                "><i class="fa fa-facebook"></i></a></li>
-                                    <li><a target="_blank" href="<?= $social_links->youtube ?>"style="
-                    margin-right: 4px;
-                "><i class="fa fa-youtube"></i></a></li>
-                                    <li><a target="_blank" href="<?= $social_links->instagram ?>"style="
-                    margin-right: 4px;
-                "><i class="fa fa-instagram"></i></a></li>
-                                    <li><a target="_blank" href="<?= $social_links->dribble ?>"style="
-                    margin-right: 4px;
-                "><i class="fa fa-linkedin"></i></a></li>
-                    <a class="btn btn-primary pull-right" style="border-radius: 13px;background: none;margin-top: 9px;color: black;"data-toggle="modal" href="#submitcallback">Call Back</a>
-                </ul>
+               <br>
                 <a href="<?=base_url();?>">
                 <img src="<?= base_url('assets/img/footer-logo.png') ?>" class="img-responsive center-block" alt="footerlogo" discription="full basket Footer logo"></a>
                <!--  <div class="foot_link">
@@ -331,6 +332,28 @@
                         <li><a href="#">Safe link</a></li>
                     </ul>
                 </div> -->
+                <div class="clearfix"></div>
+                <div class="social-top">
+                <ul style="text-align: center;">
+                    <li><a target="_blank" href="<?= $social_links->twitter ?>"style=" margin-right: 4px;">
+                       <i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li><a target="_blank" href="<?= $social_links->facebook ?>"style="margin-right: 4px; ">
+                       <i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li><a target="_blank" href="<?= $social_links->youtube ?>"style="margin-right: 4px; ">
+                       <i class="fa fa-youtube"></i></a>
+                    </li>
+                    <li><a target="_blank" href="<?= $social_links->instagram ?>"style="margin-right: 4px; ">
+                        <i class="fa fa-instagram"></i></a>
+                    </li>
+                     <li><a target="_blank" href="<?= $social_links->dribble ?>"style="margin-right: 4px; ">
+                        <i class="fa fa-linkedin"></i></a>
+                    </li>
+
+                    <a class="btn btn-primary" style="border-radius: 13px;background: none;margin-top: 9px;color: black;"data-toggle="modal" href="#submitcallback">Call Back</a>
+                </ul>
+                </div>
             </div>
         </div>
     </div>

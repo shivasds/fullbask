@@ -87,7 +87,7 @@
                     </ul>
                 </div>
                 <div id="mySidenav" class="sidenav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="javascript:void(0)" class="closebtn" data-dismiss="modal" onclick="closeNav()">&times;</a>
                     <a href="<?= site_url() ?>">HOME</a>
                     <a href="<?= site_url('listing') ?>">PROPERTIES</a>
                     <a href="<?= site_url('about') ?>">ABOUT</a>

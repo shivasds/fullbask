@@ -1,13 +1,9 @@
-html,body{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+body {
     overflow-x: hidden;
-    }
-/* .container{
-    width:auto;
-} */
+    background-color: #fff;
+    font-family: roboto;
+}
+
 .top-header {
     padding: 10px 0;
     color: #676568;
@@ -385,7 +381,7 @@ a.google:hover {
     border-bottom: 1px dashed #b5b0b0;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .down {
@@ -935,7 +931,6 @@ footer li a:hover {
     color: #777;
     transition: all 0.5s ease;
 }
-
 .sidenav {
     height: 100%;
     width: 100%;
@@ -952,21 +947,20 @@ footer li a:hover {
 
 .sidenav .closebtn {
     position: absolute;
-    top: 0;
+    top: 46px;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 20px 19px 0px 32px;
     text-decoration: none;
     font-size: 17px;
     color: #818181;
     display: block;
     transition: 0.3s;
 }
-
 .dot {
     background: #fff;
     width: 20px;
@@ -2724,10 +2718,6 @@ a.bld-link{text-decoration: none; color: #fff;}
 
 
 @media (max-width: 1199px) {
-    .footerphone input{
-        width: 111%;
-    }
-
     .achievemnts {
         width: 160px;
     }
@@ -3015,10 +3005,6 @@ a.bld-link{text-decoration: none; color: #fff;}
 }
 
 @media (max-width: 480px) {
-    .footerphone input{
-        width: 111%;
-    }
-    
     .contact {
         display: none;
     }
@@ -3040,10 +3026,6 @@ a.bld-link{text-decoration: none; color: #fff;}
 }
 
 @media (min-width: 320px) and (max-width: 1024px) {
-    .footerphone input{
-        width: 111%;
-    }
-    
     .blog-sticky{
         right: -270px;
         display: block;
@@ -3059,26 +3041,3 @@ a.bld-link{text-decoration: none; color: #fff;}
     }
 }
 
-
-::-webkit-scrollbar {
-	width: 10px;
-	overflow:auto;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-	/* box-shadow: blue;  */
-	background: #d4d5d6; 
-	
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-	background: #4fb7bc; 
-	
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-	background: #4fb7bc; 
-  }
