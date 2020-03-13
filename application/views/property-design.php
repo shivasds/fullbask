@@ -21,8 +21,8 @@
         <meta name="twitter:site" content="@Fullbasketproperty"/>
         <meta name="twitter:title" content="<?= $property->title ? $property->title : '' ?>"/>
         <meta name="twitter:description" content="<?= substr(strip_tags($property->description), 0, 1000) ?>"/>
-        <meta name="twitter:image" content="<?= base_url("uploads/$property->slug/$property->image") ?>"/>
-        <script type='text/javascript' src='<?= base_url() ?>assets/property/unitegallery/js/jquery-11.0.min.js'></script>
+        <!-- <meta name="twitter:image" content="<?= base_url("uploads/$property->slug/$property->image") ?>"/>
+        <script type='text/javascript' src='<?= base_url() ?>assets/property/unitegallery/js/jquery-11.0.min.js'></script> -->
         <link rel="shortcut icon" type="image/x-icon" href="<?= site_url('') ?>assets/img/logo.png"/>
 
         <link rel="canonical" href="<?= current_url() ?>">
@@ -97,11 +97,30 @@
     };
     </script>
     <style>
-        /* .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 .selected-flag {
-    width: 82px!important;
-    background-color: #53abbd!important;
-    color: white;
+        
+@media (max-width: 1600px) {
+.phone{
+    margin-left: 0px!important;
+       width: 100%!important;
+    height: 41px!important;
+}
+}
+/* .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel] {
+    padding-left: 84px!important;
 } */
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel] {
+    padding-left: 90px!important;
+}
+
+@media (max-width: 414px) {
+.phone{
+    width: 97%;
+}
+}
+   #contact-form .selected-flag {
+    background: #53ABBD !important;
+   
+}
     #section-id-1507611922 {
         padding-top: 0px;
         /* padding-bottom: 80px; */
@@ -514,8 +533,7 @@
                                 <h1>
                                     <img class="sp-default-logo" src="<?=base_url();?>assets/img/footer-logo.png" style="height: 66px;width: 80px;"> 
                                     <img class="sp-retina-logo" src="<?=base_url();?>assets/img/footer-logo.png"
-                                         style="    height: 57px;
-    width: 60px !important;">
+                                         style=" height: 57px;width: 60px !important;">
 
                                     
                                 </h1>
@@ -545,27 +563,27 @@
                                     </li>
                                     <li class="sp-menu-item">
                                                                             <?php
-    if(($logos = $this->properties_model->getWhere(array('property_id' => $property->id),
-                                                    'property_logo')) != null)
-    {
-        $logos=json_decode( json_encode($logos), true);
-        //builder_image;
-        ?>
-    <img class="sp-default-logo" src="<?= base_url().'uploads/'.$property->slug.'/logos/'.$map[0] ?>" style="    margin-left: 113px;
-    margin-right: -83px;"> 
-        <?php
+                            if(($logos = $this->properties_model->getWhere(array('property_id' => $property->id),
+                                                                            'property_logo')) != null)
+                            {
+                                $logos=json_decode( json_encode($logos), true);
+                                //builder_image;
+                                ?>
+                            <img class="sp-default-logo" src="<?= base_url().'uploads/'.$property->slug.'/logos/'.$map[0] ?>" style="    margin-left: 113px;
+                            margin-right: -83px;"> 
+                                <?php
 
-    }
-    else
-    {
-        $map[0]= $property->builder_image;
-    ?>
+                            }
+                            else
+                            {
+                                $map[0]= $property->builder_image;
+                            ?>
 
-        <img class="sp-default-logo" src="<?= base_url().'uploads/builders/'.$map[0] ?>" style="    margin-left: 113px;
-    margin-right: -83px;"> 
+                                <img class="sp-default-logo" src="<?= base_url().'uploads/builders/'.$map[0] ?>" style="    margin-left: 113px;
+                            margin-right: -83px;"> 
 
-    <?php
-    }
+                            <?php
+                            }
 
 
                                     ?>
@@ -1801,7 +1819,7 @@
                                                                        <div class="form-group col-md-12">
                                                                             
                                                                             <input type="tel" placeholder="Phone*"
-                                                                                   name="phone" class="validate"
+                                                                                   name="phone" class="phone validate"
                                                                                    id="contctform-phone3" required>
                                                                             <input type="hidden" name="countrycode" id="cplusm" value="">
                                                                             <span class="hide valid-msg">✓ Valid</span>
