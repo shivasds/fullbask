@@ -142,3 +142,63 @@ ERROR - 2020-03-13 16:06:23 --> 404 Page Not Found:
 ERROR - 2020-03-13 16:06:23 --> 404 Page Not Found: 
 ERROR - 2020-03-13 16:06:23 --> 404 Page Not Found: 
 ERROR - 2020-03-13 16:06:23 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:17 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:17 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:17 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:17 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:17 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:17 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:17 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:17 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:17 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:18 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:18 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:18 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:18 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:18 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:18 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:19 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:19 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:19 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:19 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:19 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:20 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:20 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:20 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:20 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:20 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:20 --> 404 Page Not Found: 
+ERROR - 2020-03-13 12:13:30 --> Severity: Warning --> mysqli::real_connect(): (HY000/1102): Incorrect database name ' ' F:\FBP.com\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2020-03-13 12:13:30 --> Unable to connect to the database
+ERROR - 2020-03-13 12:13:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/1102): Incorrect database name ' ' F:\FBP.com\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2020-03-13 12:13:31 --> Unable to connect to the database
+ERROR - 2020-03-13 12:13:40 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) F:\FBP.com\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2020-03-13 12:13:40 --> Unable to connect to the database
+ERROR - 2020-03-13 12:13:41 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) F:\FBP.com\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2020-03-13 12:13:41 --> Unable to connect to the database
+ERROR - 2020-03-13 16:43:56 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:56 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:56 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:56 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:56 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:56 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:56 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:57 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:57 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:57 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:57 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:57 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:57 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:57 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:57 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:57 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:57 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:58 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:58 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:58 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:58 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:58 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:58 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:58 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:58 --> 404 Page Not Found: 
+ERROR - 2020-03-13 16:43:58 --> 404 Page Not Found: 
