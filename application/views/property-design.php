@@ -2501,7 +2501,7 @@ jQuery(document).ready(function () {
     jQuery(document).on("scroll", onScroll);
     
     //smoothscroll
-    jQuery('a[href^="#"]').on('click', function (e) {
+    jQuery('.sp-megamenu-parent a').on('click', function (e) {
         
         e.preventDefault();
         jQuery(document).off("scroll");
@@ -2526,6 +2526,7 @@ jQuery(document).ready(function () {
 function onScroll(event){
     var scrollPos = jQuery(document).scrollTop();
     jQuery('.sp-megamenu-parent a').each(function () {
+
         var currLink = jQuery(this);
         // console.log(currLink);
         var refElement = jQuery(currLink.attr("href"));

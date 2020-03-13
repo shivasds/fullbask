@@ -250,14 +250,14 @@ $(document).ready(function () {
        // return false;
     })
 })
-$(window).scroll(function () {
-    if ($(window).scrollTop() >= 200) {
-        $('.sub-header').addClass('fixed-header');
-    }
-    else {
-        $('.sub-header').removeClass('fixed-header');
-    }
-});
+// $(window).scroll(function () {
+//     if ($(window).scrollTop() >= 200) {
+//         $('.sub-header').addClass('fixed-header');
+//     }
+//     else {
+//         $('.sub-header').removeClass('fixed-header');
+//     }
+// });
 // Can also be used with $(document).ready()
 $(document).ready(function () {
     $('.flexslider').flexslider({

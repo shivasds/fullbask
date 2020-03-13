@@ -133,8 +133,8 @@ if($x==1)
             <div class="col-sm-4 col-md-4 col-lg-4">
                        
                             <div class="card">
-                                <div class="card-link" data-toggle="modal" data-target="#exampleModal">
-                                  <img class="card-img-top" style="height: 250px;background-image:url(<?=base_url('uploads/achievements/').$data['image'];?>);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;">
+                                <div class="card-link" data-toggle="modal" data-target="#exampleModal" onclick="geturl(this)">
+                                  <img class="card-img-top" comment="<?=$data['comment'];?>" des="<?=$data['image_desc'];?>" style="height: 250px;background-image:url(<?=base_url('uploads/achievements/').$data['image'];?>);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;">
                                 </div>
                                 <div class="card-block" style="min-height: 270px;margin-bottom: 5px;position: relative;">
                                 <div class="card-link">
@@ -172,8 +172,8 @@ else
             <div class="col-sm-4 col-md-4 col-lg-4">
                        
                             <div class="card">
-                                <div class="card-link">
-                                  <img class="card-img-top" style="height: 250px;background-image:url(<?=base_url('uploads/achievements/').$data['image'];?>);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;">
+                                <div class="card-link" data-toggle="modal" data-target="#exampleModal" onclick="geturl(this)">
+                                  <img class="card-img-top" comment="<?=$data['comment'];?>" des="<?=$data['image_desc'];?>" style="height: 250px;background-image:url(<?=base_url('uploads/achievements/').$data['image'];?>);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;">
                                  </div>
                                 <div class="card-block" style="min-height: 270px;margin-bottom: 5px;position: relative;">
                                 <div  class="card-link">
@@ -220,12 +220,13 @@ $i--;
                                             </button>
                                         </div>
                                         <div class="modal-body">
-                                            <img class="card-img-top" style="height: 250px;background-image:url(<?=base_url('uploads/achievements/').$data['image'];?>);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;">
+                                            <img class="card-img-top" id="modelimg" src="" style="height: 250px;background-size: contain;width: 100%;background-repeat: no-repeat;height: 280px;background-position: center;">
                                             </a>
                                             <div class="card-block" style="min-height: 170px;margin-bottom: 5px;position: relative;">
                                             <div class="card-link">
-                                                <h4 class="card-title mt-3"></h4><h3><?=$data['image_desc'];?></h3>
-                                                <?=$data['comment'];?>
+                                                <h4 class="card-title mt-3"></h4>
+                                                <h3 id="imgDes"></h3>
+                                                <span id="imgcomment"></span>
 
                                             </div>
                                             </div>
@@ -238,3 +239,19 @@ $i--;
                                 </div>
                             </div>
                             <!-- Modal close -->
+<script>
+   
+    function geturl(id){
+        var imgTag= $(id).html();
+        console.log(imgTag)
+        var bg = $(imgTag).css('background-image');
+        bg = bg.replace('url(','').replace(')','').replace(/\"/gi, "");
+        $("#modelimg").attr("src",bg)
+        $("#imgcomment").html($(imgTag).attr("comment"))
+        
+        $("#imgDes").html($(imgTag).attr("des"))
+        
+        
+    }
+
+</script>
