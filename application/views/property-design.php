@@ -27,7 +27,7 @@
 
         <link rel="canonical" href="<?= current_url() ?>">
         <link rel="icon" href="https://www.fullbasketproperty.com/assets/img/favicon.ico" type="image/gif" sizes="16x16">
-    <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/jquery.min.js"></script> -->
         <link rel="manifest" href="http://orchards.realatte.com/manifest.json">
         <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/bootstrap-select.min.js"></script>
         <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/copy_bootstrap_min.js"></script>
@@ -97,7 +97,15 @@
     };
     </script>
     <style>
-
+        /* .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 .selected-flag {
+    width: 82px!important;
+    background-color: #53abbd!important;
+    color: white;
+} */
+    #section-id-1507611922 {
+        padding-top: 0px;
+        /* padding-bottom: 80px; */
+    }
         
     .morecontent span {
         display: none;
@@ -648,7 +656,7 @@
                                     </div>
                                 </div>   
                                 <br>
-                             <div class="col-md-12">
+ <div class="col-md-12">
 <div class="col-sm-3 col-md-3 col-lg-3" style="padding: 7px;">
 <div class="fb-like" data-href="https://www.facebook.com/fullbasketpropertypage/" data-width="10px" data-layout="standard" data-action="like" data-size="small" data-share="false"></div>
 </div>
@@ -663,15 +671,13 @@
 </div>
 <div class="col-sm-3 col-md-3 col-lg-3">
     <h2>
-                                <div style="/*float: right*/" class="sharethis-inline-share-buttons"></div>
-                                <a target="_blank" href="<?= site_url(url_title($property->city_name)."/".( url_title($property->area) )."/$property->slug")?>" class="btn btn-primary btn-block" style="border-radius: 0;background-color: white;border-color: white;height: 33px;"></a>
-                                </h2>
+      <div style="/*float: right*/" class="sharethis-inline-share-buttons"></div>
+         <a target="_blank" href="<?= site_url(url_title($property->city_name)."/".( url_title($property->area) )."/$property->slug")?>" class="btn btn-primary btn-block" style="border-radius: 0;background-color: white;border-color: white;height: 33px;"></a>
+       </h2>
 </div>
 </div>
 <div class="clearfix"></div>
-                                
-
-             <section id="section-id-1507611922"  class="sppb-section   rooms-suits resort-title-heading wow">
+                <section id="section-id-1507611922"  class="sppb-section   rooms-suits resort-title-heading wow">
                                     <div class="sppb-row-container">
                                         <div class="sppb-section-title sppb-text-center">
                                             <h1 class="sppb-title-heading delay-10s animated wow fadeInDown animated"
@@ -1554,7 +1560,7 @@
                                        class="builder_projects">
                                         <div class="col-md-4">
                                             <img src="<?= base_url("uploads/$project->slug/$project->image") ?>"
-                                                 class="img-responsive" style="padding: 0;width: 260px;background-position: 50% 50%;position: relative;height:260px;" alt="<?=$project->alt?>"  
+                                                 class="img-responsive" style="padding: 0;width: 100%;background-position: 50% 50%;position: relative;height:260px;" alt="<?=$project->alt?>"  
                                                  title="<?=$project->image_desc?>"> 
                                             <div class="builder_proj">
                                                 <h4><?= $project->title ?></h4>
