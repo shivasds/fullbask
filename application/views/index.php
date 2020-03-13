@@ -74,6 +74,11 @@ $(document).ready(function(){
 
 
 <div id="carousel" class="carousel slide home-slider visible-lg-block visible-xs-block  hidden-lg" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+           
+        </ol>
     <div class="carousel-inner ">
         <?php $i = 0;
         foreach ($mobilesliders as $slider) {
@@ -84,17 +89,24 @@ $(document).ready(function(){
         ?>
             <div class="<?= $i ? '' : 'active' ?> item fadeInRight animated"
                  style="background: url(<?= base_url('uploads/sliders/' .  $slider->image) ?>);">
-                <div class="carousel-caption fadeInUp animated">
-
-                    
+                 <div class="carousel-caption fadeInUp animated">
                     <h1><b><?= $slider->title ?></b></h1>
                     <p><?= $slider->heading ?></p>
-                </div>
+                 </div>
             </div>
             <?php $i++;
         } ?>
     </div>
+    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
+
 
      <!-- <div id="carousel" class="carousel slide home-slider hidden-xs-block hidden-xs " data-ride="carousel">
         <div class="carousel-inner">
@@ -115,7 +127,11 @@ $(document).ready(function(){
 
   <!-- <h2>Carousel Example</h2>   -->
   <div id="myCarousel" class="carousel slide home-slider hidden-xs-block hidden-xs" data-ride="carousel">
-  
+  <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+           
+        </ol>
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <?php
@@ -138,7 +154,12 @@ $(document).ready(function(){
         <?php }$i++;
         } ?>
     </div> 
-
+    <a class="carousel-control-prev" role="button" data-slide="prev" onclick="$('#myCarousel').carousel('prev')">
+    <
+    </a>
+  <a class="carousel-control-next" role="button" data-slide="next" onclick="$('#myCarousel').carousel('next')">
+    >
+  </a>
    
   </div>
 
