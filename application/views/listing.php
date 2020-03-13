@@ -1,6 +1,6 @@
 !--Contact Builder Form-->
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <style>
  
 #toggle
@@ -429,7 +429,7 @@ var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
 var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
 s1.async=true;
-s1.src='http://embed.tawk.to/5c877834c37db86fcfcd4ad0/default';
+s1.src='https://embed.tawk.to/5c877834c37db86fcfcd4ad0/default';
 s1.charset='UTF-8';
 s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
