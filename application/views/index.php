@@ -60,7 +60,15 @@ height: 70%;
     font-size: 15px;
     line-height: 25px;
 }
-  
+
+.mobile.carousel-control {
+    height: 80%;
+   
+}
+#carousel .carousel-indicators {
+    
+    bottom: 115px;
+} 
  
 </style>
 <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
@@ -81,7 +89,7 @@ $(document).ready(function(){
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
 
-      <div class="carousel-inner ">
+    <div class="carousel-inner ">
         <?php $i = 0;
         foreach ($mobilesliders as $slider) {
             $img=array();
@@ -100,11 +108,11 @@ $(document).ready(function(){
         } ?>
     </div>
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#carousel" data-slide="prev">
+    <a class="left mobile carousel-control" href="#carousel" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control" href="#carousel" data-slide="next">
+    <a class="right mobile carousel-control" href="#carousel" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
     </a>
