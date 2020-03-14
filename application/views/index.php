@@ -69,6 +69,15 @@ height: 70%;
     
     bottom: 115px;
 } 
+
+.city-section{
+    margin-top: 0px;
+}
+@media (max-width: 414px) {
+.city-section{
+    margin-top: -100px;
+}
+}
  
 </style>
 <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
@@ -177,7 +186,7 @@ $(document).ready(function(){
     </a>
   </div>
 </div>
-
+<div class="clearflix"></div>
 
 
 <!-- contact form start -->
@@ -220,7 +229,7 @@ $(document).ready(function(){
 </div>
 
 <!-- contact form end -->
-<div class="row city-section" style="margin-top:-70px">
+<div class="row city-section" >
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
