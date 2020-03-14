@@ -73,13 +73,15 @@ $(document).ready(function(){
 </script>
 
 
-<div id="carousel" class="carousel slide home-slider visible-lg-block visible-xs-block  hidden-lg" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel" data-slide-to="1"></li>
-           
-        </ol>
-    <div class="carousel-inner ">
+<div id="carousel" class="carousel slide visible-lg-block visible-xs-block  hidden-lg" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+      <div class="carousel-inner ">
         <?php $i = 0;
         foreach ($mobilesliders as $slider) {
             $img=array();
@@ -97,14 +99,16 @@ $(document).ready(function(){
             <?php $i++;
         } ?>
     </div>
-    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#carousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 </div>
 
 
@@ -125,14 +129,14 @@ $(document).ready(function(){
         </div>
     </div>  -->
 
-  <!-- <h2>Carousel Example</h2>   -->
-  <div id="myCarousel" class="carousel slide home-slider hidden-xs-block hidden-xs" data-ride="carousel">
-  <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-           
-        </ol>
-    <!-- Wrapper for slides -->
+    <div id="myCarousel" class="carousel slide hidden-xs-block hidden-xs" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
     <div class="carousel-inner">
         <?php
         $i = 0;
@@ -153,15 +157,19 @@ $(document).ready(function(){
       </div> 
         <?php }$i++;
         } ?>
-    </div> 
-    <a class="carousel-control-prev" role="button" data-slide="prev" onclick="$('#myCarousel').carousel('prev')">
-    <
+    </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
     </a>
-  <a class="carousel-control-next" role="button" data-slide="next" onclick="$('#myCarousel').carousel('next')">
-    >
-  </a>
-   
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
+</div>
+
 
 
 <!-- contact form start -->
