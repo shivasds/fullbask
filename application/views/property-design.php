@@ -818,7 +818,7 @@
                                         
                     <center>
                         <h2 class="sppb-title-heading delay-10s animated wow fadeInDown animated"
-                                                style="visibility: visible; animation-name: fadeInDown;"> Project Snapshot
+                                                style="visibility: visible; animation-name: fadeInDown; margin-top: 26px;"> Project Snapshot
                                             </h2></center>
                                             <div class="underline">&nbsp;</div>
                                             <br/><br/>
