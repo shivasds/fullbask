@@ -61,8 +61,8 @@
                                 <li><a href="<?=site_url('contact')?>">CONTACT</a></li>
                                 <li class="city_select">
                                     <div class="btn-group pull-right">
-                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <?= $this->session->userdata('city') ? htmlentities($this->session->userdata('city')) : 'Select Location' ?> <span class="fa fa-level-down pull-right" style="margin-top: 3px;"></span>
+                                        <button type="button" class="btn btn-city dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <?= $this->session->userdata('city') ? htmlentities($this->session->userdata('city')) : 'Select Location' ?> <span class="fa fa-level-down" style="margin-top: 3px;margin-left: 26px;"></span>
                                         </button>
                                         <ul class="dropdown-menu">
                                             <li><a href="<?= site_url('listing') ?>">All Cities</a></li>
@@ -75,7 +75,7 @@
                             </ul>
                         </div>
                         
-                        <div class="col-xs-12 col-sm-12 col-md-3">
+                        <div class="col-xs-12 col-sm-12 col-md-3" style="    margin-top: 5px;">
                                 <div class="mobile-view">
                                      <!-- <div class="contact">
                                     <i class="fa fa-paper-plane pull-left" style="color:black"></i> <span class="pull-left">&nbsp;<a href="tel:<?= (isset($cityDetails->phone) && $cityDetails->phone) ? $cityDetails->phone : $all_cities->phone ?>"style=" color: black"><?= (isset($cityDetails->phone) && $cityDetails->phone) ? $cityDetails->phone : $all_cities->phone ?></a> <br><a style="color: black" href="mailto:<?= (isset($cityDetails->email) && $cityDetails->email) ? $cityDetails->email : $all_cities->email ?>"><?= (isset($cityDetails->email) && $cityDetails->email) ? $cityDetails->email : $all_cities->email ?></a></span>

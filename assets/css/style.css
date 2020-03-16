@@ -89,6 +89,7 @@ body {
 
 .navbar-nav {
     width: 100%;
+    margin: 0 0 0 80px;
 }
 
 .navbar-default .navbar-nav > .active > a {
@@ -112,14 +113,14 @@ body {
 }
 
 .city_select {
-    background: url(../img/city-bg.png);
-    float: right !important;
+    /* background: url(../img/city-bg.png); */
+    float: left!important;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.city_select .btn-default {
-    color: #fff;
+.city_select .btn-city {
+    color: #0e82d4;
     background-color: transparent;
     border-color: transparent;
     text-transform: uppercase;
@@ -129,14 +130,18 @@ body {
     width: 241px;
 }
 
-.city_select .btn-default:active:hover, .city_select .btn-default.active:hover, .city_select .open > .dropdown-toggle.btn-default:hover, .city_select .btn-default:active:focus, .city_select .btn-default.active:focus, .city_select .open > .dropdown-toggle.btn-default:focus, .city_select .btn-default:active.focus, .city_select .btn-default.active.focus, .city_select .open > .dropdown-toggle.btn-default.focus {
-    color: #fff;
+.city_select .btn-city:active:hover, .city_select .btn-city.active:hover, .city_select .open > .dropdown-toggle.btn-city:hover, .city_select .btn-city:active:focus, .city_select .btn-city.active:focus, .city_select .open > .dropdown-toggle.btn-city:focus, .city_select .btn-city:active.focus, .city_select .btn-city.active.focus, .city_select .open > .dropdown-toggle.btn-city.focus {
+    color: #1367a3;
     background-color: transparent;
     border-color: transparent;
     box-shadow: none;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
+.btn-group.open .dropdown-toggle {
+    box-shadow: inset 0 0px 0px rgba(0, 0, 0, .125);
+}
+
+.navbar-city .navbar-nav > li > a:hover {
     background-color: #fff;
 }
 
