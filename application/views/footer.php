@@ -16,6 +16,7 @@
  
 }
 
+
 @media (max-width: 1600px) {
 .phone{
     width: 109%;
@@ -25,6 +26,9 @@
 .phone{
     width: 97%;
 }
+}
+input.separate-dial-code .selected-dial-code {
+   color: #1f1d1d !important;
 }
 
 /* @media (max-width: 550px){

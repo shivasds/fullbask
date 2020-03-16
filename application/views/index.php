@@ -60,7 +60,24 @@ height: 70%;
     font-size: 15px;
     line-height: 25px;
 }
-  
+
+.mobile.carousel-control {
+    height: 80%;
+   
+}
+#carousel .carousel-indicators {
+    
+    bottom: 115px;
+} 
+
+.city-section{
+    margin-top: 0px;
+}
+@media (max-width: 414px) {
+.city-section{
+    margin-top: -100px;
+}
+}
  
 </style>
 <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
@@ -73,12 +90,14 @@ $(document).ready(function(){
 </script>
 
 
-<div id="carousel" class="carousel slide home-slider visible-lg-block visible-xs-block  hidden-lg" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel" data-slide-to="1"></li>
-           
-        </ol>
+<div id="carousel" class="carousel slide visible-lg-block visible-xs-block  hidden-lg" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
     <div class="carousel-inner ">
         <?php $i = 0;
         foreach ($mobilesliders as $slider) {
@@ -97,14 +116,16 @@ $(document).ready(function(){
             <?php $i++;
         } ?>
     </div>
-    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+    <!-- Left and right controls -->
+    <a class="left mobile carousel-control" href="#carousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right mobile carousel-control" href="#carousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 </div>
 
 
@@ -125,14 +146,14 @@ $(document).ready(function(){
         </div>
     </div>  -->
 
-  <!-- <h2>Carousel Example</h2>   -->
-  <div id="myCarousel" class="carousel slide home-slider hidden-xs-block hidden-xs" data-ride="carousel">
-  <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-           
-        </ol>
-    <!-- Wrapper for slides -->
+    <div id="myCarousel" class="carousel slide hidden-xs-block hidden-xs" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
     <div class="carousel-inner">
         <?php
         $i = 0;
@@ -153,15 +174,19 @@ $(document).ready(function(){
       </div> 
         <?php }$i++;
         } ?>
-    </div> 
-    <a class="carousel-control-prev" role="button" data-slide="prev" onclick="$('#myCarousel').carousel('prev')">
-    <
+    </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
     </a>
-  <a class="carousel-control-next" role="button" data-slide="next" onclick="$('#myCarousel').carousel('next')">
-    >
-  </a>
-   
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
+</div>
+<div class="clearflix"></div>
 
 
 <!-- contact form start -->
@@ -204,7 +229,7 @@ $(document).ready(function(){
 </div>
 
 <!-- contact form end -->
-<div class="row city-section" style="margin-top:-70px">
+<div class="row city-section" >
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
@@ -776,10 +801,13 @@ s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
+
+ 
 <!--End of Tawk.to Script-->
 
 <!-- WhatsHelp.io widget -->
 <script type="text/javascript">
+
     (function () {
         var options = {
             whatsapp: "+918342063684 ", // WhatsApp number

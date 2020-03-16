@@ -117,13 +117,17 @@
     width: 97%;
 }
 }
-   #contact-form .selected-flag {
-    background: #53ABBD !important;
+#contact-form .input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
    
-}
-    #section-id-1507611922 {
-        padding-top: 0px;
-        /* padding-bottom: 80px; */
     }
         
     .morecontent span {
@@ -331,6 +335,18 @@
              .fa-youtube:hover {
                 color: red;
                 background-color: white; 
+            }
+            input.separate-dial-code .selected-dial-code {
+   color: #1f1d1d !important;
+}
+            .form-btn {
+    text-align: center;
+    /* font-size: 18px; */
+    color: #333;
+    background-color: #fff;
+    font-size: 14px!important;
+    border-color: #ccc;
+    padding: 4px 13px 6px;
             }
         </style>
          <style>
@@ -802,7 +818,7 @@
                                         
                     <center>
                         <h2 class="sppb-title-heading delay-10s animated wow fadeInDown animated"
-                                                style="visibility: visible; animation-name: fadeInDown;"> Project Snapshot
+                                                style="visibility: visible; animation-name: fadeInDown; margin-top: 26px;"> Project Snapshot
                                             </h2></center>
                                             <div class="underline">&nbsp;</div>
                                             <br/><br/>

@@ -23,7 +23,7 @@
     padding: 0;
     background-color: #fff;
     position: relative;
-    z-index: 7;
+    z-index: 9;
     margin: 0 0px!important;
 }
 .navbar-default .navbar-nav > li > a {
@@ -47,7 +47,7 @@
                     </button> 
                 </div>
                 <div class="collapse navbar-collapse nopadding" id="bs-example-navbar-collapse-1">
-                    <div class="row" style="    margin-top: 10px;">  
+                    <div class="row" style="margin-top: 10px;">  
                         <div class="col-xs-3 col-sm-3 col-md-1">
                             <a href="<?= site_url() ?>"><img src="<?= base_url('assets/img/logo.png') ?>" style=" float: right; width: 70px;"alt="fullbasketlogo" discription="Full Basket Logo image"></a>
                         </div>
@@ -74,14 +74,13 @@
                                 </li>
                             </ul>
                         </div>
+                        
                         <div class="col-xs-12 col-sm-12 col-md-3">
-                            </div>
-                            <!-- <div class="col-xs-12 col-sm-12 col-md-3">
                                 <div class="mobile-view">
-                                <div class="contact">
+                                     <!-- <div class="contact">
                                     <i class="fa fa-paper-plane pull-left" style="color:black"></i> <span class="pull-left">&nbsp;<a href="tel:<?= (isset($cityDetails->phone) && $cityDetails->phone) ? $cityDetails->phone : $all_cities->phone ?>"style=" color: black"><?= (isset($cityDetails->phone) && $cityDetails->phone) ? $cityDetails->phone : $all_cities->phone ?></a> <br><a style="color: black" href="mailto:<?= (isset($cityDetails->email) && $cityDetails->email) ? $cityDetails->email : $all_cities->email ?>"><?= (isset($cityDetails->email) && $cityDetails->email) ? $cityDetails->email : $all_cities->email ?></a></span>
-                                </div>
-                                <?php if ($this->session->userdata('logged_in')) { ?>
+                                   </div> -->
+                                  <?php if ($this->session->userdata('logged_in')) { ?>
                                     <div class="btn-group pull-right  .visible-xs-block hidden-xs " style="margin-top: 5px;">
                                         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <?= $this->session->userdata('logged_in')['first_name'].' '.$this->session->userdata('logged_in')['last_name'] ?> <span class="caret"></span>
@@ -91,16 +90,17 @@
                                             <li><a href="<?= site_url('favourites') ?>">Favourates</a></li>
                                             <li><a href="<?= site_url('user/logout') ?>">Logout</a></li>
                                         </ul>
-                                </div>
-                                <?php } else{ ?>
+                                    </div>
+                                 <?php } else{ ?>
                                     <div class="" style="color: black">
                                         <a style="color: black" href="<?= site_url('user/login') ?>" class="login">Login</a>
-                                    <span class="line"></span>
-                                    <a style="color: black" class="signup" data-toggle="modal" href="#submitContact">Submit Property</a>
-                                </div>
-                                <?php
-                                } ?>
-                           </div> -->
+                                        <span class="line"></span>
+                                        <a style="color: black" class="signup" data-toggle="modal" href="#submitContact">Submit Property</a>
+                                    </div>
+                                 <?php
+                                 } ?>
+                               </div>
+                        </div>
                     </div>
                 </div>
                 <div id="mySidenav" class="sidenav">
@@ -140,5 +140,14 @@
         </div>
     </div>
 </div>
-
+<script>
+    $(window).scroll(function () {
+     if ($(window).scrollTop() >= 200) {
+         $('.sub-header').addClass('fixed-header');
+     }
+     else {
+         $('.sub-header').removeClass('fixed-header');
+     }
+ });
+    </script>
 <!-- <div class="fb-login-button" data-max-rows="1" data-size="small" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div> -->

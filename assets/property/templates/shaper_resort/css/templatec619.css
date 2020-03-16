@@ -5426,7 +5426,6 @@ label {
 }
 
 #contact-form .selected-flag {
-    background: #53ABBD;
     width: 39px;
     border-radius: 3px 0px 0px 3px;
     height: 40px;
@@ -5549,7 +5548,7 @@ label {
 }
 
 #section-id-1507611922 {
-    padding-top: 80px;
+    padding-top: 25px;
     /*padding-bottom: 80px;*/
 }
 
@@ -6141,13 +6140,13 @@ p.inner-interested {
 }
 
 .intl-tel-input.separate-dial-code .selected-dial-code {
-    padding-left: 4px !important;
+    padding-left: 4px;
     padding-right: 14px !important;
-    color: #fff;
+    color: rgb(27, 26, 26);
 }
 
 .intl-tel-input .selected-flag .iti-arrow {
-    border-top: 4px solid #fff !important;
+    border-top: 4px solid rgb(27, 26, 26) !important;
 }
 
 .intl-tel-input .country-list {
