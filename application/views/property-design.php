@@ -21,13 +21,13 @@
         <meta name="twitter:site" content="@Fullbasketproperty"/>
         <meta name="twitter:title" content="<?= $property->title ? $property->title : '' ?>"/>
         <meta name="twitter:description" content="<?= substr(strip_tags($property->description), 0, 1000) ?>"/>
-        <meta name="twitter:image" content="<?= base_url("uploads/$property->slug/$property->image") ?>"/>
-        <script type='text/javascript' src='<?= base_url() ?>assets/property/unitegallery/js/jquery-11.0.min.js'></script>
+        <!-- <meta name="twitter:image" content="<?= base_url("uploads/$property->slug/$property->image") ?>"/>
+        <script type='text/javascript' src='<?= base_url() ?>assets/property/unitegallery/js/jquery-11.0.min.js'></script> -->
         <link rel="shortcut icon" type="image/x-icon" href="<?= site_url('') ?>assets/img/logo.png"/>
 
         <link rel="canonical" href="<?= current_url() ?>">
-        <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
-    <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/jquery.min.js"></script>
+        <link rel="icon" href="https://www.fullbasketproperty.com/assets/img/favicon.ico" type="image/gif" sizes="16x16">
+    <!-- <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/jquery.min.js"></script> -->
         <link rel="manifest" href="http://orchards.realatte.com/manifest.json">
         <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/bootstrap-select.min.js"></script>
         <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/copy_bootstrap_min.js"></script>
@@ -97,7 +97,38 @@
     };
     </script>
     <style>
+        
+@media (max-width: 1600px) {
+.phone{
+    margin-left: 0px!important;
+       width: 100%!important;
+    height: 41px!important;
+}
+}
+/* .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel] {
+    padding-left: 84px!important;
+} */
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel] {
+    padding-left: 90px!important;
+}
 
+@media (max-width: 414px) {
+.phone{
+    width: 97%;
+}
+}
+#contact-form .input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   
+    }
         
     .morecontent span {
         display: none;
@@ -302,9 +333,21 @@
                 padding: 35px 0 0 0;
             }
              .fa-youtube:hover {
-    color: red;
-    background-color: white; 
+                color: red;
+                background-color: white; 
+            }
+            input.separate-dial-code .selected-dial-code {
+   color: #1f1d1d !important;
 }
+            .form-btn {
+    text-align: center;
+    /* font-size: 18px; */
+    color: #333;
+    background-color: #fff;
+    font-size: 14px!important;
+    border-color: #ccc;
+    padding: 4px 13px 6px;
+            }
         </style>
          <style>
  .rooms-suits .sppb-addon-cta .text-center {
@@ -506,8 +549,7 @@
                                 <h1>
                                     <img class="sp-default-logo" src="<?=base_url();?>assets/img/footer-logo.png" style="height: 66px;width: 80px;"> 
                                     <img class="sp-retina-logo" src="<?=base_url();?>assets/img/footer-logo.png"
-                                         style="    height: 57px;
-    width: 60px !important;">
+                                         style=" height: 57px;width: 60px !important;">
 
                                     
                                 </h1>
@@ -537,27 +579,27 @@
                                     </li>
                                     <li class="sp-menu-item">
                                                                             <?php
-    if(($logos = $this->properties_model->getWhere(array('property_id' => $property->id),
-                                                    'property_logo')) != null)
-    {
-        $logos=json_decode( json_encode($logos), true);
-        //builder_image;
-        ?>
-    <img class="sp-default-logo" src="<?= base_url().'uploads/'.$property->slug.'/logos/'.$map[0] ?>" style="    margin-left: 113px;
-    margin-right: -83px;"> 
-        <?php
+                            if(($logos = $this->properties_model->getWhere(array('property_id' => $property->id),
+                                                                            'property_logo')) != null)
+                            {
+                                $logos=json_decode( json_encode($logos), true);
+                                //builder_image;
+                                ?>
+                            <img class="sp-default-logo" src="<?= base_url().'uploads/'.$property->slug.'/logos/'.$map[0] ?>" style="    margin-left: 113px;
+                            margin-right: -83px;"> 
+                                <?php
 
-    }
-    else
-    {
-        $map[0]= $property->builder_image;
-    ?>
+                            }
+                            else
+                            {
+                                $map[0]= $property->builder_image;
+                            ?>
 
-        <img class="sp-default-logo" src="<?= base_url().'uploads/builders/'.$map[0] ?>" style="    margin-left: 113px;
-    margin-right: -83px;"> 
+                                <img class="sp-default-logo" src="<?= base_url().'uploads/builders/'.$map[0] ?>" style="    margin-left: 113px;
+                            margin-right: -83px;"> 
 
-    <?php
-    }
+                            <?php
+                            }
 
 
                                     ?>
@@ -648,7 +690,7 @@
                                     </div>
                                 </div>   
                                 <br>
-                             <div class="col-md-12">
+ <div class="col-md-12">
 <div class="col-sm-3 col-md-3 col-lg-3" style="padding: 7px;">
 <div class="fb-like" data-href="https://www.facebook.com/fullbasketpropertypage/" data-width="10px" data-layout="standard" data-action="like" data-size="small" data-share="false"></div>
 </div>
@@ -663,15 +705,13 @@
 </div>
 <div class="col-sm-3 col-md-3 col-lg-3">
     <h2>
-                                <div style="/*float: right*/" class="sharethis-inline-share-buttons"></div>
-                                <a target="_blank" href="<?= site_url(url_title($property->city_name)."/".( url_title($property->area) )."/$property->slug")?>" class="btn btn-primary btn-block" style="border-radius: 0;background-color: white;border-color: white;height: 33px;"></a>
-                                </h2>
+      <div style="/*float: right*/" class="sharethis-inline-share-buttons"></div>
+         <a target="_blank" href="<?= site_url(url_title($property->city_name)."/".( url_title($property->area) )."/$property->slug")?>" class="btn btn-primary btn-block" style="border-radius: 0;background-color: white;border-color: white;height: 33px;"></a>
+       </h2>
 </div>
 </div>
 <div class="clearfix"></div>
-                                
-
-             <section id="section-id-1507611922"  class="sppb-section   rooms-suits resort-title-heading wow">
+                <section id="section-id-1507611922"  class="sppb-section   rooms-suits resort-title-heading wow">
                                     <div class="sppb-row-container">
                                         <div class="sppb-section-title sppb-text-center">
                                             <h1 class="sppb-title-heading delay-10s animated wow fadeInDown animated"
@@ -778,7 +818,7 @@
                                         
                     <center>
                         <h2 class="sppb-title-heading delay-10s animated wow fadeInDown animated"
-                                                style="visibility: visible; animation-name: fadeInDown;"> Project Snapshot
+                                                style="visibility: visible; animation-name: fadeInDown; margin-top: 26px;"> Project Snapshot
                                             </h2></center>
                                             <div class="underline">&nbsp;</div>
                                             <br/><br/>
@@ -1554,7 +1594,7 @@
                                        class="builder_projects">
                                         <div class="col-md-4">
                                             <img src="<?= base_url("uploads/$project->slug/$project->image") ?>"
-                                                 class="img-responsive" style="padding: 0;width: 260px;background-position: 50% 50%;position: relative;height:260px;" alt="<?=$project->alt?>"  
+                                                 class="img-responsive" style="padding: 0;width: 100%;background-position: 50% 50%;position: relative;height:260px;" alt="<?=$project->alt?>"  
                                                  title="<?=$project->image_desc?>"> 
                                             <div class="builder_proj">
                                                 <h4><?= $project->title ?></h4>
@@ -1795,7 +1835,7 @@
                                                                        <div class="form-group col-md-12">
                                                                             
                                                                             <input type="tel" placeholder="Phone*"
-                                                                                   name="phone" class="validate"
+                                                                                   name="phone" class="phone validate"
                                                                                    id="contctform-phone3" required>
                                                                             <input type="hidden" name="countrycode" id="cplusm" value="">
                                                                             <span class="hide valid-msg">✓ Valid</span>
@@ -1853,165 +1893,7 @@
                 </div>
             </div>
         </section>
-        <footer>
-        <style type="text/css">
-    .colorblack p 
-    {
-        color:black;
-        font-weight: 500;
-
-    }
-      .colorblack h3
-    {
-        color:black;
-
-    }
-     .colorblack a
-    {
-        color:black !important;
-
-    }
-</style>
-        <div class="container colorblack">
-            <div class="row">
-                <div class="col-md-4 col-sm-4">
-                    <h3>ABOUT US</h3>
-                    <!--<hr>-->
-                    <p style="padding-top: 30px; text-align:justify;"> We are Full Basket Property, established with the objective to serve you with any real estate support. 
-    Since inception, we have successfully improved our brand name by offering world-class services to our clients who 
-    have trusted us throughout the process of finding the properties and settling down the deed.</p>
-                    <br>
-                    <p class="address"><i class="fa fa-map-marker"></i> &nbsp;Corporate Office</p>
-                    <p>Sigma Trident,No - 11/2/1 , Hayes Road , Bangaluru, Karnataka - 560025</p>
-                    <p>L: 080-40913468</p>
-                    <p class="address"><i class="icon ion-ios-email-outline"></i> &nbsp;<a
-                                href="mailto:sales@fullbasketproperty.com" style="color: #717171">sales@fullbasketproperty.com
-                    </p>
-                    <p class="address"><a href="tel:+919019011888"><i class="icon ion-ios-telephone-outline"></i> &nbsp;+91
-                            901 901 1888</a></p>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                    <h3>QUICK LINKS</h3>
-                    <!--<hr>-->
-                    <ul>
-                        <li><a href="<?= site_url('listing') ?>">PROPERTIES</a></li>
-                        <li><a href="#">SERVICES</a></li>
-                        <li><a data-toggle="modal" href="#submitContact">SUBMIT PROPERTY</a></li>
-                        <li><a href="<?= site_url('contact') ?>">CONTACT US</a></li>
-                        <li><a href="<?= site_url('blog') ?>">BLOG</a></li>
-                        <li><a href="<?= site_url('careers') ?>">CAREERS</a></li>
-                        <li><a href="<?= site_url('testimonials') ?>">TESTIMONIALS</a></li>
-                        <li><a href="<?= site_url('privacy-policy') ?>">TERMS</a></li>
-                        <li><a href="<?= site_url('disclaimer') ?>">DISCLAIMER</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-6 last_news hide">
-                    <h3>LAST NEWS</h3>
-                    <!--<hr>-->
-                    <br>
-                    <?php foreach ($blogs as $blog) { ?>
-                        <div class="latest_news">
-                            <div class="news">
-                                <div style="background-image: url(<?= base_url('uploads/blog_images/' . $blog->image) ?>);">
-                                    <span><?= date('Y-m-d', strtotime($blog->date_added)) ?></span>
-                                </div>
-                            </div>
-                            <div class="news-content">
-                                <a href="#">
-                                    <h5><?= strlen(strip_tags($blog->title)) < 10 ? strip_tags($blog->title) : substr((strip_tags($blog->title)),
-                                                0, 10) . '...' ?></h5>
-                                    <p><?= strlen(strip_tags($blog->content)) < 30 ? strip_tags($blog->content) : substr(strip_tags($blog->content),
-                                                0, 30) . '...' ?></p>
-                                </a>
-                            </div>
-                        </div>
-                    <?php } ?>
-                </div>
-                <div class="col-md-4 col-sm-4 social">
-                    <h3>CONNECT WITH US</h3>
-                    <!--<hr>-->
-                    <br>
-                    <!-- <p><?= $stay_in_touch->content ?></p><br> -->
-                     <form id="contact-form" action="<?=base_url('home/sendEmail');?>" name="contact-form" method="POST" onsubmit="return save_landing_pageinfo('contact-form');">
-    <input type="hidden" name="property_id" value="<?= $property->id ?>">
-                            <div class="form-group col-md-12">
-                                <div class="input-group" >
-                                    <div class="input-group-addon"><i
-                                                class="fa fa-user form-ico" style="width: 29px;"
-                                                aria-hidden="true"></i></div>
-                                    <input type="text" class="form-control"
-                                           name="name"
-                                           placeholder="Your Name">
-                                </div>
-                                <label for="fname" generated="true"
-                                       class="error"></label>
-                            </div>
-                            <br>
-                           <div class="form-group col-md-12" style="margin-top: -12px;" >
-                                
-                                <input type="tel" placeholder="Phone*"
-                                       name="phone" class="validate"
-                                       id="contctform-phone3" style="display: block;width: 100%;
-height: 40px;
-font-size: 14px;
-line-height: 1.42857143;
-background-color: #fff;
-border: 1px solid #ccc;
-border-radius: 4px;" required>
-                                <input type="hidden" name="countrycode" id="cplusm" value=""> 
-
-                            </div>
-
-                            <center>
-                            <button type="submit"
-                                    class="btn btn-default form-btn">Submit
-                            </button>
-                            </center>
-                        </form>
-                    <div class="clearfix"></div>
-                    <ul>
-                        <li><a target="_blank" href="<?= $social_links->twitter ?>"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a target="_blank" href="<?= $social_links->facebook ?>"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a target="_blank" href="<?= $social_links->youtube ?>" >
-                            <i class="fa fa-youtube" ></i></a></li>
-                        <li><a target="_blank" href="<?= $social_links->instagram ?>"><i
-                                        class="fa fa-instagram"></i></a></li>
-                        <li><a target="_blank" href="<?= $social_links->dribble ?>"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                   <a href="<?=base_url();?>">
-                <img src="<?= base_url('assets/img/footer-logo.png') ?>" class="img-responsive center-block" alt="footerlogo" discription="full basket Footer logo"></a>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row copyright">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <p>&copy; <span style="color: #fff;">Full Basket Property Services Pvt Ltd</span>, All rights reserved 2019</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <ul>
-                                <!--
-                                <li><a href="<?= site_url() ?>">Home</a></li>
-                                <li><a href="http://fullbasketproperty.com/listing">Property</a></li>
-                                <li><a href="#">Faq</a></li>
-                                <li><a href="http://fullbasketproperty.com/contact">Contact</a></li>
-                            -->
-                            
-                            <li>Designed & Developed by</li>
-                            <li><a href="https://secondsdigital.com/web-development-services-in-bangalore/">Seconds Digital Solutions</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+        <?php $this->load->view('footer');?>
 
 
         <div class="offcanvas-menu wow">
@@ -2635,7 +2517,7 @@ jQuery(document).ready(function () {
     jQuery(document).on("scroll", onScroll);
     
     //smoothscroll
-    jQuery('a[href^="#"]').on('click', function (e) {
+    jQuery('.sp-megamenu-parent a').on('click', function (e) {
         
         e.preventDefault();
         jQuery(document).off("scroll");
@@ -2660,6 +2542,7 @@ jQuery(document).ready(function () {
 function onScroll(event){
     var scrollPos = jQuery(document).scrollTop();
     jQuery('.sp-megamenu-parent a').each(function () {
+
         var currLink = jQuery(this);
         // console.log(currLink);
         var refElement = jQuery(currLink.attr("href"));
