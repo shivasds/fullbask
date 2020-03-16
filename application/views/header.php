@@ -48,10 +48,10 @@
                 </div>
                 <div class="collapse navbar-collapse nopadding" id="bs-example-navbar-collapse-1">
                     <div class="row" style="margin-top: 10px;">  
-                        <div class="col-xs-3 col-sm-3 col-md-1">
+                        <div class="col-xs-3 col-sm-3 col-md-2">
                             <a href="<?= site_url() ?>"><img src="<?= base_url('assets/img/logo.png') ?>" style=" float: right; width: 70px;"alt="fullbasketlogo" discription="Full Basket Logo image"></a>
                         </div>
-                        <div class="col-xs-12 col-sm-12 col-md-8">
+                        <div class="col-xs-12 col-sm-12 col-md-7">
                             <ul class="nav navbar-nav">
                             
                                 <li class="<?= $this->uri->segment(1) == '' ? 'active' : '' ?>"><a href="<?= site_url() ?>">HOME</a></li>
