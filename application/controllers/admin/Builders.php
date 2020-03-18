@@ -79,10 +79,10 @@ class Builders extends Admin_Controller {
                     'alt_title'=>$this->input->post('alt_title'),
                     'image_desc'=>$this->input->post('img_description'),
                     'location' => $this->input->post('location'),
-                    'experience' => $this->input->post('experience'),
-                    'ongoing' => $this->input->post('ongoing'),
-                    'upcoming' => $this->input->post('upcoming'),
-                    'completed' => $this->input->post('completed'),
+                    'experience' => $this->input->post('experience')?$this->input->post('experience'):'0',
+                    'ongoing' => $this->input->post('ongoing')?$this->input->post('ongoing'):'0',
+                    'upcoming' => $this->input->post('upcoming')?$this->input->post('upcoming'):'0',
+                    'completed' => $this->input->post('completed')?$this->input->post('completed'):'0',
                 );
                 if (isset($_FILES) && $_FILES["uploadfile"]['tmp_name']){
                     $file = $_FILES["uploadfile"]['tmp_name'];
