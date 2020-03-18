@@ -104,6 +104,58 @@
        width: 100%!important;
     height: 41px!important;
 }
+
+}
+
+.whtsapp{
+    padding: 20px;
+    background: #03a84e;
+    color: white;
+} 
+.whtsapp span{
+    color:white;
+}
+.youtube{
+    padding: 20px;
+    background: #ef0525;
+    color: white;
+} 
+.youtube span{
+    color:white;
+}
+.pinterest{
+    padding: 20px;
+    background: #cb2027;
+    color: white;
+} 
+.pinterest span{
+    color:white;
+}
+.facebook{
+    padding: 20px;
+   background: #5b7ec0;;
+    color: white;
+} 
+.facebook span{
+    color:white;
+}
+.twitter{
+    padding: 20px;
+    background: #55acee;
+    color: white;
+} 
+.twitter span{
+    color:white;
+}
+
+.linkedIn{
+    padding: 20px;
+   background: #5b7ec0;;
+    color: white;
+} 
+.linkedIn span{
+    color:white;
+}
 }
 /* .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel] {
     padding-left: 84px!important;
@@ -691,26 +743,70 @@
                                 </div>   
                                 <br>
  <div class="col-md-12">
-<div class="col-sm-3 col-md-3 col-lg-3" style="padding: 7px;">
-<div class="fb-like" data-href="https://www.facebook.com/fullbasketpropertypage/" data-width="10px" data-layout="standard" data-action="like" data-size="small" data-share="false"></div>
-</div>
-<div class="col-sm-3 col-md-3 col-lg-3">
-<a href="https://twitter.com/intent/tweet?screen_name=fbptweets&ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Tweet to @fbptweets</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                  
-</div>
-<div class="col-sm-3 col-md-3 col-lg-3">
-<script src="https://apis.google.com/js/platform.js"></script>
+    <div class="col-sm-3 col-md-3 col-lg-3" style="padding: 7px;">
+        <div class="fb-like" data-href="https://www.facebook.com/fullbasketpropertypage/" data-width="10px" data-layout="standard" data-action="like" data-size="small" data-share="false"></div>
+    </div>
+    <div class="col-sm-3 col-md-3 col-lg-3">
+      <a href="https://twitter.com/intent/tweet?screen_name=fbptweets&ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Tweet to @fbptweets</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    
+    </div>
+    <div class="col-sm-3 col-md-3 col-lg-3">
+    <script src="https://apis.google.com/js/platform.js"></script>
 
-<div class="g-ytsubscribe" data-channelid="UCGr-on8k7dRMKBFW-X2G05A" data-layout="default" data-count="default"></div>
+    <div class="g-ytsubscribe" data-channelid="UCGr-on8k7dRMKBFW-X2G05A" data-layout="default" data-count="default"></div>
+    </div>
+    <div class="col-sm-3 col-md-3 col-lg-3">
+        <h2>
+        <div style="/*float: right*/" class="sharethis-inline-share-buttons"></div>
+            <a target="_blank" href="<?= site_url(url_title($property->city_name)."/".( url_title($property->area) )."/$property->slug")?>" class="btn btn-primary btn-block" style="border-radius: 0;background-color: white;border-color: white;height: 33px;"></a>
+        </h2>
+    </div>
 </div>
-<div class="col-sm-3 col-md-3 col-lg-3">
-    <h2>
-      <div style="/*float: right*/" class="sharethis-inline-share-buttons"></div>
-         <a target="_blank" href="<?= site_url(url_title($property->city_name)."/".( url_title($property->area) )."/$property->slug")?>" class="btn btn-primary btn-block" style="border-radius: 0;background-color: white;border-color: white;height: 33px;"></a>
-       </h2>
-</div>
-</div>
-<div class="clearfix"></div>
+ <!-- <div class="container-fluid text-center">
+    <div class="row">
+        
+        <div class="col-md-2">
+            <a href="#" class="whtsapp">
+            <span>Whatsapp</span>
+            <i class="fa fa-whatsapp"></i>
+            </a>
+        </div>
+        <div class="col-md-2 ">
+            <a href="#" class="facebook">
+            <span>Facebook</span>
+            <i class="fa fa-facebook"></i>
+            </a>
+        </div>
+        <div class="col-md-2 ">
+            <a href="#" class="youtube">
+            <span>Youtube</span>
+            <i class="fa fa-youtube"></i>
+            </a>
+            
+        </div>
+        <div class="col-md-2 ">
+            <a href="#" class="linkedIn">
+            <span>LinkedIn</span>
+            <i class="fa fa-linkedIn"></i>
+            </a>
+            
+        </div>
+        <div class="col-md-2 ">
+            <a href="#" class="twitter">
+            <span>Twitter</span>
+            <i class="fa fa-twitter"></i>
+            </a>
+        </div>
+        <div class="col-md-2 ">
+            <a href="#" class="pinterest">
+            <span>Pinterest</span>
+            <i class="fa fa-pinterest"></i>
+            </a>
+        </div>
+    </div>
+</div> -->
+
+    <div class="clearfix"></div>
                 <section id="section-id-1507611922"  class="sppb-section   rooms-suits resort-title-heading wow">
                                     <div class="sppb-row-container">
                                         <div class="sppb-section-title sppb-text-center">

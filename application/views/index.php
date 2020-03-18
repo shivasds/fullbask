@@ -368,7 +368,10 @@ $(document).ready(function(){
     <div class="row section2">
         <div class="col-sm-12 text-center">
             <h2 class="h2">New Launches In Your City</h2>
-            <p>Best Hand Picked Property for You across<br> Bengaluru| Pune | Hyderabad</p>
+            <p>Best Hand Picked Property for You across
+            <br>
+             <!-- Bengaluru| Pune | Hyderabad -->
+             </p>
         </div>
         <div class="clearfix"></div>
         <br>

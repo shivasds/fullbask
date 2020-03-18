@@ -8,6 +8,52 @@
 
   display: none; 
 }
+@media only screen and (min-width: 0px) and (max-width: 320px)  {
+    .col-md-12 .user{
+        width: 88%!important;
+}
+}
+@media only screen and (min-width: 321px) and (max-width: 360px)  {
+    .col-md-12 .user{
+        width: 88%!important;
+}
+}
+
+@media only screen and (min-width: 361px) and (max-width: 375px)  {
+    .col-md-12 .user{
+        width: 89%!important;
+}
+}
+
+@media only screen and (min-width: 376px) and (max-width: 411px)  {
+    .col-md-12 .user{
+        width: 89%!important;
+}
+}
+
+@media only screen and (min-width: 412px) and (max-width: 414px)  {
+    .col-md-12 .user{
+        width: 90%!important;
+}
+}
+@media only screen and (min-width: 415px) and (max-width: 768px)  {
+    .col-md-12 .user{
+        width: 56%!important;
+}
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px)  {
+    .col-md-12 .user{
+        width: 86%!important;
+}
+}
+
+@media only screen and (min-width: 1025px)  {
+    .col-md-12 .user.{
+    width: 56%!important;
+}
+}
+
+
     </style>
 <script>
 
@@ -20,6 +66,7 @@
 // });
   
 </script>
+
 <div class="modal fade" id="prop-contact" onload="myfunction();">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -32,29 +79,28 @@
                 <div class="modal-body">
                     <input name="property_id" id="prop-id" value="" type="hidden" />
                     <div class="clearfix"></div>
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                        <div class="form-group">
-                            <div class="input-group">
-                                <span style="border-radius: 0" class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
-                                <input style="border-radius: 0" class="form-control" id="prop-name" type="text" name="name" placeholder="Name" required>
-                            </div>
+                    <div class="row">  
+                        <div class="form-group col-md-12 col-xs-12">
+                            <!-- <div class="form-group"> -->
+                                <div class="input-group user">
+                                    <span style="border-radius: 0" class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                                    <input style="border-radius: 0" class="form-control" id="prop-name" type="text" name="name" placeholder="Name" required>
+                                </div>
+                            <!-- </div> -->
                         </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                        <div class="form-group">
-                            <div class="input-group">
-                                <!--<span style="border-radius: 0" class="input-group-addon"><i class="fa fa-phone" aria-hidden="true"></i></span>-->
-                                
-                                                                            <input type="tel" placeholder=" " style="    display: block;""
-    
-   
-                                                                                   name="phone" class="validate form-control"
-                                                                                   id="contctform-phone3" required>
-                                                                            <input type="hidden" name="countrycode" id="cplusm" value="">
-                                                                            
-                            </div>
+                        <div class="form-group col-md-12 col-xs-12">
+                            <!-- <div class="form-group"> -->
+                                <div class="input-group ">
+                                    <!--<span style="border-radius: 0" class="input-group-addon"><i class="fa fa-phone" aria-hidden="true"></i></span>-->
+                                    
+                                                                                <input type="tel" placeholder=" " style=" display: block;"   name="phone" class="validate form-control"
+                                                                                    id="contctform-phone3 phone" required>
+                                                                                <input type="hidden" name="countrycode" id="cplusm" value="">
+                                                                                
+                                </div>
+                            <!-- </div> -->
                         </div>
-                    </div>
+                    </div>  
                     <div class="clearfix"></div>  
                 </div>
                 <div class="modal-footer">
@@ -68,6 +114,7 @@
                     </button>
                 </div>
             </form>
+
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
@@ -405,7 +452,9 @@
                                                         }
                                                         ?>
                                                         <i class="fa <?= (isset($property->class_heart) && $property->class_heart) ? $property->class_heart : 'fa-heart-o' ?> favourite" data-id="<?= $property->id ?>" data-access="<?= $this->session->userdata('logged_in') ? '' : 'denied' ?>" data-url="<?= $this->session->userdata('logged_in') ? site_url('home/manage_favourites') : site_url('user/login') ?>" style="cursor: pointer"></i>
-                                                        <button class="btn btn-call btn-call-back" data-id="<?=$property->id?>">GET CALL BACK</button>
+                                                        <button class="gradient-button gradient-button-1 btn-call-back" data-id="<?=$property->id?>">GET CALL BACK</button>
+                                                        <!-- btn btn-call btn-call-back -->
+                                                        <!-- gradient-button gradient-button-1 -->
                                                     </h4>
                                                 </div>
 											</div>
