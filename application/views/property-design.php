@@ -27,10 +27,10 @@
 
         <link rel="canonical" href="<?= current_url() ?>">
         <link rel="icon" href="https://www.fullbasketproperty.com/assets/img/favicon.ico" type="image/gif" sizes="16x16">
-    <!-- <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/jquery.min.js"></script> -->
+   
         <link rel="manifest" href="http://orchards.realatte.com/manifest.json">
-        <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/bootstrap-select.min.js"></script>
-        <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/copy_bootstrap_min.js"></script>
+        <!-- <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/bootstrap-select.min.js"></script> -->
+        <!-- <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/copy_bootstrap_min.js"></script> -->
         <link href="<?= base_url() ?>assets/property/media/com_solidres/assets/css/jquery/themes/base/jquery-ui.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
         
         <link href="<?= base_url() ?>assets/property/templates/shaper_resort/css/bootstrap.minc619.js?v=1.0" rel="stylesheet" type="text/css"/>
@@ -45,6 +45,7 @@
         <link href="<?= base_url() ?>assets/property/templates/shaper_resort/css/slide-animatec619.css?v=1.0" rel="stylesheet" type="text/css"/>
         <link href="<?= base_url() ?>assets/property/media/com_solidres/assets/css/main.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
         <link href="<?= base_url() ?>assets/property/components/com_sppagebuilder/assets/css/magnific-popupc619.css?v=1.0" rel="stylesheet" type="text/css"/>
+        <link href="<?= base_url('assets/360assets') ?>/css/common.css" rel="stylesheet" type="text/css"/>
 
         <link href="<?= base_url() ?>assets/property/templates/shaper_resort/css/bootstrap.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
         <link href="<?= base_url() ?>assets/property/templates/shaper_resort/css/font-awesome.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
@@ -59,43 +60,9 @@
         <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/property/intl-tel-input/css/intlTelInputc619.css?v=1.0">
         <link href="<?= base_url() ?>assets/property/templates/shaper_resort/css/animatec619.css?v=1.0" rel="stylesheet" type="text/css">
         <!--<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"<?= base_url() ?>assets/property/>-->
-        <script type='text/javascript' src='<?= base_url() ?>assets/property/unitegallery/js/unitegallery.min.js'></script>
-        <link rel='stylesheet' href='<?= base_url() ?>assets/property/unitegallery/css/unite-gallery.css' type='text/css'/>
-        <script type='text/javascript' src='<?= base_url() ?>assets/property/unitegallery/themes/tilesgrid/ug-theme-tilesgrid.js'></script>
-        <script type="text/javascript"src="//platform-api.sharethis.com/js/sharethis.js#property=5ab1fa10a63ccf001315b0bf&product=inline-share-buttons"></script>
-        <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
-        <script type="text/javascript">
-    document.addEventListener('contextmenu', event => event.preventDefault());
-    </script>
-    <script type="text/javascript">
-        window.onbeforeunload = function (e) {
-        // Cancel the event
-        e.preventDefault();
-
-        // Chrome requires returnValue to be set
-        e.returnValue = 'Really want to quit the game?';
-    };
-
-    //Prevent Ctrl+S (and Ctrl+W for old browsers and Edge)
-    document.onkeydown = function (e) {
-        e = e || window.event;//Get event
-
-        if (!e.ctrlKey) return;
-
-        var code = e.which || e.keyCode;//Get key code
-
-        switch (code) {
-            case 83://Block Ctrl+S
-            case 87://Block Ctrl+W -- Not work in Chrome and new Firefox
-            case 67:
-            case 88:
-
-                e.preventDefault();
-                e.stopPropagation();
-                break;
-        }
-    };
-    </script>
+       <link rel='stylesheet' href='<?= base_url() ?>assets/property/unitegallery/css/unite-gallery.css' type='text/css'/>
+      
+      
     <style>
         
 @media (max-width: 1600px) {
@@ -586,21 +553,7 @@
 }
 /*---------------------------*/
 </style>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105570977-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-105570977-1');
-    </script>
-        <link href="<?= base_url('assets/360assets') ?>/css/common.css" rel="stylesheet" type="text/css"/>
-
-        <!--<script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/bootstrap.min.js"></script>-->
-        <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/slick.min.js"></script>
-        <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/select-app.js"></script>
-     
+    
     </head>
     <body class="site com-sppagebuilder view-page no-layout no-task itemid-437 en-gb ltr  sticky-header layout-fluid">
     <div id="fb-root"></div>
@@ -792,8 +745,9 @@
             <a target="_blank" href="<?= site_url(url_title($property->city_name)."/".( url_title($property->area) )."/$property->slug")?>" class="btn btn-primary btn-block" style="border-radius: 0;background-color: white;border-color: white;height: 33px;"></a>
         </h2>
     </div>
+    
 </div>
- <div class="container-fluid text-center">
+ <div class="container-fluid text-center ">
     <div class="row">
         
         <div class="col-md-2 col-sx-2 whtsapp">
@@ -899,41 +853,7 @@
 
                                                     
                                                     </p>
-                                                    <script>
-    $(document).ready(function() {
-        var showChar = 2000;
-        var ellipsestext = "...";
-        var moretext = "more";
-        var lesstext = "less";
-        $('.more').each(function() {
-            var content = $(this).html();
-
-            if(content.length > showChar) {
-
-                var c = content.substr(0, showChar);
-                var h = content.substr(showChar-1, content.length - showChar);
-
-                var html = c + '<span class="moreelipses">'+ellipsestext+'</span>&nbsp;<span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">'+moretext+'</a></span>';
-
-                $(this).html(html);
-            }
-
-        });
-
-        $(".morelink").click(function(){
-            if($(this).hasClass("less")) {
-                $(this).removeClass("less");
-                $(this).html(moretext);
-            } else {
-                $(this).addClass("less");
-                $(this).html(lesstext);
-            }
-            $(this).parent().prev().toggle();
-            $(this).prev().toggle();
-            return false;
-        });
-    });
-    </script>
+                                                    
 
 
                                                          <p style="text-align: left; margin-bottom: 20px; font-size: 14px;"> <a class="btn interested fix-link i-am">
@@ -2338,7 +2258,8 @@
 
     <button class="btn btn-danger interested hidden-xs">Enquire</button>
     <!-- ==================================== -->
-
+    <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/jquery.min.js"></script>
+    
     <script src="<?= base_url() ?>assets/property/media/jui/js/jquery-noconflictbb68bb68.js?6d335272cfe947fe63a1dc6d722f2ca8" type="text/javascript"></script>
     <script src="<?= base_url() ?>assets/property/media/com_solidres/assets/js/noconflictc619.js?v=1.0" type="text/javascript"></script>
     <script src="<?= base_url() ?>assets/property/media/com_solidres/assets/js/jquery/ui/jquery-ui.minc619.js?v=1.0" type="text/javascript"></script>
@@ -2351,9 +2272,107 @@
     <script src="<?= base_url() ?>assets/property/templates/shaper_resort/js/bootstrap.minc619.js?v=1.0" type="text/javascript"></script>
     <script src="<?= base_url() ?>assets/property/templates/shaper_resort/js/jquery.stickyc619.js?v=1.0" type="text/javascript"></script>
     <script src="<?= base_url() ?>assets/property/templates/shaper_resort/js/mainc619.js?v=1.0" type="text/javascript"></script>
+    <script type='text/javascript' src='<?= base_url() ?>assets/property/unitegallery/js/unitegallery.min.js'></script>
+        
+        <script type='text/javascript' src='<?= base_url() ?>assets/property/unitegallery/themes/tilesgrid/ug-theme-tilesgrid.js'></script>
+         <script type="text/javascript"src="//platform-api.sharethis.com/js/sharethis.js#property=5ab1fa10a63ccf001315b0bf&product=inline-share-buttons"></script>
+         <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+
+         <script type="text/javascript" src="<?= base_url() ?>assets/property/lightbox/light-box5152.js?ver=1.0"></script>
+    <script src="<?= base_url() ?>assets/property/intl-tel-input/js/intlTelInput5152.js?ver=1.0"></script>
+    <script src="<?= base_url() ?>assets/property/js/jquery.validate5152.js?ver=1.0"></script>
+    <script src="<?= base_url() ?>assets/property/js/mobilevalidate5152.js?ver=1.0"></script>
+    <script src="<?= base_url() ?>assets/property/js/vai5152.js?ver=1.0"></script>
+    <script src="<?= base_url() ?>assets/property/js/cookie5152.js?ver=1.0"></script>
+    <script src="<?= base_url() ?>assets/property/js/popout5152.js?ver=1.0"></script>
+    <script type="text/javascript" src="<?= base_url() ?>assets/property/js/wow.min5152.js?ver=1.0"></script>
+
+    <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/slick.min.js"></script>
+    <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/select-app.js"></script>
+
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105570977-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-105570977-1');
+    </script>
+
+    
+         <script type="text/javascript">
+           document.addEventListener('contextmenu', event => event.preventDefault());
+    </script>
+    <script type="text/javascript">
+        window.onbeforeunload = function (e) {
+        // Cancel the event
+        e.preventDefault();
+
+        // Chrome requires returnValue to be set
+        e.returnValue = 'Really want to quit the game?';
+    };
+
+    //Prevent Ctrl+S (and Ctrl+W for old browsers and Edge)
+    document.onkeydown = function (e) {
+        e = e || window.event;//Get event
+
+        if (!e.ctrlKey) return;
+
+        var code = e.which || e.keyCode;//Get key code
+
+        switch (code) {
+            case 83://Block Ctrl+S
+            case 87://Block Ctrl+W -- Not work in Chrome and new Firefox
+            case 67:
+            case 88:
+
+                e.preventDefault();
+                e.stopPropagation();
+                break;
+        }
+    };
+    </script>
+
+
+  <script>
+    $(document).ready(function() {
+        var showChar = 2000;
+        var ellipsestext = "...";
+        var moretext = "more";
+        var lesstext = "less";
+        $('.more').each(function() {
+            var content = $(this).html();
+
+            if(content.length > showChar) {
+
+                var c = content.substr(0, showChar);
+                var h = content.substr(showChar-1, content.length - showChar);
+
+                var html = c + '<span class="moreelipses">'+ellipsestext+'</span>&nbsp;<span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">'+moretext+'</a></span>';
+
+                $(this).html(html);
+            }
+
+        });
+
+        $(".morelink").click(function(){
+            if($(this).hasClass("less")) {
+                $(this).removeClass("less");
+                $(this).html(moretext);
+            } else {
+                $(this).addClass("less");
+                $(this).html(lesstext);
+            }
+            $(this).parent().prev().toggle();
+            $(this).prev().toggle();
+            return false;
+        });
+    });
+    </script>
 
     <script type="text/javascript">
-        jQuery(document).ready(function ($) {
+        $(document).ready(function ($) {
             var $slideFullwidth = $("#sppb-addon-1507611917 .slide-fullwidth");
 
             // Autoplay
@@ -2375,71 +2394,39 @@
             ;
 
 
-            $slideFullwidth.owlCarousel({
-                margin: 0,
-                loop: true,
-                autoplay: $autoplay,
-                animateIn: "slideInRight",
-                animateOut: "fadeOutLeft",
-                nav: true,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 1
-                    },
-                    1000: {
-                        items: 1
-                    }
-                },
-                dots: $controllers,
-            });
+            // $slideFullwidth.owlCarousel({
+            //     margin: 0,
+            //     loop: true,
+            //     autoplay: $autoplay,
+            //     animateIn: "slideInRight",
+            //     animateOut: "fadeOutLeft",
+            //     nav: true,
+            //     responsive: {
+            //         0: {
+            //             items: 1
+            //         },
+            //         600: {
+            //             items: 1
+            //         },
+            //         1000: {
+            //             items: 1
+            //         }
+            //     },
+            //     dots: $controllers,
+            // });
 
 
-            $("#sppb-addon-1507611917 .sppbSlidePrev").click(function () {
-                $slideFullwidth.trigger("prev.owl.carousel", [400]);
-            });
+            // $("#sppb-addon-1507611917 .sppbSlidePrev").click(function () {
+            //     $slideFullwidth.trigger("prev.owl.carousel", [400]);
+            // });
 
-            $("#sppb-addon-1507611917 .sppbSlideNext").click(function () {
-                $slideFullwidth.trigger("next.owl.carousel", [400]);
-            });
+            // $("#sppb-addon-1507611917 .sppbSlideNext").click(function () {
+            //     $slideFullwidth.trigger("next.owl.carousel", [400]);
+            // });
         });
     </script>
 
-    <script type="text/javascript" src="<?= base_url() ?>assets/property/lightbox/light-box5152.js?ver=1.0"></script>
-    <script src="<?= base_url() ?>assets/property/intl-tel-input/js/intlTelInput5152.js?ver=1.0"></script>
-    <script src="<?= base_url() ?>assets/property/js/jquery.validate5152.js?ver=1.0"></script>
-    <script src="<?= base_url() ?>assets/property/js/mobilevalidate5152.js?ver=1.0"></script>
-    <script src="<?= base_url() ?>assets/property/js/vai5152.js?ver=1.0"></script>
-    <script src="<?= base_url() ?>assets/property/js/cookie5152.js?ver=1.0"></script>
-    <script src="<?= base_url() ?>assets/property/js/popout5152.js?ver=1.0"></script>
-    <script type="text/javascript" src="<?= base_url() ?>assets/property/js/wow.min5152.js?ver=1.0"></script>
-
-
-    <script type="text/javascript">
-        jQuery(document).ready(function () {
-            jQuery("#gallery").unitegallery({
-                tile_width: 350,                        //tile width
-                tile_height: 230,
-                gallery_theme: "tilesgrid",             //choose gallery theme (if more then one themes includes)
-                gallery_width: "100%",
-                tile_enable_border: false,
-                tile_overlay_opacity: 0.6,          //tile overlay opacity
-                tile_overlay_color: "#53ABBD"
-            });
-            jQuery("#gallery1").unitegallery({
-                tile_width: 350,                        //tile width
-                tile_height: 230,
-                gallery_theme: "tilesgrid",             //choose gallery theme (if more then one themes includes)
-                gallery_width: "100%",
-                tile_enable_border: false,
-                tile_overlay_opacity: 0.6,          //tile overlay opacity
-                tile_overlay_color: "#53ABBD"
-            });
-        });
-    </script>
-
+   
     <script>
         jQuery(document).ready(function ($) {
 
@@ -2651,7 +2638,28 @@
             document.createElement('form').submit.call(document.getElementById(elm));
         }
     </script>
-
+ <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery("#gallery").unitegallery({
+                tile_width: 350,                        //tile width
+                tile_height: 230,
+                gallery_theme: "tilesgrid",             //choose gallery theme (if more then one themes includes)
+                gallery_width: "100%",
+                tile_enable_border: false,
+                tile_overlay_opacity: 0.6,          //tile overlay opacity
+                tile_overlay_color: "#53ABBD"
+            });
+            jQuery("#gallery1").unitegallery({
+                tile_width: 350,                        //tile width
+                tile_height: 230,
+                gallery_theme: "tilesgrid",             //choose gallery theme (if more then one themes includes)
+                gallery_width: "100%",
+                tile_enable_border: false,
+                tile_overlay_opacity: 0.6,          //tile overlay opacity
+                tile_overlay_color: "#53ABBD"
+            });
+        });
+    </script>
 <script type="text/javascript">
 jQuery(document).ready(function () {
     jQuery(document).on("scroll", onScroll);

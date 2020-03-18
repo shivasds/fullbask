@@ -155,12 +155,13 @@ $(document).ready(function(){
     </ol>
 
     <div class="carousel-inner">
-        <?php
-        $i = 0;
+        <?php 
+        $desk = 1;
         foreach ($sliders as $slider) {
             $img=array();
             $img=explode('.', $slider->image);
-            if($i==1)
+            
+            if($desk==1)
        {
         ?>
       <div class="item active">
@@ -172,8 +173,14 @@ $(document).ready(function(){
       <div class="item">
         <img src="<?= base_url('uploads/sliders/' .  $slider->image) ?>" style="width: 100%!important;" alt="slider2">
       </div> 
-        <?php }$i++;
-        } ?>
+        <?php }
+        
+    
+        ?>
+         <script>alert(<?=$desk?>);</script>
+        <?php
+           $desk++; } ?>
+
     </div>
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
