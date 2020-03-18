@@ -112,40 +112,60 @@
     background: #03a84e;
     color: white;
 } 
-.whtsapp span{
+.whtsapp span,.whtsapp .fa{
     color:white;
+}
+.whtsapp:hover{
+    box-shadow: 5px 8px 16px 0px green;
+   
 }
 .youtube{
     padding: 20px;
     background: #ef0525;
     color: white;
 } 
-.youtube span{
+.youtube span,.youtube .fa{
     color:white;
+}
+.youtube:hover{
+    box-shadow: 5px 8px 16px 0px #ef0525;
+   
 }
 .pinterest{
     padding: 20px;
     background: #cb2027;
     color: white;
 } 
-.pinterest span{
+.pinterest span,.pinterest .fa{
     color:white;
+}
+.pinterest:hover{
+    box-shadow: 5px 8px 16px 0px #cb2027;
+   
 }
 .facebook{
     padding: 20px;
    background: #5b7ec0;;
     color: white;
 } 
-.facebook span{
+.facebook span,.facebook .fa{
     color:white;
+}
+.facebook:hover{
+    box-shadow: 5px 8px 16px 0px #5b7ec0;
+   
 }
 .twitter{
     padding: 20px;
     background: #55acee;
     color: white;
 } 
-.twitter span{
+.twitter span,.twitter .fa{
     color:white;
+}
+.twitter:hover{
+    box-shadow: 5px 8px 16px 0px #55acee;
+   
 }
 
 .linkedIn{
@@ -153,10 +173,16 @@
    background: #5b7ec0;;
     color: white;
 } 
-.linkedIn span{
+
+.linkedIn span,.linkedIn .fa{
     color:white;
 }
+.linkedIn:hover{
+    box-shadow: 5px 8px 16px 0px #5b7ec0;
+   
 }
+
+
 /* .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel] {
     padding-left: 84px!important;
 } */
@@ -165,6 +191,9 @@
 }
 
 @media (max-width: 414px) {
+    .col-sx-2{
+    width:50%;
+}
 .phone{
     width: 97%;
 }
@@ -450,7 +479,9 @@
         height: 100%;
     }
 }
-
+.fa-3x {
+    font-size: 3em!important;
+}
 
 /*----------------accordition-----------*/
 
@@ -703,10 +734,10 @@
 
                                                     <div class="item active">
                                                         <?php  
-                 echo '<img class="d-banner" src="'. base_url().$images[$ban]['banner_path'] .'"   style="width: 100%">';
-                echo '<img class="m-banner" src="'. base_url().$m_images[$ban]['mobile_banner_path'].'" alt="" style="width: 100%">';
-                            $side_image=base_url().$m_images[$ban]['mobile_banner_path'];
-                                           ?>
+                                        echo '<img class="d-banner" src="'. base_url().$images[$ban]['banner_path'] .'"   style="width: 100%">';
+                                        echo '<img class="m-banner" src="'. base_url().$m_images[$ban]['mobile_banner_path'].'" alt="" style="width: 100%">';
+                                                    $side_image=base_url().$m_images[$ban]['mobile_banner_path'];
+                                                                ?>
                                                  
 
                                            </div>
@@ -717,9 +748,9 @@
                                                     ?>
                                                         <div class="item">
                                                             <?php
-                 echo '<img class="d-banner" src="'. base_url().$images[$ban]['banner_path'] .'"   style="width: 100%">';
-                echo '<img class="m-banner" src="'. base_url().$m_images[$ban]['mobile_banner_path'].'" alt="" style="width: 100%">';
-                                                            ?>
+                                echo '<img class="d-banner" src="'. base_url().$images[$ban]['banner_path'] .'"   style="width: 100%">';
+                                echo '<img class="m-banner" src="'. base_url().$m_images[$ban]['mobile_banner_path'].'" alt="" style="width: 100%">';
+                                                 ?>
                                            </div>
                                                     <?php
                                                    
@@ -732,7 +763,7 @@
                                         {
 
                  echo '<img class="d-banner" src="'. base_url('uploads/'.$property->slug.'/'.$property->image).'"   style="width: 100%">';
-                echo '<img class="m-banner" src="'. base_url('uploads/'.$property->slug.'/'.$property->image).'" alt="" style="width: 100%">';
+                  echo '<img class="m-banner" src="'. base_url('uploads/'.$property->slug.'/'.$property->image).'" alt="" style="width: 100%">';
 
                                             ?>
                                             <?php
@@ -762,49 +793,62 @@
         </h2>
     </div>
 </div>
- <!-- <div class="container-fluid text-center">
+ <div class="container-fluid text-center">
     <div class="row">
         
-        <div class="col-md-2">
-            <a href="#" class="whtsapp">
-            <span>Whatsapp</span>
-            <i class="fa fa-whatsapp"></i>
-            </a>
+        <div class="col-md-2 col-sx-2 whtsapp">
+            <div class="">
+                <a href="#" class="">
+                <span>Whatsapp</span><br>
+                <i class="fa fa-whatsapp fa-3x"></i>
+                </a>
+            </div>
         </div>
-        <div class="col-md-2 ">
-            <a href="#" class="facebook">
-            <span>Facebook</span>
-            <i class="fa fa-facebook"></i>
-            </a>
+      
+        <div class="col-md-2 col-sx-2 youtube">
+          <div class="">
+                <a href="#" class="">
+                <span>Youtube</span><br>
+                <i class="fa fa-youtube fa-3x"></i>
+                </a>
+          </div>
         </div>
-        <div class="col-md-2 ">
-            <a href="#" class="youtube">
-            <span>Youtube</span>
-            <i class="fa fa-youtube"></i>
+        <div class="col-md-2 col-sx-2 facebook">
+          <div class="">
+            <a href="#" class="">
+            <span>Facebook</span><br>
+            <i class="fa fa-facebook fa-3x"></i>
             </a>
-            
+          </div>
         </div>
-        <div class="col-md-2 ">
-            <a href="#" class="linkedIn">
-            <span>LinkedIn</span>
-            <i class="fa fa-linkedIn"></i>
+        <div class="col-md-2 col-sx-2 pinterest">
+            <div class="">
+                        <a href="#" class="">
+                        <span>Pinterest</span><br>
+                        <i class="fa fa-pinterest fa-3x"></i>
+                        </a>
+            </div>
+        </div>
+      
+        <div class="col-md-2 col-sx-2 twitter">
+           <div class=""> 
+                <a href="#" class="">
+                <span>Twitter</span><br>
+                <i class="fa fa-twitter fa-3x"></i>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-2 col-sx-2 linkedIn">
+          <div class="">
+            <a href="#" class="">
+            <span>LinkedIn</span><br>
+            <i class="fa fa-linkedin fa-3x"></i>
             </a>
-            
+          </div>  
         </div>
-        <div class="col-md-2 ">
-            <a href="#" class="twitter">
-            <span>Twitter</span>
-            <i class="fa fa-twitter"></i>
-            </a>
-        </div>
-        <div class="col-md-2 ">
-            <a href="#" class="pinterest">
-            <span>Pinterest</span>
-            <i class="fa fa-pinterest"></i>
-            </a>
-        </div>
+       
     </div>
-</div> -->
+</div>
 
     <div class="clearfix"></div>
                 <section id="section-id-1507611922"  class="sppb-section   rooms-suits resort-title-heading wow">
@@ -1883,7 +1927,7 @@
                                                     <a class="map-btn" href="<?= base_url("uploads/$property->slug/map/$property->map") ?>">
                                                         <img src="<?= base_url("uploads/$property->slug/map/$property->map") ?>" class="small-map" alt="<?= $property->location_alt?>">
                                                         <div class="middle">
-                                                            <div class="text">View Map</div>
+                                                            <div class="text">View Large</div>
                                                         </div>
                                                     </a>
 
