@@ -1030,10 +1030,11 @@ footer li a:hover {
 
 .achievemnts {
     width: 100%;
-    min-height: 250px;
+    min-height: 200px;
     max-height: 400px;
     padding: 10px;
-    background-color: #d6d6d6;
+    /* background-color: #d6d6d6; */
+      background-image: linear-gradient( to right,rgb(79, 94, 182),rgba(113, 212, 138, 0.658));
     float: left;
     margin-right: 15px;
     margin-left: 15px;
