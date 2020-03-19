@@ -670,8 +670,8 @@ $i=0;
                         <li>
                             <a href="#achievment_<?= $k ?>" class="ach_modal_opener">
                                 <div class="achievemnts">
-                                    <div style="background-image:url(<?= base_url('uploads/achievements/' . $achievement->image) ?>);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;"
-                                         class="img-responsive"></div>
+                                    <div style="background-image:url(<?= base_url('uploads/achievements/' . $achievement->image) ?>);background-size: contain;width: 100%;background-repeat: no-repeat;background-position: center;"
+                                         class="img-responsive achievement-card"></div>
                                     <!-- <p class="<?= $achievement->comment ? '' : 'hide' ?>"><?= substr(strip_tags($achievement->comment),
                                             0, 20) ?>...</p> -->
                                     <div class="hide comment"><?= $achievement->comment ?></div>
