@@ -34,7 +34,7 @@
         <link href="<?= base_url() ?>assets/property/media/com_solidres/assets/css/jquery/themes/base/jquery-ui.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
         
         <link href="<?= base_url() ?>assets/property/templates/shaper_resort/css/bootstrap.minc619.js?v=1.0" rel="stylesheet" type="text/css"/>
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link href="<?= base_url() ?>assets/property/components/com_sppagebuilder/assets/css/font-awesome.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
         <link href="<?= base_url() ?>assets/property/components/com_sppagebuilder/assets/css/animate.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
         <link href="<?= base_url() ?>assets/property/components/com_sppagebuilder/assets/css/sppagebuilderc619.css?v=1.0" rel="stylesheet" type="text/css"/>
@@ -172,12 +172,64 @@
 }
 
 @media (max-width: 414px) {
-    .col-sx-2{
-    width:50%;
-}
+
 .phone{
     width: 97%;
 }
+.fa-3x {
+    font-size: 2em!important;
+}
+.whtsapp{
+    padding: 5px;
+ 
+} 
+.whtsapp span,.whtsapp .fa{
+    font-size: 12px;
+}
+
+
+.youtube{
+    padding: 5px;
+  
+} 
+.youtube span,.youtube .fa{
+    font-size: 12px;
+}
+
+.pinterest{
+    padding: 5px;
+
+} 
+.pinterest span,.pinterest .fa{
+    font-size: 12px;
+}
+
+.facebook{
+    padding: 5px;
+
+} 
+.facebook span,.facebook .fa{
+    font-size: 12px;
+}
+
+.twitter{
+    padding: 5px;
+
+} 
+.twitter span,.twitter .fa{
+    font-size: 12px; 
+}
+
+
+.linkedIn{
+    padding: 5px;
+
+} 
+
+.linkedIn span,.linkedIn .fa{
+    font-size: 12px; 
+}
+
 }
 #contact-form .input-group-addon {
     padding: 6px 12px;
@@ -461,7 +513,7 @@
     }
 }
 .fa-3x {
-    font-size: 3em!important;
+    font-size: 3em;
 }
 
 /*----------------accordition-----------*/
@@ -761,10 +813,10 @@
     </div>
     
 </div>
- <div class="container-fluid text-center ">
+ <!-- <div class="container-fluid text-center ">
     <div class="row">
         
-        <div class="col-md-2 col-sx-2 whtsapp zoom">
+        <div class="col-md-2 col-xs-2 whtsapp zoom">
             <div class="">
                 <a target="_blank" href="" class="">
                 <span>Whatsapp</span><br>
@@ -773,15 +825,16 @@
             </div>
         </div>
       
-        <div class="col-md-2 col-sx-2 youtube zoom">
+        <div class="col-md-2 col-xs-2 youtube zoom">
           <div class="">
                 <a target="_blank" href="" class="">
                 <span>Youtube</span><br>
                 <i class="fa fa-youtube fa-3x"></i>
+                
                 </a>
           </div>
         </div>
-        <div class="col-md-2 col-sx-2 facebook zoom">
+        <div class="col-md-2 col-xs-2 facebook zoom">
           <div class="">
             <a target="_blank" href="" class="">
             <span>Facebook</span><br>
@@ -789,7 +842,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-2 col-sx-2 pinterest zoom">
+        <div class="col-md-2 col-xs-2 pinterest zoom">
             <div class="">
                         <a target="_blank" href="" class="">
                         <span>Pinterest</span><br>
@@ -798,7 +851,7 @@
             </div>
         </div>
       
-        <div class="col-md-2 col-sx-2 twitter zoom">
+        <div class="col-md-2 col-xs-2 twitter zoom">
            <div class=""> 
                 <a target="_blank" href="" class="">
                 <span>Twitter</span><br>
@@ -806,7 +859,7 @@
                 </a>
             </div>
         </div>
-        <div class="col-md-2 col-sx-2 linkedIn zoom">
+        <div class="col-md-2 col-xs-2 linkedIn zoom">
           <div class="">
             <a target="_blank" href="" class="">
             <span>LinkedIn</span><br>
@@ -816,7 +869,7 @@
         </div>
        
     </div>
-</div>
+</div> -->
 
     <div class="clearfix"></div>
                 <section id="section-id-1507611922"  class="sppb-section   rooms-suits resort-title-heading wow">
@@ -2303,7 +2356,7 @@
 
     <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/slick.min.js"></script>
     <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/select-app.js"></script>
-
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
      <!-- Global site tag (gtag.js) - Google Analytics -->
      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105570977-1"></script>
     <script>
