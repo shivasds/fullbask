@@ -314,8 +314,8 @@ $(document).ready(function(){
                                     <div class="col-sm-4">
                                         <label>Price Range(₹):</label>
                                         <input id="price" name="price" type="text"/><br/>
-                                        <span class="pull-left">₹2000000</span>
-                                        <span class="pull-right">₹100000000</span>
+                                        <span class="pull-left">₹20 L*</span>
+                                        <span class="pull-right">₹10 Cr*</span>
                                         <div class="clearfix"></div><br>
                                     </div>
                                     <div class="col-sm-4">

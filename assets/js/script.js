@@ -146,10 +146,11 @@ if (typeof search != 'undefined' && search != null) {
 
             $("#price").slider({
                 id: "slider12c",
-                min: 200000,
-                max: 1000000,
-                range: true,
-                value: [200000, 1000000]
+                //ticks: [2000000,20000000, 40000000, 60000000, 80000000,100000000],
+                min: 2000000,
+                max: 100000000,
+                step: 10000000, 
+                 value: [2000000, 100000000]
             });
         }
     });
