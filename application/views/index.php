@@ -134,6 +134,7 @@ $(document).ready(function(){
             <?php $i = 0;
             foreach ($sliders as $slider) {
             ?>
+            
                 <div class="<?= $i ? '' : 'active'  ?> item fadeInRight animated img-responsive"
                     style="100%!important; background: url(<?= base_url('uploads/sliders/' . $slider->image) ?>);">
                     <div class="carousel-caption fadeInUp animated">
@@ -155,25 +156,19 @@ $(document).ready(function(){
     </ol>
 
     <div class="carousel-inner">
-        <?php
-        $i = 0;
+    <?php $desk = 0;
         foreach ($sliders as $slider) {
             $img=array();
             $img=explode('.', $slider->image);
-            if($i==1)
-       {
+           
         ?>
-      <div class="item active">
-        <img src="<?= base_url('uploads/sliders/' .  $slider->image) ?>" style="width: 100%!important;" alt="slider1">
+      <div class="<?= $desk ? 'item' : 'item active' ?>">
+      <img src="<?= base_url('uploads/sliders/' .  $slider->image) ?>" style="width: 100%!important;" alt="slider">
       </div>
-        <?php}
-        else{
-        ?>
-      <div class="item">
-        <img src="<?= base_url('uploads/sliders/' .  $slider->image) ?>" style="width: 100%!important;" alt="slider2">
-      </div> 
-        <?php }$i++;
-        } ?>
+       <?php $desk++;
+        
+            } ?>
+
     </div>
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -368,7 +363,10 @@ $(document).ready(function(){
     <div class="row section2">
         <div class="col-sm-12 text-center">
             <h2 class="h2">New Launches In Your City</h2>
-            <p>Best Hand Picked Property for You across<br> Bengaluru| Pune | Hyderabad</p>
+            <p>Best Hand Picked Property for You across
+            <br>
+             <!-- Bengaluru| Pune | Hyderabad -->
+             </p>
         </div>
         <div class="clearfix"></div>
         <br>

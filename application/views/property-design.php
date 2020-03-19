@@ -32,15 +32,20 @@
         <link rel="manifest" href="https://orchards.realatte.com/manifest.json">
 =======
         <link rel="icon" href="https://www.fullbasketproperty.com/assets/img/favicon.ico" type="image/gif" sizes="16x16">
-    <!-- <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/jquery.min.js"></script> -->
+   
         <link rel="manifest" href="http://orchards.realatte.com/manifest.json">
+<<<<<<< HEAD
 >>>>>>> 5e7f32fd473a3139aa622de9515e822f57ea7ba6
         <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/bootstrap-select.min.js"></script>
         <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/copy_bootstrap_min.js"></script>
+=======
+        <!-- <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/bootstrap-select.min.js"></script> -->
+        <!-- <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/copy_bootstrap_min.js"></script> -->
+>>>>>>> b8d9e613ec8980435c0444d7c59e91217c640a7b
         <link href="<?= base_url() ?>assets/property/media/com_solidres/assets/css/jquery/themes/base/jquery-ui.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
         
         <link href="<?= base_url() ?>assets/property/templates/shaper_resort/css/bootstrap.minc619.js?v=1.0" rel="stylesheet" type="text/css"/>
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link href="<?= base_url() ?>assets/property/components/com_sppagebuilder/assets/css/font-awesome.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
         <link href="<?= base_url() ?>assets/property/components/com_sppagebuilder/assets/css/animate.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
         <link href="<?= base_url() ?>assets/property/components/com_sppagebuilder/assets/css/sppagebuilderc619.css?v=1.0" rel="stylesheet" type="text/css"/>
@@ -51,6 +56,7 @@
         <link href="<?= base_url() ?>assets/property/templates/shaper_resort/css/slide-animatec619.css?v=1.0" rel="stylesheet" type="text/css"/>
         <link href="<?= base_url() ?>assets/property/media/com_solidres/assets/css/main.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
         <link href="<?= base_url() ?>assets/property/components/com_sppagebuilder/assets/css/magnific-popupc619.css?v=1.0" rel="stylesheet" type="text/css"/>
+        <link href="<?= base_url('assets/360assets') ?>/css/common.css" rel="stylesheet" type="text/css"/>
 
         <link href="<?= base_url() ?>assets/property/templates/shaper_resort/css/bootstrap.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
         <link href="<?= base_url() ?>assets/property/templates/shaper_resort/css/font-awesome.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
@@ -65,43 +71,9 @@
         <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/property/intl-tel-input/css/intlTelInputc619.css?v=1.0">
         <link href="<?= base_url() ?>assets/property/templates/shaper_resort/css/animatec619.css?v=1.0" rel="stylesheet" type="text/css">
         <!--<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"<?= base_url() ?>assets/property/>-->
-        <script type='text/javascript' src='<?= base_url() ?>assets/property/unitegallery/js/unitegallery.min.js'></script>
-        <link rel='stylesheet' href='<?= base_url() ?>assets/property/unitegallery/css/unite-gallery.css' type='text/css'/>
-        <script type='text/javascript' src='<?= base_url() ?>assets/property/unitegallery/themes/tilesgrid/ug-theme-tilesgrid.js'></script>
-        <script type="text/javascript"src="//platform-api.sharethis.com/js/sharethis.js#property=5ab1fa10a63ccf001315b0bf&product=inline-share-buttons"></script>
-        <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
-        <script type="text/javascript">
-    document.addEventListener('contextmenu', event => event.preventDefault());
-    </script>
-    <script type="text/javascript">
-        window.onbeforeunload = function (e) {
-        // Cancel the event
-        e.preventDefault();
-
-        // Chrome requires returnValue to be set
-        e.returnValue = 'Really want to quit the game?';
-    };
-
-    //Prevent Ctrl+S (and Ctrl+W for old browsers and Edge)
-    document.onkeydown = function (e) {
-        e = e || window.event;//Get event
-
-        if (!e.ctrlKey) return;
-
-        var code = e.which || e.keyCode;//Get key code
-
-        switch (code) {
-            case 83://Block Ctrl+S
-            case 87://Block Ctrl+W -- Not work in Chrome and new Firefox
-            case 67:
-            case 88:
-
-                e.preventDefault();
-                e.stopPropagation();
-                break;
-        }
-    };
-    </script>
+       <link rel='stylesheet' href='<?= base_url() ?>assets/property/unitegallery/css/unite-gallery.css' type='text/css'/>
+      
+      
     <style>
         
 @media (max-width: 1600px) {
@@ -110,7 +82,99 @@
        width: 100%!important;
     height: 41px!important;
 }
+
 }
+
+.whtsapp{
+    padding: 20px;
+    background: #03a84e;
+    color: white;
+} 
+.whtsapp span,.whtsapp .fa{
+    color:white;
+}
+.whtsapp:hover{
+    box-shadow: 5px 8px 16px 0px green;
+   
+}
+.zoom {
+  /* padding: 50px; */
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  /* width: 200px;
+  height: 200px; */
+  margin: 0 auto;
+ 
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  z-index:2;
+}
+.youtube{
+    padding: 20px;
+    background: #ef0525;
+    color: white;
+} 
+.youtube span,.youtube .fa{
+    color:white;
+}
+.youtube:hover{
+    box-shadow: 5px 8px 16px 0px #ef0525;
+   
+}
+.pinterest{
+    padding: 20px;
+    background: #cb2027;
+    color: white;
+} 
+.pinterest span,.pinterest .fa{
+    color:white;
+}
+.pinterest:hover{
+    box-shadow: 5px 8px 16px 0px #cb2027;
+   
+}
+.facebook{
+    padding: 20px;
+   background: #5b7ec0;;
+    color: white;
+} 
+.facebook span,.facebook .fa{
+    color:white;
+}
+.facebook:hover{
+    box-shadow: 5px 8px 16px 0px #5b7ec0;
+   
+}
+.twitter{
+    padding: 20px;
+    background: #55acee;
+    color: white;
+} 
+.twitter span,.twitter .fa{
+    color:white;
+}
+.twitter:hover{
+    box-shadow: 5px 8px 16px 0px #55acee;
+   
+}
+
+.linkedIn{
+    padding: 20px;
+   background: #5b7ec0;;
+    color: white;
+} 
+
+.linkedIn span,.linkedIn .fa{
+    color:white;
+}
+.linkedIn:hover{
+    box-shadow: 5px 8px 16px 0px #5b7ec0;
+   
+}
+
+
 /* .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel] {
     padding-left: 84px!important;
 } */
@@ -119,9 +183,64 @@
 }
 
 @media (max-width: 414px) {
+
 .phone{
     width: 97%;
 }
+.fa-3x {
+    font-size: 2em!important;
+}
+.whtsapp{
+    padding: 5px;
+ 
+} 
+.whtsapp span,.whtsapp .fa{
+    font-size: 12px;
+}
+
+
+.youtube{
+    padding: 5px;
+  
+} 
+.youtube span,.youtube .fa{
+    font-size: 12px;
+}
+
+.pinterest{
+    padding: 5px;
+
+} 
+.pinterest span,.pinterest .fa{
+    font-size: 12px;
+}
+
+.facebook{
+    padding: 5px;
+
+} 
+.facebook span,.facebook .fa{
+    font-size: 12px;
+}
+
+.twitter{
+    padding: 5px;
+
+} 
+.twitter span,.twitter .fa{
+    font-size: 12px; 
+}
+
+
+.linkedIn{
+    padding: 5px;
+
+} 
+
+.linkedIn span,.linkedIn .fa{
+    font-size: 12px; 
+}
+
 }
 #contact-form .input-group-addon {
     padding: 6px 12px;
@@ -404,7 +523,9 @@
         height: 100%;
     }
 }
-
+.fa-3x {
+    font-size: 3em;
+}
 
 /*----------------accordition-----------*/
 
@@ -509,21 +630,7 @@
 }
 /*---------------------------*/
 </style>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105570977-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-105570977-1');
-    </script>
-        <link href="<?= base_url('assets/360assets') ?>/css/common.css" rel="stylesheet" type="text/css"/>
-
-        <!--<script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/bootstrap.min.js"></script>-->
-        <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/slick.min.js"></script>
-        <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/select-app.js"></script>
-     
+    
     </head>
     <body class="site com-sppagebuilder view-page no-layout no-task itemid-437 en-gb ltr  sticky-header layout-fluid">
     <div id="fb-root"></div>
@@ -657,10 +764,10 @@
 
                                                     <div class="item active">
                                                         <?php  
-                 echo '<img class="d-banner" src="'. base_url().$images[$ban]['banner_path'] .'"   style="width: 100%">';
-                echo '<img class="m-banner" src="'. base_url().$m_images[$ban]['mobile_banner_path'].'" alt="" style="width: 100%">';
-                            $side_image=base_url().$m_images[$ban]['mobile_banner_path'];
-                                           ?>
+                                        echo '<img class="d-banner" src="'. base_url().$images[$ban]['banner_path'] .'"   style="width: 100%">';
+                                        echo '<img class="m-banner" src="'. base_url().$m_images[$ban]['mobile_banner_path'].'" alt="" style="width: 100%">';
+                                                    $side_image=base_url().$m_images[$ban]['mobile_banner_path'];
+                                                                ?>
                                                  
 
                                            </div>
@@ -671,9 +778,9 @@
                                                     ?>
                                                         <div class="item">
                                                             <?php
-                 echo '<img class="d-banner" src="'. base_url().$images[$ban]['banner_path'] .'"   style="width: 100%">';
-                echo '<img class="m-banner" src="'. base_url().$m_images[$ban]['mobile_banner_path'].'" alt="" style="width: 100%">';
-                                                            ?>
+                                echo '<img class="d-banner" src="'. base_url().$images[$ban]['banner_path'] .'"   style="width: 100%">';
+                                echo '<img class="m-banner" src="'. base_url().$m_images[$ban]['mobile_banner_path'].'" alt="" style="width: 100%">';
+                                                 ?>
                                            </div>
                                                     <?php
                                                    
@@ -686,7 +793,7 @@
                                         {
 
                  echo '<img class="d-banner" src="'. base_url('uploads/'.$property->slug.'/'.$property->image).'"   style="width: 100%">';
-                echo '<img class="m-banner" src="'. base_url('uploads/'.$property->slug.'/'.$property->image).'" alt="" style="width: 100%">';
+                  echo '<img class="m-banner" src="'. base_url('uploads/'.$property->slug.'/'.$property->image).'" alt="" style="width: 100%">';
 
                                             ?>
                                             <?php
@@ -697,26 +804,85 @@
                                 </div>   
                                 <br>
  <div class="col-md-12">
-<div class="col-sm-3 col-md-3 col-lg-3" style="padding: 7px;">
-<div class="fb-like" data-href="https://www.facebook.com/fullbasketpropertypage/" data-width="10px" data-layout="standard" data-action="like" data-size="small" data-share="false"></div>
-</div>
-<div class="col-sm-3 col-md-3 col-lg-3">
-<a href="https://twitter.com/intent/tweet?screen_name=fbptweets&ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Tweet to @fbptweets</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                  
-</div>
-<div class="col-sm-3 col-md-3 col-lg-3">
-<script src="https://apis.google.com/js/platform.js"></script>
+    <div class="col-sm-3 col-md-3 col-lg-3" style="padding: 7px;">
+        <div class="fb-like" data-href="https://www.facebook.com/fullbasketpropertypage/" data-width="10px" data-layout="standard" data-action="like" data-size="small" data-share="false"></div>
+    </div>
+    <div class="col-sm-3 col-md-3 col-lg-3">
+      <a href="https://twitter.com/intent/tweet?screen_name=fbptweets&ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Tweet to @fbptweets</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    
+    </div>
+    <div class="col-sm-3 col-md-3 col-lg-3">
+    <script src="https://apis.google.com/js/platform.js"></script>
 
-<div class="g-ytsubscribe" data-channelid="UCGr-on8k7dRMKBFW-X2G05A" data-layout="default" data-count="default"></div>
+    <div class="g-ytsubscribe" data-channelid="UCGr-on8k7dRMKBFW-X2G05A" data-layout="default" data-count="default"></div>
+    </div>
+    <div class="col-sm-3 col-md-3 col-lg-3">
+        <h2>
+        <div style="/*float: right*/" class="sharethis-inline-share-buttons"></div>
+            <a target="_blank" href="<?= site_url(url_title($property->city_name)."/".( url_title($property->area) )."/$property->slug")?>" class="btn btn-primary btn-block" style="border-radius: 0;background-color: white;border-color: white;height: 33px;"></a>
+        </h2>
+    </div>
+    
 </div>
-<div class="col-sm-3 col-md-3 col-lg-3">
-    <h2>
-      <div style="/*float: right*/" class="sharethis-inline-share-buttons"></div>
-         <a target="_blank" href="<?= site_url(url_title($property->city_name)."/".( url_title($property->area) )."/$property->slug")?>" class="btn btn-primary btn-block" style="border-radius: 0;background-color: white;border-color: white;height: 33px;"></a>
-       </h2>
-</div>
-</div>
-<div class="clearfix"></div>
+ <!-- <div class="container-fluid text-center ">
+    <div class="row">
+        
+        <div class="col-md-2 col-xs-2 whtsapp zoom">
+            <div class="">
+                <a target="_blank" href="" class="">
+                <span>Whatsapp</span><br>
+                <i class="fa fa-whatsapp fa-3x"></i>
+                </a>
+            </div>
+        </div>
+      
+        <div class="col-md-2 col-xs-2 youtube zoom">
+          <div class="">
+                <a target="_blank" href="" class="">
+                <span>Youtube</span><br>
+                <i class="fa fa-youtube fa-3x"></i>
+                
+                </a>
+          </div>
+        </div>
+        <div class="col-md-2 col-xs-2 facebook zoom">
+          <div class="">
+            <a target="_blank" href="" class="">
+            <span>Facebook</span><br>
+            <i class="fa fa-facebook fa-3x"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-2 col-xs-2 pinterest zoom">
+            <div class="">
+                        <a target="_blank" href="" class="">
+                        <span>Pinterest</span><br>
+                        <i class="fa fa-pinterest fa-3x"></i>
+                        </a>
+            </div>
+        </div>
+      
+        <div class="col-md-2 col-xs-2 twitter zoom">
+           <div class=""> 
+                <a target="_blank" href="" class="">
+                <span>Twitter</span><br>
+                <i class="fa fa-twitter fa-3x"></i>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-2 col-xs-2 linkedIn zoom">
+          <div class="">
+            <a target="_blank" href="" class="">
+            <span>LinkedIn</span><br>
+            <i class="fa fa-linkedin fa-3x"></i>
+            </a>
+          </div>  
+        </div>
+       
+    </div>
+</div> -->
+
+    <div class="clearfix"></div>
                 <section id="section-id-1507611922"  class="sppb-section   rooms-suits resort-title-heading wow">
                                     <div class="sppb-row-container">
                                         <div class="sppb-section-title sppb-text-center">
@@ -765,41 +931,7 @@
 
                                                     
                                                     </p>
-                                                    <script>
-    $(document).ready(function() {
-        var showChar = 2000;
-        var ellipsestext = "...";
-        var moretext = "more";
-        var lesstext = "less";
-        $('.more').each(function() {
-            var content = $(this).html();
-
-            if(content.length > showChar) {
-
-                var c = content.substr(0, showChar);
-                var h = content.substr(showChar-1, content.length - showChar);
-
-                var html = c + '<span class="moreelipses">'+ellipsestext+'</span>&nbsp;<span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">'+moretext+'</a></span>';
-
-                $(this).html(html);
-            }
-
-        });
-
-        $(".morelink").click(function(){
-            if($(this).hasClass("less")) {
-                $(this).removeClass("less");
-                $(this).html(moretext);
-            } else {
-                $(this).addClass("less");
-                $(this).html(lesstext);
-            }
-            $(this).parent().prev().toggle();
-            $(this).prev().toggle();
-            return false;
-        });
-    });
-    </script>
+                                                    
 
 
                                                          <p style="text-align: left; margin-bottom: 20px; font-size: 14px;"> <a class="btn interested fix-link i-am">
@@ -1793,7 +1925,7 @@
                                                     <a class="map-btn" href="<?= base_url("uploads/$property->slug/map/$property->map") ?>">
                                                         <img src="<?= base_url("uploads/$property->slug/map/$property->map") ?>" class="small-map" alt="<?= $property->location_alt?>">
                                                         <div class="middle">
-                                                            <div class="text">View Map</div>
+                                                            <div class="text">View Large</div>
                                                         </div>
                                                     </a>
 
@@ -2204,7 +2336,8 @@
 
     <button class="btn btn-danger interested hidden-xs">Enquire</button>
     <!-- ==================================== -->
-
+    <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/jquery.min.js"></script>
+    
     <script src="<?= base_url() ?>assets/property/media/jui/js/jquery-noconflictbb68bb68.js?6d335272cfe947fe63a1dc6d722f2ca8" type="text/javascript"></script>
     <script src="<?= base_url() ?>assets/property/media/com_solidres/assets/js/noconflictc619.js?v=1.0" type="text/javascript"></script>
     <script src="<?= base_url() ?>assets/property/media/com_solidres/assets/js/jquery/ui/jquery-ui.minc619.js?v=1.0" type="text/javascript"></script>
@@ -2217,9 +2350,107 @@
     <script src="<?= base_url() ?>assets/property/templates/shaper_resort/js/bootstrap.minc619.js?v=1.0" type="text/javascript"></script>
     <script src="<?= base_url() ?>assets/property/templates/shaper_resort/js/jquery.stickyc619.js?v=1.0" type="text/javascript"></script>
     <script src="<?= base_url() ?>assets/property/templates/shaper_resort/js/mainc619.js?v=1.0" type="text/javascript"></script>
+    <script type='text/javascript' src='<?= base_url() ?>assets/property/unitegallery/js/unitegallery.min.js'></script>
+        
+        <script type='text/javascript' src='<?= base_url() ?>assets/property/unitegallery/themes/tilesgrid/ug-theme-tilesgrid.js'></script>
+         <script type="text/javascript"src="//platform-api.sharethis.com/js/sharethis.js#property=5ab1fa10a63ccf001315b0bf&product=inline-share-buttons"></script>
+         <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+
+         <script type="text/javascript" src="<?= base_url() ?>assets/property/lightbox/light-box5152.js?ver=1.0"></script>
+    <script src="<?= base_url() ?>assets/property/intl-tel-input/js/intlTelInput5152.js?ver=1.0"></script>
+    <script src="<?= base_url() ?>assets/property/js/jquery.validate5152.js?ver=1.0"></script>
+    <script src="<?= base_url() ?>assets/property/js/mobilevalidate5152.js?ver=1.0"></script>
+    <script src="<?= base_url() ?>assets/property/js/vai5152.js?ver=1.0"></script>
+    <script src="<?= base_url() ?>assets/property/js/cookie5152.js?ver=1.0"></script>
+    <script src="<?= base_url() ?>assets/property/js/popout5152.js?ver=1.0"></script>
+    <script type="text/javascript" src="<?= base_url() ?>assets/property/js/wow.min5152.js?ver=1.0"></script>
+
+    <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/slick.min.js"></script>
+    <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/select-app.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105570977-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-105570977-1');
+    </script>
+
+    
+         <script type="text/javascript">
+           document.addEventListener('contextmenu', event => event.preventDefault());
+    </script>
+    <script type="text/javascript">
+        window.onbeforeunload = function (e) {
+        // Cancel the event
+        e.preventDefault();
+
+        // Chrome requires returnValue to be set
+        e.returnValue = 'Really want to quit the game?';
+    };
+
+    //Prevent Ctrl+S (and Ctrl+W for old browsers and Edge)
+    document.onkeydown = function (e) {
+        e = e || window.event;//Get event
+
+        if (!e.ctrlKey) return;
+
+        var code = e.which || e.keyCode;//Get key code
+
+        switch (code) {
+            case 83://Block Ctrl+S
+            case 87://Block Ctrl+W -- Not work in Chrome and new Firefox
+            case 67:
+            case 88:
+
+                e.preventDefault();
+                e.stopPropagation();
+                break;
+        }
+    };
+    </script>
+
+
+  <script>
+    $(document).ready(function() {
+        var showChar = 2000;
+        var ellipsestext = "...";
+        var moretext = "more";
+        var lesstext = "less";
+        $('.more').each(function() {
+            var content = $(this).html();
+
+            if(content.length > showChar) {
+
+                var c = content.substr(0, showChar);
+                var h = content.substr(showChar-1, content.length - showChar);
+
+                var html = c + '<span class="moreelipses">'+ellipsestext+'</span>&nbsp;<span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">'+moretext+'</a></span>';
+
+                $(this).html(html);
+            }
+
+        });
+
+        $(".morelink").click(function(){
+            if($(this).hasClass("less")) {
+                $(this).removeClass("less");
+                $(this).html(moretext);
+            } else {
+                $(this).addClass("less");
+                $(this).html(lesstext);
+            }
+            $(this).parent().prev().toggle();
+            $(this).prev().toggle();
+            return false;
+        });
+    });
+    </script>
 
     <script type="text/javascript">
-        jQuery(document).ready(function ($) {
+        $(document).ready(function ($) {
             var $slideFullwidth = $("#sppb-addon-1507611917 .slide-fullwidth");
 
             // Autoplay
@@ -2241,71 +2472,39 @@
             ;
 
 
-            $slideFullwidth.owlCarousel({
-                margin: 0,
-                loop: true,
-                autoplay: $autoplay,
-                animateIn: "slideInRight",
-                animateOut: "fadeOutLeft",
-                nav: true,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 1
-                    },
-                    1000: {
-                        items: 1
-                    }
-                },
-                dots: $controllers,
-            });
+            // $slideFullwidth.owlCarousel({
+            //     margin: 0,
+            //     loop: true,
+            //     autoplay: $autoplay,
+            //     animateIn: "slideInRight",
+            //     animateOut: "fadeOutLeft",
+            //     nav: true,
+            //     responsive: {
+            //         0: {
+            //             items: 1
+            //         },
+            //         600: {
+            //             items: 1
+            //         },
+            //         1000: {
+            //             items: 1
+            //         }
+            //     },
+            //     dots: $controllers,
+            // });
 
 
-            $("#sppb-addon-1507611917 .sppbSlidePrev").click(function () {
-                $slideFullwidth.trigger("prev.owl.carousel", [400]);
-            });
+            // $("#sppb-addon-1507611917 .sppbSlidePrev").click(function () {
+            //     $slideFullwidth.trigger("prev.owl.carousel", [400]);
+            // });
 
-            $("#sppb-addon-1507611917 .sppbSlideNext").click(function () {
-                $slideFullwidth.trigger("next.owl.carousel", [400]);
-            });
+            // $("#sppb-addon-1507611917 .sppbSlideNext").click(function () {
+            //     $slideFullwidth.trigger("next.owl.carousel", [400]);
+            // });
         });
     </script>
 
-    <script type="text/javascript" src="<?= base_url() ?>assets/property/lightbox/light-box5152.js?ver=1.0"></script>
-    <script src="<?= base_url() ?>assets/property/intl-tel-input/js/intlTelInput5152.js?ver=1.0"></script>
-    <script src="<?= base_url() ?>assets/property/js/jquery.validate5152.js?ver=1.0"></script>
-    <script src="<?= base_url() ?>assets/property/js/mobilevalidate5152.js?ver=1.0"></script>
-    <script src="<?= base_url() ?>assets/property/js/vai5152.js?ver=1.0"></script>
-    <script src="<?= base_url() ?>assets/property/js/cookie5152.js?ver=1.0"></script>
-    <script src="<?= base_url() ?>assets/property/js/popout5152.js?ver=1.0"></script>
-    <script type="text/javascript" src="<?= base_url() ?>assets/property/js/wow.min5152.js?ver=1.0"></script>
-
-
-    <script type="text/javascript">
-        jQuery(document).ready(function () {
-            jQuery("#gallery").unitegallery({
-                tile_width: 350,                        //tile width
-                tile_height: 230,
-                gallery_theme: "tilesgrid",             //choose gallery theme (if more then one themes includes)
-                gallery_width: "100%",
-                tile_enable_border: false,
-                tile_overlay_opacity: 0.6,          //tile overlay opacity
-                tile_overlay_color: "#53ABBD"
-            });
-            jQuery("#gallery1").unitegallery({
-                tile_width: 350,                        //tile width
-                tile_height: 230,
-                gallery_theme: "tilesgrid",             //choose gallery theme (if more then one themes includes)
-                gallery_width: "100%",
-                tile_enable_border: false,
-                tile_overlay_opacity: 0.6,          //tile overlay opacity
-                tile_overlay_color: "#53ABBD"
-            });
-        });
-    </script>
-
+   
     <script>
         jQuery(document).ready(function ($) {
 
@@ -2517,7 +2716,28 @@
             document.createElement('form').submit.call(document.getElementById(elm));
         }
     </script>
-
+ <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery("#gallery").unitegallery({
+                tile_width: 350,                        //tile width
+                tile_height: 230,
+                gallery_theme: "tilesgrid",             //choose gallery theme (if more then one themes includes)
+                gallery_width: "100%",
+                tile_enable_border: false,
+                tile_overlay_opacity: 0.6,          //tile overlay opacity
+                tile_overlay_color: "#53ABBD"
+            });
+            jQuery("#gallery1").unitegallery({
+                tile_width: 350,                        //tile width
+                tile_height: 230,
+                gallery_theme: "tilesgrid",             //choose gallery theme (if more then one themes includes)
+                gallery_width: "100%",
+                tile_enable_border: false,
+                tile_overlay_opacity: 0.6,          //tile overlay opacity
+                tile_overlay_color: "#53ABBD"
+            });
+        });
+    </script>
 <script type="text/javascript">
 jQuery(document).ready(function () {
     jQuery(document).on("scroll", onScroll);

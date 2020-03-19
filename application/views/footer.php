@@ -166,7 +166,7 @@ input.separate-dial-code .selected-dial-code {
                                                                 
 
                                                                         <button type="submit"
-                                                                                class="btn btn-default form-btn">Submit
+                                                                                class="btn btn-default form-btn">Call Back
                                                                         </button>
                                                                     </form>
                                                                    
@@ -331,7 +331,8 @@ input.separate-dial-code .selected-dial-code {
                             <i class="fa fa-linkedin"></i></a>
                         </li>
 
-                        <a class="btn btn-primary" style="border-radius: 13px;background: none;margin-top: 9px;color: black;"data-toggle="modal" href="#submitcallback">Call Back</a>
+                        <!-- <a class="btn btn-primary" style="border-radius: 13px;background: none;margin-top: 9px;color: black;"data-toggle="modal" href="#submitcallback">Call Back</a>
+                   -->
                     </ul>
                 </div>
             </div>
@@ -371,7 +372,7 @@ input.separate-dial-code .selected-dial-code {
 <script type="text/javascript"> var base_url = "<?= base_url() ?>" </script>
 <script type="text/javascript"> var site_url = "<?= site_url() ?>"; if (typeof mapInit != 'undefined'){initMap();}</script>
 <script id="dsq-count-scr" src="//fullbasket-property.disqus.com/count.js" async></script>
-// <script type="text/javascript" src="<?= base_url('assets/js/script.js') ?>?v=<?=uniqid()?>"></script>
+<script type="text/javascript" src="<?= base_url('assets/js/script.js') ?>?v=<?=uniqid()?>"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122622140-1"></script>
 <script src="<?= base_url() ?>assets/property/intl-tel-input/js/intlTelInput5152.js?ver=1.0"></script>
