@@ -314,13 +314,8 @@ $(document).ready(function(){
                                     <div class="col-sm-4">
                                         <label>Price Range(₹):</label>
                                         <input id="price" name="price" type="text"/><br/>
-<<<<<<< HEAD
                                         <span class="pull-left">₹2000000</span>
                                         <span class="pull-right">₹100000000</span>
-=======
-                                        <span class="pull-left">₹<?php echo '2000000';//$price_range->min ?></span>
-                                        <span class="pull-right">₹<?php echo  '100000000'; //$price_range->max ?></span>
->>>>>>> 8a27982100b145ee56821060c6ee2cf77bfe059e
                                         <div class="clearfix"></div><br>
                                     </div>
                                     <div class="col-sm-4">

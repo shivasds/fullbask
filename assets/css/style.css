@@ -3096,6 +3096,17 @@ a.bld-link{text-decoration: none; color: #fff;}
     .prow1 span{width: 100%;}
     .prow1 span:last-child{text-align: left;}
 }
+.achievemnts {
+    width: 100%;
+    min-height: 100px;
+    max-height: 200px;
+    padding: 10px;
+    /* background-color: #d6d6d6; */
+      background-image: linear-gradient( to right,rgb(79, 94, 182),rgba(113, 212, 138, 0.658));
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+}
 
 @media (min-width: 320px) and (max-width: 1024px) {
     .blog-sticky{
