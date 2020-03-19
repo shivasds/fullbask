@@ -114,29 +114,30 @@
             </nav>
         </div>
         <div class="col-xs-9 col-sm-9 nopadding visible-xs">
-        <div class="col-xs-3 col-sm-3 col-md-1">
+                  <div class="col-xs-3 col-sm-3 col-md-1">
                         <a href="<?= site_url() ?>"><img src="<?= base_url('assets/img/logo.png') ?>" style=" float: right; width: 70px;"alt="fullbasketlogo" discription="Full Basket Logo image"></a>
                     </div>
-                    
-            <div class="city_select">
-                <div class="btn-group pull-right">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <?= $this->session->userdata('city') ? htmlentities($this->session->userdata('city')) : 'Select City' ?> <span class="fa fa-level-down pull-right" style="margin-top: 3px;"></span>
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a href="<?= site_url('listing') ?>">All Cities</a></li>
-                        <?php foreach ($cities as $city) { ?>            
-                        <li class="<?=/* $this->session->userdata('city') ==*/ $city->name ? 'active' : '' ?>"><a href="<?= site_url('city/'.$city->url_name) ?>"><?= htmlentities(ucfirst($city->name)) ?></a></li>
-                            <?php
-                            $this->session->unset_userdata('city');
-                           // $this->session->unset_userdata('content');
-                            } ?>
-                    </ul>
+                    <div class="col-xs-9 col-sm-6 col-md-8"> 
+                        <div class="city_select">
+                            <div class="btn-group pull-right">
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: blue;">
+                                <?= $this->session->userdata('city') ? htmlentities($this->session->userdata('city')) : 'Select City' ?> <span class="fa fa-level-down pull-right" style="margin-top: 3px;color: blue;border: none;"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="<?= site_url('listing') ?>">All Cities</a></li>
+                                    <?php foreach ($cities as $city) { ?>            
+                                    <li class="<?=/* $this->session->userdata('city') ==*/ $city->name ? 'active' : '' ?>"><a href="<?= site_url('city/'.$city->url_name) ?>"><?= htmlentities(ucfirst($city->name)) ?></a></li>
+                                        <?php
+                                        $this->session->unset_userdata('city');
+                                    // $this->session->unset_userdata('content');
+                                        } ?>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
         </div>
     </div>
 </div>

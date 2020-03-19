@@ -319,8 +319,8 @@ $(document).ready(function(){
                                     <div class="col-sm-4">
                                         <label>Price Range(₹):</label>
                                         <input id="price" name="price" type="text"/><br/>
-                                        <span class="pull-left">₹<?= $price_range->min ?></span>
-                                        <span class="pull-right">₹<?= $price_range->max ?></span>
+                                        <span class="pull-left">₹<?php echo '2000000';//$price_range->min ?></span>
+                                        <span class="pull-right">₹<?php echo  '100000000'; //$price_range->max ?></span>
                                         <div class="clearfix"></div><br>
                                     </div>
                                     <div class="col-sm-4">
@@ -674,8 +674,8 @@ $i=0;
                                 <div class="achievemnts">
                                     <div style="background-image:url(<?= base_url('uploads/achievements/' . $achievement->image) ?>);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;"
                                          class="img-responsive"></div>
-                                    <p class="<?= $achievement->comment ? '' : 'hide' ?>"><?= substr(strip_tags($achievement->comment),
-                                            0, 20) ?>...</p>
+                                    <!-- <p class="<?= $achievement->comment ? '' : 'hide' ?>"><?= substr(strip_tags($achievement->comment),
+                                            0, 20) ?>...</p> -->
                                     <div class="hide comment"><?= $achievement->comment ?></div>
                                     <p class="hide image"><?= base_url('uploads/achievements/' . $achievement->image) ?></p>
                                     <input type="hidden" class="ach_alt" value="<?=  $achievement->alt_title ?>">

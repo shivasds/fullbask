@@ -80,7 +80,55 @@
       width: 20px; }
     @media (max-width: 500px) {
       .intl-tel-input .country-list {
-        white-space: normal; } }
+        white-space: normal; 
+      } 
+      }
+
+      @media only screen and (min-width: 0px) and (max-width: 320px)  {
+        .intl-tel-input.separate-dial-code.iti-sdc-3 input, .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=tel] {
+          padding-left: 50px;
+          width: 249px; }
+      }
+
+      @media only screen and (min-width: 321px) and (max-width: 360px)  {
+        .intl-tel-input.separate-dial-code.iti-sdc-3 input, .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=tel] {
+          padding-left: 50px;
+          width: 286px; }
+      }
+
+      @media only screen and (min-width: 361px) and (max-width: 375px)  {
+        .intl-tel-input.separate-dial-code.iti-sdc-3 input, .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=tel] {
+          padding-left: 50px;
+          width: 301px; }
+      }
+
+      @media only screen and (min-width: 376px) and (max-width: 411px)  {
+        .intl-tel-input.separate-dial-code.iti-sdc-3 input, .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=tel] {
+          padding-left: 50px;
+          width: 336px; }
+      }
+      @media only screen and (min-width: 412px) and (max-width: 414px)  {
+        .intl-tel-input.separate-dial-code.iti-sdc-3 input, .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=tel] {
+          padding-left: 50px;
+          width: 340px; }
+      }
+      @media only screen and (min-width: 415px) and (max-width: 768px)  {
+        .intl-tel-input.separate-dial-code.iti-sdc-3 input, .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=tel] {
+          padding-left: 50px;
+          width: 178px; }
+      }
+      @media only screen and (min-width: 769px) and (max-width: 1024px)  {
+        .intl-tel-input.separate-dial-code.iti-sdc-3 input, .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=tel] {
+          padding-left: 50px;
+          width: 247px; }
+
+         }
+
+         @media only screen and (min-width: 1025px)  {
+          .intl-tel-input.separate-dial-code.iti-sdc-3 input, .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=tel] {
+            padding-left: 50px;
+            width: 316px; }
+          }
     .intl-tel-input .country-list .divider {
       padding-bottom: 5px;
       margin-bottom: 5px;
@@ -95,10 +143,11 @@
       vertical-align: middle; }
     .intl-tel-input .country-list .flag-box, .intl-tel-input .country-list .country-name {
       margin-right: 6px; }
-  .intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=text], .intl-tel-input.allow-dropdown input[type=tel], .intl-tel-input.separate-dial-code input, .intl-tel-input.separate-dial-code input[type=text], .intl-tel-input.separate-dial-code input[type=tel] {
-    padding-right: 6px;
+  /* .intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=text], .intl-tel-input.allow-dropdown input[type=tel], .intl-tel-input.separate-dial-code input, .intl-tel-input.separate-dial-code input[type=text], .intl-tel-input.separate-dial-code input[type=tel] {
+     padding-right: 6px;
     padding-left: 52px;
-    margin-left: 0; }
+    margin-left: 0;
+   }  */
   .intl-tel-input.allow-dropdown .flag-container, .intl-tel-input.separate-dial-code .flag-container {
     right: auto;
     left: 0; }
@@ -127,12 +176,13 @@
     padding-left: 76px; }
   .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 .selected-flag {
     width: 70px; }
-  .intl-tel-input.separate-dial-code.iti-sdc-3 input, .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=tel] {
-    padding-left: 74px; }
+  /* .intl-tel-input.separate-dial-code.iti-sdc-3 input, .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=tel] {
+    padding-left: 50px;
+    width: 286px; } */
   .intl-tel-input.separate-dial-code.iti-sdc-3 .selected-flag {
     width: 68px; }
-  .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel] {
-    padding-left: 84px; }
+  /* .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel] {
+    padding-left: 84px; } */
   .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 .selected-flag {
     width: 78px; }
   .intl-tel-input.separate-dial-code.iti-sdc-4 input, .intl-tel-input.separate-dial-code.iti-sdc-4 input[type=text], .intl-tel-input.separate-dial-code.iti-sdc-4 input[type=tel] {

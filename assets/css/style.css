@@ -2723,6 +2723,7 @@ a.bld-link{text-decoration: none; color: #fff;}
 
 
 @media (max-width: 1199px) {
+    
     .achievemnts {
         width: 160px;
     }
@@ -2740,8 +2741,8 @@ a.bld-link{text-decoration: none; color: #fff;}
     }
 
     .navbar-default .navbar-nav > li > a {
-        padding-right: 20px;
-        padding-left: 20px;
+        padding-right: 17px;
+        padding-left: 17px;
     }
     .pt_wrap > div{font-size: 20px;}
     .bread_wrap { margin-top: -170px;}
@@ -2825,6 +2826,15 @@ a.bld-link{text-decoration: none; color: #fff;}
     .btitle { font-size: 20px;}
     .bpic img { height: 263px;}
 }
+
+
+@media (min-width: 1025px){
+    .phone {
+        width: 96%;
+    }
+    }
+
+
 
 @media (max-width: 767px) {
     #contact_form {
@@ -2958,7 +2968,17 @@ a.bld-link{text-decoration: none; color: #fff;}
     }
 
     .city_select {
-        padding-left: 35px;
+      padding-right: 7px;
+    margin-top: 10px;
+    float: right!important;
+    }
+    .fa.pull-right {
+        margin-left: 1.3em;
+    }
+    .btn-default:hover {
+        color: #0d14ea;
+        background-color: #ffffff;
+        border-color: #ffffff;
     }
 
     .property-bg {

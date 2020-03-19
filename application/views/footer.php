@@ -16,36 +16,11 @@
  
 }
 
-
-@media (max-width: 1600px) {
-.phone{
-    width: 109%;
-}
-}
-@media (max-width: 414px) {
-.phone{
-    width: 97%;
-}
-}
 input.separate-dial-code .selected-dial-code {
    color: #1f1d1d !important;
 }
 
-/* @media (max-width: 550px){
-.phone {
-    width: 108%;
 }
-}
-@media (max-width: 850px){
-.phone {
-    width: 76%;
-}
-}
-@media (max-width: 1025px){
-.phone {
-    width: 109%;
-}
-} */
 </style>
 <div class="modal fade" id="submitContact">
     <div class="modal-dialog">
