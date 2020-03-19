@@ -813,7 +813,7 @@
     </div>
     
 </div>
- <!-- <div class="container-fluid text-center ">
+ <div class="container-fluid text-center ">
     <div class="row">
         
         <div class="col-md-2 col-xs-2 whtsapp zoom">
@@ -869,7 +869,7 @@
         </div>
        
     </div>
-</div> -->
+</div>
 
     <div class="clearfix"></div>
                 <section id="section-id-1507611922"  class="sppb-section   rooms-suits resort-title-heading wow">

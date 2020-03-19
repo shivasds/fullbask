@@ -129,12 +129,12 @@ if (typeof search != 'undefined' && search != null) {
         success: function (data) {
             var data = JSON.parse(data);
 
-            $("#price").slider({id: "slider12c", min: parseInt(data.min), max: parseInt(data.max), range: true});
+            $("#price").slider({id: "slider12c", min: 2000000, max:100000000, range: true});
         }
     });
-    $("#property").slider({id: "slider12c", min: 1, max: 4, range: true});
-    $("#baths").slider({id: "slider12c", min: 1, max: 120, range: true});
-    $("#bed").slider({id: "slider12c", min: 100, max: 12000, range: true});
+    $("#property").slider({id: "slider12c", min: 1, max: 5, range: true});
+    $("#baths").slider({id: "slider12c", min: 300, max: 10000, range: true});
+    $("#bed").slider({id: "slider12c", min: 200000, max: 1000000, range: true});
 } else {
 
     $.ajax({
@@ -146,16 +146,16 @@ if (typeof search != 'undefined' && search != null) {
 
             $("#price").slider({
                 id: "slider12c",
-                min: parseInt(data.min),
-                max: parseInt(data.max),
+                min: 200000,
+                max: 1000000,
                 range: true,
-                value: [parseInt(data.min), parseInt(data.max)]
+                value: [200000, 1000000]
             });
         }
     });
-    $("#property").slider({id: "slider12c", min: 1, max: 4, range: true, value: [1, 4]});
-    $("#baths").slider({id: "slider12c", min: 1, max: 120, range: true, value: [1, 120]});
-    $("#bed").slider({id: "slider12c", min: 100, max: 12000, range: true, value: [100, 12000]});
+    $("#property").slider({id: "slider12c", min: 1, max: 5, range: true, value: [1, 5]});
+    $("#baths").slider({id: "slider12c", min: 300, max: 10000, range: true, value: [300, 10000]});
+    $("#bed").slider({id: "slider12c", min: 200000, max: 1000000, range: true, value: [200000, 1000000]});
 }
 
 function openNav() {

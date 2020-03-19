@@ -296,8 +296,8 @@
                                     <div class="col-sm-4">
                                         <label>Price Range(₹):</label>
                                         <input id="price" name="price" type="text"/><br/>
-                                        <span class="pull-left">₹<?= $price_range->min ?></span>
-                                        <span class="pull-right">₹<?= $price_range->max ?></span>
+                                        <span class="pull-left">₹20Lacs</span>
+                                        <span class="pull-right">₹10Crore</span>
                                         <div class="clearfix"></div><br>
                                     </div>
                                     <div class="col-sm-4">
