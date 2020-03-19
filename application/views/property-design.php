@@ -86,6 +86,20 @@
     box-shadow: 5px 8px 16px 0px green;
    
 }
+.zoom {
+  /* padding: 50px; */
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  /* width: 200px;
+  height: 200px; */
+  margin: 0 auto;
+ 
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  z-index:2;
+}
 .youtube{
     padding: 20px;
     background: #ef0525;
@@ -750,51 +764,51 @@
  <div class="container-fluid text-center ">
     <div class="row">
         
-        <div class="col-md-2 col-sx-2 whtsapp">
+        <div class="col-md-2 col-sx-2 whtsapp zoom">
             <div class="">
-                <a href="#" class="">
+                <a target="_blank" href="" class="">
                 <span>Whatsapp</span><br>
                 <i class="fa fa-whatsapp fa-3x"></i>
                 </a>
             </div>
         </div>
       
-        <div class="col-md-2 col-sx-2 youtube">
+        <div class="col-md-2 col-sx-2 youtube zoom">
           <div class="">
-                <a href="#" class="">
+                <a target="_blank" href="" class="">
                 <span>Youtube</span><br>
                 <i class="fa fa-youtube fa-3x"></i>
                 </a>
           </div>
         </div>
-        <div class="col-md-2 col-sx-2 facebook">
+        <div class="col-md-2 col-sx-2 facebook zoom">
           <div class="">
-            <a href="#" class="">
+            <a target="_blank" href="" class="">
             <span>Facebook</span><br>
             <i class="fa fa-facebook fa-3x"></i>
             </a>
           </div>
         </div>
-        <div class="col-md-2 col-sx-2 pinterest">
+        <div class="col-md-2 col-sx-2 pinterest zoom">
             <div class="">
-                        <a href="#" class="">
+                        <a target="_blank" href="" class="">
                         <span>Pinterest</span><br>
                         <i class="fa fa-pinterest fa-3x"></i>
                         </a>
             </div>
         </div>
       
-        <div class="col-md-2 col-sx-2 twitter">
+        <div class="col-md-2 col-sx-2 twitter zoom">
            <div class=""> 
-                <a href="#" class="">
+                <a target="_blank" href="" class="">
                 <span>Twitter</span><br>
                 <i class="fa fa-twitter fa-3x"></i>
                 </a>
             </div>
         </div>
-        <div class="col-md-2 col-sx-2 linkedIn">
+        <div class="col-md-2 col-sx-2 linkedIn zoom">
           <div class="">
-            <a href="#" class="">
+            <a target="_blank" href="" class="">
             <span>LinkedIn</span><br>
             <i class="fa fa-linkedin fa-3x"></i>
             </a>

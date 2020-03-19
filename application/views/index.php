@@ -134,6 +134,7 @@ $(document).ready(function(){
             <?php $i = 0;
             foreach ($sliders as $slider) {
             ?>
+            
                 <div class="<?= $i ? '' : 'active'  ?> item fadeInRight animated img-responsive"
                     style="100%!important; background: url(<?= base_url('uploads/sliders/' . $slider->image) ?>);">
                     <div class="carousel-caption fadeInUp animated">
@@ -155,31 +156,18 @@ $(document).ready(function(){
     </ol>
 
     <div class="carousel-inner">
-        <?php 
-        $desk = 1;
+    <?php $desk = 0;
         foreach ($sliders as $slider) {
             $img=array();
             $img=explode('.', $slider->image);
-            
-            if($desk==1)
-       {
+           
         ?>
-      <div class="item active">
-        <img src="<?= base_url('uploads/sliders/' .  $slider->image) ?>" style="width: 100%!important;" alt="slider1">
+      <div class="<?= $desk ? 'item' : 'item active' ?>">
+      <img src="<?= base_url('uploads/sliders/' .  $slider->image) ?>" style="width: 100%!important;" alt="slider">
       </div>
-        <?php}
-        else{
-        ?>
-      <div class="item">
-        <img src="<?= base_url('uploads/sliders/' .  $slider->image) ?>" style="width: 100%!important;" alt="slider2">
-      </div> 
-        <?php }
+       <?php $desk++;
         
-    
-        ?>
-         <script>alert(<?=$desk?>);</script>
-        <?php
-           $desk++; } ?>
+            } ?>
 
     </div>
     <!-- Left and right controls -->

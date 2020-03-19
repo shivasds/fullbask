@@ -124,13 +124,10 @@
                                 <?= $this->session->userdata('city') ? htmlentities($this->session->userdata('city')) : 'Select City' ?> <span class="fa fa-level-down pull-right" style="margin-top: 3px;color: blue;border: none;"></span>
                                 </button>
                                 <ul class="dropdown-menu gradient">
-                                    <li><a href="<?= site_url('listing') ?>">All Cities</a></li>
-                                    <?php foreach ($cities as $city) { ?>            
-                                    <li class="<?=/* $this->session->userdata('city') ==*/ $city->name ? 'active' : '' ?>"><a href="<?= site_url('city/'.$city->url_name) ?>"><?= htmlentities(ucfirst($city->name)) ?></a></li>
-                                        <?php
-                                        $this->session->unset_userdata('city');
-                                    // $this->session->unset_userdata('content');
-                                        } ?>
+                                <li><a href="<?= site_url('listing') ?>">All Cities</a></li>
+                                            <?php foreach ($cities as $city) { ?>            
+                                            <li class="<?= $this->session->userdata('city') == $city->name ? 'active' : '' ?>"><a href="<?= site_url('city/'.$city->url_name) ?>"><?= htmlentities(ucfirst($city->name)) ?></a></li>
+                                                <?php } ?>
                                 </ul>
                             </div>
                         </div>
