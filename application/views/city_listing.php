@@ -227,26 +227,26 @@
 							<div class="col-sm-4">
 								<label>Price Range(₹):</label>
 								<input id="price" name="price" type="text"/><br/>
-								<span class="pull-left">₹<?= $price_range->min ?></span>
-								<span class="pull-right">₹<?= $price_range->max ?></span>
+								<span class="pull-left">₹20Lacs</span>
+								<span class="pull-right">₹10Crore</span>
 								<div class="clearfix"></div><br>
 							</div>
 							<div class="col-sm-4">
 								<label>BHK(No Of Bedrooms)</label>
 								<input id="property" name="bhk" type="text"/><br/>
 								<span class="pull-left">1</span>
-								<span class="pull-right">4</span>
+								<span class="pull-right">5</span>
 								<div class="clearfix"></div><br>
 							</div>
 							<div class="col-sm-4">
 								<label>Size (In Sqft)</label>
 								<input id="baths" name="baths" type="text"/><br/>
-								<span class="pull-left">1</span>
-								<span class="pull-right">120</span>
+								<span class="pull-left">300</span>
+								<span class="pull-right">10,000</span>
 								<div class="clearfix"></div><br>
 							</div>
 						</div>
-						<div class="row">
+						<!-- <div class="row">
 							<?php foreach ($amenities as $k => $amenity) { ?>
 							<div class="col-sm-3 amenity-group  <?= $k > 9 ? 'hide' : '' ?>">
 								<div class="mb10">
@@ -259,7 +259,7 @@
                             <button type="button" onclick="$('.amenity-group').removeClass('hide');$(this).remove()"
                                     class="btn btn-primary"><i class="fa fa-chevron-down"></i> Show All Amenities
                             </button>
-                        </div>
+                        </div> -->
 						<div class="row">
 							<div class="col-sm-12 text-center">
 								<button class="btn btn-submit" type="submit"><img src="<?= base_url('assets/img/home.png') ?>"></button>
@@ -323,6 +323,7 @@
                                                             <th>Unit</th>
                                                             <th>Size(SBA)</th>
                                                             <th>Carpet Area</th>
+                                                            <th>WHatsapp</th>
                                                             <th>Builder Price</th>
                                                         </tr>
                                                         </thead>
@@ -337,6 +338,7 @@
                                                                     </td>
                                                                     <td><?=$this->properties_model->getPropertyRange(array('property_id' => $property->id, 'flat_type_id' => $flatType->flat_type_id), 'property_flat_types', 'size')?> <?=$this->properties_model->getPropertyParam(array('property_id' => $property->id, 'flat_type_id' => $flatType->flat_type_id), 'property_flat_types', 'unit')?></td>
                                                                     <td><?=$this->properties_model->getPropertyRange(array('property_id' => $property->id, 'flat_type_id' => $flatType->flat_type_id), 'property_flat_types', 'carpet_area')?> Sq.ft</td>
+                                                                    <td><a href="https://api.whatsapp.com/send?phone=918342063684&text=I'm%20interested.%20would%20like%20to%20know%20more%20about%20<?= $property->title ? $property->title : '' ?>%20Project%20 <?= $flatType->flat_type ?>" target="_blank"><img style="float: none;"src="<?= base_url('assets/banner_patch/whatsapp.png') ?>"> </a></td>
                                                                     <td><?php if($flatType->price_on_request){ echo "Price on Request"; }else{ ?> <?=( ($row = $this->properties_model->getPropertyParam(array('property_id' => $property->id, 'flat_type_id' => $flatType->flat_type_id), 'property_flat_types', null, 'MIN(total) as amount')) != null ) ? number_format_short($row->amount) : 0 ?> - <?= ( ($row = $this->properties_model->getPropertyParam(array('property_id' => $property->id, 'flat_type_id' => $flatType->flat_type_id), 'property_flat_types', null, 'MAX(total) as amount')) != null ) ? number_format_short($row->amount) : 0?> <?php } ?></td>
                                                                 </tr>
                                                                 <?php

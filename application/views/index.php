@@ -314,26 +314,26 @@ $(document).ready(function(){
                                     <div class="col-sm-4">
                                         <label>Price Range(₹):</label>
                                         <input id="price" name="price" type="text"/><br/>
-                                        <span class="pull-left">₹<?php echo '2000000';//$price_range->min ?></span>
-                                        <span class="pull-right">₹<?php echo  '100000000'; //$price_range->max ?></span>
+                                        <span class="pull-left">₹20 L*</span>
+                                        <span class="pull-right">₹10 Cr*</span>
                                         <div class="clearfix"></div><br>
                                     </div>
                                     <div class="col-sm-4">
                                         <label>BHK(No of Bedrooms)</label>
                                         <input id="property" name="bhk" type="text"/><br/>
                                         <span class="pull-left">1</span>
-                                        <span class="pull-right">4</span>
+                                        <span class="pull-right">5</span>
                                         <div class="clearfix"></div><br>
                                     </div>
                                     <div class="col-sm-4">
                                         <label>Size(In Sqft)</label>
                                         <input id="baths" name="baths" type="text"/><br/>
-                                        <span class="pull-left">1</span>
-                                        <span class="pull-right">120</span>
+                                        <span class="pull-left">300</span>
+                                        <span class="pull-right">10000</span>
                                         <div class="clearfix"></div><br>
                                     </div>
                                 </div>
-                                <div class="row">
+                                <!-- <div class="row">
                                     <?php foreach ($amenities as  $k => $amenity) { ?>
                                     <div class="col-sm-3 amenity-group  <?= $k > 9 ? 'hide' : '' ?>">
                                         <div class="mb10">
@@ -341,12 +341,12 @@ $(document).ready(function(){
                                         </div>
                                     </div>
                                     <?php } ?>
-                                </div>
-                                <div class="row text-center <?= count($amenities) < 11 ? 'hide' : '' ?>">
+                                </div> -->
+                                <!-- <div class="row text-center <?= count($amenities) < 11 ? 'hide' : '' ?>">
                                     <button type="button" onclick="$('.amenity-group').removeClass('hide');$(this).remove()"
                                             class="btn btn-primary"><i class="fa fa-chevron-down"></i> Show All Amenities
                                     </button>
-                                </div>
+                                </div> -->
                                 <div class="row">
                                     <div class="col-sm-12 text-center">
                                         <button class="btn btn-submit" type="submit"><img src="<?= base_url('assets/img/home.png') ?>"></button>
@@ -670,8 +670,8 @@ $i=0;
                         <li>
                             <a href="#achievment_<?= $k ?>" class="ach_modal_opener">
                                 <div class="achievemnts">
-                                    <div style="background-image:url(<?= base_url('uploads/achievements/' . $achievement->image) ?>);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;"
-                                         class="img-responsive"></div>
+                                    <div style="background-image:url(<?= base_url('uploads/achievements/' . $achievement->image) ?>);background-size: contain;width: 100%;background-repeat: no-repeat;background-position: center;"
+                                         class="img-responsive achievement-card"></div>
                                     <!-- <p class="<?= $achievement->comment ? '' : 'hide' ?>"><?= substr(strip_tags($achievement->comment),
                                             0, 20) ?>...</p> -->
                                     <div class="hide comment"><?= $achievement->comment ?></div>
