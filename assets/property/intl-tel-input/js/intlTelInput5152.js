@@ -712,12 +712,13 @@
             var title = countryCode ? this.selectedCountryData.name + ": +" + this.selectedCountryData.dialCode : "Unknown";
             this.selectedFlagInner.parent().attr("title", title);
             if (this.options.separateDialCode) {
+               
                 var dialCode = this.selectedCountryData.dialCode ? "+" + this.selectedCountryData.dialCode : "", parent = this.telInput.parent();
                 if (prevCountry.dialCode) {
                     parent.removeClass("iti-sdc-" + (prevCountry.dialCode.length + 1));
                 }
                 if (dialCode) {
-                    parent.addClass("iti-sdc-" + dialCode.length);
+                    parent.addClass("iti-sdc-3");
                 }
                 this.selectedDialCode.text(dialCode);
             }
