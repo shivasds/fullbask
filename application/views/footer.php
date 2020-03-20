@@ -3,7 +3,7 @@
         display:none;
     }
     .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 .selected-flag {
-    width: 82px!important;
+    width: 89px!important;
     background-color: #eeeeee!important;
 }
 /* .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel] {

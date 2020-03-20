@@ -8,14 +8,24 @@
 
   display: none; 
 }
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 .selected-flag {
+    z-index: 8
+}
 @media only screen and (min-width: 0px) and (max-width: 320px)  {
     .col-md-12 .user{
         width: 88%!important;
+}
+#contctform-phone2_phone{
+    padding-left: 92px;
 }
 }
 @media only screen and (min-width: 321px) and (max-width: 360px)  {
     .col-md-12 .user{
         width: 88%!important;
+}
+#contctform-phone2_phone{
+    padding-left: 90px;
+    
 }
 }
 
@@ -23,11 +33,21 @@
     .col-md-12 .user{
         width: 89%!important;
 }
+#contctform-phone2_phone{
+    width: 308px;
+    padding-left: 92px;
+    
+}
 }
 
 @media only screen and (min-width: 376px) and (max-width: 411px)  {
     .col-md-12 .user{
         width: 89%!important;
+}
+#contctform-phone2_phone{
+    padding-left: 93px;
+    width: 347px;
+    
 }
 }
 
@@ -35,21 +55,38 @@
     .col-md-12 .user{
         width: 90%!important;
 }
+#contctform-phone2_phone{
+    padding-left: 94px;
+    width: 347px; 
+}
 }
 @media only screen and (min-width: 415px) and (max-width: 768px)  {
     .col-md-12 .user{
         width: 56%!important;
+}
+#contctform-phone2_phone{
+    
+    padding-left: 97px;
+    width: 337px;
 }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px)  {
     .col-md-12 .user{
         width: 86%!important;
 }
+#contctform-phone2_phone{
+    padding-left: 94px;
+    width: 340px;
+}
 }
 
 @media only screen and (min-width: 1025px)  {
     .col-md-12 .user.{
     width: 56%!important;
+}
+#contctform-phone2_phone{
+    padding-left: 97px;
+    width: 340px; 
 }
 }
 
@@ -99,9 +136,9 @@
                                 <div class="input-group ">
                                     <!--<span style="border-radius: 0" class="input-group-addon"><i class="fa fa-phone" aria-hidden="true"></i></span>-->
                                     
-                                                                                <input type="tel" placeholder=" " style=" display: block;"   name="phone" class="validate form-control"
-                                                                                    id="contctform-phone3 phone" required>
-                                                                                <input type="hidden" name="countrycode" id="cplusm" value="">
+                                     <input type="tel" placeholder=" " style="display: block;"   name="phone" class="validate form-control"
+                                          id="contctform-phone2_phone" required>
+                                        <input type="hidden" name="countrycode" id="cplusm" value="">
                                                                                 
                                 </div>
                             <!-- </div> -->
@@ -126,6 +163,7 @@
                     </button>
                 </div>
             </form>
+            
 
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
