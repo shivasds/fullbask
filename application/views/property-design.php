@@ -1,3 +1,4 @@
+ 
 <!DOCTYPE html>
     <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
 
@@ -1824,7 +1825,7 @@
 
                                 </section>
 
-                                <section id="section-id-1507611944" class="sppb-section wow">
+                              <!--  <section id="section-id-1507611944" class="sppb-section wow">
                                    <div class="container">
                                   
                                     <div class="sppb-row">
@@ -1864,7 +1865,7 @@
                                 </div>
 
 
-                            </section>
+                            </section>-->
 
                                 <section id="section-id-1507611947"
                                          class="sppb-section resort-title-heading resort-location-wrapper resort-discount wow">
@@ -1945,6 +1946,7 @@
                                                                         
                                                                         </div>
     <input type="hidden" name="property_id" value="<?= $property->id ?>">
+    <input type="hidden" name="city" value="<?=$this->uri->segment(1);?>">
                                                                         <div class="form-group col-md-12">
                                                                             <div class="input-group">
                                                                                 <div class="input-group-addon"><i

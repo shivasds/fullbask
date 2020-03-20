@@ -28,10 +28,31 @@ class Thankyou extends Public_Controller
             'description'   => 'Full Basket Property: Best Property Portal in India',
             'keywords'      => 'Full Basket Property: Best Property Portal in India'
         );
+
+
         if($this->input->get('type') == 'home')
             $this->data['properties'] = $this->home_model->getProperties('properties', 7);
         
-        if($this->input->get('builder') && $this->input->get('location') && $this->input->get('property')){            
+        if($this->input->get('builder') && $this->input->get('location') && $this->input->get('property')){  
+        $city = $this->input->get('city');
+            if($city=='Hyderabad')
+                 $this->data['image']= "thankyou-images/3.jpg";
+                 elseif ($city=='Bangalore') {
+                              $this->data['image']= "thankyou-images/1.jpg";
+                           }    
+                            elseif ($city=='Pune') {
+                              $this->data['image']= "thankyou-images/2.jpg";
+                           }   
+                            elseif ($city=='Noida') {
+                              $this->data['image']= "thankyou-images/5.jpg";
+                           }  
+                           elseif ($city=='Mumbai') {
+                              $this->data['image']= "thankyou-images/4.jpg";
+                           } 
+                           else
+                           {
+                            $this->data['image']= "thankyou-images/all.jpg";
+                           }    
             $builderName = $this->security->xss_clean($this->input->get('builder'));
             $location    = $this->security->xss_clean($this->input->get('location'));
             $property    = $this->security->xss_clean($this->input->get('property'));
@@ -43,7 +64,10 @@ class Thankyou extends Public_Controller
             $this->data['similar_location_property'] = $this->properties_model->getPropertiesByLimit(array('p.area' =>$propData['area'], 'p.slug !='=>$property), 0, 10);
         }
         if($this->input->get('type') == 'instant')
+        {
             $this->data['msg'] = "Instant Callback";
+            $this->data['image']= "thankyou-images/all.jpg";
+        }
         $this->data['sliders'] = $this->home_model->order_by('id', 'desc')->getWhere(array('status' => 1, 'type'=>'T'), 'sliders');
         $this->data['view_page'] = 'thank-you';
         $this->load->view('template', $this->data);
