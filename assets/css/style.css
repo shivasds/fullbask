@@ -1028,7 +1028,22 @@ footer li a:hover {
     right: 0px;
 }
 
+<<<<<<< HEAD
+.achievemnts {
+    width: 100%;
+    min-height: 250px;
+    max-height: 400px;
+    padding: 10px;
+  /*  background-color: #d6d6d6;*/
+  background-image: linear-gradient(to right, rgb(221, 130, 94) 0%, rgb(212, 113, 179) 51%, #DD5E89 100%);
+  height: 217px !important;
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+=======
 
+>>>>>>> 2fafb6237cbda86e6ee1aad22ade7b6330ab2e64
 
 .achievemnts p {
     padding-top: 10px;
