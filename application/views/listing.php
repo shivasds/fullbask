@@ -404,6 +404,7 @@
                                                             <th>Unit</th>
                                                             <th>Size(SBA)</th>
                                                             <th>Carpet Area</th>
+                                                            <th>Whatsapp</th>
                                                             <th>Builder Price</th>
                                                         </tr>
                                                         </thead>
@@ -418,6 +419,7 @@
                                                                     </td>
                                                                     <td><?=$this->properties_model->getPropertyRange(array('property_id' => $property->id, 'flat_type_id' => $flatType->flat_type_id), 'property_flat_types', 'size')?> <?=$this->properties_model->getPropertyParam(array('property_id' => $property->id, 'flat_type_id' => $flatType->flat_type_id), 'property_flat_types', 'unit')?></td>
                                                                     <td><?=$this->properties_model->getPropertyRange(array('property_id' => $property->id, 'flat_type_id' => $flatType->flat_type_id), 'property_flat_types', 'carpet_area')?> Sq.ft</td>
+                                                                    <td><a href="https://api.whatsapp.com/send?phone=918342063684&text=I'm%20interested.%20would%20like%20to%20know%20more%20about%20<?= $property->title ? $property->title : '' ?>%20Project%20 <?= $flatType->flat_type ?>" target="_blank"><img style="float: none;"src="<?= base_url('assets/banner_patch/whatsapp.png') ?>"> </a</td>
                                                                     <td><?php if($flatType->price_on_request){ echo "Price on Request"; }else{ ?> <?=( ($row = $this->properties_model->getPropertyParam(array('property_id' => $property->id, 'flat_type_id' => $flatType->flat_type_id), 'property_flat_types', null, 'MIN(total) as amount')) != null ) ? number_format_short($row->amount) : 0 ?> - <?= ( ($row = $this->properties_model->getPropertyParam(array('property_id' => $property->id, 'flat_type_id' => $flatType->flat_type_id), 'property_flat_types', null, 'MAX(total) as amount')) != null ) ? number_format_short($row->amount) : 0?> <?php } ?></td>
                                                                 </tr>
                                                                 <?php

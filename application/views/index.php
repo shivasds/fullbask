@@ -665,7 +665,7 @@ $i=0;
             <div class="clearfix"></div>
             <br>
             <div class="row">
-                <ul id="achievments">
+                <ul id="achievments" >
                     <?php foreach ($achievements as $k => $achievement) { ?>
                         <li>
                             <a href="#achievment_<?= $k ?>" class="ach_modal_opener">
