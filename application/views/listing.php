@@ -477,7 +477,7 @@
                                                         }else{
                                                             ?>
                                                             <tr>
-                                                                <td colspan="4" class="text-center">No data available</td>
+                                                                <td colspan="6" class="text-center">No data available</td>
                                                             </tr>
                                                             <?php
                                                         }
