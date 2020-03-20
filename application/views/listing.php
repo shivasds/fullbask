@@ -80,7 +80,13 @@
                     <input name="property_id" id="prop-id" value="" type="hidden" />
                     <div class="clearfix"></div>
                     <div class="row">  
-                        <div class="form-group col-md-12 col-xs-12">
+                    <div class="col-sm-2">
+                    <div class="container">
+                    <p >&nbsp;</p>
+                    </div>
+                    </div>  
+                    <div class="col-sm-8"> 
+                        <div class="form-group col-sm-12">
                             <!-- <div class="form-group"> -->
                                 <div class="input-group user">
                                     <span style="border-radius: 0" class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
@@ -88,7 +94,7 @@
                                 </div>
                             <!-- </div> -->
                         </div>
-                        <div class="form-group col-md-12 col-xs-12">
+                        <div class="form-group col-sm-12 ">
                             <!-- <div class="form-group"> -->
                                 <div class="input-group ">
                                     <!--<span style="border-radius: 0" class="input-group-addon"><i class="fa fa-phone" aria-hidden="true"></i></span>-->
@@ -100,6 +106,12 @@
                                 </div>
                             <!-- </div> -->
                         </div>
+                    </div> 
+                    </div>  
+                    <div class="col-sm-2">
+                    <div class="container">
+                    <p >&nbsp;</p>
+                    </div>
                     </div>  
                     <div class="clearfix"></div>  
                 </div>
