@@ -1,3 +1,4 @@
+ 
 <!DOCTYPE html>
     <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
 
@@ -817,7 +818,7 @@
                                 </div>   
                                 <br>
  <div class="col-md-12">
-    <div class="col-sm-3 col-md-3 col-lg-3" style="padding: 7px;">
+    <!-- <div class="col-sm-3 col-md-3 col-lg-3" style="padding: 7px;">
         <div class="fb-like" data-href="https://www.facebook.com/fullbasketpropertypage/" data-width="10px" data-layout="standard" data-action="like" data-size="small" data-share="false"></div>
     </div>
     <div class="col-sm-3 col-md-3 col-lg-3">
@@ -828,7 +829,7 @@
     <script src="https://apis.google.com/js/platform.js"></script>
 
     <div class="g-ytsubscribe" data-channelid="UCGr-on8k7dRMKBFW-X2G05A" data-layout="default" data-count="default"></div>
-    </div>
+    </div> -->
     <div class="col-sm-3 col-md-3 col-lg-3">
         <h2>
         <div style="/*float: right*/" class="sharethis-inline-share-buttons"></div>
@@ -842,7 +843,7 @@
         
         <div class="col-md-2 col-xs-2 whtsapp zoom">
             <div class="">
-                <a target="_blank" href="" class="">
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=918342063684&text=I'm%20interested%20in%20<?= $property->title ? $property->title : '' ?>%20please%20send%20me%20the%20details">
                 <span>Whatsapp</span><br>
                 <i class="fa fa-whatsapp fa-3x"></i>
                 </a>
@@ -1852,7 +1853,7 @@
 
                                 </section>
 
-                                <section id="section-id-1507611944" class="sppb-section wow">
+                              <!--  <section id="section-id-1507611944" class="sppb-section wow">
                                    <div class="container">
                                   
                                     <div class="sppb-row">
@@ -1892,7 +1893,7 @@
                                 </div>
 
 
-                            </section>
+                            </section>-->
 
                                 <section id="section-id-1507611947"
                                          class="sppb-section resort-title-heading resort-location-wrapper resort-discount wow">
@@ -1966,6 +1967,7 @@
                                                                 <div class="sppb-addon-office-location-wrapper  active">
                                                                     <form id="contact-form" action=""
                                                                           name="contact-form" method="POST" onsubmit="return save_landing_pageinfo('contact-form');">
+                                                                              <input type="hidden" name="city" value="<?=$this->uri->segment(1);?>">
                                                                           <div class="form-group col-md-12">
                                                                         <div class="input-group">
                                                                             <center><img src="<?=base_url('assets/images/snp.png');?>" alt="#SochoNahiPucho" /></center>
@@ -1973,6 +1975,7 @@
                                                                         
                                                                         </div>
     <input type="hidden" name="property_id" value="<?= $property->id ?>">
+    <input type="hidden" name="city" value="<?=$this->uri->segment(1);?>">
                                                                         <div class="form-group col-md-12">
                                                                             <div class="input-group">
                                                                                 <div class="input-group-addon"><i
@@ -2105,6 +2108,7 @@
                     <p>Please enter the details below to get the floor plan information.</p>
                     <form id="price-popup" action="" name="price-popup" method="POST" novalidate
                           onsubmit="return save_landing_pageinfo('price-popup');">
+                              <input type="hidden" name="city" value="<?=$this->uri->segment(1);?>">
                         <div class="form-group col-md-12 pd">
                             <div class="input-group">
                                 <div class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></div>
@@ -2153,6 +2157,7 @@
                     <form id="download-popup" action="" name="download-popup" method="POST"
                           novalidate="novalidate"
                           onsubmit="return save_landing_pageinfo('download-popup');">
+                              <input type="hidden" name="city" value="<?=$this->uri->segment(1);?>">
                         <div class="form-group col-md-12 pd">
                             <div class="input-group">
                                 <div class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></div>
@@ -2200,6 +2205,7 @@
                     <p>Please enter the details below to get the detailed information.</p>
                     <form id="float-form" action="" name="price-popup" method="POST" novalidate
                           onsubmit="return save_landing_pageinfo('float-form');">
+                              <input type="hidden" name="city" value="<?=$this->uri->segment(1);?>">
                         <div class="form-group col-md-12 pd">
                             <div class="input-group">
                                 <div class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></div>
@@ -2238,6 +2244,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <form action="<?= site_url('home/send') ?>" method="post">
+                        <input type="hidden" name="city" value="<?=$this->uri->segment(1);?>">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                         <h4 class="modal-title" style="text-transform: uppercase">SUBMIT PROPERTY</h4>

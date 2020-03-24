@@ -72,7 +72,22 @@
 </div><!-- /.modal -->
 <!--End Contact Builder form-->
 <div class="container-fluid">
-	<div class="row list-header" style="background-image: url('<?= base_url('assets/img/list-bg.jpg') ?>');">
+    <?php
+$city_name = $this->uri->segment(2);
+if($city_name == "Bangalore")
+$image_name = "11.jpg";
+elseif($city_name == "Hyderabad")
+$image_name = "33.jpg";
+elseif($city_name == "Noida")
+$image_name = "55.jpg";
+elseif($city_name == "Mumbai")
+$image_name = "44.jpg";
+elseif($city_name == "Pune")
+$image_name = "22.jpg";
+else
+$image_name = "all.jpg";
+    ?>
+	<div class="row list-header" style="background-image: url('<?= base_url('thankyou-images/').$image_name?>');">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">

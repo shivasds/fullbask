@@ -5,7 +5,7 @@ if (!defined('BASEPATH'))
 
 <div id="carousel" class="carousel slide home-slider" data-ride="carousel">
     <div class="carousel-inner">
-        <?php 
+        <!-- <?php 
         if($sliders) {
             $i = 0;
             foreach ($sliders as $slider) { ?>
@@ -23,6 +23,36 @@ if (!defined('BASEPATH'))
             ?>
             <div class="active item fadeInRight animated" style="background: url(<?= base_url('../../assets/img/demo-slider.jpg') ?>);"></div>
             <?php
+        }
+        ?> -->
+        <?php 
+        if($sliders) {
+            $i = 0;
+            foreach ($sliders as $slider) { ?>
+                <div class="<?= $i ? '' : 'active' ?> item fadeInRight animated" style="background: url(<?= base_url('uploads/sliders/' . $slider->image) ?>);">
+                    <div class="carousel-caption fadeInUp animated">
+                        <h1><b><?= $slider->title ?></b></h1>
+                        <p><?= $slider->heading ?></p>
+                    </div>
+                </div>
+                <?php 
+                $i++;
+            }
+        }
+        else {
+            $city = $this->input->get('city');
+            if($city!='')
+            {
+            ?>
+            <div class="active item fadeInRight animated" style="background: url(<?= base_url($image) ?>);/*height: 268px;*/"></div>
+            <?php
+        }
+        else
+        {
+            ?>
+             <div class="active item fadeInRight animated" style="background: url(<?= base_url($image) ?>);height: 268px;"></div>
+            <?php
+        }
         }
         ?>
     </div>
