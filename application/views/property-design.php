@@ -62,7 +62,33 @@
       
       
     <style>
-        
+    .carousel .item{
+    height: 450px;
+    margin-bottom: -95px;
+     }
+.carousel .d-banner{
+    margin-top: -120px;
+    height: 600px;
+}
+.item img,.carousel .d-banner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 450px;
+}  
+.property-list {
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 2px #ddd;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+}
+.builder_info img {
+    box-shadow: 2px -2px 0px #e1ad4f;
+}
 @media (max-width: 1600px) {
 .phone{
     margin-left: 0px!important;
@@ -1718,32 +1744,34 @@
                                     <a href="<?= site_url(url_title($project->city_name) . "/" . (url_title($project->area)) . "/$project->slug/") ?>"
                                        class="builder_projects">
                                         <div class="col-md-4">
-                                            <img src="<?= base_url("uploads/$project->slug/$project->image") ?>"
+                                          <div class="property-list">
+                                               <img src="<?= base_url("uploads/$project->slug/$project->image") ?>"
                                                  class="img-responsive" style="padding: 0;width: 100%;background-position: 50% 50%;position: relative;height:260px;" alt="<?=$project->alt?>"  
                                                  title="<?=$project->image_desc?>"> 
-                                            <div class="builder_proj">
-                                                <h4><?= $project->title ?></h4>
-                                                <span><?= $project->location ?></span>
-                                                <p><?= $project->prop_type . ' / ' . $project->property_status ?></p>
-                                                <h4>
-                                                    <?php
-                                                    if ($this->properties_model->hasPriceRequest($project->id->id)) {
-                                                        echo "Price on Request";
-                                                    } else {
-                                                        ?>
-                                                        &#8377; <?= (($row = $this->properties_model->getPropertyParam(array('property_id' => $project->id),
-                                                                'property_flat_types', null,
-                                                                'MIN(total) as amount')) != null) ? number_format_short($row->amount) : 0 ?>
-                                                        - <?= (($row = $this->properties_model->getPropertyParam(array('property_id' => $project->id),
-                                                                'property_flat_types', null,
-                                                                'MAX(total) as amount')) != null) ? number_format_short($row->amount) : 0 ?>
+                                                <div class="builder_proj">
+                                                    <h4><?= $project->title ?></h4>
+                                                    <span><?= $project->location ?></span>
+                                                    <p><?= $project->prop_type . ' / ' . $project->property_status ?></p>
+                                                    <h4>
                                                         <?php
-                                                    }
-                                                    ?>
-                                                </h4>
-                                                <a href="<?= site_url(url_title($project->city_name) . "/" . (url_title($project->area)) . "/$project->slug/") ?>" class="contact_builder">VIEW PROPERTY</a>
-                                            </div>
-                                        </div>
+                                                        if ($this->properties_model->hasPriceRequest($project->id->id)) {
+                                                            echo "Price on Request";
+                                                        } else {
+                                                            ?>
+                                                            &#8377; <?= (($row = $this->properties_model->getPropertyParam(array('property_id' => $project->id),
+                                                                    'property_flat_types', null,
+                                                                    'MIN(total) as amount')) != null) ? number_format_short($row->amount) : 0 ?>
+                                                            - <?= (($row = $this->properties_model->getPropertyParam(array('property_id' => $project->id),
+                                                                    'property_flat_types', null,
+                                                                    'MAX(total) as amount')) != null) ? number_format_short($row->amount) : 0 ?>
+                                                            <?php
+                                                        }
+                                                        ?>
+                                                    </h4>
+                                                    <a href="<?= site_url(url_title($project->city_name) . "/" . (url_title($project->area)) . "/$project->slug/") ?>" class="contact_builder">VIEW PROPERTY</a>
+                                                </div>
+                                           </div>
+                                          </div>
                                     </a>
                                     <?php
                                 }
