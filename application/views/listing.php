@@ -1,4 +1,4 @@
-<!--Contact Builder Form-->
+ 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <style>
@@ -253,7 +253,7 @@ background-image:url('<?= base_url('thankyou-images/all.jpg') ?>');
 <div class="container-fluid">
 	<div class="row">		
         <div class="row city-section" style="margin-top:18px;">
-            <div class="container">
+            <!-- <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="col-sm-7">
@@ -280,7 +280,7 @@ background-image:url('<?= base_url('thankyou-images/all.jpg') ?>');
                             <?php }?>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <?php if(!$this->input->get('builder')){?>
                 <div class="container toggleSearch" id="toggle">
@@ -567,4 +567,4 @@ s0.parentNode.insertBefore(s1,s0);
     </script>
     
 
-<!-- /WhatsHelp.io widget -->
+<!-- /WhatsHelp.io widget 

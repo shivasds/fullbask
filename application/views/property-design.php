@@ -852,7 +852,7 @@
       
         <div class="col-md-2 col-xs-2 youtube zoom">
           <div class="">
-                <a target="_blank" href="" class="">
+                <a target="_blank" href="https://www.youtube.com/channel/UCGr-on8k7dRMKBFW-X2G05A" class="">
                 <span>Youtube</span><br>
                 <i class="fa fa-youtube fa-3x"></i>
                 
@@ -861,7 +861,7 @@
         </div>
         <div class="col-md-2 col-xs-2 facebook zoom">
           <div class="">
-            <a target="_blank" href="" class="">
+            <a target="_blank" href="https://www.facebook.com/fullbasketpropertypage/" class="">
             <span>Facebook</span><br>
             <i class="fa fa-facebook fa-3x"></i>
             </a>
@@ -869,7 +869,7 @@
         </div>
         <div class="col-md-2 col-xs-2 pinterest zoom">
             <div class="">
-                        <a target="_blank" href="" class="">
+                        <a target="_blank" href="https://in.pinterest.com/fullbasketpropertyservices/" class="">
                         <span>Pinterest</span><br>
                         <i class="fa fa-pinterest fa-3x"></i>
                         </a>
@@ -878,7 +878,7 @@
       
         <div class="col-md-2 col-xs-2 twitter zoom">
            <div class=""> 
-                <a target="_blank" href="" class="">
+                <a target="_blank" href="https://twitter.com/fbptweets" class="">
                 <span>Twitter</span><br>
                 <i class="fa fa-twitter fa-3x"></i>
                 </a>
@@ -886,7 +886,7 @@
         </div>
         <div class="col-md-2 col-xs-2 linkedIn zoom">
           <div class="">
-            <a target="_blank" href="" class="">
+            <a target="_blank" href="https://www.linkedin.com/company/full-basket-property-services-pvt-ltd/" class="">
             <span>LinkedIn</span><br>
             <i class="fa fa-linkedin fa-3x"></i>
             </a>
