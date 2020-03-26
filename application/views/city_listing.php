@@ -167,7 +167,7 @@ $image_name = "all.jpg";
 <div class="container-fluid">
     <div class="row">
         <div class="row city-section" style="margin-top: 0;">
-			<div class="container">
+			<!-- <div class="container">
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="col-sm-7">
@@ -187,7 +187,7 @@ $image_name = "all.jpg";
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<div class="clearfix"></div><br>
 			<div class="container toggleSearch" id="toggle">
 			<div class="col-sm-12">
