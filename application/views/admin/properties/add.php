@@ -106,7 +106,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                     </div>-->
                     <div class="col-sm-6 col-md-6 col-lg-6">
                         <div class="form-group">
-                            <label class="control-label" for="exampleInputFile">logo-1</label>
+                            <label class="control-label" for="exampleInputFile">property logo-1</label>
                             <div class=" <?= form_error('uploadImage') ? 'has-error' : '' ?>">
                                 <input type="file" class="form-control" id="logo_1" name="logo_1">
                             </div>
@@ -114,7 +114,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-6">
                         <div class="form-group">
-                            <label class="control-label" for="exampleInputFile">logo-2</label>
+                            <label class="control-label" for="exampleInputFile">property logo-2</label>
                             <div class=" <?= form_error('uploadImage') ? 'has-error' : '' ?>">
                                 <input type="file" class="form-control" name="logo_2">
                             </div>
