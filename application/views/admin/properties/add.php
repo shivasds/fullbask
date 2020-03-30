@@ -1019,7 +1019,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
             <div class="box-footer">
                 <button type="submit" class="btn btn-default" id="submit2" onclick="history.go(-1);">Back
                 </button>
-                <button type="submit" class="btn btn-info pull-right">ADD</button>
+               <!--  <button type="submit" class="btn btn-info pull-right">ADD</button> -->
+               <input type="submit" class="btn btn-info pull-right" value="ADD" name="">
             </div>
             <!-- /.box-footer -->
         </form>

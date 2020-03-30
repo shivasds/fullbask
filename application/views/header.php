@@ -62,7 +62,7 @@
                                 <li class="city_select">
                                     <div class="btn-group pull-right">
                                         <button type="button" class="btn btn-city dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <?= $this->session->userdata('city') ? htmlentities($this->session->userdata('city')) : 'Select Location' ?> <span class="fa fa-level-down" style="margin-top: 3px;margin-left: 26px;"></span>
+                                        <?= $this->session->userdata('city') ? htmlentities($this->session->userdata('city')) : 'Select Location' ?> <!-- <span class="fa fa-level-down" style="margin-top: 3px;margin-left: 26px;"></span> -->
                                         </button>
                                         <ul class="dropdown-menu gradient">
                                             <li><a href="<?= site_url('listing') ?>">All Cities</a></li>
@@ -106,10 +106,16 @@
                 <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" data-dismiss="modal" onclick="closeNav()">&times;</a>
                     <a href="<?= site_url() ?>">HOME</a>
-                    <a href="<?= site_url('listing') ?>">PROPERTIES</a>
-                    <a href="<?= site_url('about') ?>">ABOUT</a>
-                    <a href="<?=site_url('blog')?>">BLOG</a>
-                    <a href="<?=site_url('contact')?>">CONTACT</a>
+                    <a href="<?= site_url('about') ?>" target="_blank">ABOUT</a>
+                    <a href="<?= site_url('listing') ?>" target="_blank">PROPERTIES</a>
+                    <a href="<?=site_url('blog')?>" target="_blank">BLOGs</a>
+                    <a href="<?=site_url('nri')?>" target="_blank"> NRI CORNER</a>
+                    <a href="<?=site_url('#')?>">VASTU</a>
+                    <a href="<?=site_url('testimonials')?>"target="_blank">TESTIMONIAL</a>
+                    <a href="<?=site_url('achievements')?>"target="_blank">ACHIVEMENT</a>
+                    <a href="<?=site_url('careers')?>"target="_blank">CARRIER</a>
+                    <a href="<?=site_url('contact')?>"target="_blank">CONTACT US</a>
+ 
                 </div>
             </nav>
         </div>
@@ -120,8 +126,8 @@
                     <div class="col-xs-9 col-sm-6 col-md-8"> 
                         <div class="city_select">
                             <div class="btn-group pull-right">
-                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: blue;">
-                                <?= $this->session->userdata('city') ? htmlentities($this->session->userdata('city')) : 'Select City' ?> <span class="fa fa-level-down pull-right" style="margin-top: 3px;color: blue;border: none;"></span>
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #e82d8e;">
+                                <?= $this->session->userdata('city') ? htmlentities($this->session->userdata('city')) : 'Select City' ?> <!-- <span class="fa fa-level-down pull-right" style="margin-top: 3px;color: blue;border: none;"></span> -->
                                 </button>
                                 <ul class="dropdown-menu gradient">
                                 <li><a href="<?= site_url('listing') ?>">All Cities</a></li>
