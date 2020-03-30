@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css"
-href="http://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css">
+href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css">
 
 <section class="content">
     <div class="row">
@@ -306,7 +306,7 @@ href="http://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css"
                                             value="<?= $amenity->id ?>" <?php if(($this->session->userdata('amenities'.$amenity->id))==$amenity->id) echo 'checked';  
 else echo "unchecked";
                                       $b++;      ?> > <img
-                                            src="<?= $amenity->image ? base_url('uploads/amenities/' . $amenity->image) : 'http://placehold.it/32x32' ?>"
+                                            src="<?= $amenity->image ? base_url('uploads/amenities/' . $amenity->image) : 'https://placehold.it/32x32' ?>"
                                             style="width: 32px"
                                             class="img-rounded"> <?= $amenity->name ?>
                                         </td>
@@ -837,7 +837,7 @@ else echo "unchecked";
                                 <label class="control-label" for="walkthrough">Walkthrough (YouTube Video)</label>
                                 <div class="input-group">
                                     <div class="input-group-addon"><i class="fa fa-youtube"></i></div>
-                                    <input type="url" value="<?= set_value('walkthrough') ?>" placeholder="http://youtube.com/watch?v=abcdQASH" name="walkthrough" id="walkthrough" class="form-control">
+                                    <input type="url" value="<?= set_value('walkthrough') ?>" placeholder="https://youtube.com/watch?v=abcdQASH" name="walkthrough" id="walkthrough" class="form-control">
                                 </div>
                             </div>
                         </div>
@@ -848,7 +848,7 @@ else echo "unchecked";
                             <label class="control-label" for="facebook">Facebook</label>
                             <div class="input-group">
                                 <div class="input-group-addon"><i class="fa fa-facebook"></i></div>
-                                <input type="url" value="<?= set_value("facebook") ?>" placeholder="http://facebook.com/username" name="facebook" id="facebook" class="form-control">
+                                <input type="url" value="<?= set_value("facebook") ?>" placeholder="https://facebook.com/username" name="facebook" id="facebook" class="form-control">
                             </div>
                         </div>
                     </div>
@@ -859,7 +859,7 @@ else echo "unchecked";
                             <label class="control-label" for="twitter">Twitter</label>
                             <div class="input-group">
                                 <div class="input-group-addon"><i class="fa fa-twitter"></i></div>
-                                <input type="url" value="<?= set_value("twitter") ?>" placeholder="http://twitter.com/@username" name="twitter" id="twitter" class="form-control">
+                                <input type="url" value="<?= set_value("twitter") ?>" placeholder="https://twitter.com/@username" name="twitter" id="twitter" class="form-control">
                             </div>
                         </div>
                     </div>
@@ -869,7 +869,7 @@ else echo "unchecked";
                             <label class="control-label" for="google">Google+</label>
                             <div class="input-group">
                                 <div class="input-group-addon"><i class="fa fa-google-plus"></i></div>
-                                <input type="url" value="<?= set_value("google") ?>" placeholder="http://google.com/+profileID" name="google" id="google" class="form-control">
+                                <input type="url" value="<?= set_value("google") ?>" placeholder="https://google.com/+profileID" name="google" id="google" class="form-control">
                             </div>
                         </div>
                     </div>

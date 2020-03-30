@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css"
-      href="http://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css">
+      href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css">
 
 <section class="content-header">
     <h1>
@@ -60,7 +60,7 @@
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-facebook" aria-hidden="true"></i></span>
                                 <input type="url" class="form-control" name="first_facebook"
-                                       placeholder="http://facebook.com/xxxxxxxxx"
+                                       placeholder="https://facebook.com/xxxxxxxxx"
                                        value="<?= $this->aboutUs_model->getOption('first_facebook') ?>">
                             </div>
                         </div>
@@ -68,7 +68,7 @@
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-twitter" aria-hidden="true"></i></span>
                                 <input type="url" class="form-control" name="first_twitter"
-                                       placeholder="http://twitter.com/@xxxxxxx"
+                                       placeholder="https://twitter.com/@xxxxxxx"
                                        value="<?= $this->aboutUs_model->getOption('first_twitter') ?>">
                             </div>
                         </div>
@@ -77,7 +77,7 @@
                                 <span class="input-group-addon"><i class="fa fa-google-plus"
                                                                    aria-hidden="true"></i></span>
                                 <input type="url" class="form-control" name="first_google"
-                                       placeholder="http://plus.google.com/+xxxxxxxxx"
+                                       placeholder="https://plus.google.com/+xxxxxxxxx"
                                        value="<?= $this->aboutUs_model->getOption('first_google') ?>">
                             </div>
                         </div>
@@ -120,7 +120,7 @@
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-facebook" aria-hidden="true"></i></span>
                                 <input type="url" class="form-control" name="second_facebook"
-                                       placeholder="http://facebook.com/xxxxxxxxx"
+                                       placeholder="https://facebook.com/xxxxxxxxx"
                                        value="<?= $this->aboutUs_model->getOption('second_facebook') ?>">
                             </div>
                         </div>
@@ -128,7 +128,7 @@
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-twitter" aria-hidden="true"></i></span>
                                 <input type="url" class="form-control" name="second_twitter"
-                                       placeholder="http://twitter.com/@xxxxxxx"
+                                       placeholder="https://twitter.com/@xxxxxxx"
                                        value="<?= $this->aboutUs_model->getOption('second_twitter') ?>">
                             </div>
                         </div>
@@ -137,7 +137,7 @@
                                 <span class="input-group-addon"><i class="fa fa-google-plus"
                                                                    aria-hidden="true"></i></span>
                                 <input type="url" class="form-control" name="second_google"
-                                       placeholder="http://plus.google.com/+xxxxxxxxx"
+                                       placeholder="https://plus.google.com/+xxxxxxxxx"
                                        value="<?= $this->aboutUs_model->getOption('second_google') ?>">
                             </div>
                         </div>
@@ -180,7 +180,7 @@
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-facebook" aria-hidden="true"></i></span>
                                 <input type="url" class="form-control" name="third_facebook"
-                                       placeholder="http://facebook.com/xxxxxxxxx"
+                                       placeholder="https://facebook.com/xxxxxxxxx"
                                        value="<?= $this->aboutUs_model->getOption('third_facebook') ?>">
                             </div>
                         </div>
@@ -188,7 +188,7 @@
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-twitter" aria-hidden="true"></i></span>
                                 <input type="url" class="form-control" name="third_twitter"
-                                       placeholder="http://twitter.com/@xxxxxxx"
+                                       placeholder="https://twitter.com/@xxxxxxx"
                                        value="<?= $this->aboutUs_model->getOption('third_twitter') ?>">
                             </div>
                         </div>
@@ -197,7 +197,7 @@
                                 <span class="input-group-addon"><i class="fa fa-google-plus"
                                                                    aria-hidden="true"></i></span>
                                 <input type="url" class="form-control" name="third_google"
-                                       placeholder="http://plus.google.com/+xxxxxxxxx"
+                                       placeholder="https://plus.google.com/+xxxxxxxxx"
                                        value="<?= $this->aboutUs_model->getOption('third_google') ?>">
                             </div>
                         </div>

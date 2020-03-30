@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
 
 <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
 <head>
@@ -23,42 +23,42 @@
     <meta name="twitter:title" content="<?= $property->title ? $property->title : '' ?>"/>
     <meta name="twitter:description" content="<?= substr(strip_tags($property->description), 0, 1000) ?>"/>
     <meta name="twitter:image" content="<?= base_url("uploads/$property->slug/$property->image") ?>"/>
-    <script type='text/javascript' src='http://localhost/assets/property/unitegallery/js/jquery-11.0.min.js'></script>
+    <script type='text/javascript' src='https://localhost/assets/property/unitegallery/js/jquery-11.0.min.js'></script>
     <link rel="shortcut icon" type="image/x-icon" href="<?= site_url('') ?>assets/img/logo.png"/>
     <link rel="canonical" href="<?= current_url() ?>">
     <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
 <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/jquery.min.js"></script>
-    <link rel="manifest" href="http://orchards.realatte.com/manifest.json">
+    <link rel="manifest" href="https://orchards.realatte.com/manifest.json">
     <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/bootstrap-select.min.js"></script>
     <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/copy_bootstrap_min.js"></script>
-    <link href="http://localhost/assets/property/media/com_solidres/assets/css/jquery/themes/base/jquery-ui.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
-    <link href="http://localhost/assets/property/components/com_sppagebuilder/assets/css/font-awesome.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
-    <link href="http://localhost/assets/property/components/com_sppagebuilder/assets/css/animate.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
-    <link href="http://localhost/assets/property/components/com_sppagebuilder/assets/css/sppagebuilderc619.css?v=1.0" rel="stylesheet" type="text/css"/>
-    <link href="http://localhost/assets/property/components/com_sppagebuilder/assets/css/sppagecontainerc619.css?v=1.0" rel="stylesheet" type="text/css"/>
-    <link href="http://localhost/assets/property/templates/shaper_resort/css/owl.carouselc619.css?v=1.0" rel="stylesheet" type="text/css"/>
-    <link href="http://localhost/assets/property/templates/shaper_resort/css/owl.themec619.css?v=1.0" rel="stylesheet" type="text/css"/>
-    <link href="http://localhost/assets/property/templates/shaper_resort/css/owl.transitionsc619.css?v=1.0" rel="stylesheet" type="text/css"/>
-    <link href="http://localhost/assets/property/templates/shaper_resort/css/slide-animatec619.css?v=1.0" rel="stylesheet" type="text/css"/>
-    <link href="http://localhost/assets/property/media/com_solidres/assets/css/main.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
-    <link href="http://localhost/assets/property/components/com_sppagebuilder/assets/css/magnific-popupc619.css?v=1.0" rel="stylesheet" type="text/css"/>
+    <link href="https://localhost/assets/property/media/com_solidres/assets/css/jquery/themes/base/jquery-ui.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
+    <link href="https://localhost/assets/property/components/com_sppagebuilder/assets/css/font-awesome.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
+    <link href="https://localhost/assets/property/components/com_sppagebuilder/assets/css/animate.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
+    <link href="https://localhost/assets/property/components/com_sppagebuilder/assets/css/sppagebuilderc619.css?v=1.0" rel="stylesheet" type="text/css"/>
+    <link href="https://localhost/assets/property/components/com_sppagebuilder/assets/css/sppagecontainerc619.css?v=1.0" rel="stylesheet" type="text/css"/>
+    <link href="https://localhost/assets/property/templates/shaper_resort/css/owl.carouselc619.css?v=1.0" rel="stylesheet" type="text/css"/>
+    <link href="https://localhost/assets/property/templates/shaper_resort/css/owl.themec619.css?v=1.0" rel="stylesheet" type="text/css"/>
+    <link href="https://localhost/assets/property/templates/shaper_resort/css/owl.transitionsc619.css?v=1.0" rel="stylesheet" type="text/css"/>
+    <link href="https://localhost/assets/property/templates/shaper_resort/css/slide-animatec619.css?v=1.0" rel="stylesheet" type="text/css"/>
+    <link href="https://localhost/assets/property/media/com_solidres/assets/css/main.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
+    <link href="https://localhost/assets/property/components/com_sppagebuilder/assets/css/magnific-popupc619.css?v=1.0" rel="stylesheet" type="text/css"/>
 
-    <link href="http://localhost/assets/property/templates/shaper_resort/css/bootstrap.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
-    <link href="http://localhost/assets/property/templates/shaper_resort/css/font-awesome.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
+    <link href="https://localhost/assets/property/templates/shaper_resort/css/bootstrap.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
+    <link href="https://localhost/assets/property/templates/shaper_resort/css/font-awesome.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>
     <link href="templates/shaper_resort/css/legacy.css" rel="stylesheet" type="text/css" /> 
-    <link href="http://localhost/assets/property/templates/shaper_resort/css/templatec619.css?v=1.0" rel="stylesheet" type="text/css"/>
-    <link href="http://localhost/assets/property/templates/shaper_resort/css/presets/preset1c619.css?v=1.0" rel="stylesheet" type="text/css" class="preset"/>
-    <link href="http://localhost/assets/property/plugins/system/helix3/assets/css/pagebuilderc619.css?v=1.0" rel="stylesheet" type="text/css"/>
-    <link href="http://localhost/assets/property/templates/shaper_resort/css/frontend-editc619.css?v=1.0" rel="stylesheet" type="text/css"/>
-    <link href="http://localhost/assets/property/modules/mod_sp_weather/assets/css/flatc619.css?v=1.0" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" type="text/css" href="http://localhost/assets/property/font/flaticonc619.css?v=1.0">
-    <link href="http://localhost/assets/property/lightbox/light-boxc619.css?v=1.0" rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="http://localhost/assets/property/intl-tel-input/css/intlTelInputc619.css?v=1.0">
-    <link href="http://localhost/assets/property/templates/shaper_resort/css/animatec619.css?v=1.0" rel="stylesheet" type="text/css">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"http://localhost/assets/property/>
-    <script type='text/javascript' src='http://localhost/assets/property/unitegallery/js/unitegallery.min.js'></script>
-    <link rel='stylesheet' href='http://localhost/assets/property/unitegallery/css/unite-gallery.css' type='text/css'/>
-    <script type='text/javascript' src='http://localhost/assets/property/unitegallery/themes/tilesgrid/ug-theme-tilesgrid.js'></script>
+    <link href="https://localhost/assets/property/templates/shaper_resort/css/templatec619.css?v=1.0" rel="stylesheet" type="text/css"/>
+    <link href="https://localhost/assets/property/templates/shaper_resort/css/presets/preset1c619.css?v=1.0" rel="stylesheet" type="text/css" class="preset"/>
+    <link href="https://localhost/assets/property/plugins/system/helix3/assets/css/pagebuilderc619.css?v=1.0" rel="stylesheet" type="text/css"/>
+    <link href="https://localhost/assets/property/templates/shaper_resort/css/frontend-editc619.css?v=1.0" rel="stylesheet" type="text/css"/>
+    <link href="https://localhost/assets/property/modules/mod_sp_weather/assets/css/flatc619.css?v=1.0" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="https://localhost/assets/property/font/flaticonc619.css?v=1.0">
+    <link href="https://localhost/assets/property/lightbox/light-boxc619.css?v=1.0" rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="https://localhost/assets/property/intl-tel-input/css/intlTelInputc619.css?v=1.0">
+    <link href="https://localhost/assets/property/templates/shaper_resort/css/animatec619.css?v=1.0" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"https://localhost/assets/property/>
+    <script type='text/javascript' src='https://localhost/assets/property/unitegallery/js/unitegallery.min.js'></script>
+    <link rel='stylesheet' href='https://localhost/assets/property/unitegallery/css/unite-gallery.css' type='text/css'/>
+    <script type='text/javascript' src='https://localhost/assets/property/unitegallery/themes/tilesgrid/ug-theme-tilesgrid.js'></script>
 <style>
     
 .morecontent span {
@@ -1314,9 +1314,9 @@ have trusted us throughout the process of finding the properties and settling do
                     <div class="col-sm-6">
                         <ul>
                             <li><a href="<?= site_url() ?>">Home</a></li>
-                            <li><a href="http://fullbasketproperty.com/listing">Property</a></li>
+                            <li><a href="https://fullbasketproperty.com/listing">Property</a></li>
                             <!--<li><a href="#">Faq</a></li>-->
-                            <li><a href="http://fullbasketproperty.com/contact">Contact</a></li>
+                            <li><a href="https://fullbasketproperty.com/contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -1327,7 +1327,7 @@ have trusted us throughout the process of finding the properties and settling do
 
       <section class="realatte">
           <div class="container">
-         <p> Marketed by <a href="http://fullbasketproperty.com" target="_blank">Full Basket Property</a> | RERA: PRM/KA/RERA/1251/446/AG/170926/000120</p>
+         <p> Marketed by <a href="https://fullbasketproperty.com" target="_blank">Full Basket Property</a> | RERA: PRM/KA/RERA/1251/446/AG/170926/000120</p>
           </div>
       </section>
 
@@ -1524,18 +1524,18 @@ have trusted us throughout the process of finding the properties and settling do
 <button class="btn btn-danger interested hidden-xs">Enquire</button>
 <!-- ==================================== -->
 
-<script src="http://localhost/assets/property/media/jui/js/jquery-noconflictbb68bb68.js?6d335272cfe947fe63a1dc6d722f2ca8" type="text/javascript"></script>
-<script src="http://localhost/assets/property/media/com_solidres/assets/js/noconflictc619.js?v=1.0" type="text/javascript"></script>
-<script src="http://localhost/assets/property/media/com_solidres/assets/js/jquery/ui/jquery-ui.minc619.js?v=1.0" type="text/javascript"></script>
-<script src="http://localhost/assets/property/media/com_solidres/assets/js/validate/jquery.validate.min.js" type="text/javascript"></script>
-<script src="http://localhost/assets/property/media/system/js/corebb68bb68.js?6d335272cfe947fe63a1dc6d722f2ca8" type="text/javascript"></script>
-<script src="http://localhost/assets/property/components/com_sppagebuilder/assets/js/parallax.min.js" type="text/javascript"></script>
-<script src="http://localhost/assets/property/components/com_sppagebuilder/assets/js/sppagebuilder.js" type="text/javascript"></script>
-<script src="http://localhost/assets/property/templates/shaper_resort/js/owl.carousel.min.js" type="text/javascript"></script>
-<script src="http://localhost/assets/property/media/system/js/mootools-corebb68bb68.js?6d335272cfe947fe63a1dc6d722f2ca8" type="text/javascript"></script>
-<script src="http://localhost/assets/property/templates/shaper_resort/js/bootstrap.minc619.js?v=1.0" type="text/javascript"></script>
-<script src="http://localhost/assets/property/templates/shaper_resort/js/jquery.stickyc619.js?v=1.0" type="text/javascript"></script>
-<script src="http://localhost/assets/property/templates/shaper_resort/js/mainc619.js?v=1.0" type="text/javascript"></script>
+<script src="https://localhost/assets/property/media/jui/js/jquery-noconflictbb68bb68.js?6d335272cfe947fe63a1dc6d722f2ca8" type="text/javascript"></script>
+<script src="https://localhost/assets/property/media/com_solidres/assets/js/noconflictc619.js?v=1.0" type="text/javascript"></script>
+<script src="https://localhost/assets/property/media/com_solidres/assets/js/jquery/ui/jquery-ui.minc619.js?v=1.0" type="text/javascript"></script>
+<script src="https://localhost/assets/property/media/com_solidres/assets/js/validate/jquery.validate.min.js" type="text/javascript"></script>
+<script src="https://localhost/assets/property/media/system/js/corebb68bb68.js?6d335272cfe947fe63a1dc6d722f2ca8" type="text/javascript"></script>
+<script src="https://localhost/assets/property/components/com_sppagebuilder/assets/js/parallax.min.js" type="text/javascript"></script>
+<script src="https://localhost/assets/property/components/com_sppagebuilder/assets/js/sppagebuilder.js" type="text/javascript"></script>
+<script src="https://localhost/assets/property/templates/shaper_resort/js/owl.carousel.min.js" type="text/javascript"></script>
+<script src="https://localhost/assets/property/media/system/js/mootools-corebb68bb68.js?6d335272cfe947fe63a1dc6d722f2ca8" type="text/javascript"></script>
+<script src="https://localhost/assets/property/templates/shaper_resort/js/bootstrap.minc619.js?v=1.0" type="text/javascript"></script>
+<script src="https://localhost/assets/property/templates/shaper_resort/js/jquery.stickyc619.js?v=1.0" type="text/javascript"></script>
+<script src="https://localhost/assets/property/templates/shaper_resort/js/mainc619.js?v=1.0" type="text/javascript"></script>
 
 <script type="text/javascript">
     jQuery(document).ready(function ($) {
@@ -1592,14 +1592,14 @@ have trusted us throughout the process of finding the properties and settling do
     });
 </script>
 
-<script type="text/javascript" src="http://localhost/assets/property/lightbox/light-box5152.js?ver=1.0"></script>
-<script src="http://localhost/assets/property/intl-tel-input/js/intlTelInput5152.js?ver=1.0"></script>
-<script src="http://localhost/assets/property/js/jquery.validate5152.js?ver=1.0"></script>
-<script src="http://localhost/assets/property/js/mobilevalidate5152.js?ver=1.0"></script>
-<script src="http://localhost/assets/property/js/vai5152.js?ver=1.0"></script>
-<script src="http://localhost/assets/property/js/cookie5152.js?ver=1.0"></script>
-<script src="http://localhost/assets/property/js/popout5152.js?ver=1.0"></script>
-<script type="text/javascript" src="http://localhost/assets/property/js/wow.min5152.js?ver=1.0"></script>
+<script type="text/javascript" src="https://localhost/assets/property/lightbox/light-box5152.js?ver=1.0"></script>
+<script src="https://localhost/assets/property/intl-tel-input/js/intlTelInput5152.js?ver=1.0"></script>
+<script src="https://localhost/assets/property/js/jquery.validate5152.js?ver=1.0"></script>
+<script src="https://localhost/assets/property/js/mobilevalidate5152.js?ver=1.0"></script>
+<script src="https://localhost/assets/property/js/vai5152.js?ver=1.0"></script>
+<script src="https://localhost/assets/property/js/cookie5152.js?ver=1.0"></script>
+<script src="https://localhost/assets/property/js/popout5152.js?ver=1.0"></script>
+<script type="text/javascript" src="https://localhost/assets/property/js/wow.min5152.js?ver=1.0"></script>
 
 
 <script type="text/javascript">
@@ -1634,7 +1634,7 @@ have trusted us throughout the process of finding the properties and settling do
 // initialise plugin
         telInput.intlTelInput({
             initialCountry: "in",
-            utilsScript: "http://localhost/assets/property/intl-tel-input/js/utils.js",
+            utilsScript: "https://localhost/assets/property/intl-tel-input/js/utils.js",
             separateDialCode: "true"
         });
         var reset = function () {

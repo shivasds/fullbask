@@ -101,7 +101,7 @@
             <div class="clearfix"></div><br/>
             <div class="pull-right"><!-- AddToAny BEGIN -->
               <!--  <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-                    <a class="a2a_dd" href="http://www.addtoany.com/share"></a>
+                    <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
                     <a class="a2a_button_facebook"></a>
                     <a class="a2a_button_twitter"></a>
                     <a class="a2a_button_google_plus"></a>
@@ -109,7 +109,7 @@
                     <a class="a2a_button_whatsapp"></a>
                     <a class="a2a_button_copy_link"></a>
                 </div>-->
-                <script async src="http://static.addtoany.com/menu/page.js"></script>
+                <script async src="https://static.addtoany.com/menu/page.js"></script>
                 <!-- AddToAny END --></div>
         </div>
     <!--    <div class="col-sm-2 col-md-2 blog-sticky" style="">
@@ -159,7 +159,7 @@
 
                 /**
                  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-                 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: http://disqus.com/admin/universalcode/#configuration-variables*/
+                 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
                 /*
                 var disqus_config = function () {
                 this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
@@ -168,12 +168,12 @@
                 */
                 (function () { // DON'T EDIT BELOW THIS LINE
                     var d = document, s = d.createElement('script');
-                    s.src = 'http://fullbasket-property.disqus.com/embed.js';
+                    s.src = 'https://fullbasket-property.disqus.com/embed.js';
                     s.setAttribute('data-timestamp', +new Date());
                     (d.head || d.body).appendChild(s);
                 })();
             </script>
-            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered
                     by Disqus.</a></noscript>
 
         </div>

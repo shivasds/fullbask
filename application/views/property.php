@@ -107,8 +107,8 @@
                         }
                     } else {
                         ?>
-                        <li data-thumb="http://placehold.it/250x300">
-                            <img src="http://placehold.it/250x300"/>
+                        <li data-thumb="https://placehold.it/250x300">
+                            <img src="https://placehold.it/250x300"/>
                         </li>
                         <?php
                     }
@@ -331,7 +331,7 @@
                                 <?php
                             } else {
                                 ?>
-                                <img src="http://placehold.it/58x58">
+                                <img src="https://placehold.it/58x58">
                                 <?php
                             }
                             ?>

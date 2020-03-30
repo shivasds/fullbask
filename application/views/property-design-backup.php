@@ -771,7 +771,7 @@
                                                         } else {
                                                             ?>
                                                             <img class='am-club' alt="<?= $amenity->image ?>"
-                                                                 src="http://placehold.it/58x58">
+                                                                 src="https://placehold.it/58x58">
                                                             <?php
                                                         }
                                                         ?>
@@ -921,14 +921,14 @@
         <div class="col-md-12">
             <div class="bgWhite priceSection marginT15" id="homeloan">
                 <!-- EMI Calculator Widget START -->
-                <script src="http://emicalculator.net/widget/2.0/js/emicalc-loader.min.js"
+                <script src="https://emicalculator.net/widget/2.0/js/emicalc-loader.min.js"
                         type="text/javascript"></script>
                 <div id="ecww-widgetwrapper" style="min-width:250px;width:100%;">
                     <div id="ecww-widget" style="position:relative;overflow:hidden;">&nbsp;</div>
 
                     <div id="ecww-more"
                          style="background:#333;font:normal 13px/1 Helvetica, Arial, Verdana, Sans-serif;padding:10px 0;color:#FFF;text-align:center;width:100%;clear:both;margin:0;clear:both;float:left;">
-                        <a href="http://emicalculator.net/" rel="nofollow"
+                        <a href="https://emicalculator.net/" rel="nofollow"
                            style="background:#333;color:#FFF;text-decoration:none;border-bottom:1px dotted #ccc;"
                            target="_blank" title="Loan EMI Calculator">emicalculator</a></div>
                 </div>
@@ -1169,9 +1169,9 @@ have trusted us throughout the process of finding the properties and settling do
                     <div class="col-sm-6">
                         <ul>
                             <li><a href="<?= site_url() ?>">Home</a></li>
-                            <li><a href="http://fullbasketproperty.com/listing">Property</a></li>
+                            <li><a href="https://fullbasketproperty.com/listing">Property</a></li>
                             <!--<li><a href="#">Faq</a></li>-->
-                            <li><a href="http://fullbasketproperty.com/contact">Contact</a></li>
+                            <li><a href="https://fullbasketproperty.com/contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>

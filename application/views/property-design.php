@@ -1,6 +1,6 @@
  
 <!DOCTYPE html>
-    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+    <html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
 
     <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,7 +27,7 @@
         <link rel="canonical" href="<?= current_url() ?>">
         <link rel="icon" href="https://www.fullbasketproperty.com/assets/img/favicon.ico" type="image/gif" sizes="16x16">
    
-        <link rel="manifest" href="http://orchards.realatte.com/manifest.json">
+        <link rel="manifest" href="https://orchards.realatte.com/manifest.json">
         <!-- <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/bootstrap-select.min.js"></script> -->
         <!-- <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/copy_bootstrap_min.js"></script> -->
         <link href="<?= base_url() ?>assets/property/media/com_solidres/assets/css/jquery/themes/base/jquery-ui.minc619.css?v=1.0" rel="stylesheet" type="text/css"/>

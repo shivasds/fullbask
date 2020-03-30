@@ -203,9 +203,9 @@ Karnataka - 560025</p>
                     <div class="col-sm-6">
                         <ul>
                             <li><a href="<?= site_url() ?>">Home</a></li>
-                            <li><a href="http://fullbasketproperty.com/listing">Property</a></li>
+                            <li><a href="https://fullbasketproperty.com/listing">Property</a></li>
                             <!--<li><a href="#">Faq</a></li>-->
-                            <li><a href="http://fullbasketproperty.com/contact">Contact</a></li>
+                            <li><a href="https://fullbasketproperty.com/contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -213,23 +213,23 @@ Karnataka - 560025</p>
         </div>
     </div>
 </footer>
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/bootstrap-slider.min.js"></script>
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/iCheck/1.0.2/icheck.js"></script>
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.3/js/star-rating.min.js"></script>
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.4/jquery.flexslider.min.js"></script>
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
-<script src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyDHWvuZNsivQxVfbEMS6eilYwqPwlpuJQA"></script>
-<script src="http://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/bootstrap-slider.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/iCheck/1.0.2/icheck.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.3/js/star-rating.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.4/jquery.flexslider.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+<script src="https://maps.google.com/maps/api/js?sensor=false&key=AIzaSyDHWvuZNsivQxVfbEMS6eilYwqPwlpuJQA"></script>
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 <script type="text/javascript"> var base_url = "<?= base_url() ?>" </script>
 <script type="text/javascript"> var site_url = "<?= site_url() ?>"; if (typeof mapInit != 'undefined'){initMap();}</script>
 <script id="dsq-count-scr" src="//fullbasket-property.disqus.com/count.js" async></script>
 <script type="text/javascript" src="<?= base_url('assets/js/script.js') ?>"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="http://www.googletagmanager.com/gtag/js?id=UA-122622140-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122622140-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}

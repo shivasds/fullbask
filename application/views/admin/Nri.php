@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css"
-      href="http://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css">
+      href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css">
 
 <section class="content-header">
     <h1>
