@@ -252,7 +252,7 @@
 <div class="container-fluid">
 	<div class="row">		
         <div class="row city-section" style="margin-top:18px;">
-            <!-- <div class="container">
+            <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="col-sm-7">
@@ -272,14 +272,14 @@
                                         <input type="text" name="keyword"  placeholder="Enter a Location, Builder or a Project" class="form-control" value="<?= $keyword ? $keyword : ''?>">
                                         <input type="hidden" id="showPattern" name="showPattern" value="">
                                         <button type="submit" class="btn btn-loc">Search</button>
-                                        <a href="#"id="foo" onclick="$('.toggleSearch').slideToggle();return false;"  class="btn pull-right btn-link">Advance Search</a>
+                                      <!--   <a href="#"id="foo" onclick="$('.toggleSearch').slideToggle();return false;"  class="btn pull-right btn-link">Advance Search</a> -->
                                     </div>
                                    
                                 </form>
                             <?php }?>
                         </div>
                     </div>
-                </div> -->
+                </div> 
             </div>
             <?php if(!$this->input->get('builder')){?>
                 <div class="container toggleSearch" id="toggle">

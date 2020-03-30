@@ -167,7 +167,7 @@ $image_name = "all.jpg";
 <div class="container-fluid">
     <div class="row">
         <div class="row city-section" style="margin-top: 0;">
-			<!-- <div class="container">
+			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="col-sm-7">
@@ -181,13 +181,13 @@ $image_name = "all.jpg";
 									<input type="text" name="keyword" placeholder="Enter a Location, Builder or a Project" class="form-control" value="<?= $keyword ? $keyword : '' ?>">
 									<input type="hidden" id="showPattern" name="showPattern" value="">
 									<button type="submit" class="btn btn-loc">Search</button>
-                                    <a href="#" onclick="$('.toggleSearch').slideToggle();return false;" class="btn pull-right btn-link">Advance Search</a>
+                                    <!-- <a href="#" onclick="$('.toggleSearch').slideToggle();return false;" class="btn pull-right btn-link">Advance Search</a> -->
 								</div>
 							</form>
 						</div>
 					</div>
 				</div>
-			</div> -->
+			</div>
 			<div class="clearfix"></div><br>
 			<div class="container toggleSearch" id="toggle">
 			<div class="col-sm-12">
@@ -338,7 +338,7 @@ $image_name = "all.jpg";
                                                             <th>Unit</th>
                                                             <th>Size(SBA)</th>
                                                             <th>Carpet Area</th>
-                                                            <th>WHatsapp</th>
+                                                            <th>Whatsapp</th>
                                                             <th>Builder Price</th>
                                                         </tr>
                                                         </thead>
