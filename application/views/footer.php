@@ -303,7 +303,7 @@ input.separate-dial-code .selected-dial-code {
                 <div class="clearfix"></div>
                <br>
                 <a href="<?=base_url();?>">
-                <img src="<?= base_url('assets/img/footer-logo.png') ?>" class="img-responsive center-block" alt="footerlogo" discription="full basket Footer logo"></a>
+                <img src="<?= base_url('assets/img/logo.png') ?>" style="width: 35%;" class="img-responsive center-block" alt="footerlogo" discription="full basket Footer logo"></a>
                <!--  <div class="foot_link">
                    <ul>
                         <li><a href="#">Safe link</a></li>

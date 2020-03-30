@@ -672,7 +672,7 @@
                 <div class="row">
                     <div id="sp-logo" class="col-xs-8 col-sm-1 col-md-1">
                         <div class="sp-column ">
-                            <a class="logo" href="">
+                            <a class="logo" href="<?=base_url();?>">
                                 <h1>
                                     <img class="sp-default-logo" src="<?=base_url();?>assets/img/footer-logo.png" style="height: 66px;width: 80px;"> 
                                     <img class="sp-retina-logo" src="<?=base_url();?>assets/img/footer-logo.png"
@@ -830,13 +830,13 @@
 
     <div class="g-ytsubscribe" data-channelid="UCGr-on8k7dRMKBFW-X2G05A" data-layout="default" data-count="default"></div>
     </div> -->
-    <div class="col-sm-3 col-md-3 col-lg-3">
+   <!--  <div class="col-sm-3 col-md-3 col-lg-3">
         <h2>
         <div style="/*float: right*/" class="sharethis-inline-share-buttons"></div>
             <a target="_blank" href="<?= site_url(url_title($property->city_name)."/".( url_title($property->area) )."/$property->slug")?>" class="btn btn-primary btn-block" style="border-radius: 0;background-color: white;border-color: white;height: 33px;"></a>
         </h2>
     </div>
-    
+     -->
 </div>
  <div class="container-fluid text-center ">
     <div class="row">
@@ -1255,7 +1255,7 @@
                                                     <?php
                                                     $number=1;
                                                      foreach ($specifications as $k => $specification) {
-                                                        if(($number%2!=0))
+                                                        if(($number%2>0))
                                                         {
 
                                             if (($items = $this->properties_model->getPropertySpecification($property->id,
@@ -1713,7 +1713,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                 </div>            
+                                 </div> 
+                          <div class="clearfix"></div>                     
       <div class="mainContentWidth container">
         <div class="row">
             <div class="col-md-12">
@@ -1785,8 +1786,13 @@
                                        class="builder_projects">
                                         <div class="col-md-4">
                                         <div class="container">
-                                            <img src="<?= base_url("uploads/$project->slug/$project->image") ?>"  style="padding: 0;" 
-                                                 class="img-responsive" style="padding: 0" alt="<?=$project->alt?>"
+                                            <img src="<?= base_url("uploads/$project->slug/$project->image") ?>"  style="padding: 0;     padding: 0px;
+    width: 29%;
+    background-position: 50% 50%;
+    position: relative;
+    height: 260px;
+    margin-left: -13px;" 
+                                                 class="img-responsive" style="padding: 0; " alt="<?=$project->alt?>"
                                                  title="<?=$project->image_desc?>"> 
                                           </div>       
 
