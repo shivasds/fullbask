@@ -72,6 +72,17 @@
             color: red;
             background-color: white; 
         }
+        .carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 1;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
         </style>
     </head>
     <body class="abcd">
