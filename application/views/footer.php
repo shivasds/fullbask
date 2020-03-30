@@ -345,7 +345,7 @@ input.separate-dial-code .selected-dial-code {
                     <div class="col-sm-6">
                         <p>&copy; <span style="color: #fff;">Full Basket Property Services Pvt. Ltd.</span>, All Rights Reserved <?php echo date('Y'); ?></p>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 hidden-xs"">
                         <ul>
                             <li><a href="<?= site_url() ?>">Home</a></li>
                             <li><a href="<?= base_url() ;?>/listing">Property</a></li>

@@ -207,7 +207,7 @@
     </div>
     <div class="container">
         <div class="col-sm-12 text-center">
-                <h2 class="WHITE">PRIMARY OBJECTIVE </h2>
+                <h2 class="nricolor">PRIMARY OBJECTIVE </h2> 
             </div>
        <!-- <div class="row objective">
              <div class="col-md-12">

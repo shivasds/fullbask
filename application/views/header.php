@@ -108,7 +108,7 @@
                     <a href="<?= site_url() ?>">HOME</a>
                     <a href="<?= site_url('about') ?>" target="_blank">ABOUT</a>
                     <a href="<?= site_url('listing') ?>" target="_blank">PROPERTIES</a>
-                    <a href="<?=site_url('blog')?>" target="_blank">BLOGs</a>
+                    <a href="<?=site_url('blog')?>" target="_blank">BLOGS</a>
                     <a href="<?=site_url('nri')?>" target="_blank"> NRI CORNER</a>
                     <a href="<?=site_url('#')?>">VASTU</a>
                     <a href="<?=site_url('testimonials')?>"target="_blank">TESTIMONIAL</a>

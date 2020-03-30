@@ -403,7 +403,7 @@ a.google:hover {
 }
 
 .all_prop {
-    padding: 85px 50px;
+   /* padding: 85px 50px;*/
 }
 
 .all_prop i {
@@ -1121,7 +1121,8 @@ footer li a:hover {
 .city-section {
     background-color: #f7f5f6;
     padding: 20px;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
+    margin-bottom: 4px;
     margin-top: 20px;
     box-shadow: 1px 3px 5px #ddd;
 }
@@ -3070,8 +3071,10 @@ a.bld-link{text-decoration: none; color: #fff;}
     .builder_row [class*="col-"]{width: 50%; margin-bottom: 30px; float: left}
 }
     
-
+  .nricolor {color:white;}
 @media (max-width: 599px) {
+    .nricolor {color:black;}
+
     .pt_wrap > div { width: auto;}
     .ptitle{width: 60%;}
     .prow1 span { width: 50%;}
@@ -3112,6 +3115,7 @@ a.bld-link{text-decoration: none; color: #fff;}
     .pt_wrap > div{width: 100%;}
     .prow1 span{width: 100%;}
     .prow1 span:last-child{text-align: left;}
+    .nricolor {color:black;}
 }
 
 @media (min-width: 320px) and (max-width: 1024px) {
