@@ -89,8 +89,9 @@
     width: 340px; 
 }
 }
-
-
+.list-header{
+background-image:url('<?= base_url('thankyou-images/all.jpg') ?>');
+}
     </style>
 <script>
 
@@ -171,7 +172,7 @@
 <!--End Contact Builder form-->
 
 <div class="">
-	<div class="row list-header" style="background-image: url('<?= base_url('thankyou-images/all.jpg') ?>');">
+	<div class="row list-header" style="">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
