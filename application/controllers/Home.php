@@ -54,6 +54,9 @@ class Home extends Public_Controller
         $this->data['city_count'] = count($this->data['cities']);
         $this->data['price_range'] = $this->home_model->getPriceRanges();
         // load views
+         $content=$this->session->userdata('content');
+          $total      = $this->home_model->loadProperties(0, 0, true, $content);
+           $this->data['total'] = $total;
         $this->data['view_page'] = 'index';
         $this->load->view('template', $this->data);
     }

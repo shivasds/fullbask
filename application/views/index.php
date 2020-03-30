@@ -226,20 +226,20 @@ $(document).ready(function(){
 <!-- contact form end -->
 <div class="row city-section" >
             <div class="container">
-                <div class="row">
+                <div class="row" style="margin-top: 10px;">
                     <div class="col-sm-12">
-                        <!-- <div class="col-sm-7">
+                        <div class="col-sm-7">
                             <p><a href="#">India Property</a>&emsp;>>&emsp;<a href="#">Property in All Cities</a>&emsp;>>&emsp;<span>Property for sale in All Cities</span></p>
                             <p class="hide">All Cities <span class="percentage">14.6%</span> More about Property in All Cities</p>
-                        </div> -->
+                        </div>
                         <div class="col-sm-12">
-                            <p class="pull-right"><!-- Property for Sale in All Cities  (<?= isset($total) ? $total : 0 ?>)-- --></p>
+                            <p class="pull-right"> Property for Sale in All Cities  (<?= isset($total) ? $total : 0 ?>) </p>
                             <?php if(!$this->input->get('builder')){?>
                                 <form method="post" action="listing">
                                     <div class="form-group">
                                         <input type="text" name="keyword"  placeholder="Enter a Location, Builder or a Project" class="form-control" value="<?= $keyword ? $keyword : '' ?>">
                                         <input type="hidden" id="showPattern" name="showPattern" value="">
-                                        <button type="submit" style=" top: 5px; " class="btn btn-loc">Search</button>
+                                        <button type="submit" style="/* top: 5px; */" class="btn btn-loc">Search</button>
                                        <!--  <a id="foo"  class="btn pull-right btn-link">Advance Search</a> -->
                                     </div>
                                    
