@@ -27,7 +27,6 @@
     margin: 0 0px!important;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #434445 !important;
     padding-right: 26px;
     padding-left: 26px;
     font-family: 'Lato', sans-serif;
@@ -56,15 +55,15 @@
                             
                                 <li class="<?= $this->uri->segment(1) == '' ? 'active' : '' ?>"><a href="<?= site_url() ?>">HOME</a></li>
                                 <li class="<?= $this->uri->segment(1) == 'listing' ? 'active' : '' ?>"><a href="<?= site_url('listing') ?>">PROPERTIES</a></li>
-                                <li><a href="<?= site_url('about') ?>">ABOUT</a></li>
-                                <li><a href="<?=site_url('blog')?>">BLOG</a></li>
-                                <li><a href="<?=site_url('contact')?>">CONTACT</a></li>
+                                <li class="<?= $this->uri->segment(1) == 'about' ? 'active' : '' ?>"><a href="<?= site_url('about') ?>">ABOUT</a></li>
+                                <li class="<?= $this->uri->segment(1) == 'blog' ? 'active' : '' ?>"><a href="<?=site_url('blog')?>">BLOG</a></li>
+                                <li class="<?= $this->uri->segment(1) == 'contact' ? 'active' : '' ?>"><a href="<?=site_url('contact')?>">CONTACT</a></li>
                                 <li class="city_select">
                                     <div class="btn-group pull-right">
-                                        <button type="button" class="btn btn-city dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <button type="button" id="Selectcity" class="btn btn-city dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <?= $this->session->userdata('city') ? htmlentities($this->session->userdata('city')) : 'Select Location' ?> <!-- <span class="fa fa-level-down" style="margin-top: 3px;margin-left: 26px;"></span> -->
                                         </button>
-                                        <ul class="dropdown-menu gradient">
+                                        <ul id="cityul" class="dropdown-menu gradient">
                                             <li><a href="<?= site_url('listing') ?>">All Cities</a></li>
                                             <?php foreach ($cities as $city) { ?>            
                                             <li class="<?= $this->session->userdata('city') == $city->name ? 'active' : '' ?>"><a href="<?= site_url('city/'.$city->url_name) ?>"><?= htmlentities(ucfirst($city->name)) ?></a></li>
@@ -81,7 +80,7 @@
                                     <i class="fa fa-paper-plane pull-left" style="color:black"></i> <span class="pull-left">&nbsp;<a href="tel:<?= (isset($cityDetails->phone) && $cityDetails->phone) ? $cityDetails->phone : $all_cities->phone ?>"style=" color: black"><?= (isset($cityDetails->phone) && $cityDetails->phone) ? $cityDetails->phone : $all_cities->phone ?></a> <br><a style="color: black" href="mailto:<?= (isset($cityDetails->email) && $cityDetails->email) ? $cityDetails->email : $all_cities->email ?>"><?= (isset($cityDetails->email) && $cityDetails->email) ? $cityDetails->email : $all_cities->email ?></a></span>
                                    </div> -->
                                   <?php if ($this->session->userdata('logged_in')) { ?>
-                                    <div class="btn-group pull-right  .visible-xs-block hidden-xs " style="margin-top: 5px;">
+                                    <div class="btn-group pull-right  .visible-xs-block hidden-xs "  style="margin-top: 5px;">
                                         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <?= $this->session->userdata('logged_in')['first_name'].' '.$this->session->userdata('logged_in')['last_name'] ?> <span class="caret"></span>
                                         </button>
@@ -127,10 +126,10 @@
                     <div class="col-xs-9 col-sm-6 col-md-8"> 
                         <div class="city_select">
                             <div class="btn-group pull-right">
-                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #e82d8e;">
+                                <button type="button" id="Selectcity" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #e82d8e;">
                                 <?= $this->session->userdata('city') ? htmlentities($this->session->userdata('city')) : 'Select City' ?> <!-- <span class="fa fa-level-down pull-right" style="margin-top: 3px;color: blue;border: none;"></span> -->
                                 </button>
-                                <ul class="dropdown-menu gradient">
+                                <ul id="cityul" class="dropdown-menu gradient">
                                 <li><a href="<?= site_url('listing') ?>">All Cities</a></li>
                                             <?php foreach ($cities as $city) { ?>            
                                             <li class="<?= $this->session->userdata('city') == $city->name ? 'active' : '' ?>"><a href="<?= site_url('city/'.$city->url_name) ?>"><?= htmlentities(ucfirst($city->name)) ?></a></li>
@@ -154,5 +153,18 @@
          $('.sub-header').removeClass('fixed-header');
      }
  });
+
+ $( document ).ready(function() {
+    //  if(window.location.href  )
+    // #Selectcity
+    if(window.location.pathname=="/listing"){
+        $("#Selectcity").text("All Cities");
+        $("#cityul li").removeClass("active");
+        var li=$("#cityul li")[0];
+        $(li).addClass("active");
+        
+    }
+
+ })
     </script>
 <!-- <div class="fb-login-button" data-max-rows="1" data-size="small" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div> -->

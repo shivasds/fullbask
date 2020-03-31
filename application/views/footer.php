@@ -337,22 +337,97 @@ input.separate-dial-code .selected-dial-code {
                 </div>
             </div>
         </div>
+
+        <!-- Qiuck links -->
+        <?php $property_type=json_decode(json_encode($property_type),true);  ?>
+        <div class="row">
+           <h3>Property Type</h3>
+            <div class="col-md-3 col-sm-4">
+              <ul> 
+                <?php
+                for($i=0;$i<=4;$i++) {
+if(!$property_type[$i]['city'])
+                    {
+echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                    }
+                    else
+                    {
+                        echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                    }
+                } 
+                ?>
+              
+                    
+              </ul>
+            </div>
+
+            <div class="col-md-3 col-sm-4">
+             <ul>
+                 <?php
+                for($i=5;$i<=9;$i++) {
+                    if(!$property_type[$i]['city'])
+                    {
+echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                    }
+                    else
+                    {
+                        echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                    }
+                } 
+                ?>
+             </ul>
+            </div>
+            
+            <div class="col-md-3 col-sm-4">
+                <ul>
+                   <?php
+                for($i=10;$i<=14;$i++) {
+if(!$property_type[$i]['city'])
+                    {
+echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                    }
+                    else
+                    {
+                        echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                    }
+                } 
+                ?>
+                </ul>
+            </div>
+           
+            <div class="col-md-3 col-sm-4">
+                 <ul>
+                   <?php
+                for($i=15;$i<=19;$i++) {
+if(!$property_type[$i]['city'])
+                    {
+echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                    }
+                    else
+                    {
+                        echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                    }
+                } 
+                ?>
+                </ul>
+            </div>
+        </div>
+       
     </div>
     <div class="container-fluid">
         <div class="row copyright">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-12 text-center">
                         <p>&copy; <span style="color: #fff;">Full Basket Property Services Pvt. Ltd.</span>, All Rights Reserved <?php echo date('Y'); ?></p>
                     </div>
-                    <div class="col-sm-6 hidden-xs"">
+                    <!-- <div class="col-sm-6 hidden-xs">
                         <ul>
                             <li><a href="<?= site_url() ?>">Home</a></li>
                             <li><a href="<?= base_url() ;?>/listing">Property</a></li>
-                            <!--<li><a href="#">Faq</a></li>-->
                             <li><a href="<?= base_url() ;?>/contact">Contact</a></li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
