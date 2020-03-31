@@ -172,9 +172,12 @@ background-image:url('<?= base_url('thankyou-images/all.jpg') ?>');
 <!--End Contact Builder form-->
 
 <div class="">
-	<div class="row list-header" style="">
+	<div class="row list-header box" style="">
 		<div class="container">
 			<div class="row">
+                <div class="text">
+                <h1 class="city-name"><?=$this->uri->segment(2)?$this->uri->segment(2):'All Cities'?></h1>
+                </div>
 				<div class="col-sm-12">
 					<div class="col-sm-12">
                         <h3>&nbsp;</h3>

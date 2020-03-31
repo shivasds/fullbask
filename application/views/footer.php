@@ -192,6 +192,9 @@ input.separate-dial-code .selected-dial-code {
         color:black !important;
 
     }
+    .col-sm-4{
+        
+    }
 </style>
     <div class="container colorblack">
         <div class="row">
