@@ -113,12 +113,13 @@
                     <a href="<?=site_url('#')?>">VASTU</a>
                     <a href="<?=site_url('testimonials')?>"target="_blank">TESTIMONIAL</a>
                     <a href="<?=site_url('achievements')?>"target="_blank">ACHIVEMENT</a>
-                    <a href="<?=site_url('careers')?>"target="_blank">CARRIER</a>
+                    <a href="<?=site_url('careers')?>"target="_blank">CAREER</a>
                     <a href="<?=site_url('contact')?>"target="_blank">CONTACT US</a>
  
                 </div>
             </nav>
         </div>
+         <?php $name = $this->uri->segment(2);?>
         <div class="col-xs-9 col-sm-9 nopadding visible-xs">
                   <div class="col-xs-3 col-sm-3 col-md-1">
                         <a href="<?= site_url() ?>"><img src="<?= base_url('assets/img/logo.png') ?>" style=" float: right; width: 70px;"alt="fullbasketlogo" discription="Full Basket Logo image"></a>
