@@ -1069,10 +1069,34 @@ footer li a:hover {
     background-size: cover;
     height: 200px;
     background-position: 0% 2%;
+    width: -webkit-fill-available;
     margin-top: 0px;
     padding: 94px 0;
 }
-
+.box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+.box .text{
+    position: absolute;
+    z-index: 7;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    background: rgba(255, 255, 255, 0.8);
+    font-family: Arial,sans-serif;
+    color: #101010;
+    width: 40%; /* Set the width of the positioned div */
+}
+.city-name{
+    /* font-size: 14px; */
+    font-family: monospace;
+    /* font-weight: 600; */
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
 .list-header h3 {
     color: #fff;
     margin-top: 50px;
@@ -1174,6 +1198,7 @@ footer li a:hover {
     padding: 7px 25px;
     right: 5px;
 }
+
 .gradient-button {
     margin: 10px;
     font-family: "Arial Black", Gadget, sans-serif;
@@ -3056,16 +3081,38 @@ a.bld-link{text-decoration: none; color: #fff;}
 
     .list-header {
         margin-top: 0px;
-        height: 100px;
-        padding: 85px 0;
+        height: 65px;
+        padding: 1px 0;
+        width: -webkit-fill-available;
         background-position: center;
         /* background-repeat: no-repeat; */
         background-size: cover;
         position: relative;
     }
+  .city-name{
+      font-size: 14px;
+      font-family: monospace;
+      font-weight: 600;
+      margin-top: 7px;
+      margin-bottom: 7px;
+  
+  }
+    .box .text{
+        position: absolute;
+        z-index: 7;
+        margin: 0 auto;
+        left: 0;
+        right: 0;        
+        text-align: center;
+        top: 30%; /* Adjust this value to move the positioned div up and down */
+        background: rgba(255, 255, 255, 0.8);
+        font-family: Arial,sans-serif;
+        color: #101010;
+        width: 60%; /* Set the width of the positioned div */
+    }
     .menu-section {
-       
         padding: 3px;
+        margin-top: -22px;
     }
 
     .city_select {
