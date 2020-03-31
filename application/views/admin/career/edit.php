@@ -19,6 +19,7 @@
                                 <div class="<?= form_error('title') ? 'has-error' : '' ?>">
                                     <input type="text" name="title" class="form-control" id="title" placeholder="Job Title" value="<?= set_value('title', $career->title) ?>">
                                     <span class="<?= form_error('title') ? 'text-danger' : '' ?>"><?= form_error('title') ?></span>
+                                    <input type="hidden" name="created_at" value="<?=date('Y-m-d H:i:s');?>">
                                 </div>
                             </div>
                         </div>

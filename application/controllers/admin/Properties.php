@@ -494,7 +494,7 @@ if ($constructionImages) {
         if ($this->input->post()) {
             $this->form_validation->set_rules('title', 'Title', 'trim|required');
             $this->form_validation->set_rules('area', 'Area', 'trim|required');
-            $this->form_validation->set_rules('amenities[]', 'Amenities', 'trim|required');
+            // $this->form_validation->set_rules('amenities[]', 'Amenities', 'trim|required');
             $this->form_validation->set_rules('budget', 'Budget', 'trim|required');
            // $this->form_validation->set_rules('uid', 'Property Unique ID #', 'trim|required');
 

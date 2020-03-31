@@ -35,6 +35,14 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                             </div>
                         </div>
                     </div>
+                     <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="form-group">
+                            <label class="control-label" for="exampleInputFile">Project Logo</label>
+                            <div class=" <?= form_error('uploadImage') ? 'has-error' : '' ?>">
+                                <input type="file" class="form-control" id="logo_1" name="logo_1">
+                            </div>
+                        </div>
+                    </div
                     <div class="clearfix"></div>
                     <div class="col-sm-6 col-md-6 col-lg-6">
                         <div class="form-group">
@@ -105,15 +113,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                                 <input type="file" class="form-control" name="mobile_banner_3">
                             </div>
                         </div>
-                    </div>-->
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                        <div class="form-group">
-                            <label class="control-label" for="exampleInputFile">Project Logo</label>
-                            <div class=" <?= form_error('uploadImage') ? 'has-error' : '' ?>">
-                                <input type="file" class="form-control" id="logo_1" name="logo_1">
-                            </div>
-                        </div>
-                    </div><!-- 
+                    </div> 
                     <div class="col-sm-6 col-md-6 col-lg-6">
                         <div class="form-group">
                             <label class="control-label" for="exampleInputFile">property logo-2</label>
@@ -122,7 +122,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                             </div>
                         </div> -->
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="col-sm-4 col-md-4 col-lg-4">
                         <div class="form-group">
                             <label for="issue_date" class="control-label">Issue Date <code>*</code></label>
                             <div class=" <?= form_error('issue_date') ? 'has-error' : '' ?>">
@@ -140,7 +140,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-6">
+                    <!-- <div class="col-sm-4 col-md-4 col-lg-4">
                         <div class="form-group">
                             <label for="property_status_id" class="control-label">Property Status <code>*</code></label>
                             <div class=" <?= form_error('property_status_id') ? 'has-error' : '' ?>">
@@ -160,8 +160,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                             </div>
                         </div>
                     </div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="clearfix"></div> -->
+                    <div class="col-sm-4 col-md-4 col-lg-4">
                         <div class="form-group">
                             <label for="city" class="control-label">City <code>*</code></label>
                             <div class="">
@@ -178,7 +178,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="col-sm-4 col-md-4 col-lg-4">
                         <div class="form-group">
                             <label for="location" class="control-label">Location <code>*</code></label>
                             <div class="">
@@ -376,7 +376,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
 
                     </div>
                     <div class="clearfix"></div>
-                    <div class="col-sm-6 col-md-6 col-lg-6">
+                   <!--  <div class="col-sm-6 col-md-6 col-lg-6">
                         <div class="form-group">
                             <label for="property_for" class="control-label">Property For <code>*</code></label>
                             <div class=" <?= form_error('property_for') ? 'has-error' : '' ?>">
@@ -390,7 +390,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                             </div>
                             <span class="<?= form_error('property_for') ? 'text-danger' : '' ?>"><?= form_error('property_for') ?></span>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-sm-6 col-md-6 col-lg-6">
                         <div class="form-group">
                             <label for="price_per_unit" class="control-label">Price Per Unit <code>*</code></label>
@@ -402,7 +402,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                             </div>
                         </div>
                     </div>
-                    <div class="clearfix"></div>
+                  <!--   <div class="clearfix"></div> -->
                     <div class="col-sm-6 col-md-6 col-lg-6">
                         <div class="form-group">
                             <label for="build" class="control-label">Build <code>*</code></label>
@@ -415,7 +415,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                                 <span class="<?= form_error('build') ? 'text-danger' : '' ?>"><?= form_error('build') ?></span>
                             </div>
                         </div>
-                    </div>
+                    </div><!-- 
                     <div class="col-sm-6 col-md-6 col-lg-6">
                         <div class="form-group">
                             <label for="face" class="control-label">Direction Facing</label>
@@ -430,9 +430,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                                 <span class="<?= form_error('face') ? 'text-danger' : '' ?>"><?= form_error('face') ?></span>
                             </div>
                         </div>
-                    </div>
+                    </div> 
                     <div class="clearfix"></div>
-                    <div class="col-sm-4 col-md-4 col-lg-4">
+                      <div class="col-sm-4 col-md-4 col-lg-4">
                         <div class="form-group">
                             <label for="builtup_area" class="control-label">Builtup Area</label>
                             <div class=" <?= form_error('builtup_area') ? 'has-error' : '' ?>">
@@ -442,7 +442,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                                 <span class="<?= form_error('builtup_area') ? 'text-danger' : '' ?>"><?= form_error('builtup_area') ?></span>
                             </div>
                         </div>
-                    </div>
+                    </div> 
                     <div class="col-sm-2 col-md-2 col-lg-2">
                         <div class="form-group">
                             <label for="builtup_area_unit" class="control-label">&nbsp;</label>
@@ -460,7 +460,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                                 <span class="<?= form_error('builtup_area_unit') ? 'text-danger' : '' ?>"><?= form_error('builtup_area_unit') ?></span>
                             </div>
                         </div>
-                    </div>
+                    </div> 
                     <div class="col-sm-4 col-md-4 col-lg-4">
                         <div class="form-group">
                             <label for="carpet_area" class="control-label">Carpet Area</label>
@@ -472,7 +472,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-2 col-md-2 col-lg-2">
+                     <div class="col-sm-2 col-md-2 col-lg-2">
                         <div class="form-group">
                             <label for="carpet_area_unit" class="control-label">&nbsp;</label>
                             <div class=" <?= form_error('carpet_area_unit') ? 'has-error' : '' ?>">
@@ -520,7 +520,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="clearfix"></div>
+                   <!--  <div class="col-sm-3 col-md-3 col-lg-3">
                         <div class="form-group">
                             <label for="lat" class="control-label">Latitude</label>
                             <div class=" <?= form_error('lat') ? 'has-error' : '' ?>">
@@ -541,9 +542,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                                 <span class="<?= form_error('lng') ? 'text-danger' : '' ?>"><?= form_error('lng') ?></span>
                             </div>
                         </div>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="col-sm-2 col-md-2 col-lg-2">
+                    </div> 
+                <div class="clearfix"></div> 
+                  <div class="col-sm-2 col-md-2 col-lg-2">
                         <div class="form-group">
                             <label for="bedrooms" class="control-label">Bedrooms</label>
                             <div class=" <?= form_error('bedrooms') ? 'has-error' : '' ?>">
@@ -561,7 +562,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                                 <span class="<?= form_error('bedrooms') ? 'text-danger' : '' ?>"><?= form_error('bedrooms') ?></span>
                             </div>
                         </div>
-                    </div>
+                    </div> 
                     <div class="col-sm-2 col-md-2 col-lg-2">
                         <div class="form-group">
                             <label for="bathrooms" class="control-label">Bathrooms</label>
@@ -599,7 +600,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                                 <span class="<?= form_error('facades') ? 'text-danger' : '' ?>"><?= form_error('facades') ?></span>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
+                    <div class="clearfix"></div>
                     <div class="col-sm-2 col-md-2 col-lg-2">
                         <div class="form-group">
                             <label for="floors" class="control-label">No of Floors</label>
@@ -663,7 +665,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                     </div>
 
                     <div class="clearfix"></div>
-                    <div class="col-sm-4 col-md-4 col-lg-4">
+                    <!-- <div class="col-sm-4 col-md-4 col-lg-4">
                         <div class="form-group">
                             <label class="control-label" for="brochure">Brochure</label>
                             <div class=" <?= form_error('brochure') ? 'has-error' : '' ?>">
@@ -671,7 +673,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                                 name="brochure">
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-sm-4 col-md-4 col-lg-4">
                         <div class="form-group">
                             <label for="brochure_alt" class="control-label">Brochure Alt</label>
@@ -868,7 +870,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                         </div>
                     </div>
                     <div class="clearfix"></div>
-                    <div class="col-sm-4 col-md-4 col-lg-4">
+                    <!-- <div class="col-sm-4 col-md-4 col-lg-4">
                         <div class="form-group <?= form_error('facebook') ? 'has-error' : '' ?>">
                             <label class="control-label" for="facebook">Facebook</label>
                             <div class="input-group">
@@ -897,7 +899,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                                 <input type="url" value="<?= set_value("google") ?>" placeholder="https://google.com/+profileID" name="google" id="google" class="form-control">
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="clearfix"></div>
                     <div class="col-sm-12 col-md-12 col-lg-12">
                         <div class="table-responsive">
@@ -970,7 +972,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-2 col-md-2">
+                           <!--  <div class="col-sm-2 col-md-2">
                                 <div class="form-group">
                                     <label class="control-label">Carpet Area</label>
                                     <div>
@@ -978,7 +980,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                                         name="flat_type[<?= $flat_type->id ?>][carpet_area][]" />
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="col-sm-2 col-md-2">
                                 <div class="form-group">
                                     <label class="control-label">Price (<i class="fa fa-inr"

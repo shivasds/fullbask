@@ -1731,16 +1731,19 @@
                         <hr>
                         
                         <div class="row">
-                            <div class="col-md-12">
-                                <h4>Builder project available with us</h4>
-                            </div>
-                            <div class="clearfix"></div>
-                            <br>
+                            
                             <?php
                             
 
                             if (($projects = $this->home_model->getsameLocationProjects($property->location_id, $property->id,
                                     3)) != null) {
+                                        ?>
+                                        <div class="col-md-12">
+                                <h4>Builder project available with us</h4>
+                            </div>
+                            <div class="clearfix"></div>
+                            <br>
+                            <?php
                                 foreach ($projects as $project) {
                                     ?>
                                     <a href="<?= site_url(url_title($project->city_name) . "/" . (url_title($project->area)) . "/$project->slug/") ?>"
@@ -1780,6 +1783,13 @@
                             } 
                             elseif (($projects = $this->home_model->getBuilderProjects($property->builder_id, $property->id,
                                     3)) != null) {
+                                        ?>
+                                        <div class="col-md-12">
+                                <h4>Suggested Properties Near Your Search Location</h4>
+                            </div>
+                            <div class="clearfix"></div>
+                            <br>
+                            <?php
                                 foreach ($projects as $project) {
                                     ?>
                                     <a href="<?= site_url(url_title($project->city_name) . "/" . (url_title($project->area)) . "/$project->slug/") ?>"
