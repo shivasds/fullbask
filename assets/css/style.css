@@ -325,7 +325,9 @@ a.google:hover {
 .slider.slider-horizontal .slider-handle.max-slider-handle {
     margin-left: -10px;
 }
-
+.btn:hover{
+    border: 1px solid #285eca;
+}
 .btn-submit {
     background-color: transparent;
     border-radius: 50%;
@@ -600,6 +602,7 @@ footer hr {
 footer p {
     color: #717171;
     line-height: 25px;
+    font-size: 14px!important;
 }
 
 footer .address {
@@ -1172,7 +1175,6 @@ footer li a:hover {
     font-size: 14px;
     font-weight: normal;
     line-height: 2.2;
- 
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
@@ -1191,23 +1193,47 @@ footer li a:hover {
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     /* margin: 8px 10px 12px; */
 }
-.gradient-button-1 {background-image: linear-gradient(to right, rgb(221, 130, 94) 0%, rgb(212, 113, 179) 51%, #DD5E89 100%)}
-.gradient-button-1:hover { background-position: right center; }
+.gradient-button-1 {
+    background-image: linear-gradient(to right, rgb(221, 130, 94) 0%, rgb(212, 113, 179) 51%, #DD5E89 100%)
+}
+.btn-call-back{
+    margin: 10px;
+    line-height: 1.6;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: #FFF;
+    background-image: linear-gradient(to right, rgb(221, 130, 94) 0%, rgb(212, 113, 179) 51%, #DD5E89 100%)
+
+}
+
+.gradient-button-1:hover { 
+    /* background-position: right center;  */
+    background-image: linear-gradient( to right,rgb(79, 94, 182),rgba(113, 212, 138, 0.658));
+}
 
 .gradient {
     overflow: hidden;                   
-   /* background-image: linear-gradient(#e0a21c3d, #29dd652d,rgba(45, 84, 212, 0.288),rgba(238, 20, 238, 0.288)); */
- 
   }
  
   .gradient> li > a:hover{
     color: #FFF;
      background-image: linear-gradient(to right, rgb(221, 130, 94) 0%, rgb(212, 113, 179) 51%, #DD5E89 100%)
   }
+
   .gradient> .active > a, .gradient > .active > a:hover, .gradient > .active > a:focus {
     color: #fff;
     background-image: linear-gradient( to right,rgb(79, 94, 182),rgba(113, 212, 138, 0.658));
 }
+
+.btn-primary:hover, .btn-loc:hover ,.btn-prop:hover ,.form-btn:hover{
+    color: #fff;
+    background-image: linear-gradient( to right,rgb(79, 94, 182),rgba(113, 212, 138, 0.658));
+    /* border-color: 1px solid green!important; */
+}
+.pagination li a:hover{
+    color: #fff;
+    background-image: linear-gradient( to right,rgb(79, 94, 182),rgba(113, 212, 138, 0.658));
+}
+
 
 .thumbnail {
     margin-bottom: 20px;
@@ -3137,12 +3163,13 @@ a.bld-link{text-decoration: none; color: #fff;}
     .achievement-card{
         height: 80px;
     }
+
 .achievemnts {
     width: 100%;  
     max-height: 100px;
     padding: 10px;
     /* background-color: #d6d6d6; */
-      background-image: linear-gradient( to right,rgb(79, 94, 182),rgba(113, 212, 138, 0.658));
+    background-image: linear-gradient( to right,rgb(79, 94, 182),rgba(113, 212, 138, 0.658));
     float: left;
     margin-right: 15px;
     margin-left: 15px;

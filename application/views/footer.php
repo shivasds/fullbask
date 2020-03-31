@@ -337,22 +337,95 @@ input.separate-dial-code .selected-dial-code {
                 </div>
             </div>
         </div>
+
+        <!-- Qiuck links -->
+        <div class="row">
+           <h3>Property Type</h3>
+            <div class="col-md-3 col-sm-4">
+              <ul>
+                 <li>
+                    <a href="#!">Link 1</a>
+                </li>
+                <li>
+                    <a href="#!">Link 2</a>
+                </li>
+                <li>
+                    <a href="#!">Link 3</a>
+                </li>
+                <li>
+                    <a href="#!">Link 4</a>
+                </li>
+                    
+              </ul>
+            </div>
+
+            <div class="col-md-3 col-sm-4">
+             <ul>
+                 <li>
+                    <a href="#!">Link 1</a>
+                </li>
+                <li>
+                    <a href="#!">Link 2</a>
+                </li>
+                <li>
+                    <a href="#!">Link 3</a>
+                </li>
+                <li>
+                    <a href="#!">Link 4</a>
+                </li>
+             </ul>
+            </div>
+            
+            <div class="col-md-3 col-sm-4">
+                <ul>
+                    <li>
+                        <a href="#!">Link 1</a>
+                    </li>
+                    <li>
+                        <a href="#!">Link 2</a>
+                    </li>
+                    <li>
+                        <a href="#!">Link 3</a>
+                    </li>
+                    <li>
+                        <a href="#!">Link 4</a>
+                    </li>
+                </ul>
+            </div>
+           
+            <div class="col-md-3 col-sm-4">
+                 <ul>
+                   <li>
+                        <a href="#!">Link 1</a>
+                    </li>
+                    <li>
+                        <a href="#!">Link 2</a>
+                    </li>
+                    <li>
+                        <a href="#!">Link 3</a>
+                    </li>
+                    <li>
+                        <a href="#!">Link 4</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+       
     </div>
     <div class="container-fluid">
         <div class="row copyright">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-12 text-center">
                         <p>&copy; <span style="color: #fff;">Full Basket Property Services Pvt. Ltd.</span>, All Rights Reserved <?php echo date('Y'); ?></p>
                     </div>
-                    <div class="col-sm-6 hidden-xs"">
+                    <!-- <div class="col-sm-6 hidden-xs">
                         <ul>
                             <li><a href="<?= site_url() ?>">Home</a></li>
                             <li><a href="<?= base_url() ;?>/listing">Property</a></li>
-                            <!--<li><a href="#">Faq</a></li>-->
                             <li><a href="<?= base_url() ;?>/contact">Contact</a></li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

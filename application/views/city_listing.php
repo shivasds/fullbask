@@ -361,7 +361,7 @@ $image_name = "all.jpg";
                                                         }else{
                                                             ?>
                                                             <tr>
-                                                                <td colspan="4" class="text-center">No data available</td>
+                                                                <td colspan="5" class="text-center">No data available</td>
                                                             </tr>
                                                             <?php
                                                         }
@@ -388,7 +388,7 @@ $image_name = "all.jpg";
                                                         }
                                                         ?>
                                                         <i class="fa <?= (isset($property->class_heart) && $property->class_heart) ? $property->class_heart : 'fa-heart-o' ?> favourite" data-id="<?= $property->id ?>" data-access="<?= $this->session->userdata('logged_in') ? '' : 'denied' ?>" data-url="<?= $this->session->userdata('logged_in') ? site_url('home/manage_favourites') : site_url('user/login') ?>" style="cursor: pointer"></i>
-                                                        <button class="gradient-button gradient-button-1 btn-call-back" data-id="<?=$property->id?>">GET CALL BACK</button>
+                                                        <button class="gradient-button-1 btn-call-back" data-id="<?=$property->id?>">GET CALL BACK</button>
                                                     </h4>
                                                 </div>
                                             </div>

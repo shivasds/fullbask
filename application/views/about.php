@@ -271,16 +271,14 @@ $images = $this->aboutUs_model->getWhere(array('name' => 'first_images'), 'about
                                     <br>
                                     <br>
 
-                                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                                        <br>
-                                        <br> 
-                                
+                                    <!-- <div class="col-xs-12 col-sm-12 col-md-12 text-center"> -->
+                                      
                                         <!-- <div class="orange-text">
                                             <div class="link">
                                                     <h4>Home-- About-us</h4>
                                             </div>
                                         </div> -->
-                                    </div>
+                                    <!-- </div> -->
                                 </div>
                         
                         </div>

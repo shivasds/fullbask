@@ -100,7 +100,7 @@
 }
 
 .whtsapp{
-    padding: 20px;
+    padding: 10px;
     background: #03a84e;
     color: white;
 } 
@@ -126,7 +126,7 @@
   z-index:2;
 }
 .youtube{
-    padding: 20px;
+    padding: 10px;
     background: #ef0525;
     color: white;
 } 
@@ -138,7 +138,7 @@
    
 }
 .pinterest{
-    padding: 20px;
+    padding:  10px;
     background: #cb2027;
     color: white;
 } 
@@ -150,7 +150,7 @@
    
 }
 .facebook{
-    padding: 20px;
+    padding: 10px;
    background: #5b7ec0;;
     color: white;
 } 
@@ -162,7 +162,7 @@
    
 }
 .twitter{
-    padding: 20px;
+    padding:  10px;
     background: #55acee;
     color: white;
 } 
@@ -175,7 +175,7 @@
 }
 
 .linkedIn{
-    padding: 20px;
+    padding:  10px;
    background: #5b7ec0;;
     color: white;
 } 
@@ -196,13 +196,13 @@
     padding-left: 90px!important;
 }
 
-@media (max-width: 414px) {
+@media only screen and (min-width: 320px) and (max-width: 650px)  {
 
 .phone{
     width: 97%;
 }
 .fa-3x {
-    font-size: 2em!important;
+    font-size: 1.3em!important;
 }
 .whtsapp{
     padding: 5px;
