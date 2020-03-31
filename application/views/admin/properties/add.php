@@ -11,7 +11,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                 </div>
                 <!-- /.box-header -->
                 <!-- form start -->
-                <form class="" method="post" action="<?= site_url('admin/properties/new_add') ?>"
+                <form class="" method="post" action="<?= site_url('admin/properties/add') ?>"
                   enctype="multipart/form-data">
                   <div class="box-body">
 
@@ -39,6 +39,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                     <div class="col-sm-6 col-md-6 col-lg-6">
                         <div class="form-group">
                             <label class="control-label">Desktop Banners</label>
+                             <code>*</code>
                             <div class="">
                                 <div class="dropzone banner">
                                     <div id="images" class="hide"></div>
@@ -49,6 +50,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                     <div class="col-sm-6 col-md-6 col-lg-6">
                         <div class="form-group">
                             <label class="control-label">Mobile Banners</label>
+                             <code>*</code>
                             <div class="">
                                 <div class="dropzone mobilebanner">
                                     <div id="hiddenimages" class="hide"></div>
@@ -257,10 +259,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                     <div class="col-sm-3 col-md-3 col-lg-3">
                         <div class="form-group">
                             <label for="area" class="control-label">Area</label>
-
+                             <code>*</code>
                             <div class=" <?= form_error('area') ? 'has-error' : '' ?>">
                                 <input type="text" name="area" class="form-control" id="inputEmail3"
-                                placeholder="Type the area here" value="<?= set_value('area') ?>">
+                                placeholder="Type the area here" required="" value="<?= set_value('area') ?>">
                                 <span class="<?= form_error('area') ? 'text-danger' : '' ?>"><?= form_error('area') ?></span>
                             </div>
                         </div>
@@ -268,10 +270,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                     <div class="col-sm-3 col-md-3 col-lg-3">
                         <div class="form-group">
                             <label for="possession_date" class="control-label">Possession Date</label>
-
+                             <code>*</code>
                             <div class=" <?= form_error('possession_date') ? 'has-error' : '' ?>">
                                 <input type="text" name="possession_date" class="form-control" id="possession_date"
-                                placeholder="Type the possession date here" value="<?= set_value('possession_date') ?>">
+                                placeholder="Type the possession date here" required="" value="<?= set_value('possession_date') ?>">
                                 <span class="<?= form_error('possession_date') ? 'text-danger' : '' ?>"><?= form_error('possession_date') ?></span>
                             </div>
                         </div>
@@ -279,7 +281,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                     <div class="col-sm-3 col-md-3 col-lg-3">
                         <div class="form-group">
                             <label for="budget" class="control-label">Avg. price per Sqft area</label>
-
+                            <code>*</code>
                             <div class=" <?= form_error('author') ? 'has-error' : '' ?>">
                                 <input type="text" name="budget" class="form-control" id="inputEmail3"
                                 placeholder="Type the Avg. price per Sqft area here" value="<?= set_value('budget') ?>">

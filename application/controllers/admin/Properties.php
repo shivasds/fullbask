@@ -191,7 +191,7 @@ class Properties extends Admin_Controller
                     $this->session->set_userdata($prop);
             $this->form_validation->set_rules('title', 'Title', 'trim|required');
             $this->form_validation->set_rules('area', 'Area', 'trim|required');
-            $this->form_validation->set_rules('amenities[]', 'Amenities', 'trim|required');
+            //$this->form_validation->set_rules('amenities[]', 'Amenities', 'trim|required');
             $this->form_validation->set_rules('budget', 'Budget', 'trim|required');
 
             if ($this->form_validation->run() != false) {
