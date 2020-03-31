@@ -32,6 +32,10 @@
     font-family: 'Lato', sans-serif;
     /* font-weight: bold; */
 }
+.sidenav >.active > a { 
+    color: #ffffff;
+    font-weight: 300;
+}
     </style>
 <div class="container-fluid main-header">
     <div class="row">
@@ -104,16 +108,16 @@
                 </div>
                 <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" data-dismiss="modal" onclick="closeNav()">&times;</a>
-                    <a href="<?= site_url() ?>">HOME</a>
-                    <a href="<?= site_url('about') ?>" target="_blank">ABOUT</a>
-                    <a href="<?= site_url('listing') ?>" target="_blank">PROPERTIES</a>
-                    <a href="<?=site_url('blog')?>" target="_blank">BLOGS</a>
-                    <a href="<?=site_url('nri')?>" target="_blank"> NRI CORNER</a>
-                    <a href="<?=site_url('#')?>">VASTU</a>
-                    <a href="<?=site_url('testimonials')?>"target="_blank">TESTIMONIAL</a>
-                    <a href="<?=site_url('achievements')?>"target="_blank">ACHIVEMENT</a>
-                    <a href="<?=site_url('careers')?>"target="_blank">CAREER</a>
-                    <a href="<?=site_url('contact')?>"target="_blank">CONTACT US</a>
+                    <li class="<?= $this->uri->segment(1) == '' ? 'active' : '' ?>"> <a href="<?= site_url() ?>">HOME</a></li>
+                    <li class="<?= $this->uri->segment(1) == 'about' ? 'active' : '' ?>"><a href="<?= site_url('about') ?>">ABOUT</a></li>
+                    <li class="<?= $this->uri->segment(1) == 'listing' ? 'active' : '' ?>"><a href="<?= site_url('listing') ?>">PROPERTIES</a>
+                    <li class="<?= $this->uri->segment(1) == 'blog' ? 'active' : '' ?>"><a href="<?=site_url('blog')?>">BLOGS</a>
+                    <li class="<?= $this->uri->segment(1) == 'nri' ? 'active' : '' ?>"><a href="<?=site_url('nri')?>"> NRI CORNER</a>
+                    <li class="<?= $this->uri->segment(1) == '' ? '' : '' ?>"><a href="<?=site_url('#')?>">VASTU</a>
+                    <li class="<?= $this->uri->segment(1) == 'testimonials' ? 'active' : '' ?>"><a href="<?=site_url('testimonials')?>">TESTIMONIAL</a>
+                    <li class="<?= $this->uri->segment(1) == 'achievements' ? 'active' : '' ?>"><a href="<?=site_url('achievements')?>">ACHIVEMENT</a>
+                    <li class="<?= $this->uri->segment(1) == 'careers' ? 'active' : '' ?>"><a href="<?=site_url('careers')?>">CAREER</a>
+                    <li class="<?= $this->uri->segment(1) == 'contact' ? 'active' : '' ?>"><a href="<?=site_url('contact')?>">CONTACT US</a>
  
                 </div>
             </nav>
