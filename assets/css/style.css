@@ -1,7 +1,8 @@
 body {
     overflow-x: hidden;
     background-color: #fff;
-    font-family: roboto;
+    font-family: proxima_nova_rgregular,Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,sans-serif,Arial;
+
 }
 
 .top-header {
@@ -94,6 +95,7 @@ body {
 
 .navbar-default .navbar-nav > .active > a {
     background-color: #fff;
+    color: #0e82d4!important;
 }
 
 .navbar-default .navbar-nav > .active > a:hover {

@@ -27,7 +27,6 @@
     margin: 0 0px!important;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #434445 !important;
     padding-right: 26px;
     padding-left: 26px;
     font-family: 'Lato', sans-serif;
@@ -56,9 +55,9 @@
                             
                                 <li class="<?= $this->uri->segment(1) == '' ? 'active' : '' ?>"><a href="<?= site_url() ?>">HOME</a></li>
                                 <li class="<?= $this->uri->segment(1) == 'listing' ? 'active' : '' ?>"><a href="<?= site_url('listing') ?>">PROPERTIES</a></li>
-                                <li><a href="<?= site_url('about') ?>">ABOUT</a></li>
-                                <li><a href="<?=site_url('blog')?>">BLOG</a></li>
-                                <li><a href="<?=site_url('contact')?>">CONTACT</a></li>
+                                <li class="<?= $this->uri->segment(1) == 'about' ? 'active' : '' ?>"><a href="<?= site_url('about') ?>">ABOUT</a></li>
+                                <li class="<?= $this->uri->segment(1) == 'blog' ? 'active' : '' ?>"><a href="<?=site_url('blog')?>">BLOG</a></li>
+                                <li class="<?= $this->uri->segment(1) == 'contact' ? 'active' : '' ?>"><a href="<?=site_url('contact')?>">CONTACT</a></li>
                                 <li class="city_select">
                                     <div class="btn-group pull-right">
                                         <button type="button" id="Selectcity" class="btn btn-city dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
