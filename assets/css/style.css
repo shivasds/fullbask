@@ -96,6 +96,7 @@ body {
 .navbar-default .navbar-nav > .active > a {
     background-color: #fff;
     color: #0e82d4!important;
+    /* color: #e82d8e!important; */
 }
 
 .navbar-default .navbar-nav li> a:hover {
@@ -1204,8 +1205,8 @@ footer li a:hover {
 }
 .btn-call-back{
     margin: 10px;
-    line-height: 1.6;
-    font-family: "Arial Black", Gadget, sans-serif;
+    line-height: 1.5;
+    /* font-family: "Arial Black", Gadget, sans-serif; */
     color: #FFF;
     background-image: linear-gradient(to right, rgb(221, 130, 94) 0%, rgb(212, 113, 179) 51%, #DD5E89 100%)
 
@@ -1222,7 +1223,10 @@ footer li a:hover {
  
   .gradient> li > a:hover{
     color: #FFF;
-     background-image: linear-gradient(to right, rgb(221, 130, 94) 0%, rgb(212, 113, 179) 51%, #DD5E89 100%)
+    padding: 10px;
+    margin-top: 0px!important;
+    border-radius: 0%!important;
+     background-image: linear-gradient(to right, rgb(221, 130, 94) 0%, rgb(212, 113, 179) 51%, #DD5E89 100%)!important
   }
 
   .gradient> .active > a, .gradient > .active > a:hover, .gradient > .active > a:focus {
