@@ -34,7 +34,8 @@
                                         <h5><strong>Available Positions</strong></h5>
 
                                         <p><strong>Bangalore: <?=$career->bangalore_vacancy?$career->bangalore_vacancy:0?>&nbsp;, Pune: <?=$career->pune_vacancy?$career->pune_vacancy:0?></strong></p>
-
+                                        <p><strong> Posted On: <?=date("jS M Y", strtotime($career->created_at)); ?> </strong>
+                                        </p>
                                         <hr>
                                         <div style="text-align: justify;"><strong>Job Role</strong> - <?=$career->role?></div>
 
