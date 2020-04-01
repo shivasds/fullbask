@@ -976,6 +976,9 @@ footer li a:hover {
     display: block;
     transition: 0.3s;
 }
+.sidenav .active > a {
+    color: white; 
+}
 .dot {
     background: #fff;
     width: 20px;
