@@ -101,9 +101,9 @@ $image_name = "all.jpg";
 			</div>
 		</div>
 
-        <div class="row menu-section">
-            <div class="container">
-                <div class="row">
+        <div class="container">
+	    	<div class="row menu-section">
+                <div class="">
                     <div class="col-sm-10">
                         <ul class="hide">
                             <li style="color: #fff">Refine Search : </li>

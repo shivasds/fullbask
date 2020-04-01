@@ -108,6 +108,7 @@
                 </div>
                 <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" data-dismiss="modal" onclick="closeNav()">&times;</a>
+                    <ul style='list-style: none;'>
                     <li class="<?= $this->uri->segment(1) == '' ? 'active' : '' ?>"> <a href="<?= site_url() ?>">HOME</a></li>
                     <li class="<?= $this->uri->segment(1) == 'about' ? 'active' : '' ?>"><a href="<?= site_url('about') ?>">ABOUT</a></li>
                     <li class="<?= $this->uri->segment(1) == 'listing' ? 'active' : '' ?>"><a href="<?= site_url('listing') ?>">PROPERTIES</a>
@@ -118,7 +119,7 @@
                     <li class="<?= $this->uri->segment(1) == 'achievements' ? 'active' : '' ?>"><a href="<?=site_url('achievements')?>">ACHIVEMENT</a>
                     <li class="<?= $this->uri->segment(1) == 'careers' ? 'active' : '' ?>"><a href="<?=site_url('careers')?>">CAREER</a>
                     <li class="<?= $this->uri->segment(1) == 'contact' ? 'active' : '' ?>"><a href="<?=site_url('contact')?>">CONTACT US</a>
- 
+                    </ul>
                 </div>
             </nav>
         </div>

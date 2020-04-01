@@ -962,14 +962,14 @@ footer li a:hover {
 
 .sidenav .closebtn {
     position: absolute;
-    top: 25px;
+    top: 12px;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
 }
 
 .sidenav a {
-    padding: 0px 10px 0px 27px;
+    padding: 12px 0px 0px 0px;
     text-decoration: none;
     font-size: 17px;
     color: #818181;
@@ -1075,7 +1075,8 @@ footer li a:hover {
 }
 .box{
     position: relative;
-    display: inline-block; /* Make the width of box same as image */
+    /* display: inline-block;  */
+    /* display: inline-block;  Make the width of box same as image */
 }
 .box .text{
     position: absolute;
@@ -1106,7 +1107,7 @@ footer li a:hover {
 .menu-section {
     background-color: #000;
     opacity: 1;
-    padding: 10px;
+    padding: 5px;
 }
 
 .menu-section ul {
@@ -1264,12 +1265,17 @@ footer li a:hover {
     background-image: linear-gradient( to right,rgb(79, 94, 182),rgba(113, 212, 138, 0.658));
     /* border-color: 1px solid green!important; */
 }
-.pagination li a:hover{
+.pagination li a:hover ,.nav > li > a:hover{
     color: #fff;
     background-image: linear-gradient( to right,rgb(79, 94, 182),rgba(113, 212, 138, 0.658));
 }
 
-
+.social-top .fa-linkedin:hover {
+    background-color: #0da1bb ;
+    color:white;
+    border-radius:100%;
+ 
+}
 .thumbnail {
     margin-bottom: 20px;
     padding: 0px;
