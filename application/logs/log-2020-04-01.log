@@ -823,3 +823,100 @@ ERROR - 2020-04-01 06:48:32 --> Severity: error --> Exception: syntax error, une
 ERROR - 2020-04-01 10:19:13 --> 404 Page Not Found: 
 ERROR - 2020-04-01 10:19:20 --> 404 Page Not Found: 
 ERROR - 2020-04-01 10:19:20 --> 404 Page Not Found: 
+ERROR - 2020-04-01 10:48:02 --> 404 Page Not Found: 
+ERROR - 2020-04-01 10:48:02 --> 404 Page Not Found: 
+ERROR - 2020-04-01 10:48:03 --> 404 Page Not Found: 
+ERROR - 2020-04-01 10:48:03 --> 404 Page Not Found: 
+ERROR - 2020-04-01 10:48:03 --> 404 Page Not Found: 
+ERROR - 2020-04-01 10:48:03 --> 404 Page Not Found: 
+ERROR - 2020-04-01 10:48:03 --> 404 Page Not Found: 
+ERROR - 2020-04-01 10:48:03 --> 404 Page Not Found: 
+ERROR - 2020-04-01 10:49:44 --> 404 Page Not Found: 
+ERROR - 2020-04-01 10:49:44 --> 404 Page Not Found: 
+ERROR - 2020-04-01 10:49:44 --> 404 Page Not Found: 
+ERROR - 2020-04-01 10:49:44 --> 404 Page Not Found: 
+ERROR - 2020-04-01 10:49:44 --> 404 Page Not Found: 
+ERROR - 2020-04-01 10:49:44 --> 404 Page Not Found: 
+ERROR - 2020-04-01 10:49:44 --> 404 Page Not Found: 
+ERROR - 2020-04-01 10:49:44 --> 404 Page Not Found: 
+ERROR - 2020-04-01 10:49:58 --> Severity: error --> Exception: Call to undefined method Footer_Links_model::loadLocations() F:\FBP.com\application\controllers\admin\FooterLinks.php 52
+ERROR - 2020-04-01 10:50:30 --> Query error: Unknown column 'loc.status' in 'where clause' - Invalid query: SELECT `pft`.*
+FROM `property_type` `pft`
+WHERE `loc`.`status` = 1
+ORDER BY `id` DESC
+ERROR - 2020-04-01 10:50:45 --> Severity: error --> Exception: Call to undefined method Footer_Links_model::loadLocations() F:\FBP.com\application\controllers\admin\FooterLinks.php 55
+ERROR - 2020-04-01 10:51:39 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 10:52:12 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 10:53:29 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 10:53:34 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 10:54:38 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 10:54:43 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 10:55:17 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 10:55:30 --> Query error: Unknown column 'pft.ssearch_key' in 'where clause' - Invalid query: SELECT `pft`.*
+FROM `property_type` `pft`
+WHERE   (
+`pft`.`name` LIKE '%Plotes%' ESCAPE '!'
+OR  `pft`.`ssearch_key` LIKE '%Plotes%' ESCAPE '!'
+ )
+AND `pft`.`status` = 1
+ORDER BY `id` DESC
+ERROR - 2020-04-01 10:55:43 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 10:55:48 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 10:56:05 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 10:56:12 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 11:01:30 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 11:01:32 --> Could not find the language line "Property Footer title "
+ERROR - 2020-04-01 11:09:40 --> Could not find the language line "Property Footer title "
+ERROR - 2020-04-01 11:09:45 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 11:09:47 --> Could not find the language line "Property Footer title "
+ERROR - 2020-04-01 11:09:49 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 11:10:10 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 11:10:14 --> Could not find the language line "Property Footer title "
+ERROR - 2020-04-01 11:10:49 --> Could not find the language line "Property Footer title "
+ERROR - 2020-04-01 11:10:58 --> Could not find the language line "Property Footer title "
+ERROR - 2020-04-01 11:11:01 --> Could not find the language line "Property Footer title "
+ERROR - 2020-04-01 11:11:04 --> Could not find the language line "Property Footer title "
+ERROR - 2020-04-01 11:11:05 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 11:11:41 --> Could not find the language line "Property Footer title "
+ERROR - 2020-04-01 11:12:45 --> Could not find the language line "Property Footer title "
+ERROR - 2020-04-01 11:13:17 --> Could not find the language line "Property Footer title "
+ERROR - 2020-04-01 11:14:15 --> Could not find the language line "Property Footer title "
+ERROR - 2020-04-01 11:14:21 --> Could not find the language line "Property Footer title "
+ERROR - 2020-04-01 11:14:25 --> Could not find the language line "Property Footer title "
+ERROR - 2020-04-01 11:14:51 --> Query error: Unknown column 'Seach_key' in 'field list' - Invalid query: UPDATE `property_type` SET `name` = 'Plots in Bangalore', `Seach_key` = 'Plots'
+WHERE `id` = '16'
+ERROR - 2020-04-01 11:15:11 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 11:15:15 --> Could not find the language line "Property Footer title "
+ERROR - 2020-04-01 11:15:20 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 11:15:25 --> Could not find the language line "Property Footer title "
+ERROR - 2020-04-01 11:16:07 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 11:16:09 --> Could not find the language line "Property Footer title "
+ERROR - 2020-04-01 11:16:13 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 11:17:04 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 11:17:08 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 11:17:33 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 11:17:40 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 11:17:44 --> Could not find the language line "Property Footer title "
+ERROR - 2020-04-01 11:17:49 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 11:17:55 --> Could not find the language line "Property Footer title "
+ERROR - 2020-04-01 11:18:02 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 11:19:41 --> Could not find the language line "locations title add_property_footer_links"
+ERROR - 2020-04-01 11:19:52 --> Could not find the language line "locations title add_property_footer_links"
+ERROR - 2020-04-01 11:20:03 --> Could not find the language line "locations title add_property_footer_links"
+ERROR - 2020-04-01 11:20:09 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 11:20:12 --> Could not find the language line "Property Footer title "
+ERROR - 2020-04-01 11:20:16 --> Could not find the language line "locations title add_property_footer_links"
+ERROR - 2020-04-01 11:20:29 --> Could not find the language line "locations title add_property_footer_links"
+ERROR - 2020-04-01 11:20:29 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\admin\footerpropertylinks\add.php 19
+ERROR - 2020-04-01 11:22:27 --> Could not find the language line "locations title add_property_footer_links"
+ERROR - 2020-04-01 11:23:32 --> Could not find the language line "locations title add_property_footer_links"
+ERROR - 2020-04-01 11:24:36 --> Could not find the language line "locations title add_property_footer_links"
+ERROR - 2020-04-01 11:25:06 --> Could not find the language line "locations title add_property_footer_links"
+ERROR - 2020-04-01 11:25:07 --> Could not find the language line "locations title add_property_footer_links"
+ERROR - 2020-04-01 11:25:11 --> Could not find the language line "locations title add_property_footer_links"
+ERROR - 2020-04-01 11:25:34 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 11:25:37 --> Could not find the language line "Property Footer title "
+ERROR - 2020-04-01 11:25:44 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 11:25:54 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 11:26:01 --> Could not find the language line "locations title add_property_footer_links"
+ERROR - 2020-04-01 11:26:11 --> Could not find the language line "Propert footer Links"
