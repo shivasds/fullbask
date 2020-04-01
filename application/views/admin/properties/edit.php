@@ -90,7 +90,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
 </div>
 </div>
 </div>
-<div class="col-sm-6 col-md-6 col-lg-6">
+<!-- <div class="col-sm-6 col-md-6 col-lg-6">
     <div class="form-group">
         <label for="property_status_id" class="control-label">Property Status <code>*</code></label>
         <div class=" <?= form_error('property_status_id') ? 'has-error' : '' ?>">
@@ -109,7 +109,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
             <span class="<?= form_error('property_status_id') ? 'text-danger' : '' ?>"><?= form_error('property_status_id') ?></span>
         </div>
     </div>
-</div>
+</div> -->
 <div class="clearfix"></div>
 <div class="col-sm-6 col-md-6 col-lg-6">
     <div class="form-group">
@@ -360,7 +360,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
     <div class="clearfix"></div>
 
     <!-- Additional Data -->
-    <div class="col-sm-6 col-md-6 col-lg-6">
+<!--     <div class="col-sm-6 col-md-6 col-lg-6">
         <div class="form-group">
             <label for="property_for" class="control-label">Property For <code>*</code></label>
             <div class=" <?= form_error('property_for') ? 'has-error' : '' ?>">
@@ -379,7 +379,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
         </div>
         <span class="<?= form_error('property_for') ? 'text-danger' : '' ?>"><?= form_error('property_for') ?></span>
     </div>
-</div>
+</div> -->
 <div class="col-sm-6 col-md-6 col-lg-6">
     <div class="form-group">
         <label for="price_per_unit" class="control-label">Price Per Unit <code>*</code></label>
@@ -392,7 +392,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
     </div>
 </div>
 <div class="clearfix"></div>
-<div class="col-sm-6 col-md-6 col-lg-6">
+<!-- <div class="col-sm-6 col-md-6 col-lg-6">
     <div class="form-group">
         <label for="build" class="control-label">Build <code>*</code></label>
         <div class=" <?= form_error('build') ? 'has-error' : '' ?>">
@@ -427,7 +427,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
         </div>
     </div>
 </div>
-<div class="clearfix"></div>
+<div class="clearfix"></div> -->
 <div class="col-sm-4 col-md-4 col-lg-4">
     <div class="form-group">
         <label for="builtup_area" class="control-label">Builtup Area</label>
@@ -470,7 +470,7 @@ value="Cents">Cents
 </div>
 </div>
 </div>
-<div class="col-sm-4 col-md-4 col-lg-4">
+<!-- <div class="col-sm-4 col-md-4 col-lg-4">
     <div class="form-group">
         <label for="carpet_area" class="control-label">Carpet Area</label>
         <div class=" <?= form_error('carpet_area') ? 'has-error' : '' ?>">
@@ -512,7 +512,7 @@ value="Cents">Cents
 </div>
 </div>
 </div>
-<div class="clearfix"></div>
+<div class="clearfix"></div> -->
 <div class="col-sm-4 col-md-4 col-lg-4">
     <div class="form-group">
         <label for="plot_area" class="control-label">Plot Area</label>
@@ -555,7 +555,7 @@ value="Cents">Cents
 </div>
 </div>
 </div>
-<div class="col-sm-3 col-md-3 col-lg-3">
+<!-- <div class="col-sm-3 col-md-3 col-lg-3">
     <div class="form-group">
         <label for="lat" class="control-label">Latitude</label>
         <div class=" <?= form_error('lat') ? 'has-error' : '' ?>">
@@ -577,7 +577,7 @@ value="Cents">Cents
         </div>
     </div>
 </div>
-<div class="clearfix"></div>
+<div class="clearfix"></div> -->
 <div class="col-sm-2 col-md-2 col-lg-2">
     <div class="form-group">
         <label for="bedrooms" class="control-label">Bedrooms</label>
@@ -929,7 +929,7 @@ value="Cents">Cents
     </div>
 </div>
 <div class="clearfix"></div>
-<div class="col-sm-4 col-md-4 col-lg-4">
+<!-- <div class="col-sm-4 col-md-4 col-lg-4">
     <div class="form-group <?= form_error('facebook') ? 'has-error' : '' ?>">
         <label class="control-label" for="facebook">Facebook</label>
         <div class="input-group">
@@ -959,7 +959,7 @@ value="Cents">Cents
         </div>
     </div>
 </div>
-<div class="clearfix"></div>
+<div class="clearfix"></div> -->
 <div class="col-sm-12 col-md-12 col-lg-12">
     <div class="table-responsive">
         <table class="table table-hover table-bordered table-stripped">

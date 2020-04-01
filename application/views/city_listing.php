@@ -90,7 +90,7 @@ $image_name = "all.jpg";
 	<div class="row list-header box" style="background-image: url('<?= base_url('thankyou-images/').$image_name?>');">
 		<div class="container">
         <div class="text">
-                <h1 class="city-name">Flying Kites</h1>
+               <h1 class="city-name"><?=$this->uri->segment(2)?$this->uri->segment(2):'All Cities'?></h1>
                 </div>
 			<div class="row">
 				<div class="col-sm-12">

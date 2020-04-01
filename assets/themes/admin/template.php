@@ -226,10 +226,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <li><a href="<?= site_url('admin/testimonials') ?>"><i class="fa fa-list"></i> View/Edit Testimonials </a></li>
                         </ul>
                     </li>
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-dashboard"></i> <span>Footer Proprty Links</span>
+                            <span class="pull-right-container">
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li class="active"><a href="<?= site_url('admin/FooterLinks/add') ?>"><i class="fa fa-circle-o"></i> Add Footer Link </a></li>
+                            <li><a href="<?= site_url('admin/FooterLinks') ?>"><i class="fa fa-list"></i> View/Edit Footer Link </a></li>
+                        </ul>
+                    </li>
                     <li class="<?php echo (uri_string() == 'admin/users') ? 'active' : ''; ?>"><a href="<?php echo base_url('/admin/users'); ?>"><?php echo lang('admin button users'); ?></a></li>
                     <li class="<?php echo (uri_string() == 'admin/settings') ? 'active' : ''; ?>"><a href="<?php echo base_url('/admin/settings'); ?>"><?php echo lang('admin button settings'); ?></a></li>
                     <li class="<?php echo (uri_string() == 'admin' OR uri_string() == 'admin/aboutUs') ? 'active' : ''; ?>"><a href="<?php echo base_url('/admin/aboutUs'); ?>">About Us</a></li>
-                    <li class="<?php echo (uri_string() == 'admin' OR uri_string() == 'admin/nri') ? 'active' : ''; ?>"><a href="<?php echo base_url('/admin/aboutUs'); ?>">Nri</a></li>
+                    <li class="<?php echo (uri_string() == 'admin' OR uri_string() == 'admin/nri') ? 'active' : ''; ?>"><a href="<?php echo base_url('/admin/Nri'); ?>">Nri</a></li>
                     <li class="<?php echo (uri_string() == 'admin' OR uri_string() == 'admin/socialMedia') ? 'active' : ''; ?>"><a href="<?php echo base_url('/admin/socialMedia'); ?>">Social Media</a></li>
                     <li class="<?php echo (uri_string() == 'admin' OR uri_string() == 'admin/allCities') ? 'active' : ''; ?>"><a href="<?php echo base_url('/admin/allCities'); ?>">All City Details</a></li>
                     <li class="<?php echo (uri_string() == 'admin' OR uri_string() == 'admin/terms') ? 'active' : ''; ?>"><a href="<?php echo base_url('/admin/terms'); ?>"><i class="fa fa-legal" aria-hidden="true"></i> Privacy Policy</a></li>

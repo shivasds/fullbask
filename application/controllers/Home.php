@@ -18,7 +18,7 @@ class Home extends Public_Controller
 
         // $this->session->unset_userdata('city');
         $this->data['property_types'] = $this->home_model->getWhere(array('status' => 1), 'property_types');
-
+        $this->data['property_type'] = $this->home_model->getWhere(array('status' => 1), 'property_type');
         
     }
 
@@ -76,7 +76,10 @@ class Home extends Public_Controller
         $base_url = site_url('listing');
         $uri_segment = 2;
         $page = ($this->uri->segment(2)) ? $this->uri->segment(2) : 1;
-       
+        if($this->input->get('place')!='')
+        {
+       $place = array("keyword"=>urldecode($this->input->get('place')));
+        }
        $content='';
         if(!empty($this->session->userdata('content')))
         {
@@ -103,6 +106,10 @@ class Home extends Public_Controller
         if($this->input->get('builder')!='' && (string)$this->input->get('builder') ) {
             $total      = $this->home_model->loadPropertiesUsingBuilder(0, 0, true, $this->input->get('builder'));
             $properties = $this->home_model->loadPropertiesUsingBuilder($perpage, $page, false, $this->input->get('builder'));
+        }
+        elseif (!empty($place)) {
+             $total      = $this->home_model->loadProperties(0, 0, true, $place);
+            $properties = $this->home_model->loadProperties($perpage, $page, false, $place);
         }
         else {
             $total      = $this->home_model->loadProperties(0, 0, true, $content);
@@ -259,6 +266,10 @@ class Home extends Public_Controller
         $base_url = site_url('city/' . $city);
         $uri_segment = 3;
         $page = ($this->uri->segment(3)) ? $this->uri->segment(3) : 1;
+        if($this->input->get('place')!='')
+        {
+       $place = array("keyword"=>urldecode($this->input->get('place')));
+        }
 
         $content = $this->input->post() ? $this->input->post() : '';
         if ($this->input->post('showPattern')) {
@@ -266,13 +277,19 @@ class Home extends Public_Controller
         } else {
             $this->data['showPattern'] = 'list-group-item';
         }
-
+        if (!empty($place)) {
+             $this->db->where('p.city_id', $city_details->id);
+           $total = $this->home_model->loadProperties(0, 0, true, $place);
+           $properties = $this->home_model->loadProperties($perpage, $page, false, $place);
+        }
+        else
+        {
         $this->db->where('p.city_id', $city_details->id);
         $total = $this->home_model->loadProperties(0, 0, true, $content);
 
-        $this->db->where('p.city_id', $city_details->id);
+         $this->db->where('p.city_id', $city_details->id);
         $properties = $this->home_model->loadProperties($perpage, $page, false, $content);
-
+        }
         if ($this->session->userdata('logged_in')) {
             $user = $this->session->userdata('logged_in');
             foreach ($properties as $property) {
@@ -1012,5 +1029,6 @@ class Home extends Public_Controller
         $this->data['view_page'] = 'nri';
         $this->load->view('template', $this->data);
  
-  }
+  } 
+
 }

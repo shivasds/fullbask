@@ -110,6 +110,8 @@ $route['builders'] = 'home/builders';
 $route['sitemap\.xml']         = 'sitemap';
 
 $requestURI = explode('/',$_SERVER['REQUEST_URI']);
+ 
+$route['admin/FooterLinks/(:num)'] = 'admin/FooterLinks/index';
 
 /** Porperty Specific route needed only on frontend */
 if (!in_array('admin', $requestURI)){
