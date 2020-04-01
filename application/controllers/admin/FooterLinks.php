@@ -19,7 +19,7 @@ class FooterLinks extends Admin_Controller {
         $this->lang->load('locations');
 
         // load the aboutUs model
-        $this->load->model('Footer_links_model');
+        $this->load->model('Footer_Links_model');
 
         // set constants
         define('REFERRER', "referrer");
