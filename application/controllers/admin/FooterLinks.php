@@ -16,10 +16,10 @@ class FooterLinks extends Admin_Controller {
         parent::__construct();
 
         // load the language files
-        $this->lang->load('Footer_links_model');
+        $this->lang->load('locations');
 
         // load the aboutUs model
-        $this->load->model('Footer_links_model');
+        $this->load->model('Footer_Links_model');
 
         // set constants
         define('REFERRER', "referrer");
@@ -49,17 +49,17 @@ class FooterLinks extends Admin_Controller {
             unset($_GET['search']);
         }
 
-        $total = $this->Footer_links_model->loadFooterLinks(0, 0, TRUE, $content);
+        $total = $this->Footer_Links_model->loadFooterLinks(0, 0, TRUE, $content);
       //  echo $total;die();
 
-        $this->data['property_links'] = $this->Footer_links_model->loadFooterLinks($perpage, $page, FALSE, $content);
+        $this->data['property_links'] = $this->Footer_Links_model->loadFooterLinks($perpage, $page, FALSE, $content);
         $this->data['pagination'] = $this->paginate($perpage, $total, $base_url, $uri_segment, $class = "");
         $this->data['page'] = $page;
         //$this>data['total']= $total;
         $this->data['perpage'] = $perpage;
 
         // setup page header data
-        $this->set_title(lang('Propert footer Links'));
+        /////$this->set_title(lang('Propert footer Links'));
         $data = $this->includes;
         // set content data
         $content_data = $this->data;
@@ -78,7 +78,7 @@ class FooterLinks extends Admin_Controller {
                         'name' => $this->input->post('name'),
                         'search_key' => $this->input->post('search_key')
                         );
-                $this->Footer_links_model->insertRow($data, 'property_type');
+                $this->Footer_Links_model->insertRow($data, 'property_type');
 
                 $this->session->set_flashdata('message', 'Property Footer Link added Successfully');
                 redirect('admin/FooterLinks');
@@ -86,7 +86,7 @@ class FooterLinks extends Admin_Controller {
         } 
 
         // setup page header data
-        $this->set_title(lang(' title add_property_footer_links'));
+        // $this->set_title(lang(' title add_property_footer_links'));
         $data = $this->includes;
         // set content data
         $content_data = $this->data;
@@ -97,7 +97,7 @@ class FooterLinks extends Admin_Controller {
 
 
     public function edit($id){
-        $Footerlinkdata = $this->Footer_links_model->getFooterproperty($id);
+        $Footerlinkdata = $this->Footer_Links_model->getFooterproperty($id);
         if (!$Footerlinkdata) {
             redirect('admin/FooterLinks');
         }
@@ -112,15 +112,15 @@ class FooterLinks extends Admin_Controller {
                     'search_key' => $this->input->post('search_key') ? $this->input->post('search_key') : $Footerlinkdata->search_key,
                     'city' =>  $this->input->post('city') ? $this->input->post('city') : $Footerlinkdata->city
                     );
-                $this->Footer_links_model->updateWhere(array('id' => $id), $data, 'property_type');
+                $this->Footer_Links_model->updateWhere(array('id' => $id), $data, 'property_type');
 
                 $this->session->set_flashdata('message', 'Property Footer Link Updated Successfully');
                 redirect('admin/FooterLinks');
             }
         }
-        $this->data['footer_link'] = $this->Footer_links_model->getOneWhere(array('id' => $id), 'property_type'); 
+        $this->data['footer_link'] = $this->Footer_Links_model->getOneWhere(array('id' => $id), 'property_type'); 
         // setup page header data
-        $this->set_title(lang('Property Footer title '));
+        //$this->set_title(lang('Property Footer title '));
         $data = $this->includes;
         // set content data
         $content_data = $this->data;
@@ -131,11 +131,11 @@ class FooterLinks extends Admin_Controller {
 
     public function delete($id){
 
-        $get_location = $this->Footer_links_model->getOneWhere(array('id' =>$id), 'property_type');
+        $get_location = $this->Footer_Links_model->getOneWhere(array('id' =>$id), 'property_type');
         if (!$get_location) {
             redirect(site_url());
         }else{
-            $this->Footer_links_model->updateWhere(array('id' => $id), array('status' => 0), 'property_type');
+            $this->Footer_Links_model->updateWhere(array('id' => $id), array('status' => 0), 'property_type');
             $this->session->set_flashdata('message', 'Property Footer Link Deleted Successfully');
             redirect(site_url('admin/FooterLinks'));
         }

@@ -64,9 +64,9 @@
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-PKLX84K');</script>
         <!-- End Google Tag Manager -->
-        <script type="text/javascript">
+       <!--  <script type="text/javascript">
         document.addEventListener('contextmenu', event => event.preventDefault());
-        </script>
+        </script> -->
         <style type="text/css">
                         .fa-youtube:hover {
             color: red;
