@@ -16,7 +16,7 @@ class FooterLinks extends Admin_Controller {
         parent::__construct();
 
         // load the language files
-        $this->lang->load('locations');
+        $this->lang->load('Footer_links_model');
 
         // load the aboutUs model
         $this->load->model('Footer_links_model');
@@ -50,7 +50,7 @@ class FooterLinks extends Admin_Controller {
         }
 
         $total = $this->Footer_links_model->loadFooterLinks(0, 0, TRUE, $content);
-      //  echo $total;die;
+      //  echo $total;die();
 
         $this->data['property_links'] = $this->Footer_links_model->loadFooterLinks($perpage, $page, FALSE, $content);
         $this->data['pagination'] = $this->paginate($perpage, $total, $base_url, $uri_segment, $class = "");
