@@ -287,7 +287,7 @@ class Home extends Public_Controller
         $this->db->where('p.city_id', $city_details->id);
         $total = $this->home_model->loadProperties(0, 0, true, $content);
 
-        //$this->db->where('p.city_id', $city_details->id);
+         $this->db->where('p.city_id', $city_details->id);
         $properties = $this->home_model->loadProperties($perpage, $page, false, $content);
         }
         if ($this->session->userdata('logged_in')) {
