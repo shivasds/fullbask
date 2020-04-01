@@ -50,6 +50,7 @@ class Home_model extends MY_Model {
                 $this->db->or_like('b.name', trim($content['keyword']));
                 $this->db->or_like('l.name', trim($content['keyword']));
                 $this->db->or_like('p.title', trim($content['keyword']));
+                $this->db->or_like('p.issue_date', trim($content['keyword']));
                 $this->db->group_end();
             }
             if ((isset($content['location']) && $content['location']) != NULL) {
