@@ -921,3 +921,44 @@ ERROR - 2020-04-01 11:25:54 --> Could not find the language line "Propert footer
 ERROR - 2020-04-01 11:26:01 --> Could not find the language line "locations title add_property_footer_links"
 ERROR - 2020-04-01 11:26:11 --> Could not find the language line "Propert footer Links"
 ERROR - 2020-04-01 11:30:15 --> Could not find the language line "Propert footer Links"
+ERROR - 2020-04-01 11:49:04 --> Query error: Table 'nkmtein_fullbasket_new.property_type' doesn't exist - Invalid query: SELECT *
+FROM `property_type`
+WHERE `status` = 1
+ERROR - 2020-04-01 11:49:10 --> Query error: Table 'nkmtein_fullbasket_new.property_type' doesn't exist - Invalid query: SELECT *
+FROM `property_type`
+WHERE `status` = 1
+ERROR - 2020-04-01 11:49:13 --> Query error: Table 'nkmtein_fullbasket_new.property_type' doesn't exist - Invalid query: SELECT *
+FROM `property_type`
+WHERE `status` = 1
+ERROR - 2020-04-01 11:49:22 --> Query error: Table 'nkmtein_fullbasket_new.property_type' doesn't exist - Invalid query: SELECT *
+FROM `property_type`
+WHERE `status` = 1
+ERROR - 2020-04-01 11:49:31 --> Query error: Table 'nkmtein_fullbasket_new.property_type' doesn't exist - Invalid query: SELECT *
+FROM `property_type`
+WHERE `status` = 1
+ERROR - 2020-04-01 12:22:40 --> Query error: Table 'nkmtein_fullbasket_new.property_type' doesn't exist - Invalid query: SELECT *
+FROM `property_type`
+WHERE `status` = 1
+ERROR - 2020-04-01 12:22:46 --> Query error: Table 'nkmtein_fullbasket_new.property_type' doesn't exist - Invalid query: SELECT *
+FROM `property_type`
+WHERE `status` = 1
+ERROR - 2020-04-01 12:22:49 --> Query error: Table 'nkmtein_fullbasket_new.property_type' doesn't exist - Invalid query: SELECT *
+FROM `property_type`
+WHERE `status` = 1
+ERROR - 2020-04-01 12:22:50 --> Query error: Table 'nkmtein_fullbasket_new.property_type' doesn't exist - Invalid query: SELECT *
+FROM `property_type`
+WHERE `status` = 1
+ERROR - 2020-04-01 12:24:09 --> Query error: Table 'nkmtein_fullbasket_new.property_type' doesn't exist - Invalid query: SELECT *
+FROM `property_type`
+WHERE `status` = 1
+ERROR - 2020-04-01 12:27:13 --> Query error: Table 'nkmtein_fullbasket_new.property_type' doesn't exist - Invalid query: SELECT *
+FROM `property_type`
+WHERE `status` = 1
+ERROR - 2020-04-01 12:28:44 --> Query error: Table 'nkmtein_fullbasket_new.property_type' doesn't exist - Invalid query: SELECT *
+FROM `property_type`
+WHERE `status` = 1
+ERROR - 2020-04-01 14:56:47 --> 404 Page Not Found: 
+ERROR - 2020-04-01 15:04:24 --> 404 Page Not Found: 
+ERROR - 2020-04-01 15:04:43 --> 404 Page Not Found: 
+ERROR - 2020-04-01 15:06:29 --> 404 Page Not Found: 
+ERROR - 2020-04-01 15:08:18 --> 404 Page Not Found: 
