@@ -16,7 +16,7 @@ class FooterLinks extends Admin_Controller {
         parent::__construct();
 
         // load the language files
-        $this->lang->load('Footer_links_model');
+        $this->lang->load('locations');
 
         // load the aboutUs model
         $this->load->model('Footer_links_model');
@@ -59,7 +59,7 @@ class FooterLinks extends Admin_Controller {
         $this->data['perpage'] = $perpage;
 
         // setup page header data
-        $this->set_title(lang('Propert footer Links'));
+        /////$this->set_title(lang('Propert footer Links'));
         $data = $this->includes;
         // set content data
         $content_data = $this->data;
@@ -86,7 +86,7 @@ class FooterLinks extends Admin_Controller {
         } 
 
         // setup page header data
-        $this->set_title(lang(' title add_property_footer_links'));
+        // $this->set_title(lang(' title add_property_footer_links'));
         $data = $this->includes;
         // set content data
         $content_data = $this->data;
@@ -120,7 +120,7 @@ class FooterLinks extends Admin_Controller {
         }
         $this->data['footer_link'] = $this->Footer_links_model->getOneWhere(array('id' => $id), 'property_type'); 
         // setup page header data
-        $this->set_title(lang('Property Footer title '));
+        //$this->set_title(lang('Property Footer title '));
         $data = $this->includes;
         // set content data
         $content_data = $this->data;
