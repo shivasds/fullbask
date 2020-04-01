@@ -276,7 +276,7 @@ background-image:url('<?= base_url('thankyou-images/all.jpg') ?>');
                                         <input type="text" name="keyword"  placeholder="Enter a Location, Builder or a Project" class="form-control" value="<?= $keyword ? $keyword : ''?>">
                                         <input type="hidden" id="showPattern" name="showPattern" value="">
                                         <button type="submit" class="btn btn-loc">Search</button>
-                                      <!--   <a href="#"id="foo" onclick="$('.toggleSearch').slideToggle();return false;"  class="btn pull-right btn-link">Advance Search</a> -->
+                                        <a href="#"id="foo" onclick="$('.toggleSearch').slideToggle();return false;"  class="btn pull-right btn-link">Advance Search</a>
                                     </div>
                                    
                                 </form>
@@ -289,7 +289,7 @@ background-image:url('<?= base_url('thankyou-images/all.jpg') ?>');
                 <div class="container toggleSearch" id="toggle">
                     <div class="col-sm-12">
                         <div class="search-area listing-search">
-                            <form action="<?= site_url('searchListing') ?>" method="post">
+                            <form action="<?= site_url('listing') ?>" method="post">
                                 <div class="row">
                                     <div class="col-sm-2">
                                         <div class="form-group">
