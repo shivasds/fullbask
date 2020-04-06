@@ -47,7 +47,7 @@
         <link href="<?= base_url() ?>assets/property/templates/shaper_resort/css/slide-animatec619.css?v=1.0" rel="stylesheet" type="text/css" />
        
         <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/ionicons.min.css') ?>">
-        
+
         <link href="<?= base_url() ?>assets/property/media/com_solidres/assets/css/main.minc619.css?v=1.0" rel="stylesheet" type="text/css" />
         <link href="<?= base_url() ?>assets/property/components/com_sppagebuilder/assets/css/magnific-popupc619.css?v=1.0" rel="stylesheet" type="text/css" />
         <link href="<?= base_url('assets/360assets') ?>/css/common.css" rel="stylesheet" type="text/css" />
@@ -444,7 +444,7 @@
        
             .sp-megamenu-parent {
                 font-family: proxima_nova_rgregular,Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,sans-serif,Arial;
-                font-weight: 300;
+                font-weight: 600;
             }
             
             .rooms-suits .sppb-cta-subtitle {
@@ -633,6 +633,22 @@
                 width: 85%;
                 margin: 0px auto;
             }
+            .line {
+                border-right: 1px solid #555;
+                position: relative;
+                top: 1px;
+                padding: 3px;
+                margin-right: 9px;
+            }
+            #sp-header .sp-megamenu-parent >li >a {
+                color: #53ABBD;
+                margin-left: 15px;
+               
+            }
+            .contact .form{
+                margin-bottom: 14px;
+            }
+         
             /*---------------------------*/
         </style>
 
@@ -662,19 +678,19 @@
         <header id="sp-header">
             <div class="container">
                 <div class="row">
-                    <div id="sp-logo" class="col-xs-8 col-sm-1 col-md-1">
+                    <div id="sp-logo" class="col-xs-8 col-sm-1 col-md-2">
                         <div class="sp-column ">
                             <a class="logo" href="<?=base_url();?>">
                                 <h1>
-                                    <img class="sp-default-logo" src="<?=base_url();?>assets/img/footer-logo.png" style="height: 66px;width: 80px;"> 
+                                    <img class="sp-default-logo" src="<?=base_url();?>assets/img/footer-logo.png" style="height: 60px;width: 60px;"> 
                                     <img class="sp-retina-logo" src="<?=base_url();?>assets/img/footer-logo.png"
-                                         style=" height: 57px;width: 60px !important;">
+                                         style=" height: 60px;width: 60px !important;">
 
                                 </h1>
                             </a>
                         </div>
                     </div>
-                    <div id="sp-menu" class="col-xs-4 col-sm-10 col-md-10">
+                    <div id="sp-menu" class="col-xs-4 col-sm-10 col-md-10" style="position: absolute;">
                         <div class="sp-column ">
                             <div class='sp-megamenu-wrapper'>
                                 <a id="offcanvas-toggler" class="visible-xs" href="#"><i class="fa fa-bars"></i></a>
@@ -695,34 +711,36 @@
                                     </li>
                                     <li class="sp-menu-item">
                                         <?php
-                            if(($logos = $this->properties_model->getWhere(array('property_id' => $property->id),
-                                                                            'property_logo')) != null)
-                            {
-                                $logos=json_decode( json_encode($logos), true);
-                                //builder_image;
-                                ?>
-                                            <img class="sp-default-logo" src="<?= base_url().'uploads/'.$property->slug.'/logos/'.$map[0] ?>" style="    margin-left: 113px;
-                            margin-right: -83px;">
-                                            <?php
+                                                if(($logos = $this->properties_model->getWhere(array('property_id' => $property->id),
+                                                                                                'property_logo')) != null)
+                                                {
+                                                    $logos=json_decode( json_encode($logos), true);
+                                                    //builder_image;
+                                                    ?>
+                                                                <img class="sp-default-logo" src="<?= base_url().'uploads/'.$property->slug.'/logos/'.$map[0] ?>" style="    margin-left: 113px;
+                                                margin-right: -83px; margin-top: 13px;">
+                                                                <?php
 
-                            }
-                            else
-                            {
-                                $map[0]= $property->builder_image;
-                            ?>
+                                                }
+                                                else
+                                                {
+                                                    $map[0]= $property->builder_image;
+                                                ?>
 
-                                                <img class="sp-default-logo" src="<?= base_url().'uploads/builders/'.$map[0] ?>" style="    margin-left: 113px;
-                            margin-right: -83px;">
+                                                                    <img class="sp-default-logo" src="<?= base_url().'uploads/builders/'.$map[0] ?>" style="    margin-left: 113px;
+                                                margin-right: -83px; margin-top: 13px;">
 
-                                                <?php
-                            }
+                                                                    <?php
+                                                }
 
-                                    ?>
+                                                        ?>
                                     </li>
                                 </ul>
+                                
                             </div>
                         </div>
                     </div>
+                  
                 </div>
             </div>
         </header>
@@ -1733,11 +1751,11 @@
                                         <div class="col-md-4">
                                         <div class="container">
                                             <img src="<?= base_url("uploads/$project->slug/$project->image") ?>"  style="padding: 0;     padding: 0px;
-    width: 29%;
-    background-position: 50% 50%;
-    position: relative;
-    height: 260px;
-    margin-left: -13px;" 
+                                                width: 29%;
+                                                background-position: 50% 50%;
+                                                position: relative;
+                                                height: 260px;
+                                                margin-left: -13px;" 
                                                  class="img-responsive" style="padding: 0; " alt="<?=$project->alt?>"
                                                  title="<?=$project->image_desc?>"> 
                                           </div>       
@@ -1914,9 +1932,9 @@
                                             <div class="sppb-addon-office-location-wrapper  active">
                                                 <form id="contact-form" action="" name="contact-form" method="POST" onsubmit="return save_landing_pageinfo('contact-form');">
                                                     <input type="hidden" name="city" value="<?=$this->uri->segment(1);?>">
-                                                    <div class="form-group col-md-12">
+                                                    <div class="contact form col-md-12">
                                                         <div class="input-group">
-                                                            <center><img src="<?=base_url('assets/images/snp.png');?>" alt="#SochoNahiPucho" /></center>
+                                                            <center><img  src="<?=base_url('assets/images/snp.png');?>" alt="#SochoNahiPucho" /></center>
                                                         </div>
 
                                                     </div>
