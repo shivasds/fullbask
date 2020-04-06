@@ -353,11 +353,11 @@ input.separate-dial-code .selected-dial-code {
             <div class="col-md-3 col-sm-4">
               <ul> 
                 <?php
-                for($i=0;$i<=4;$i++) {
-if(!$property_type[$i]['city'])
-                    {
-echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
-                    }
+                for($i=0;$i<=3;$i++) {
+                if(!$property_type[$i]['city'])
+                                    {
+                echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                                    }
                     else
                     {
                         echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
@@ -372,10 +372,10 @@ echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_k
             <div class="col-md-3 col-sm-4">
              <ul>
                  <?php
-                for($i=5;$i<=9;$i++) {
+                for($i=4;$i<=7;$i++) {
                     if(!$property_type[$i]['city'])
                     {
-echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                     echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
                     }
                     else
                     {
@@ -389,10 +389,10 @@ echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_k
             <div class="col-md-3 col-sm-4">
                 <ul>
                    <?php
-                for($i=10;$i<=14;$i++) {
-if(!$property_type[$i]['city'])
-                    {
-echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                for($i=8;$i<=11;$i++) {
+                    if(!$property_type[$i]['city'])
+                                        {
+                    echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
                     }
                     else
                     {
@@ -406,10 +406,10 @@ echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_k
             <div class="col-md-3 col-sm-4">
                  <ul>
                    <?php
-                for($i=15;$i<=19;$i++) {
-if(!$property_type[$i]['city'])
-                    {
-echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                for($i=12;$i<=19;$i++) {
+                if(!$property_type[$i]['city'])
+                                    {
+                echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
                     }
                     else
                     {
