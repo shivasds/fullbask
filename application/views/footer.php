@@ -221,14 +221,18 @@ input.separate-dial-code .selected-dial-code {
             </div>
             <div class="col-md-4 col-sm-4">
                 <h3>QUICK LINKS</h3>
-                
+                <div class="col-md-6 col-sm-6">
+                    <ul>
+                        <li><a target="_blank" href="<?= site_url('listing') ?>">PROPERTIES</a></li>
+                        <li><a data-toggle="modal" href="#submitContact">SUBMIT PROPERTY</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a target="_blank" href="<?=site_url('disclaimer')?>">VASTU</a></li>
+                        <li><a target="_blank" href="<?=site_url('nri')?>">NRI CORNER</a></li>
+                        <li><a target="_blank" href="<?=site_url('blog')?>">BLOG</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-sm-6">
                 <ul>
-                    <li><a target="_blank" href="<?= site_url('listing') ?>">PROPERTIES</a></li>
-                    <li><a data-toggle="modal" href="#submitContact">SUBMIT PROPERTY</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a target="_blank" href="<?=site_url('disclaimer')?>">VASTU</a></li>
-                <li><a target="_blank" href="<?=site_url('nri')?>">NRI CORNER</a></li>
-                    <li><a target="_blank" href="<?=site_url('blog')?>">BLOG</a></li>
                     <li><a target="_blank" href="<?=site_url('achievements')?>">ACHIEVEMENTS</a></li>
                     <li><a target="_blank" href="<?=site_url('testimonials')?>">TESTIMONIALS</a></li>
                     <li><a target="_blank" href="<?=site_url('careers')?>">CAREERS</a></li>
@@ -246,6 +250,7 @@ input.separate-dial-code .selected-dial-code {
                         <li><a href="#">Safe link</a></li>
                     </ul>
                 </div> -->
+            </div>
             </div>
             <div class="col-md-4 col-sm-6 last_news">
                 <h3>LAST NEWS</h3>

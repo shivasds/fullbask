@@ -184,7 +184,7 @@ $image_name = "all.jpg";
 									<input type="text" name="keyword" placeholder="Enter a Location, Builder or a Project" class="form-control" value="<?= $keyword ? $keyword : '' ?>">
 									<input type="hidden" id="showPattern" name="showPattern" value="">
 									<button type="submit" class="btn btn-loc">Search</button>
-                                    <!-- <a href="#" onclick="$('.toggleSearch').slideToggle();return false;" class="btn pull-right btn-link">Advance Search</a> -->
+                                    <a href="#" onclick="$('.toggleSearch').slideToggle();return false;" class="btn pull-right btn-link">Advance Search</a>
 								</div>
 							</form>
 						</div>
@@ -195,7 +195,7 @@ $image_name = "all.jpg";
 			<div class="container toggleSearch" id="toggle">
 			<div class="col-sm-12">
 				<div class="search-area listing-search">
-					<form action="<?= site_url('searchListing') ?>" method="post">
+					<form action="<?= site_url('listing') ?>" method="post">
 						<div class="row">
 							<div class="col-sm-3">
 								<div class="form-group">

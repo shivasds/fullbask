@@ -240,7 +240,7 @@ $(document).ready(function(){
                                         <input type="text" name="keyword"  placeholder="Enter a Location, Builder or a Project" class="form-control" value="<?= $keyword ? $keyword : '' ?>">
                                         <input type="hidden" id="showPattern" name="showPattern" value="">
                                         <button type="submit" style="/* top: 5px; */" class="btn btn-loc">Search</button>
-                                       <!--  <a id="foo"  class="btn pull-right btn-link">Advance Search</a> -->
+                                        <a id="foo"  class="btn pull-right btn-link">Advance Search</a>
                                     </div>
                                    
                                 </form>
@@ -253,7 +253,7 @@ $(document).ready(function(){
                 <div class="container toggleSearch" id="toggle">
                     <div class="col-sm-12">
                         <div class="search-area listing-search">
-                            <form action="<?= site_url('searchListing') ?>" method="post">
+                            <form action="<?= site_url('listing') ?>" method="post">
                                 <div class="row">
                                     <div class="col-sm-2">
                                         <div class="form-group">
@@ -332,7 +332,7 @@ $(document).ready(function(){
                                         <span class="pull-right">10000</span>
                                         <div class="clearfix"></div><br>
                                     </div>
-                                </div>
+                                </div> 
                                 <!-- <div class="row">
                                     <?php foreach ($amenities as  $k => $amenity) { ?>
                                     <div class="col-sm-3 amenity-group  <?= $k > 9 ? 'hide' : '' ?>">

@@ -40,7 +40,8 @@ class Home_model extends MY_Model {
                 ->join('locations l', 'p.location_id = l.id', 'LEFT')
                 ->join('property_types pt', 'p.property_type_id = pt.id', 'LEFT')
                 ->join('property_status ps', 'p.property_status_id = ps.id', 'LEFT')
-                ->join('property_amenities pa', 'pa.property_id = p.id', 'LEFT');
+                ->join('property_amenities pa', 'pa.property_id = p.id', 'LEFT')
+                ->join('property_flat_types pft', 'pft.property_id = p.id', 'LEFT');
 
         if ($content) {
             if ((isset($content['keyword']) && $content['keyword']) != NULL) {
@@ -67,7 +68,18 @@ class Home_model extends MY_Model {
                     $this->db->where('pa.amenity_id', $amenity);
                 }
             }
-
+            if (isset($content['bhk_range']) && $content['bhk_range'] && $content['bhk_range'][1]!=null) {
+               $this->db->where('pft.flat_type_id >=', $content['bhk_range'][0]);
+               $this->db->where('pft.flat_type_id <=',  $content['bhk_range'][1]);
+            }
+            if (isset($content['price_range']) && $content['price_range'] && $content['price_range'][1]!=null) {
+               $this->db->where('pft.total >=', $content['price_range'][0]);
+               $this->db->where('pft.total <=',  $content['price_range'][1]);
+            }
+            if (isset($content['baths_range']) && $content['baths_range'] && $content['baths_range'][1]!=null) {
+               $this->db->where('pft.size >=', $content['baths_range'][0]);
+               $this->db->where('pft.size <=',  $content['baths_range'][1]);
+            }
             if (isset($content['status']) && $content['status']) {
                 $this->db->where('ps.id', $content['status']);
             }
