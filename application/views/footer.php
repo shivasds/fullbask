@@ -252,7 +252,7 @@ input.separate-dial-code .selected-dial-code {
                 </div> -->
             </div>
             </div>
-            <div class="col-md-4 col-sm-6 last_news">
+            <!-- <div class="col-md-4 col-sm-6 last_news">
                 <h3>LAST NEWS</h3>
                 
                 <br><br>
@@ -271,7 +271,7 @@ input.separate-dial-code .selected-dial-code {
                     </div>
                 </div>
                 <?php } ?>
-            </div>
+            </div> -->
             <div class="col-md-4 col-sm-4 social">
                 <h3>CONNECT WITH US</h3>
                 
