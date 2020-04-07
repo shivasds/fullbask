@@ -29,7 +29,7 @@
 .navbar-default .navbar-nav > li > a {
     padding-right: 26px;
     padding-left: 26px;
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
     /* font-weight: bold; */
 }
 .sidenav >.active > a { 

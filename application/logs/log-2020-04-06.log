@@ -1,0 +1,132 @@
+ERROR - 2020-04-06 12:32:03 --> 404 Page Not Found: 
+ERROR - 2020-04-06 12:32:33 --> 404 Page Not Found: 
+ERROR - 2020-04-06 12:36:15 --> 404 Page Not Found: 
+ERROR - 2020-04-06 12:39:27 --> 404 Page Not Found: 
+ERROR - 2020-04-06 12:39:41 --> Severity: Warning --> Illegal string offset 'bhk' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 12:39:41 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 12:39:41 --> Severity: Warning --> Illegal string offset 'price' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 12:39:41 --> Severity: Warning --> Illegal string offset 'price_range' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 12:39:41 --> Severity: Warning --> Illegal string offset 'baths' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 12:39:41 --> Severity: Warning --> Illegal string offset 'baths_range' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 12:45:22 --> 404 Page Not Found: 
+ERROR - 2020-04-06 12:46:53 --> 404 Page Not Found: 
+ERROR - 2020-04-06 12:49:52 --> 404 Page Not Found: 
+ERROR - 2020-04-06 12:50:59 --> Severity: Warning --> Illegal string offset 'bhk' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 12:50:59 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 12:50:59 --> Severity: Warning --> Illegal string offset 'price' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 12:50:59 --> Severity: Warning --> Illegal string offset 'price_range' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 12:50:59 --> Severity: Warning --> Illegal string offset 'baths' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 12:50:59 --> Severity: Warning --> Illegal string offset 'baths_range' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 12:51:15 --> 404 Page Not Found: 
+ERROR - 2020-04-06 12:51:24 --> Severity: Warning --> Illegal string offset 'bhk' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 12:51:24 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 12:51:24 --> Severity: Warning --> Illegal string offset 'price' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 12:51:24 --> Severity: Warning --> Illegal string offset 'price_range' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 12:51:24 --> Severity: Warning --> Illegal string offset 'baths' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 12:51:24 --> Severity: Warning --> Illegal string offset 'baths_range' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 12:51:40 --> 404 Page Not Found: 
+ERROR - 2020-04-06 12:51:44 --> Severity: Warning --> Illegal string offset 'bhk' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 12:51:44 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 12:51:44 --> Severity: Warning --> Illegal string offset 'price' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 12:51:44 --> Severity: Warning --> Illegal string offset 'price_range' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 12:51:44 --> Severity: Warning --> Illegal string offset 'baths' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 12:51:44 --> Severity: Warning --> Illegal string offset 'baths_range' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 12:51:58 --> Severity: Warning --> Illegal string offset 'bhk' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 12:51:58 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 12:51:58 --> Severity: Warning --> Illegal string offset 'price' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 12:51:58 --> Severity: Warning --> Illegal string offset 'price_range' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 12:51:58 --> Severity: Warning --> Illegal string offset 'baths' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 12:51:58 --> Severity: Warning --> Illegal string offset 'baths_range' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 12:52:03 --> Severity: Warning --> Illegal string offset 'bhk' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 12:52:03 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 12:52:03 --> Severity: Warning --> Illegal string offset 'price' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 12:52:03 --> Severity: Warning --> Illegal string offset 'price_range' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 12:52:03 --> Severity: Warning --> Illegal string offset 'baths' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 12:52:03 --> Severity: Warning --> Illegal string offset 'baths_range' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 12:52:10 --> Severity: Warning --> Illegal string offset 'bhk' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 12:52:10 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 12:52:10 --> Severity: Warning --> Illegal string offset 'price' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 12:52:10 --> Severity: Warning --> Illegal string offset 'price_range' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 12:52:10 --> Severity: Warning --> Illegal string offset 'baths' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 12:52:10 --> Severity: Warning --> Illegal string offset 'baths_range' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 12:52:16 --> Severity: Warning --> Illegal string offset 'bhk' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 12:52:16 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 12:52:16 --> Severity: Warning --> Illegal string offset 'price' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 12:52:16 --> Severity: Warning --> Illegal string offset 'price_range' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 12:52:16 --> Severity: Warning --> Illegal string offset 'baths' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 12:52:16 --> Severity: Warning --> Illegal string offset 'baths_range' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 12:52:21 --> Severity: Warning --> Illegal string offset 'bhk' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 12:52:21 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 12:52:21 --> Severity: Warning --> Illegal string offset 'price' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 12:52:21 --> Severity: Warning --> Illegal string offset 'price_range' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 12:52:21 --> Severity: Warning --> Illegal string offset 'baths' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 12:52:21 --> Severity: Warning --> Illegal string offset 'baths_range' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 12:52:27 --> Severity: Warning --> Illegal string offset 'bhk' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 12:52:27 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 12:52:27 --> Severity: Warning --> Illegal string offset 'price' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 12:52:27 --> Severity: Warning --> Illegal string offset 'price_range' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 12:52:27 --> Severity: Warning --> Illegal string offset 'baths' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 12:52:27 --> Severity: Warning --> Illegal string offset 'baths_range' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 12:53:21 --> Severity: Warning --> Illegal string offset 'bhk' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 12:53:21 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 12:53:21 --> Severity: Warning --> Illegal string offset 'price' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 12:53:21 --> Severity: Warning --> Illegal string offset 'price_range' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 12:53:21 --> Severity: Warning --> Illegal string offset 'baths' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 12:53:21 --> Severity: Warning --> Illegal string offset 'baths_range' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 12:53:43 --> 404 Page Not Found: 
+ERROR - 2020-04-06 12:54:42 --> Severity: Warning --> Illegal string offset 'bhk' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 12:54:42 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 12:54:42 --> Severity: Warning --> Illegal string offset 'price' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 12:54:42 --> Severity: Warning --> Illegal string offset 'price_range' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 12:54:42 --> Severity: Warning --> Illegal string offset 'baths' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 12:54:42 --> Severity: Warning --> Illegal string offset 'baths_range' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 12:56:30 --> 404 Page Not Found: 
+ERROR - 2020-04-06 14:27:39 --> 404 Page Not Found: 
+ERROR - 2020-04-06 14:27:46 --> Severity: Warning --> Illegal string offset 'bhk' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 14:27:46 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 14:27:46 --> Severity: Warning --> Illegal string offset 'price' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 14:27:46 --> Severity: Warning --> Illegal string offset 'price_range' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 14:27:46 --> Severity: Warning --> Illegal string offset 'baths' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 14:27:46 --> Severity: Warning --> Illegal string offset 'baths_range' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 14:29:02 --> Severity: Warning --> Illegal string offset 'bhk' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 14:29:02 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 14:29:02 --> Severity: Warning --> Illegal string offset 'price' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 14:29:02 --> Severity: Warning --> Illegal string offset 'price_range' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 14:29:02 --> Severity: Warning --> Illegal string offset 'baths' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 14:29:02 --> Severity: Warning --> Illegal string offset 'baths_range' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 14:32:02 --> Severity: Warning --> Illegal string offset 'bhk' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 14:32:02 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 14:32:02 --> Severity: Warning --> Illegal string offset 'price' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 14:32:02 --> Severity: Warning --> Illegal string offset 'price_range' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 14:32:02 --> Severity: Warning --> Illegal string offset 'baths' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 14:32:02 --> Severity: Warning --> Illegal string offset 'baths_range' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 14:32:42 --> Severity: Warning --> Illegal string offset 'bhk' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 14:32:42 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 14:32:42 --> Severity: Warning --> Illegal string offset 'price' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 14:32:42 --> Severity: Warning --> Illegal string offset 'price_range' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 14:32:42 --> Severity: Warning --> Illegal string offset 'baths' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 14:32:42 --> Severity: Warning --> Illegal string offset 'baths_range' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 14:33:09 --> Severity: Warning --> Illegal string offset 'bhk' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 14:33:09 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 14:33:09 --> Severity: Warning --> Illegal string offset 'price' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 14:33:09 --> Severity: Warning --> Illegal string offset 'price_range' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 14:33:09 --> Severity: Warning --> Illegal string offset 'baths' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 14:33:09 --> Severity: Warning --> Illegal string offset 'baths_range' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 14:33:36 --> Severity: Warning --> Illegal string offset 'bhk' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 14:33:36 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 14:33:36 --> Severity: Warning --> Illegal string offset 'price' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 14:33:36 --> Severity: Warning --> Illegal string offset 'price_range' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 14:33:36 --> Severity: Warning --> Illegal string offset 'baths' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 14:33:36 --> Severity: Warning --> Illegal string offset 'baths_range' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 14:34:19 --> Severity: Warning --> Illegal string offset 'bhk' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 14:34:19 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 14:34:19 --> Severity: Warning --> Illegal string offset 'price' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 14:34:19 --> Severity: Warning --> Illegal string offset 'price_range' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 14:34:19 --> Severity: Warning --> Illegal string offset 'baths' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 14:34:19 --> Severity: Warning --> Illegal string offset 'baths_range' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 14:35:35 --> Severity: Warning --> Illegal string offset 'bhk' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 14:35:35 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-06 14:35:35 --> Severity: Warning --> Illegal string offset 'price' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 14:35:35 --> Severity: Warning --> Illegal string offset 'price_range' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-06 14:35:35 --> Severity: Warning --> Illegal string offset 'baths' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-06 14:35:35 --> Severity: Warning --> Illegal string offset 'baths_range' F:\SDS\FBP.com\application\controllers\Home.php 108

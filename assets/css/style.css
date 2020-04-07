@@ -967,7 +967,13 @@ footer li a:hover {
     font-size: 36px;
     margin-left: 50px;
 }
-
+.lSAction>a {
+      z-index: 3!important;
+   
+}
+.lSSlideOuter .lSPager.lSpg>li a {
+    z-index: 3!important;
+}
 .sidenav a {
     padding: 12px 0px 0px 0px;
     text-decoration: none;
@@ -975,9 +981,6 @@ footer li a:hover {
     color: #818181;
     display: block;
     transition: 0.3s;
-}
-.sidenav .active > a {
-    color: white; 
 }
 .dot {
     background: #fff;

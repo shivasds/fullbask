@@ -221,14 +221,18 @@ input.separate-dial-code .selected-dial-code {
             </div>
             <div class="col-md-4 col-sm-4">
                 <h3>QUICK LINKS</h3>
-                
+                <div class="col-md-6 col-sm-6">
+                    <ul>
+                        <li><a target="_blank" href="<?= site_url('listing') ?>">PROPERTIES</a></li>
+                        <li><a data-toggle="modal" href="#submitContact">SUBMIT PROPERTY</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a target="_blank" href="<?=site_url('disclaimer')?>">VASTU</a></li>
+                        <li><a target="_blank" href="<?=site_url('nri')?>">NRI CORNER</a></li>
+                        <li><a target="_blank" href="<?=site_url('blog')?>">BLOG</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-sm-6">
                 <ul>
-                    <li><a target="_blank" href="<?= site_url('listing') ?>">PROPERTIES</a></li>
-                    <li><a data-toggle="modal" href="#submitContact">SUBMIT PROPERTY</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a target="_blank" href="<?=site_url('disclaimer')?>">VASTU</a></li>
-                <li><a target="_blank" href="<?=site_url('nri')?>">NRI CORNER</a></li>
-                    <li><a target="_blank" href="<?=site_url('blog')?>">BLOG</a></li>
                     <li><a target="_blank" href="<?=site_url('achievements')?>">ACHIEVEMENTS</a></li>
                     <li><a target="_blank" href="<?=site_url('testimonials')?>">TESTIMONIALS</a></li>
                     <li><a target="_blank" href="<?=site_url('careers')?>">CAREERS</a></li>
@@ -247,7 +251,8 @@ input.separate-dial-code .selected-dial-code {
                     </ul>
                 </div> -->
             </div>
-            <div class="col-md-4 col-sm-6 last_news">
+            </div>
+            <!-- <div class="col-md-4 col-sm-6 last_news">
                 <h3>LAST NEWS</h3>
                 
                 <br><br>
@@ -266,7 +271,7 @@ input.separate-dial-code .selected-dial-code {
                     </div>
                 </div>
                 <?php } ?>
-            </div>
+            </div> -->
             <div class="col-md-4 col-sm-4 social">
                 <h3>CONNECT WITH US</h3>
                 
@@ -348,11 +353,11 @@ input.separate-dial-code .selected-dial-code {
             <div class="col-md-3 col-sm-4">
               <ul> 
                 <?php
-                for($i=0;$i<=4;$i++) {
-if(!$property_type[$i]['city'])
-                    {
-echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
-                    }
+                for($i=0;$i<=3;$i++) {
+                if(!$property_type[$i]['city'])
+                                    {
+                echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                                    }
                     else
                     {
                         echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
@@ -367,10 +372,10 @@ echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_k
             <div class="col-md-3 col-sm-4">
              <ul>
                  <?php
-                for($i=5;$i<=9;$i++) {
+                for($i=4;$i<=7;$i++) {
                     if(!$property_type[$i]['city'])
                     {
-echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                     echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
                     }
                     else
                     {
@@ -384,10 +389,10 @@ echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_k
             <div class="col-md-3 col-sm-4">
                 <ul>
                    <?php
-                for($i=10;$i<=14;$i++) {
-if(!$property_type[$i]['city'])
-                    {
-echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                for($i=8;$i<=11;$i++) {
+                    if(!$property_type[$i]['city'])
+                                        {
+                    echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
                     }
                     else
                     {
@@ -401,10 +406,10 @@ echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_k
             <div class="col-md-3 col-sm-4">
                  <ul>
                    <?php
-                for($i=15;$i<=19;$i++) {
-if(!$property_type[$i]['city'])
-                    {
-echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                for($i=12;$i<=19;$i++) {
+                if(!$property_type[$i]['city'])
+                                    {
+                echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
                     }
                     else
                     {
