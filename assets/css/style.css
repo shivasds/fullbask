@@ -3094,6 +3094,10 @@ a.bld-link{text-decoration: none; color: #fff;}
         float: left;
         margin-left: 10px;
     }
+    .footer_property .col-md-2 {
+        width: 50.666667%!important;
+    }
+ 
 
     .list-header {
         margin-top: 0px;
