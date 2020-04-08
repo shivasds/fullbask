@@ -26,6 +26,17 @@
                             </div>
                         </div>
                         <div class="form-group">
+                            <label for="category" class="col-sm-2 control-label">Blog Type</label>
+                            <div class="col-sm-10">
+                                <select class="form-control" name="blog_type">
+                                   <option value="1">Type 1</option>
+                                   <option value="2">Type 2</option>
+                                   <option value="3">Type 3</option>
+                                   <option value="4">Type 4</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
                             <label for="title" class="col-sm-2 control-label">Title</label>
 
                             <div class="col-sm-10 <?= form_error('title') ? 'has-error' : '' ?>">
