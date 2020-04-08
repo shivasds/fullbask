@@ -66,8 +66,12 @@
                                         BLOG
                                         </button>
                                         <ul id="" class="dropdown-menu gradient">
-                                            <li><a>Link 1</a></li>
-                                            <li><a>Link 2</a></li>
+                                            <?php 
+                                            foreach ($blog_type as $blog) {
+                                              echo "<li><a href=".base_url('blog/').$blog->slug.">".$blog->blog_type."</a></li>";
+                                            }
+                                            ?>
+                                             
                                         </ul>
                                     </div>
                                 </li>
