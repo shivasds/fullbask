@@ -373,7 +373,7 @@ input.separate-dial-code .selected-dial-code {
                 $data = $this->home_model->where_order_by(array('status' => 1,'line'=>1),array('priority'=>'asc'), 'property_type');
                 foreach ($data as $data) {
 
-                    if($data['city']!='')
+                    if($data['city']=='')
                                     {
                 echo " <li>
                  <a href=".base_url('listing')."?place=".$data['search_key']." target='_blank'>".$data['name']."</a></li>";
@@ -409,7 +409,7 @@ input.separate-dial-code .selected-dial-code {
                  $data = $this->home_model->where_order_by(array('status' => 1,'line'=>2),array('priority'=>'asc'), 'property_type');
                 foreach ($data as $data) {
 
-                    if($data['city']!='')
+                    if($data['city']=='')
                                     {
                 echo " <li>
                  <a href=".base_url('listing')."?place=".$data['search_key']." target='_blank'>".$data['name']."</a></li>";
@@ -441,7 +441,7 @@ input.separate-dial-code .selected-dial-code {
                    $data = $this->home_model->where_order_by(array('status' => 1,'line'=>3),array('priority'=>'asc'), 'property_type');
                 foreach ($data as $data) {
 
-                    if($data['city']!='')
+                    if($data['city']=='')
                                     {
                 echo " <li>
                  <a href=".base_url('listing')."?place=".$data['search_key']." target='_blank'>".$data['name']."</a></li>";
@@ -473,7 +473,7 @@ input.separate-dial-code .selected-dial-code {
                    $data = $this->home_model->where_order_by(array('status' => 1,'line'=>4),array('priority'=>'asc'), 'property_type');
                 foreach ($data as $data) {
 
-                    if($data['city']!='')
+                    if($data['city']=='')
                                     {
                 echo " <li>
                  <a href=".base_url('listing')."?place=".$data['search_key']." target='_blank'>".$data['name']."</a></li>";
@@ -505,7 +505,7 @@ input.separate-dial-code .selected-dial-code {
                    $data = $this->home_model->where_order_by(array('status' => 1,'line'=>5),array('priority'=>'asc'), 'property_type');
                 foreach ($data as $data) {
 
-                    if($data['city']!='')
+                    if($data['city']=='')
                                     {
                 echo " <li>
                  <a href=".base_url('listing')."?place=".$data['search_key']." target='_blank'>".$data['name']."</a></li>";
