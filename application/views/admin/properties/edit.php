@@ -36,28 +36,58 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="form-group">
+                            <label class="control-label" for="exampleInputFile">Project Logo(If you don't upload logo Builder logo will be show)</label>
+                            <div class=" <?= form_error('uploadImage') ? 'has-error' : '' ?>">
+                                <input type="file" class="form-control" id="logo_1" name="logo_1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="form-group">
                         <label class="control-label" for="map">Desktop Banners</label>
                         <?php
-                        $images = $this->properties_model->getWhere(array('property_id' => $property->id),'property_desktop_banners');
-                        $m_images = $this->properties_model->getWhere(array('property_id' => $property->id),'property_mobile_banners');
-                        $total_images =array_merge($images);
-                        $total_images = json_decode( json_encode($total_images), true);  
+                        $images = $this->properties_model->getWhere(array('property_id' => $property->id),'property_desktop_banners'); 
+
+                       // $total_images =array_merge($images);
+                        $total_images = json_decode( json_encode($images), true);  
                         foreach ($total_images as $image) {
                        
                             ?>
                             <div>
                                 <img class="img-responsive thumbnail"
-                                src="<?=  base_url().$image['banner_path']; ?>"/>
+                                src="<?=  base_url().$image['banner_path']; ?>" style="width: 200Px;height: 200px;"/>
                             </div>
                             <?php
                     }
                         ?>
                         <div class=" <?= form_error('map') ? 'has-error' : '' ?>">
-                            <input type="file" id="map" accept="image/*" class="form-control" name="map">
+                            <input type="file" id="banners" accept="image/*" class="form-control" name="banners">
                         </div>
                     </div>
-                </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <label class="control-label" for="map">Mobile Banners</label>
+                        <?php 
+                        $m_images = $this->properties_model->getWhere(array('property_id' => $property->id),'property_mobile_banners');
+                       // $total_images =array_merge($images);
+                        $total_images = json_decode( json_encode($m_images), true);  
+                        foreach ($total_images as $image) {
+                       
+                            ?>
+                            <div>
+                                <img class="img-responsive thumbnail"
+                                src="<?=  base_url().$image['mobile_banner_path']; ?>"/ style="width: 200Px;height: 200px;">
+                            </div>
+                            <?php
+                    }
+                        ?>
+                        <div class=" <?= form_error('map') ? 'has-error' : '' ?>">
+                            <input type="file" id="mobilebanners" accept="image/*" class="form-control" name="mobilebanners">
+                        </div>
+                    </div>
+                    </div>
                     <div class="clearfix"></div>
                     <div class="col-sm-6 col-md-6 col-lg-6">
                         <div class="form-group">

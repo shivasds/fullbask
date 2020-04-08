@@ -9,11 +9,11 @@ if (!defined('BASEPATH'))
         if($sliders) {
             $i = 0;
             foreach ($sliders as $slider) { ?>
-                <div class="<?= $i ? '' : 'active' ?> item fadeInRight animated" style="background: url(<?= base_url('uploads/sliders/' . $slider->image) ?>);">
-                    <div class="carousel-caption fadeInUp animated">
+                <div class="<?= $i ? '' : 'active' ?> item fadeInRight animated" style="background: url(<?= base_url('uploads/'.$slider->slug.'/' . $slider->image) ?>);">
+                   <!--  <div class="carousel-caption fadeInUp animated">
                         <h1><b><?= $slider->title ?></b></h1>
                         <p><?= $slider->heading ?></p>
-                    </div>
+                    </div> -->
                 </div>
                 <?php 
                 $i++;
@@ -32,18 +32,16 @@ if (!defined('BASEPATH'))
         <a href="https://www.fullbasketproperty.com/">Home</a> &gt; <a href="#">Thank you</a>
     </div>
 </div>
-<!--
-<div class="container">
-    <div class="thank_wrap text-center">
-        <div class="tpic">
-            <img src="assets/img/thankpic.png" alt="">
+
+<div class="container"> 
+        <div class="col-sm-2">
+            <img src="<?=base_url("uploads/builders/".$builders[0]->image);?>" alt="" style="width:200px;">
         </div>
-        <h3 class="thank_head">Thank you for your interest<?= ($this->input->get('title')) ? ' in '.$this->input->get('title').'!' : '!' ?></h3>
-        <div class="th2">
-            For immediate assistant <span class="phoneno"><a href="tel:+919019011888" style="text-decoration:none;color:#333">+919019011888</a></span>
-        </div>
-    </div>
-</div>-->
+       <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+             <?=$builders[0]->description;?>
+        </div> 
+</div> 
  
     <?php
  
@@ -56,7 +54,7 @@ if($this->input->get('builder') || $this->input->get('location')) {
         if($similar_builder_property){
             //print_r($similar_builder_property);
             ?>
-            <div class="shead text-center">Similar Projects From <?=$this->input->get('builder');?>  </div>
+            <div class="shead text-center">Other Project from the <?=$this->input->get('builder');?>  </div>
             <div class="slide_wrap">
                 <div id="slide1" class="owl-carousel owl-theme">
                     <?php 

@@ -37,33 +37,36 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                     </div>
                      <div class="col-sm-6 col-md-6 col-lg-6">
                         <div class="form-group">
-                            <label class="control-label" for="exampleInputFile">Project Logo</label>
+                            <label class="control-label" for="exampleInputFile">Project Logo(If you don't upload logo Builder logo will be show)</label>
                             <div class=" <?= form_error('uploadImage') ? 'has-error' : '' ?>">
                                 <input type="file" class="form-control" id="logo_1" name="logo_1">
                             </div>
                         </div>
-                    </div
+                    </div>
                     <div class="clearfix"></div>
                     <div class="col-sm-6 col-md-6 col-lg-6">
                         <div class="form-group">
                             <label class="control-label">Desktop Banners</label>
                              <code>*</code>
-                            <div class="">
+<!--                             <div class="">
                                 <div class="dropzone banner">
                                     <div id="images" class="hide"></div>
                                 </div>
-                            </div>
+                            </div> -->
+                             <input type="file" id="banner" accept="image/*" class="form-control" name="banners">
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-6">
                         <div class="form-group">
                             <label class="control-label">Mobile Banners</label>
                              <code>*</code>
-                            <div class="">
+                            <!-- <div class="">
                                 <div class="dropzone mobilebanner">
                                     <div id="hiddenimages" class="hide"></div>
                                 </div>
-                            </div>
+                            </div> -->
+                            <input type="file" id="banner" accept="image/*" class="form-control" name="mobilebanners">
+
                         </div>
                     </div>
                    <!-- <div class="col-sm-6 col-md-6 col-lg-6">
@@ -120,8 +123,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
                             <div class=" <?= form_error('uploadImage') ? 'has-error' : '' ?>">
                                 <input type="file" class="form-control" name="logo_2">
                             </div>
-                        </div> -->
-                    </div>
+                        </div> 
+                    </div>-->
                     <div class="col-sm-4 col-md-4 col-lg-4">
                         <div class="form-group">
                             <label for="issue_date" class="control-label">Issue Date <code>*</code></label>
