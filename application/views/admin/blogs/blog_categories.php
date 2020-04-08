@@ -32,8 +32,8 @@
                         </thead>
                         <tbody>
                             <?php
-                            if ($types) {
-                                foreach ($types as $key => $value) {
+                            if ($categories) {
+                                foreach ($categories as $key => $value) {
                                     ?>
                                     <tr>
                                         <td><?= (($page - 1) * $perpage + ($key + 1)) ?></td>

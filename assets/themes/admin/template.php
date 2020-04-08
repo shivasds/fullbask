@@ -189,7 +189,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <li><a href="<?= site_url('admin/blogs') ?>"><i class="fa fa-list"></i> View Posts </a></li>
                     
                             <li><a href="<?= site_url('admin/blogs/add_blog_type') ?>"><i class="fa fa-circle-o"></i> Add Blog Type </a></li>
-                            <li><a href="<?= site_url('admin/blogs/blog_types') ?>"><i class="fa fa-list"></i> View Category List </a></li> 
+                            <li><a href="<?= site_url('admin/blogs/blog_types') ?>"><i class="fa fa-list"></i> View Blog Type List </a></li> 
                         </ul>
 
                     </li>

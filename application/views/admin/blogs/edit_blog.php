@@ -29,11 +29,14 @@
                             <label for="category" class="col-sm-2 control-label">Blog Type</label>
                             <div class="col-sm-10">
                                 <select class="form-control" name="blog_type">
-                                     
-                                   <option value="1" <?= $blog->blog_type ==  1 ? 'selected' : '' ?> >Type 1</option>
-                                   <option value="2" <?= $blog->blog_type == 2 ? 'selected' : '' ?> >Type 2</option>
-                                   <option value="3" <?= $blog->blog_type == 3  ? 'selected':'' ?>>Type 3</option>
-                                   <option value="4" <?= $blog->blog_type ==4 ? 'selected' : '' ?>>Type 4</option>
+                                   <?php
+                                    foreach ($blog_types as $types) {
+                                        ?>
+                                        <option <?= $types->id == $blog->blog_type ? 'selected' : '' ?> value="<?= $types->id ?>"><?= $types->blog_type ?></option>
+                                        <?php
+                                    }
+                                    ?>
+
                                 </select>
                             </div>
                         </div>

@@ -5507,7 +5507,7 @@ footer h3 {
     padding-bottom: 5px;
     margin-bottom: 15px;
     color: #717171;
-    /* text-align: center; */
+    text-align: center;
 }
 
 footer hr {

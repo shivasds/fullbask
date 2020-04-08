@@ -151,6 +151,7 @@ class Blogs extends Admin_Controller
         }
 
         $this->data['blog_categories'] = $this->blogs_model->getWhere(array('status' => 1), 'blog_category');
+        $this->data['blog_types'] = $this->blogs_model->getWhere(array('status' => 1), 'blog_type');
         // setup page header data
         $this->set_title(lang('blogs title addBlog'))
             ->add_external_js(array(
@@ -257,6 +258,8 @@ class Blogs extends Admin_Controller
         }
         $this->data['blog'] = $this->blogs_model->getBlog($blog_id);
         $this->data['blog_categories'] = $this->blogs_model->getWhere(array('status' => 1), 'blog_category');
+        $this->data['blog_types'] = $this->blogs_model->getWhere(array('status' => 1), 'blog_type');
+        
         $this->data['tags'] = $this->blogs_model->getTags($blog_id);
         // setup page header data
         $this->set_title(lang('blogs title editBlog'))
