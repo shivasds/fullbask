@@ -651,3 +651,15 @@ ERROR - 2020-04-08 16:18:16 --> Severity: Warning --> Illegal string offset 'pri
 ERROR - 2020-04-08 16:18:16 --> Severity: Warning --> Illegal string offset 'baths' F:\SDS\FBP.com\application\controllers\Home.php 109
 ERROR - 2020-04-08 16:18:16 --> Severity: Warning --> Illegal string offset 'baths_range' F:\SDS\FBP.com\application\controllers\Home.php 109
 >>>>>>> 5576ddc46360dff91aa6c05dd0c8cd812ebbb948
+ERROR - 2020-04-08 18:17:36 --> Severity: Warning --> Illegal string offset 'bhk' F:\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-08 18:17:36 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-08 18:17:36 --> Severity: Warning --> Illegal string offset 'price' F:\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-08 18:17:36 --> Severity: Warning --> Illegal string offset 'price_range' F:\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-08 18:17:36 --> Severity: Warning --> Illegal string offset 'baths' F:\FBP.com\application\controllers\Home.php 109
+ERROR - 2020-04-08 18:17:36 --> Severity: Warning --> Illegal string offset 'baths_range' F:\FBP.com\application\controllers\Home.php 109
+ERROR - 2020-04-08 18:17:50 --> Severity: Warning --> Illegal string offset 'bhk' F:\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-08 18:17:50 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-08 18:17:50 --> Severity: Warning --> Illegal string offset 'price' F:\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-08 18:17:50 --> Severity: Warning --> Illegal string offset 'price_range' F:\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-08 18:17:50 --> Severity: Warning --> Illegal string offset 'baths' F:\FBP.com\application\controllers\Home.php 109
+ERROR - 2020-04-08 18:17:51 --> Severity: Warning --> Illegal string offset 'baths_range' F:\FBP.com\application\controllers\Home.php 109

@@ -56,7 +56,7 @@ if($this->input->get('builder') || $this->input->get('location')) {
         if($similar_builder_property){
             //print_r($similar_builder_property);
             ?>
-            <div class="shead text-center">Similar Projects From <?=$this->input->get('builder');?>  </div>
+            <div class="shead text-center">Other Project from the <?=$this->input->get('builder');?>  </div>
             <div class="slide_wrap">
                 <div id="slide1" class="owl-carousel owl-theme">
                     <?php 
