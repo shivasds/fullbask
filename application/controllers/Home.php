@@ -650,6 +650,7 @@ class Home extends Public_Controller
     {
         $this->load->model('blogs_model');
         $blog = $this->blogs_model->getOneWhere(array('slug' => trim($slug)), 'blog');
+        $blog_type = $this->blogs_model->getOneWhere(array('blog_type' => trim($slug)), 'blog');
         if ($blog) {
             $this->data['next_blog'] = $this->blogs_model->getNextBlog($blog->id);
             $this->data['prev_blog'] = $this->blogs_model->getPrevBlog($blog->id);
@@ -663,7 +664,26 @@ class Home extends Public_Controller
             );
             $this->data['view_page'] = 'blog';
             $this->load->view('template', $this->data);
+        }
+        elseif ($blog_type){
+           $this->data['meta'] = array(
+            'title'         => 'Full Basket Property Blogs | Latest Property Updates and Trends', 
+            'description'   => 'Get the latest real estate property updates, news, opinions and trends in India. Expert insights to the events in the Indian Real Estate Market. ',
+            'keywords'      =>'Real Estate Blogs, Real Estate Blogs For Buyers, Latest Real Estate News, Real Estate News India 2018, Property Blog India, Property Blog, Property Related Blogs, Best Property Blogs In India, Real Estate Blogs India, Property Experts, Top Property Blogs, Property For Sale, Apartments For Sale'
+        );
+        $this->load->model('blogs_model');
+        $where = array("blog_type" => trim($slug));
+        $blogs = $this->blogs_model->getBlogType($where);
+       // print_r($blogs);die;
+        if ($blogs) {
+            $this->data['blogs'] = $blogs;
+            $this->data['view_page'] = 'blogs';
+            $this->load->view('template', $this->data);
         } else {
+            redirect(site_url());
+        }
+
+         } else {
             redirect(site_url());
         }
     }
