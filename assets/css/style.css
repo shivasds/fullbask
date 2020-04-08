@@ -1022,6 +1022,20 @@ footer li a:hover {
     display: block;
     transition: 0.3s;
 }
+
+.sidenav .blog-select .btn-group button {
+    background: #111111;
+    font-weight: 400;
+    /* color: #434445 !important; */
+    padding: 1px 0px 0px 0px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #818181!important;
+    font-family: inherit;
+    padding-left: 0px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+}
 .dot {
     background: #fff;
     width: 20px;

@@ -126,14 +126,28 @@
                     <ul style='list-style: none;'>
                     <li class="<?= $this->uri->segment(1) == '' ? 'active' : '' ?>"> <a href="<?= site_url() ?>">HOME</a></li>
                     <li class="<?= $this->uri->segment(1) == 'about' ? 'active' : '' ?>"><a href="<?= site_url('about') ?>">ABOUT</a></li>
-                    <li class="<?= $this->uri->segment(1) == 'listing' ? 'active' : '' ?>"><a href="<?= site_url('listing') ?>">PROPERTIES</a>
-                    <li class="<?= $this->uri->segment(1) == 'blog' ? 'active' : '' ?>"><a href="<?=site_url('blog')?>">BLOGS</a>
-                    <li class="<?= $this->uri->segment(1) == 'nri' ? 'active' : '' ?>"><a href="<?=site_url('nri')?>"> NRI CORNER</a>
-                    <li class="<?= $this->uri->segment(1) == '' ? '' : '' ?>"><a href="<?=site_url('#')?>">VASTU</a>
-                    <li class="<?= $this->uri->segment(1) == 'testimonials' ? 'active' : '' ?>"><a href="<?=site_url('testimonials')?>">TESTIMONIAL</a>
-                    <li class="<?= $this->uri->segment(1) == 'achievements' ? 'active' : '' ?>"><a href="<?=site_url('achievements')?>">ACHIVEMENT</a>
-                    <li class="<?= $this->uri->segment(1) == 'careers' ? 'active' : '' ?>"><a href="<?=site_url('careers')?>">CAREER</a>
-                    <li class="<?= $this->uri->segment(1) == 'contact' ? 'active' : '' ?>"><a href="<?=site_url('contact')?>">CONTACT US</a>
+                    <li class="<?= $this->uri->segment(1) == 'listing' ? 'active' : '' ?>"><a href="<?= site_url('listing') ?>">PROPERTIES</a></li>
+                    <li class="blog-select">
+                                    <div class="btn-group">
+                                        <button type="button" id="" class="btn btn-blog dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        BLOG
+                                        </button>
+                                        <ul id="" class="dropdown-menu gradient">
+                                            <?php 
+                                            foreach ($blog_type as $blog) {
+                                              echo "<li><a href=".base_url('blog/').$blog->slug.">".$blog->blog_type."</a></li>";
+                                            }
+                                            ?>
+                                             
+                                        </ul>
+                                    </div>
+                    </li>
+                    <li class="<?= $this->uri->segment(1) == 'nri' ? 'active' : '' ?>"><a href="<?=site_url('nri')?>"> NRI CORNER</a></li>
+                    <li class="<?= $this->uri->segment(1) == '' ? '' : '' ?>"><a href="<?=site_url('#')?>">VASTU</a></li>
+                    <li class="<?= $this->uri->segment(1) == 'testimonials' ? 'active' : '' ?>"><a href="<?=site_url('testimonials')?>">TESTIMONIAL</a></li>
+                    <li class="<?= $this->uri->segment(1) == 'achievements' ? 'active' : '' ?>"><a href="<?=site_url('achievements')?>">ACHIVEMENT</a></li>
+                    <li class="<?= $this->uri->segment(1) == 'careers' ? 'active' : '' ?>"><a href="<?=site_url('careers')?>">CAREER</a></li>
+                    <li class="<?= $this->uri->segment(1) == 'contact' ? 'active' : '' ?>"><a href="<?=site_url('contact')?>">CONTACT US</a></li>
                     </ul>
                 </div>
             </nav>
