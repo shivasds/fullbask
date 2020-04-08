@@ -446,3 +446,9 @@ ERROR - 2020-04-08 12:51:09 --> 404 Page Not Found:
 ERROR - 2020-04-08 12:51:09 --> 404 Page Not Found: 
 ERROR - 2020-04-08 12:51:10 --> 404 Page Not Found: 
 ERROR - 2020-04-08 12:51:10 --> 404 Page Not Found: 
+ERROR - 2020-04-08 13:04:48 --> Severity: Warning --> Illegal string offset 'bhk' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-08 13:04:48 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\SDS\FBP.com\application\controllers\Home.php 106
+ERROR - 2020-04-08 13:04:48 --> Severity: Warning --> Illegal string offset 'price' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-08 13:04:48 --> Severity: Warning --> Illegal string offset 'price_range' F:\SDS\FBP.com\application\controllers\Home.php 107
+ERROR - 2020-04-08 13:04:48 --> Severity: Warning --> Illegal string offset 'baths' F:\SDS\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-04-08 13:04:48 --> Severity: Warning --> Illegal string offset 'baths_range' F:\SDS\FBP.com\application\controllers\Home.php 108

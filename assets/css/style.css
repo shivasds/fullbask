@@ -139,7 +139,16 @@ body {
     padding: 14px;
     width: 165px;
 }
-
+.blog-select .btn-blog {
+    color: /* #0e82d4*/#e82d8e;
+    background-color: transparent;
+    border-color: transparent;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    padding: 14px;
+    width: 140px;
+}
 .city_select .btn-city:active:hover, .city_select .btn-city.active:hover, .city_select .open > .dropdown-toggle.btn-city:hover, .city_select .btn-city:active:focus, .city_select .btn-city.active:focus, .city_select .open > .dropdown-toggle.btn-city:focus, .city_select .btn-city:active.focus, .city_select .btn-city.active.focus, .city_select .open > .dropdown-toggle.btn-city.focus {
     color: #1367a3;
     background-color: transparent;
@@ -2273,6 +2282,8 @@ Blog Design
 .card-inverse .btn {
     border: 1px solid rgba(0, 0, 0, .05);
 }
+
+
 /** End of Blog List Style */
 
 /** Link Dropdown */

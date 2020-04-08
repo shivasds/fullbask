@@ -54,7 +54,7 @@
                         <div class="col-xs-3 col-sm-3 col-md-2">
                             <a href="<?= site_url() ?>"><img src="<?= base_url('assets/img/logo.png') ?>" style=" float: right; width: 70px;"alt="fullbasketlogo" discription="Full Basket Logo image"></a>
                         </div>
-                        <div class="col-xs-12 col-sm-12 col-md-7">
+                        <div class="col-xs-12 col-sm-12 col-md-8">
                             <ul class="nav navbar-nav">
                             
                                 <li class="<?= $this->uri->segment(1) == '' ? 'active' : '' ?>"><a href="<?= site_url() ?>">HOME</a></li>
@@ -75,10 +75,21 @@
                                         </ul>
                                     </div>
                                 </li>
+                                <li class="blog-select">
+                                    <div class="btn-group">
+                                        <button type="button" id="" class="btn btn-blog dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Select blog
+                                        </button>
+                                        <ul id="" class="dropdown-menu gradient">
+                                            <li><a>Link 1</a></li>
+                                            <li><a>Link 2</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
                         
-                        <div class="col-xs-12 col-sm-12 col-md-3" style="    margin-top: 5px;">
+                        <div class="col-xs-12 col-sm-12 col-md-2" style="    margin-top: 5px;">
                                 <div class="mobile-view">
                                      <!-- <div class="contact">
                                     <i class="fa fa-paper-plane pull-left" style="color:black"></i> <span class="pull-left">&nbsp;<a href="tel:<?= (isset($cityDetails->phone) && $cityDetails->phone) ? $cityDetails->phone : $all_cities->phone ?>"style=" color: black"><?= (isset($cityDetails->phone) && $cityDetails->phone) ? $cityDetails->phone : $all_cities->phone ?></a> <br><a style="color: black" href="mailto:<?= (isset($cityDetails->email) && $cityDetails->email) ? $cityDetails->email : $all_cities->email ?>"><?= (isset($cityDetails->email) && $cityDetails->email) ? $cityDetails->email : $all_cities->email ?></a></span>

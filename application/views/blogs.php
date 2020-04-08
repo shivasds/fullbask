@@ -3,42 +3,7 @@
         text-decoration: none;
         color: inherit;
     }
-    .dropbtn {
-        background-color: #629ed2;
-    color: white;
-    padding: 6px 17px;
-    font-size: 17px;
-    border: none;
-}
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #ffffff;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 3px 20px;
-    text-decoration: none;
-    display: block;
-    line-height: 2;
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {
-    background-color: #487bbd;}
 </style>
 <div class="container-fluid">
     <div class="row about-bg">
@@ -59,16 +24,8 @@
 <br />
 <br />
 <div class="container">
-    <div class="dropdown">
-    <button class="dropbtn">Dropdown</button>
-    <div class="dropdown-content ">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-    </div>
-    </div>
-    <br />
-<br />
+ 
+ 
     <div class="row">
         <?php
         foreach ($blogs as $i => $blog) {
