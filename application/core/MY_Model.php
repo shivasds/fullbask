@@ -100,6 +100,14 @@ class MY_Model extends CI_Model {
         $this->db->order_by("date_added","desc");
         return (is_null($perpage) or is_null($offset)) ? $this->db->get_where($table_name, $where)->result() : $this->db->get_where($table_name, $where, $perpage, $offset)->result();
     }
-
+    public function where_order_by($where='',$order_by='',$table='')
+    {
+       $this->db->select('*');
+       $this->db->from($table);
+       $this->db->where($where);
+      $sql =  $this->db->order_by('priority','ASC');
+       return $sql->get()->result_array();
+    }
+ 
     
 }

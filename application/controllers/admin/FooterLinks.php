@@ -76,7 +76,9 @@ class FooterLinks extends Admin_Controller {
                 $data = array(
                         'city' => $this->input->post('city'),
                         'name' => $this->input->post('name'),
-                        'search_key' => $this->input->post('search_key')
+                        'search_key' => $this->input->post('search_key'),
+                        'line' => $this->input->post('coloum'),
+                        'priority' => $this->input->post('priority'),
                         );
                 $this->Footer_Links_model->insertRow($data, 'property_type');
 
@@ -110,7 +112,9 @@ class FooterLinks extends Admin_Controller {
                 $data = array(
                     'name' => $this->input->post('name') ? $this->input->post('name') : $Footerlinkdata->name,
                     'search_key' => $this->input->post('search_key') ? $this->input->post('search_key') : $Footerlinkdata->search_key,
-                    'city' =>  $this->input->post('city') ? $this->input->post('city') : $Footerlinkdata->city
+                    'city' =>  $this->input->post('city') ? $this->input->post('city') : $Footerlinkdata->city,
+                    'line' => $this->input->post('coloum'),
+                    'priority' => $this->input->post('priority'),
                     );
                 $this->Footer_Links_model->updateWhere(array('id' => $id), $data, 'property_type');
 

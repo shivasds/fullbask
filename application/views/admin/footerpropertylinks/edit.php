@@ -35,6 +35,33 @@
                                 <span class="<?= form_error('city') ? 'text-danger' : '' ?>"><?= form_error('city') ?></span>
                             </div>
                         </div>
+                           <div class="form-group">
+                            <label for="coloum" class="col-sm-2 control-label">coloum</label>
+                             <div class="col-sm-10">
+                                <select class="form-control" name="coloum">
+                                     <option value="1"<?=$footer_link->line == "1"?'selected':''?>>1st column</option>
+                                     <option value="2" <?=$footer_link->line == "2"?'selected':''?>>2nd column</option>
+                                    
+                                     <option value="3"  <?=$footer_link->line == "3"?'selected':''?>>3rd column</option>
+                                     <option value="4"  <?=$footer_link->line == "4"?'selected':''?>>4th column</option>
+                                     <option value="5"  <?=$footer_link->line == "5"?'selected':''?>>5th column</option>
+
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="priority" class="col-sm-2 control-label">priority</label>
+                        <div class="col-sm-10">
+                                <select class="form-control" name="priority">
+                                     <option value="1"  <?=$footer_link->priority == "1"?'selected':''?>>1st position</option>
+                                     <option value="2"  <?=$footer_link->priority == "2"?'selected':''?>>2nd position</option>
+                                     <option value="3" <?=$footer_link->priority == "3"?'selected':''?>>3rd position</option>
+                                     <option value="4" <?=$footer_link->priority == "4"?'selected':''?>>4th position</option>
+                                     <option value="5" <?=$footer_link->priority == "5"?'selected':''?>>5th position</option>
+
+                                </select>
+                            </div>
+                        </div>
                     </div>
                     <!-- /.box-body -->
                     <div class="box-footer">

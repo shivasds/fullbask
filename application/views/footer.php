@@ -361,7 +361,7 @@ input.separate-dial-code .selected-dial-code {
         </div>
 
         <!-- Qiuck links -->
-        <?php $property_type=json_decode(json_encode($property_type),true);  ?>
+  
         <div class="row footer_property">
            <h3>Easy Links for your search</h3>
          
@@ -370,6 +370,21 @@ input.separate-dial-code .selected-dial-code {
               <ul> 
               <!-- <h4>Properties In Bangalore</h4> -->
                 <?php
+                $data = $this->home_model->where_order_by(array('status' => 1,'line'=>1),array('priority'=>'asc'), 'property_type');
+                foreach ($data as $data) {
+
+                    if($data['city']!='')
+                                    {
+                echo " <li>
+                 <a href=".base_url('listing')."?place=".$data['search_key']." target='_blank'>".$data['name']."</a></li>";
+                                    }
+                    else
+                    {
+                        echo " <li> <a href=".base_url('city/').$data['city']."?place=".$data['search_key']." target='_blank'>".$data['name']."</a></li>";
+                    }
+             
+                             }
+                /*
                 for($i=0;$i<=2;$i++) {
                 if(!$property_type[$i]['city'])
                                     {
@@ -380,7 +395,7 @@ input.separate-dial-code .selected-dial-code {
                     {
                         echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
                     }
-                } 
+                } */
                 ?>
               
                     
@@ -391,16 +406,30 @@ input.separate-dial-code .selected-dial-code {
              <ul>
             <!--  <h4>Properties In Pune</h4> -->
                  <?php
-                for($i=3;$i<=5;$i++) {
-                    if(!$property_type[$i]['city'])
-                    {
-                     echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
-                    }
+                 $data = $this->home_model->where_order_by(array('status' => 1,'line'=>2),array('priority'=>'asc'), 'property_type');
+                foreach ($data as $data) {
+
+                    if($data['city']!='')
+                                    {
+                echo " <li>
+                 <a href=".base_url('listing')."?place=".$data['search_key']." target='_blank'>".$data['name']."</a></li>";
+                                    }
                     else
                     {
-                        echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                        echo " <li> <a href=".base_url('city/').$data['city']."?place=".$data['search_key']." target='_blank'>".$data['name']."</a></li>";
                     }
-                } 
+             
+                             }
+                // for($i=3;$i<=5;$i++) {
+                //     if(!$property_type[$i]['city'])
+                //     {
+                //      echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                //     }
+                //     else
+                //     {
+                //         echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                //     }
+                // } 
                 ?>
              </ul>
             </div>
@@ -409,16 +438,30 @@ input.separate-dial-code .selected-dial-code {
                 <ul>
                <!--  <h4>Properties In Hyderabad</h4> -->
                    <?php
-                for($i=6;$i<=8;$i++) {
-                    if(!$property_type[$i]['city'])
-                                        {
-                    echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
-                    }
+                   $data = $this->home_model->where_order_by(array('status' => 1,'line'=>3),array('priority'=>'asc'), 'property_type');
+                foreach ($data as $data) {
+
+                    if($data['city']!='')
+                                    {
+                echo " <li>
+                 <a href=".base_url('listing')."?place=".$data['search_key']." target='_blank'>".$data['name']."</a></li>";
+                                    }
                     else
                     {
-                        echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                        echo " <li> <a href=".base_url('city/').$data['city']."?place=".$data['search_key']." target='_blank'>".$data['name']."</a></li>";
                     }
-                } 
+             
+                             }
+                // for($i=6;$i<=8;$i++) {
+                //     if(!$property_type[$i]['city'])
+                //                         {
+                //     echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                //     }
+                //     else
+                //     {
+                //         echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                //     }
+                // } 
                 ?>
                 </ul>
             </div>
@@ -427,16 +470,30 @@ input.separate-dial-code .selected-dial-code {
                  <ul>
                <!--   <h4>Properties In Noida</h4> -->
                    <?php
-                for($i=9;$i<=11;$i++) {
-                if(!$property_type[$i]['city'])
+                   $data = $this->home_model->where_order_by(array('status' => 1,'line'=>4),array('priority'=>'asc'), 'property_type');
+                foreach ($data as $data) {
+
+                    if($data['city']!='')
                                     {
-                echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
-                    }
+                echo " <li>
+                 <a href=".base_url('listing')."?place=".$data['search_key']." target='_blank'>".$data['name']."</a></li>";
+                                    }
                     else
                     {
-                        echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                        echo " <li> <a href=".base_url('city/').$data['city']."?place=".$data['search_key']." target='_blank'>".$data['name']."</a></li>";
                     }
-                } 
+             
+                             }
+                // for($i=9;$i<=11;$i++) {
+                // if(!$property_type[$i]['city'])
+                //                     {
+                // echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                //     }
+                //     else
+                //     {
+                //         echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                //     }
+                // } 
                 ?>
                 </ul>
             </div>
@@ -445,16 +502,30 @@ input.separate-dial-code .selected-dial-code {
                  <ul>
                <!--   <h4>Properties In Mumbai</h4> -->
                    <?php
-                for($i=12;$i<=19;$i++) {
-                if(!$property_type[$i]['city'])
+                   $data = $this->home_model->where_order_by(array('status' => 1,'line'=>5),array('priority'=>'asc'), 'property_type');
+                foreach ($data as $data) {
+
+                    if($data['city']!='')
                                     {
-                echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
-                    }
+                echo " <li>
+                 <a href=".base_url('listing')."?place=".$data['search_key']." target='_blank'>".$data['name']."</a></li>";
+                                    }
                     else
                     {
-                        echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                        echo " <li> <a href=".base_url('city/').$data['city']."?place=".$data['search_key']." target='_blank'>".$data['name']."</a></li>";
                     }
-                } 
+             
+                             }
+                // for($i=12;$i<=19;$i++) {
+                // if(!$property_type[$i]['city'])
+                //                     {
+                // echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                //     }
+                //     else
+                //     {
+                //         echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                //     }
+                // } 
                 ?>
                 </ul>
             </div>
@@ -462,16 +533,16 @@ input.separate-dial-code .selected-dial-code {
                  <ul><!-- 
                  <h4>Properties In India</h4> -->
                    <?php
-                for($i=20;$i<=24;$i++) {
-                if(!$property_type[$i]['city'])
-                                    {
-                echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
-                    }
-                    else
-                    {
-                        echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
-                    }
-                } 
+                // for($i=20;$i<=24;$i++) {
+                // if(!$property_type[$i]['city'])
+                //                     {
+                // echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                //     }
+                //     else
+                //     {
+                //         echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                //     }
+                // } 
                 ?>
                 </ul>
             </div>
