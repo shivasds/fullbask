@@ -368,7 +368,7 @@ input.separate-dial-code .selected-dial-code {
             <div class="col-md-2 col-sm-4">
             
               <ul> 
-              <h4>Heading</h4>
+              <h4>Properties In Bangalore</h4>
                 <?php
                 for($i=0;$i<=2;$i++) {
                 if(!$property_type[$i]['city'])
@@ -389,7 +389,7 @@ input.separate-dial-code .selected-dial-code {
 
             <div class="col-md-2 col-sm-4">
              <ul>
-             <h4>Heading</h4>
+             <h4>Properties In Pune</h4>
                  <?php
                 for($i=3;$i<=5;$i++) {
                     if(!$property_type[$i]['city'])
@@ -407,7 +407,7 @@ input.separate-dial-code .selected-dial-code {
             
             <div class="col-md-2 col-sm-4">
                 <ul>
-                <h4>Heading</h4>
+                <h4>Properties In Hyderabad</h4>
                    <?php
                 for($i=6;$i<=8;$i++) {
                     if(!$property_type[$i]['city'])
@@ -425,7 +425,7 @@ input.separate-dial-code .selected-dial-code {
            
             <div class="col-md-2 col-sm-4">
                  <ul>
-                 <h4>Heading</h4>
+                 <h4>Properties In Noida</h4>
                    <?php
                 for($i=9;$i<=11;$i++) {
                 if(!$property_type[$i]['city'])
@@ -443,9 +443,26 @@ input.separate-dial-code .selected-dial-code {
 
             <div class="col-md-2 col-sm-4">
                  <ul>
-                 <h4>Heading</h4>
+                 <h4>Properties In Mumbai</h4>
                    <?php
                 for($i=12;$i<=19;$i++) {
+                if(!$property_type[$i]['city'])
+                                    {
+                echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                    }
+                    else
+                    {
+                        echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                    }
+                } 
+                ?>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-4">
+                 <ul>
+                 <h4>Properties In India</h4>
+                   <?php
+                for($i=20;$i<=24;$i++) {
                 if(!$property_type[$i]['city'])
                                     {
                 echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
