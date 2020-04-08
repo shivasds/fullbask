@@ -29,7 +29,9 @@ class Builders extends Public_Controller
             'keywords'      => 'Full Basket Property: Best Property Portal in India'
         ); 
         if($this->input->get('builder')){            
-            $builderName =  $this->security->xss_clean($this->input->get('builder')); 
+            $builderName =  $this->security->xss_clean($this->input->get('builder'));  
+           
+            $this->data['builders'] = $this->home_model->getWhere(array('name' => $builderName), 'builders');
 
             $builder  = $this->bm->getBuilderById('id', ['name'=>$builderName]);
             $this->data['similar_builder_property'] = $this->properties_model->getPropertiesByLimit(array('p.builder_id' =>$builder['id'], 'p.slug !='=>$property), 0, 10);

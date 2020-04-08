@@ -32,18 +32,16 @@ if (!defined('BASEPATH'))
         <a href="https://www.fullbasketproperty.com/">Home</a> &gt; <a href="#">Thank you</a>
     </div>
 </div>
-<!--
-<div class="container">
-    <div class="thank_wrap text-center">
-        <div class="tpic">
-            <img src="assets/img/thankpic.png" alt="">
+
+<div class="container"> 
+        <div class="col-sm-2">
+            <img src="<?=base_url("uploads/builders/".$builders[0]->image);?>" alt="" style="width:200px;">
         </div>
-        <h3 class="thank_head">Thank you for your interest<?= ($this->input->get('title')) ? ' in '.$this->input->get('title').'!' : '!' ?></h3>
-        <div class="th2">
-            For immediate assistant <span class="phoneno"><a href="tel:+919019011888" style="text-decoration:none;color:#333">+919019011888</a></span>
-        </div>
-    </div>
-</div>-->
+       <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+             <?=$builders[0]->description;?>
+        </div> 
+</div> 
  
     <?php
  
