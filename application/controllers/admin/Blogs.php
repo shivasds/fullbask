@@ -106,6 +106,7 @@ class Blogs extends Admin_Controller
                         'meta_desc' => $this->input->post('meta_desc'),
                         'author' => $this->input->post('author'),
                         'slug' => $slug,
+                        'blog_type' =>  $this->input->post('blog_type'),
                         'category_id' => $this->input->post('category'),
                         'content' => $this->input->post('content'),
                         'image' => $image,
@@ -219,6 +220,7 @@ class Blogs extends Admin_Controller
                     'category_id' => $this->input->post('category') ? $this->input->post('category') : $blog->category_id,
                     'content' => $this->input->post('content') ? $this->input->post('content') : $blog->content,
                     'image' => $image,
+                    'blog_type' =>  $this->input->post('blog_type'),
                     'alt_title'=>$this->input->post('alt_title') ? $this->input->post('alt_title') : $blog->alt_title,
                     'image_desc'=>$this->input->post('image_description') ? $this->input->post('image_description') : $blog->image_desc,
                     'date' => $this->input->post('date', $blog->date)
