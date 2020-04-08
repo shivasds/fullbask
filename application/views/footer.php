@@ -6,6 +6,20 @@
     width: 89px!important;
     background-color: #eeeeee!important;
 }
+.footer_property{
+    font-size: 13px!important;
+}
+.footer_property .col-md-2{
+    width: 19.666667%;
+}
+.footer_property h4{
+    color: #1b1a1a;
+    font-size: 16px;
+    border-bottom: 1px solid #565252;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    
+}
 /* .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel] {
     padding-left: 25px!important;
 } */
@@ -348,15 +362,19 @@ input.separate-dial-code .selected-dial-code {
 
         <!-- Qiuck links -->
         <?php $property_type=json_decode(json_encode($property_type),true);  ?>
-        <div class="row">
-           <h3>Property Type</h3>
-            <div class="col-md-3 col-sm-4">
+        <div class="row footer_property">
+           <h3>Easy Links for your search</h3>
+         
+            <div class="col-md-2 col-sm-4">
+            
               <ul> 
+              <h4>Heading</h4>
                 <?php
-                for($i=0;$i<=3;$i++) {
+                for($i=0;$i<=2;$i++) {
                 if(!$property_type[$i]['city'])
                                     {
-                echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                echo " <li>
+                 <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
                                     }
                     else
                     {
@@ -369,10 +387,11 @@ input.separate-dial-code .selected-dial-code {
               </ul>
             </div>
 
-            <div class="col-md-3 col-sm-4">
+            <div class="col-md-2 col-sm-4">
              <ul>
+             <h4>Heading</h4>
                  <?php
-                for($i=4;$i<=7;$i++) {
+                for($i=3;$i<=5;$i++) {
                     if(!$property_type[$i]['city'])
                     {
                      echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
@@ -386,10 +405,11 @@ input.separate-dial-code .selected-dial-code {
              </ul>
             </div>
             
-            <div class="col-md-3 col-sm-4">
+            <div class="col-md-2 col-sm-4">
                 <ul>
+                <h4>Heading</h4>
                    <?php
-                for($i=8;$i<=11;$i++) {
+                for($i=6;$i<=8;$i++) {
                     if(!$property_type[$i]['city'])
                                         {
                     echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
@@ -403,8 +423,27 @@ input.separate-dial-code .selected-dial-code {
                 </ul>
             </div>
            
-            <div class="col-md-3 col-sm-4">
+            <div class="col-md-2 col-sm-4">
                  <ul>
+                 <h4>Heading</h4>
+                   <?php
+                for($i=9;$i<=11;$i++) {
+                if(!$property_type[$i]['city'])
+                                    {
+                echo " <li> <a href=".base_url('listing')."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                    }
+                    else
+                    {
+                        echo " <li> <a href=".base_url('city/').$property_type[$i]['city']."?place=".$property_type[$i]['search_key']." target='_blank'>".$property_type[$i]['name']."</a></li>";
+                    }
+                } 
+                ?>
+                </ul>
+            </div>
+
+            <div class="col-md-2 col-sm-4">
+                 <ul>
+                 <h4>Heading</h4>
                    <?php
                 for($i=12;$i<=19;$i++) {
                 if(!$property_type[$i]['city'])
