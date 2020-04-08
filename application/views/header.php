@@ -60,7 +60,17 @@
                                 <li class="<?= $this->uri->segment(1) == '' ? 'active' : '' ?>"><a href="<?= site_url() ?>">HOME</a></li>
                                 <li class="<?= $this->uri->segment(1) == 'listing' ? 'active' : '' ?>"><a href="<?= site_url('listing') ?>">PROPERTIES</a></li>
                                 <li class="<?= $this->uri->segment(1) == 'about' ? 'active' : '' ?>"><a href="<?= site_url('about') ?>">ABOUT</a></li>
-                                <li class="<?= $this->uri->segment(1) == 'blog' ? 'active' : '' ?>"><a href="<?=site_url('blog')?>">BLOG</a></li>
+                                  <li class="blog-select">
+                                    <div class="btn-group">
+                                        <button type="button" id="" class="btn btn-blog dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        BLOG
+                                        </button>
+                                        <ul id="" class="dropdown-menu gradient">
+                                            <li><a>Link 1</a></li>
+                                            <li><a>Link 2</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
                                 <li class="<?= $this->uri->segment(1) == 'contact' ? 'active' : '' ?>"><a href="<?=site_url('contact')?>">CONTACT</a></li>
                                 <li class="city_select">
                                     <div class="btn-group pull-right">
@@ -75,17 +85,7 @@
                                         </ul>
                                     </div>
                                 </li>
-                                <li class="blog-select">
-                                    <div class="btn-group">
-                                        <button type="button" id="" class="btn btn-blog dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Select blog
-                                        </button>
-                                        <ul id="" class="dropdown-menu gradient">
-                                            <li><a>Link 1</a></li>
-                                            <li><a>Link 2</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
+                             
                             </ul>
                         </div>
                         
