@@ -36,6 +36,13 @@ class Blogs_model extends MY_Model {
                         ->get()
                         ->row();
     }
+     public function getBlogType($blog_type) {
+        return $this->db->select('*')
+                        ->from('blog') 
+                        ->where($blog_type)
+                        ->get()
+                        ->result();
+    }
 
     public function checkIfSlugExists($str, $id) {
         return $this->db->select('*')
