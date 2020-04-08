@@ -94,8 +94,11 @@ body {
 }
 
 .navbar-default .navbar-nav > .active > a {
-    background-color: #fff;
-    color: #0e82d4!important;
+    color: #fff!important;
+    border-radius: 20px;
+    margin-top: 6%;
+    line-height: 8px;
+    background-image: linear-gradient( to right,rgb(79, 94, 182),rgba(113, 212, 138, 0.658))!important;
     /* color: #e82d8e!important; */
 }
 
@@ -104,7 +107,7 @@ body {
     border-radius: 20px;
     margin-top: 6%;
     line-height: 8px;
-    background-image: linear-gradient( to right,rgb(79, 94, 182),rgba(113, 212, 138, 0.658));
+    background-image: linear-gradient(to right, rgb(221, 130, 94) 0%, rgb(212, 113, 179) 51%, #DD5E89 100%)
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -595,6 +598,7 @@ footer h3 {
     padding-bottom: 5px;
     margin-bottom: 15px;
     color: #717171;
+    text-align: center;
 }
 
 footer hr {
