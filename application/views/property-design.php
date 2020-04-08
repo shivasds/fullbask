@@ -701,8 +701,8 @@
                                     </li>
                                     <li class="sp-menu-item"><a href="#section-id-1507611938" class="m-link">Configuration</a>
                                     </li>
-                                    <!-- <li class="sp-menu-item"><a href="#section-id-1507611991" class="m-link">amenities</a>
-                                    </li> -->
+                                    <li class="sp-menu-item"><a href="#section-id-1507611991" class="m-link">amenities</a>
+                                    </li>
                                     <li class="sp-menu-item"><a href="#section-id-1507611941" class="m-link">Gallery</a>
                                     </li>
                                     <li class="sp-menu-item"><a href="#section-id-1507611944" class="m-link">location</a>
@@ -1346,7 +1346,7 @@
                                     </div>
                                 </section>
 
-                                <!-- <section id="section-id-1507611991" class="sppb-section i-section resort-discount wow">
+                                <section id="section-id-1507611991" class="sppb-section i-section resort-discount wow">
                                     <div class="overlay" style="padding-bottom: 50px;">
                                         <div class="" style="width: 94%; margin: 0px auto;">
                                             <div class="sppb-row">
@@ -1524,7 +1524,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </section> -->
+                                </section>
 
                                 <section id="section-id-1507611941" class="sppb-section  resort-title-heading wow">
                                     <div class="sppb-row-container">
@@ -2012,8 +2012,8 @@
                             </li>
                             <!--<li class="item-550"><a href="#section-id-1507611930" class="m-link">Specifications</a>
                             </li>-->
-                            <!-- <li class="item-548"><a href="#section-id-1507611991" class="m-link">Amenities</a>
-                            </li> -->
+                            <li class="item-548"><a href="#section-id-1507611991" class="m-link">Amenities</a>
+                            </li>
                             <li class="item-548"><a href="#section-id-1507611941" class="m-link">Gallery</a>
                             </li>
                             <li class="item-548"><a href="#section-id-1507611944" class="m-link">Location</a>
