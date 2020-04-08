@@ -368,7 +368,7 @@ input.separate-dial-code .selected-dial-code {
             <div class="col-md-2 col-sm-4">
             
               <ul> 
-              <h4>Properties In Bangalore</h4>
+              <!-- <h4>Properties In Bangalore</h4> -->
                 <?php
                 for($i=0;$i<=2;$i++) {
                 if(!$property_type[$i]['city'])
