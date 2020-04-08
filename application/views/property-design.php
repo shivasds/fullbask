@@ -1217,6 +1217,14 @@
                             <?php
                         }
                         ?>-->
+                        <?php
+                        $items = $this->properties_model->getPropertySpecification($property->id,
+                                                    $specifications->id) != null;
+                        if($item)
+                        {
+
+                            ?>
+                           
                                 <section id="section-id-1507611930" class="sppb-section rooms-suits" style="background: #f3f3f3;">
                                     <div class="sppb-row-container">
                                         <div class="sppb-section-title sppb-text-center">
@@ -1345,7 +1353,11 @@
 
                                     </div>
                                 </section>
+ <?php
+                        }
 
+
+                        ?>
                                 <section id="section-id-1507611991" class="sppb-section i-section resort-discount wow">
                                     <div class="overlay" style="padding-bottom: 50px;">
                                         <div class="" style="width: 94%; margin: 0px auto;">
@@ -1818,8 +1830,12 @@
     </div>
 
     </section>
+<?php
+if($property->usp!='')
+{
+    ?>
 
-    <!--  <section id="section-id-1507611944" class="sppb-section wow">
+      <section id="section-id-1507611944" class="sppb-section wow">
                                    <div class="container">
 
                                     <div class="sppb-row">
@@ -1832,19 +1848,8 @@
                                         <br>
                                           <br>
                                         <div class="sppb-col-sm-12">
-										<p style="text-align: center;"> 
-                                        - Transportation: MMTS, Metro, RTC Buses and Airport (ORR).<br/>
-                                        - Education: CHIREC School, Arbor School, Jain Heritage School, Hyderabad University
-                                        (UoH), ISB, IIIT, NIFT and more.<br/>
-                                        - Healthcare: Apollo Cradle, KIMS, Care, AIG,
-                                        Citizen, Continental, Century, Pace, Rainbow,
-                                        Max vision and others.<br/>
-                                        - Lifestyle & recreation: Sharath City Mall,
-                                        Ratnadeep, HeritageFresh, Botanical
-                                        Gardens, Cycling Track, Marriott Hotel,
-                                        Radisson Blu Hotel, Le Meridien Hotel,
-                                        Trident Hotel, ITC Kohenur, IKEA,
-                                        Shilparamam, cultural centers and more<br/> 
+										
+                                        <?=$property->usp;?>
                                         </p>
 
                                        </div>
@@ -1857,7 +1862,10 @@
                                     </div> 
                                 </div>
 
-                            </section>-->
+                            </section>
+                              <?php
+}
+?>
 
     <section id="section-id-1507611947" class="sppb-section resort-title-heading resort-location-wrapper resort-discount wow">
         <div class="overlay" style="padding-bottom: 50px;">

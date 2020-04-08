@@ -200,7 +200,7 @@ class Properties extends Admin_Controller
                 if ($check) {
                     $slug = strtolower(url_title($this->input->post('title'))) . uniqid(5);
                 }
-
+                
                 if (isset($_FILES) && isset($_FILES["uploadfile"]['tmp_name']) && $_FILES["uploadfile"]['tmp_name']) {
                     $file = $_FILES["uploadfile"]['tmp_name'];
                     $path = './uploads/' . $slug . '/';
@@ -309,7 +309,60 @@ if (isset($_FILES) && isset($_FILES["brochure"]['tmp_name']) && $_FILES["brochur
 
 
 
-$property_id = $this->properties_model->insertRow($data, 'properties');
+$property_id = $this->properties_model->insertRow($data, 'properties'); 
+                if (isset($_FILES) && isset($_FILES["banners"]['tmp_name']) && $_FILES["banners"]['tmp_name']) {
+                    $path = './uploads/' . $slug ;
+                    if (!is_dir($path)) {
+                        mkdir($path, 0777, true);
+                    }
+                    $file_type = 'gif|jpg|jpeg|png';
+                     $config = $this->set_upload_options($path, $file_type);
+                    $this->upload->initialize($config);
+                    if ($this->upload->do_upload('banners')) { 
+                        $banner = $this->upload->data('file_name');
+                    }
+                    //$this->properties_model->updateWhere(array('property_id' => $id), $data1, 'properties');
+                    $data1 = array(
+                    "property_id"=>$property_id,
+                    "banner_path" =>"uploads/".$slug."/".$banner
+                    );
+                    $this->properties_model->insertRow($data1, 'property_desktop_banners');
+                }
+                if (isset($_FILES) && isset($_FILES["mobilebanners"]['tmp_name']) && $_FILES["mobilebanners"]['tmp_name']) {
+                    $path = './uploads/' . $slug ;
+                    if (!is_dir($path)) {
+                        mkdir($path, 0777, true);
+                    }
+                    $file_type = 'gif|jpg|jpeg|png';
+                     $config = $this->set_upload_options($path, $file_type);
+                    $this->upload->initialize($config);
+                    if ($this->upload->do_upload('mobilebanners')) { 
+                        $mobilebanners = $this->upload->data('file_name');
+                    }
+                     $data1 = array(
+                    "property_id"=>$property_id,
+                    "mobile_banner_path" =>"uploads/".$slug."/".$mobilebanners
+                    );
+                    $this->properties_model->insertRow($data1, 'property_mobile_banners');
+
+                }
+                if (isset($_FILES) && isset($_FILES["logo_1"]['tmp_name']) && $_FILES["logo_1"]['tmp_name']) {
+                    $path = './uploads/' . $slug . '/logos/';
+                   // print_r($this->upload->data());die;
+                    $this->properties_model->insertRow(array(
+                            'property_id' => $property_id,
+                            'logo_1' => $this->upload->data('file_name'),
+                        ), 'property_logo');
+                    if (!is_dir($path)) {
+                        mkdir($path, 0777, true);
+                    }
+                    $file_type = '*';
+                    $config = $this->set_upload_options($path, $file_type);
+                    $this->upload->initialize($config);
+                    if ($this->upload->do_upload('logo_1')) {
+                        $data['logo_1'] = $this->upload->data('file_name');
+                    }
+                }
 
 /** attach the specifications if any */
 if ($this->input->post('specification')) {
@@ -586,7 +639,56 @@ if ($constructionImages) {
                     /** Additional properties ends here */
                 );
 $this->properties_model->updateWhere(array('id' => $id), $data, 'properties');
+$img = $this->properties_model->getWhere(array("property_id"=>$id),"property_desktop_banners");
 
+if (isset($_FILES) && isset($_FILES["banners"]['tmp_name']) && $_FILES["banners"]['tmp_name']) {
+                    $path = './uploads/' . $slug ;
+                    if (!is_dir($path)) {
+                        mkdir($path, 0777, true);
+                    }
+                    $file_type = 'gif|jpg|jpeg|png';
+                     $config = $this->set_upload_options($path, $file_type);
+                    $this->upload->initialize($config);
+                    if ($this->upload->do_upload('banners')) { 
+                        $banner = $this->upload->data('file_name');
+                    }
+                    //$this->properties_model->updateWhere(array('property_id' => $id), $data1, 'properties');
+                    $data1 = array(
+                    "property_id"=>$id,
+                    "banner_path" =>"uploads/".$slug."/".$banner
+                    );
+                    $data2 =  array( 
+                    "banner_path" =>"uploads/".$slug."/".$banner
+                    );
+                    if(empty($img))
+                    $this->properties_model->insertRow($data1, 'property_desktop_banners');
+                    else
+                    $this->properties_model->updateRow($id, $data2, 'property_id','property_desktop_banners');
+                }
+                if (isset($_FILES) && isset($_FILES["mobilebanners"]['tmp_name']) && $_FILES["mobilebanners"]['tmp_name']) {
+                    $path = './uploads/' . $slug ;
+                    if (!is_dir($path)) {
+                        mkdir($path, 0777, true);
+                    }
+                    $file_type = 'gif|jpg|jpeg|png';
+                     $config = $this->set_upload_options($path, $file_type);
+                    $this->upload->initialize($config);
+                    if ($this->upload->do_upload('mobilebanners')) { 
+                        $mobilebanners = $this->upload->data('file_name');
+                    }
+                     $data1 = array(
+                    "property_id"=>$id,
+                    "mobile_banner_path" =>"uploads/".$slug."/".$mobilebanners
+                    );
+                     $data2 =  array( 
+                   "mobile_banner_path" =>"uploads/".$slug."/".$mobilebanners
+                    );
+                     if(empty($img))
+                    $this->properties_model->insertRow($data1, 'property_mobile_banners');
+                    else
+                    $this->properties_model->updateRow($id, $data2, 'property_id','property_mobile_banners');
+
+                }
 if (isset($_FILES) && isset($_FILES["map"]['tmp_name']) && $_FILES["map"]['tmp_name']) {
     $path = './uploads/' . $slug . '/map/';
     if (!is_dir($path)) {
@@ -605,6 +707,7 @@ if (isset($_FILES) && isset($_FILES["map"]['tmp_name']) && $_FILES["map"]['tmp_n
     }
 }
 
+ 
 if (isset($_FILES) && isset($_FILES["brochure"]['tmp_name']) && $_FILES["brochure"]['tmp_name']) {
     $path = './uploads/' . $slug . '/brochure/';
     if (!is_dir($path)) {
@@ -700,6 +803,31 @@ if ($constructionImages) {
                 }
                 */
                 /** Elevations Images */
+
+$img = $this->properties_model->getWhere(array("property_id"=>$id),"property_logo");
+
+                if (isset($_FILES) && isset($_FILES["logo_1"]['tmp_name']) && $_FILES["logo_1"]['tmp_name']) {
+                    $path = './uploads/' . $slug . '/logos/';
+                   // print_r($this->upload->data());die;
+                   
+                    if (!is_dir($path)) {
+                        mkdir($path, 0777, true);
+                    }
+                    $file_type = '*';
+                    $config = $this->set_upload_options($path, $file_type);
+                    $this->upload->initialize($config);
+                    if ($this->upload->do_upload('logo_1')) {
+                        $data['logo_1'] = $this->upload->data('file_name');
+                    } 
+                     if(empty($img))
+                    $this->properties_model->insertRow(array(
+                            'property_id' => $id,
+                            'logo_1' => $this->upload->data('file_name'),
+                        ), 'property_logo');
+                    else
+                    $this->properties_model->updateRow($id, array("logo_1"=>$this->upload->data('file_name')), 'property_id','property_logo');
+                     
+                }
                 $elevationsImages = $this->input->post('elevationsimages');
                 if ($elevationsImages) {
                     foreach ($elevationsImages as $image) {
@@ -1195,28 +1323,28 @@ if ($amenities) {
 }
 
 /** Gallery Images */
-$banners = $this->input->post('banners');
-if ($banners) {
-    foreach ($banners as $image) {
-        $exploded = explode('/', $image);
-        $this->properties_model->insertRow(array(
-            'property_id' => $property_id,
-            'banner_path' => 'uploads/' . $slug . '/' . end($exploded)
-        ), 'property_desktop_banners');
-        rename($image, 'uploads/' . $slug . '/' . end($exploded));
-    }
-}
-$mobilebanners = $this->input->post('mobilebanners');
-if ($mobilebanners) {
-    foreach ($mobilebanners as $image) {
-        $exploded = explode('/', $image);
-        $this->properties_model->insertRow(array(
-            'property_id' => $property_id,
-            'mobile_banner_path' => 'uploads/' . $slug . '/' . end($exploded)
-        ), 'property_mobile_banners');
-        rename($image, 'uploads/' . $slug . '/' . end($exploded));
-    }
-}
+// $banners = $this->input->post('banners');
+// if ($banners) {
+//     foreach ($banners as $image) {
+//         $exploded = explode('/', $image);
+//         $this->properties_model->insertRow(array(
+//             'property_id' => $property_id,
+//             'banner_path' => 'uploads/' . $slug . '/' . end($exploded)
+//         ), 'property_desktop_banners');
+//         rename($image, 'uploads/' . $slug . '/' . end($exploded));
+//     }
+// }
+// $mobilebanners = $this->input->post('mobilebanners');
+// if ($mobilebanners) {
+//     foreach ($mobilebanners as $image) {
+//         $exploded = explode('/', $image);
+//         $this->properties_model->insertRow(array(
+//             'property_id' => $property_id,
+//             'mobile_banner_path' => 'uploads/' . $slug . '/' . end($exploded)
+//         ), 'property_mobile_banners');
+//         rename($image, 'uploads/' . $slug . '/' . end($exploded));
+//     }
+// }
 $gallery = $this->input->post('images');
 if ($gallery) {
     foreach ($gallery as $image) {
