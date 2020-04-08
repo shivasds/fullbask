@@ -315,8 +315,7 @@ class Blogs extends Admin_Controller
         $data['content'] = $this->load->view('admin/blogs/add_blog_category', $content_data, true);
         $this->load->view($this->template, $data);
     }
-
-    public function blog_categories()
+     public function blog_categories()
     {
 
         $content = $this->input->get('content');
@@ -347,8 +346,7 @@ class Blogs extends Admin_Controller
         $data['content'] = $this->load->view('admin/blogs/blog_categories', $content_data, true);
         $this->load->view($this->template, $data);
     }
-
-    public function edit_blog_category($id)
+        public function edit_blog_category($id)
     {
         $get_categ = $this->blogs_model->getOneWhere(array('id' => $id), 'blog_category');
         if (!$get_categ) {
@@ -395,6 +393,114 @@ class Blogs extends Admin_Controller
             $this->blogs_model->updateWhere(array('id' => $id), array('status' => 0), 'blog_category');
             $this->session->set_flashdata('message', 'Category ' . $get_categ->name . ' Deleted Successfully');
             redirect(site_url('admin/blogs/blog_categories'));
+        }
+    }
+
+    public function add_blog_type()
+    {
+        if ($this->input->post()) {
+            $this->form_validation->set_rules('type_name', 'Blog Type Name', 'trim|required');
+            if ($this->form_validation->run() != false) {
+                $slug = strtolower(url_title($this->input->post('type_name')));
+                $check = $this->blogs_model->getOneWhere(array('blog_type' => $slug), 'blog_type');
+                if ($check) {
+                    $slug = strtolower(url_title($this->input->post('type_name'))) . uniqid(5);
+                }
+                $this->blogs_model->insertRow(array('blog_type' => $this->input->post('type_name'), 'slug' => $slug,'date_created'=> date('Y-m-d')),
+                    'blog_type');
+                $this->session->set_flashdata('message', 'Blog Type Added Successfully');
+                redirect(site_url('admin/blogs/add_blog_type'));
+            }
+        }
+        // setup page header data
+        $this->set_title(lang('blogs title addCategory'));
+        $data = $this->includes;
+        // set content data
+        $content_data = '';
+
+        $data['content'] = $this->load->view('admin/blogs/blog_types/add_blog_type', $content_data, true);
+        $this->load->view($this->template, $data);
+    }
+    
+    public function blog_types()
+    {
+
+        $content = $this->input->get('content');
+
+        $perpage = 10;
+        $base_url = site_url('admin/blogs/blog_types');
+        $uri_segment = 4;
+        $page = ($this->uri->segment(4)) ? $this->uri->segment(4) : 1;
+
+        if ($this->input->get('search')) {
+            $page = 1;
+            unset($_GET['search']);
+        }
+
+        $total = $this->blogs_model->loadBlogTypes(0, 0, true, $content);
+
+        $this->data['blog_type'] = $this->blogs_model->loadBlogTypes($perpage, $page, false, $content);
+        $this->data['pagination'] = $this->paginate($perpage, $total, $base_url, $uri_segment, $class = "");
+        $this->data['page'] = $page;
+        $this->data['perpage'] = $perpage;
+
+        // setup page header data
+        $this->set_title(lang('blogs title blogCategories'));
+        $data = $this->includes;
+        // set content data
+        $content_data = $this->data;
+
+        $data['content'] = $this->load->view('admin/blogs/blog_types/blog_types', $content_data, true);
+        $this->load->view($this->template, $data);
+    }
+
+    public function edit_blog_type($id)
+    {
+        $get_categ = $this->blogs_model->getOneWhere(array('id' => $id), 'blog_type');
+        if (!$get_categ) {
+            redirect(site_url());
+        } else {
+            if ($this->input->post()) {
+                $this->form_validation->set_rules('blog_type_name', 'Blog Type  Name', 'trim|required');
+
+                if ($this->form_validation->run() != false) {
+                    if ($this->input->post('blog_type_name')) {
+                        $slug = strtolower(url_title($this->input->post('blog_type_name')));
+                        $check = $this->blogs_model->checkIfCategSlugExists($slug, $id);
+                        if ($check) {
+                            $slug = strtolower(url_title($this->input->post('blog_type_name'))) . uniqid(5);
+                        }
+                    } else {
+                        $slug = $get_categ->slug;
+                    }
+                    $name = $this->input->post('blog_type_name') ? $this->input->post('blog_type_name') : $get_categ->name;
+                    $this->blogs_model->updateWhere(array('id' => $id), array('blog_type' => $name, 'slug' => $slug),
+                        'blog_type');
+                    $this->session->set_flashdata('message', 'Type ' . $get_categ->name . ' Edited Successfully');
+                    redirect(site_url('admin/blogs/blog_types'));
+                }
+            }
+        }
+        $this->data['blog_type'] = $this->blogs_model->getOneWhere(array('id' => $id), 'blog_type');
+        // setup page header data
+        $this->set_title(lang('blogs title editCategory'));
+        $data = $this->includes;
+        // set content data
+        $content_data = $this->data;
+
+        $data['content'] = $this->load->view('admin/blogs/blog_types/edit_blog_type', $content_data, true);
+        $this->load->view($this->template, $data);
+    }
+
+    public function delete_blog_type($id)
+    {
+        $get_categ = $this->blogs_model->getOneWhere(array('id' => $id), 'blog_type');
+        if (!$get_categ) {
+            redirect(site_url());
+        } else {
+            $this->blogs_model->updateWhere(array('id' => $id), array('status' => 0), 'blog_type');
+            $this->session->set_flashdata('message', 'Blog Type ' . $get_categ->name . ' Deleted Successfully');
+            redirect(site_url('admin/blogs/blog_types'));
         }
     }
 

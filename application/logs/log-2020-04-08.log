@@ -446,3 +446,54 @@ ERROR - 2020-04-08 12:51:09 --> 404 Page Not Found:
 ERROR - 2020-04-08 12:51:09 --> 404 Page Not Found: 
 ERROR - 2020-04-08 12:51:10 --> 404 Page Not Found: 
 ERROR - 2020-04-08 12:51:10 --> 404 Page Not Found: 
+ERROR - 2020-04-08 10:07:56 --> Severity: Compile Error --> Cannot redeclare Blogs::edit_blog_category() F:\FBP.com\application\controllers\admin\Blogs.php 457
+ERROR - 2020-04-08 13:40:26 --> Query error: Unknown column 'slug' in 'where clause' - Invalid query: SELECT *
+FROM `blog_type`
+WHERE `slug` = 'real-estate'
+ERROR - 2020-04-08 13:41:10 --> Query error: Unknown column 'name' in 'where clause' - Invalid query: SELECT *
+FROM `blog_type`
+WHERE `name` = 'real-estate'
+ERROR - 2020-04-08 13:41:27 --> Severity: Warning --> A non-numeric value encountered F:\FBP.com\application\models\Blogs_model.php 22
+ERROR - 2020-04-08 13:41:27 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10, 10' at line 5 - Invalid query: SELECT *
+FROM `blog_category`
+WHERE `status` = 1
+ORDER BY `id` DESC
+ LIMIT -10, 10
+ERROR - 2020-04-08 13:42:14 --> Severity: Warning --> A non-numeric value encountered F:\FBP.com\application\models\Blogs_model.php 22
+ERROR - 2020-04-08 13:42:14 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10, 10' at line 5 - Invalid query: SELECT *
+FROM `blog_category`
+WHERE `status` = 1
+ORDER BY `id` DESC
+ LIMIT -10, 10
+ERROR - 2020-04-08 13:44:17 --> Severity: error --> Exception: syntax error, unexpected ';' F:\FBP.com\application\models\Blogs_model.php 22
+ERROR - 2020-04-08 13:44:34 --> Severity: error --> Exception: syntax error, unexpected '}' F:\FBP.com\application\models\Blogs_model.php 23
+ERROR - 2020-04-08 13:44:54 --> Severity: Warning --> A non-numeric value encountered F:\FBP.com\application\models\Blogs_model.php 41
+ERROR - 2020-04-08 13:44:54 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10, 10' at line 5 - Invalid query: SELECT *
+FROM `blog_category`
+WHERE `status` = 1
+ORDER BY `id` DESC
+ LIMIT -10, 10
+ERROR - 2020-04-08 13:46:07 --> Severity: Warning --> A non-numeric value encountered F:\FBP.com\application\views\admin\blogs\blog_types\blog_types.php 39
+ERROR - 2020-04-08 13:46:07 --> Severity: Warning --> A non-numeric value encountered F:\FBP.com\application\views\admin\blogs\blog_types\blog_types.php 39
+ERROR - 2020-04-08 13:46:07 --> Severity: Warning --> A non-numeric value encountered F:\FBP.com\application\views\admin\blogs\blog_types\blog_types.php 39
+ERROR - 2020-04-08 13:46:07 --> Severity: Warning --> A non-numeric value encountered F:\FBP.com\application\views\admin\blogs\blog_types\blog_types.php 39
+ERROR - 2020-04-08 13:46:07 --> Severity: Warning --> A non-numeric value encountered F:\FBP.com\application\views\admin\blogs\blog_types\blog_types.php 39
+ERROR - 2020-04-08 13:47:06 --> Query error: Unknown column 'blog_type' in 'field list' - Invalid query: INSERT INTO `blog_category` (`blog_type`, `slug`) VALUES ('Real', 'real')
+ERROR - 2020-04-08 10:17:49 --> Severity: error --> Exception: syntax error, unexpected ';', expecting ')' F:\FBP.com\application\controllers\admin\Blogs.php 410
+ERROR - 2020-04-08 13:48:07 --> Severity: Warning --> A non-numeric value encountered F:\FBP.com\application\views\admin\blogs\blog_types\blog_types.php 39
+ERROR - 2020-04-08 13:48:07 --> Severity: Warning --> A non-numeric value encountered F:\FBP.com\application\views\admin\blogs\blog_types\blog_types.php 39
+ERROR - 2020-04-08 13:48:07 --> Severity: Warning --> A non-numeric value encountered F:\FBP.com\application\views\admin\blogs\blog_types\blog_types.php 39
+ERROR - 2020-04-08 13:48:07 --> Severity: Warning --> A non-numeric value encountered F:\FBP.com\application\views\admin\blogs\blog_types\blog_types.php 39
+ERROR - 2020-04-08 13:49:41 --> Query error: Unknown column 'slug' in 'field list' - Invalid query: INSERT INTO `blog_type` (`blog_type`, `slug`) VALUES ('dfghdfgh', 'dfghdfgh')
+ERROR - 2020-04-08 14:05:19 --> Query error: Unknown column 'name' in 'field list' - Invalid query: UPDATE `blog_type` SET `name` = 'dfgdgf', `slug` = 'dfgdgf'
+WHERE `id` = '1'
+ERROR - 2020-04-08 14:09:58 --> Query error: Unknown column 'name' in 'where clause' - Invalid query: SELECT *
+FROM `blog_type`
+WHERE `name` LIKE '%re%' ESCAPE '!'
+AND `status` = 1
+ORDER BY `id` DESC
+ERROR - 2020-04-08 14:11:57 --> Query error: Unknown column 'name' in 'where clause' - Invalid query: SELECT *
+FROM `blog_type`
+WHERE `name` LIKE '%r%' ESCAPE '!'
+AND `status` = 1
+ORDER BY `id` DESC

@@ -3,15 +3,15 @@
         <div class="col-xs-12">
             <div class="box">
                 <div class="box-header">
-                    <h3 class="box-title">Blog Categories List</h3>
+                    <h3 class="box-title">Blog Types List</h3>
                 </div>
                 <!-- /.box-header -->
-                <div class="box box-primary">
+               <!--  <div class="box box-primary">
                     <form name="searchform" method="get" action="">
                         <div class="box-body">
                             <div class="input-group">
                                 <div class="" style="padding-left: 0;">
-                                    <input type="text" name="content" placeholder="Enter the blog category" class="form-control" value="<?= $this->input->get('content') ?>"/>
+                                    <input type="text" name="content" placeholder="Enter the blog Type" class="form-control" value="<?= $this->input->get('content') ?>"/>
                                 </div>
                                 <div class="input-group-btn">
                                     <button type="submit" class="btn btn-primary" name="search" value="true">Search</button>
@@ -20,7 +20,7 @@
                             </div>
                         </div>
                     </form>
-                </div><!-- /.box -->
+                </div> --><!-- /.box -->
                 <div class="box-body">
                     <table id="example2" class="table table-bordered table-hover">
                         <thead>
@@ -32,15 +32,15 @@
                         </thead>
                         <tbody>
                             <?php
-                            if ($types) {
-                                foreach ($types as $key => $value) {
+                            if ($blog_type) {
+                                foreach ($blog_type as $key => $value) {
                                     ?>
                                     <tr>
                                         <td><?= (($page - 1) * $perpage + ($key + 1)) ?></td>
-                                        <td><?= $value->name ?></td>
+                                        <td><?= $value->blog_type ?></td>
                                         <td style="width:10%;">
-                                            <a href="<?= site_url('admin/blogs/delete_blog_category/' . $value->id) ?>" onclick="return confirm('Are you sure you want to delete the category <?= $value->name ?>');" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></a>
-                                            <a href="<?= site_url('admin/blogs/edit_blog_category/' . $value->id) ?>" class="btn btn-primary btn-sm"><i class="fa fa-edit"></i></a>
+                                            <a href="<?= site_url('admin/blogs/delete_blog_type/' . $value->id) ?>" onclick="return confirm('Are you sure you want to delete the blog type <?= $value->blog_type ?>');" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></a>
+                                            <a href="<?= site_url('admin/blogs/edit_blog_type/' . $value->id) ?>" class="btn btn-primary btn-sm"><i class="fa fa-edit"></i></a>
                                         </td>
                                     </tr>
                                     <?php

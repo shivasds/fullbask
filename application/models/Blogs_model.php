@@ -27,6 +27,25 @@ class Blogs_model extends MY_Model {
         }
         return $data->result();
     }
+     public function loadBlogTypes($perpage, $page, $count, $content = "") {
+        $data = array();
+        $this->db->select('*')
+                ->from('blog_type');
+
+        if ($content != NULL) {
+            $this->db->or_like('name', trim($content));
+        }
+        $this->db->where('status', 1);
+        $this->db->order_by("id", "DESC");
+        // if ($perpage != 0 || $page != 0) {
+        //     $this->db->limit($perpage, (($page - 1) * $perpage));
+        // }
+        $data = $this->db->get();
+        if ($count) {
+            return $data->num_rows();
+        }
+        return $data->result();
+    }
 
     public function getBlog($blog_id) {
         return $this->db->select('b.*, bc.name as category_name')
