@@ -26,10 +26,11 @@
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+    color: black;
+    padding: 3px 20px;
+    text-decoration: none;
+    display: block;
+    line-height: 2;
 }
 
 .dropdown-content a:hover {background-color: #ddd;}
@@ -60,7 +61,7 @@
 <div class="container">
     <div class="dropdown">
     <button class="dropbtn">Dropdown</button>
-    <div class="dropdown-content">
+    <div class="dropdown-content ">
         <a href="#">Link 1</a>
         <a href="#">Link 2</a>
         <a href="#">Link 3</a>
