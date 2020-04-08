@@ -9,11 +9,11 @@ if (!defined('BASEPATH'))
         if($sliders) {
             $i = 0;
             foreach ($sliders as $slider) { ?>
-                <div class="<?= $i ? '' : 'active' ?> item fadeInRight animated" style="background: url(<?= base_url('uploads/sliders/' . $slider->image) ?>);">
-                    <div class="carousel-caption fadeInUp animated">
+                <div class="<?= $i ? '' : 'active' ?> item fadeInRight animated" style="background: url(<?= base_url('uploads/'.$slider->slug.'/' . $slider->image) ?>);">
+                   <!--  <div class="carousel-caption fadeInUp animated">
                         <h1><b><?= $slider->title ?></b></h1>
                         <p><?= $slider->heading ?></p>
-                    </div>
+                    </div> -->
                 </div>
                 <?php 
                 $i++;

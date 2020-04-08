@@ -33,6 +33,7 @@ class Builders extends Public_Controller
            
             $this->data['builders'] = $this->home_model->getWhere(array('name' => $builderName), 'builders');
 
+
             $builder  = $this->bm->getBuilderById('id', ['name'=>$builderName]);
             $this->data['similar_builder_property'] = $this->properties_model->getPropertiesByLimit(array('p.builder_id' =>$builder['id'], 'p.slug !='=>$property), 0, 10);
         }
@@ -44,9 +45,8 @@ class Builders extends Public_Controller
              
         } 
 
-
-        $this->data['sliders'] = $this->home_model->order_by('id', 'desc')->getWhere(array('status' => 1, 'type'=>'T'), 'sliders');
-       $this->data['view_page'] = 'builder_properties';
+        $this->data['sliders'] = $this->home_model->order_by('id', 'desc')->getWhere(array('builder_id'=> $this->data['builders'][0]->id), 'properties');
+        $this->data['view_page'] = 'builder_properties';
         $this->load->view('template', $this->data);
     }
     
