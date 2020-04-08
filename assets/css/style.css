@@ -1022,6 +1022,20 @@ footer li a:hover {
     display: block;
     transition: 0.3s;
 }
+
+.sidenav .blog-select .btn-group button {
+    background: #111111;
+    font-weight: 400;
+    /* color: #434445 !important; */
+    padding: 1px 0px 0px 0px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #818181!important;
+    font-family: inherit;
+    padding-left: 0px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+}
 .dot {
     background: #fff;
     width: 20px;
@@ -1129,20 +1143,21 @@ footer li a:hover {
     z-index: 7;
     margin: 0 auto;
     left: 0;
-    right: 0;        
+    right: 0;
     text-align: center;
-    top: 40%; /* Adjust this value to move the positioned div up and down */
+    top: 92%;
     background: rgba(255, 255, 255, 0.8);
     font-family: Arial,sans-serif;
     color: #101010;
-    width: 40%; /* Set the width of the positioned div */
+    width: 40%;
+
 }
 .city-name{
-    /* font-size: 14px; */
+    font-size: 29px!important;
     font-family: monospace;
     /* font-weight: 600; */
-    margin-top: 6px;
-    margin-bottom: 6px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .list-header h3 {
     color: #fff;
@@ -3148,7 +3163,7 @@ a.bld-link{text-decoration: none; color: #fff;}
         position: relative;
     }
   .city-name{
-      font-size: 14px;
+    font-size: 18px!important;
       font-family: monospace;
       font-weight: 600;
       margin-top: 7px;
@@ -3158,15 +3173,15 @@ a.bld-link{text-decoration: none; color: #fff;}
     .box .text{
         position: absolute;
         z-index: 7;
-        margin: 0 auto;
-        left: 0;
-        right: 0;        
+        /* margin: 0 auto; */
+        /* left: initial; */
+        right: inherit;
         text-align: center;
-        top: 30%; /* Adjust this value to move the positioned div up and down */
-        background: rgba(255, 255, 255, 0.8);
+        top: 100%;
+        background: rgb(0, 0, 0);
         font-family: Arial,sans-serif;
-        color: #101010;
-        width: 60%; /* Set the width of the positioned div */
+        color: #ffca0e;
+        width: 60%;
     }
     .menu-section {
         padding: 3px;
