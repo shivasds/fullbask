@@ -1045,7 +1045,7 @@
 
                                                         <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 no-padding banner-patch-content">
                                                             <center>
-                                                                <h4><b>Whastapp</b></h4></center>
+                                                                <h4><b>Whatsapp</b></h4></center>
                                                             <a href="https://api.whatsapp.com/send?phone=918342063684&text=I'm%20interested%20in%20<?= $property->title ? $property->title : '' ?>%20please%20send%20me%20the%20details" target="_blank">
                                                                 <center><img src="<?= base_url('assets/banner_patch/banner-patch-7.png') ?>" class="img-responsive"></center>
                                                             </a>
