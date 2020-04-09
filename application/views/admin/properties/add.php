@@ -379,6 +379,40 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
 
                     </div>
                     <div class="clearfix"></div>
+                     <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="form-group">
+                        <div class="table-responsive">
+                            <table class="table table-hover table-bordered table-stripped">
+                                <caption><strong>Choose Amenities</strong></caption>
+                                <tr>
+                                    <?php
+                                    foreach ($amenities as $i => $amenity) {
+                                       
+                                        ?>
+
+                                        <td>
+                                            <input type="checkbox" name="amenities[]"
+                                            value="<?= $amenity->id ?>" <?php if(($this->session->userdata('amenities'.$amenity->id))==$amenity->id) echo 'checked';  
+else echo "unchecked";
+                                      $b++;      ?> > <img
+                                            src="<?= $amenity->image ? base_url('uploads/amenities/' . $amenity->image) : 'https://placehold.it/32x32' ?>"
+                                            style="width: 32px"
+                                            class="img-rounded"> <?= $amenity->name ?>
+                                        </td>
+
+                                        <?php
+                                        if (($i + 1) % 4 == 0) {
+                                            echo "</tr><tr>";
+                                        }
+                                        
+
+                                    }
+                                    ?>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
                    <!--  <div class="col-sm-6 col-md-6 col-lg-6">
                         <div class="form-group">
                             <label for="property_for" class="control-label">Property For <code>*</code></label>

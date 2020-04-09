@@ -353,7 +353,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
     </div>
 </div>
 <div class="clearfix"></div>
-<!-- <div class="col-sm-12 col-md-12 col-lg-12">
+<div class="col-sm-12 col-md-12 col-lg-12">
     <div class="form-group">
         <div class="table-responsive">
             <table class="table table-hover table-bordered table-stripped">
@@ -387,7 +387,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.2.0/min/dropzone.min.css
             </div>
         </div>
     </div>
-    <div class="clearfix"></div> -->
+    <div class="clearfix"></div>
 
     <!-- Additional Data -->
 <!--     <div class="col-sm-6 col-md-6 col-lg-6">
