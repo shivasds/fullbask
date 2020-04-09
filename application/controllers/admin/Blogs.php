@@ -142,7 +142,7 @@ class Blogs extends Admin_Controller
                     }
 
                     $this->session->set_flashdata('message', 'Blog added Successfully');
-                    redirect('admin/blogs');
+                    redirect('admin/blogs/add_blog');
                 } else {
                     $this->session->set_flashdata('error', 'Image is mandatory');
                     redirect('admin/blogs/add_blog');
