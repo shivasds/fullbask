@@ -1705,7 +1705,7 @@
                                     3)) != null) {
                                         ?>
                                                                 <div class="col-md-12">
-                                                                    <h4>Builder project available with us</h4>
+                                                                    <h4>Suggested Properties Near Your Search Location </h4>
                                                                 </div>
                                                                 <div class="clearfix"></div>
                                                                 <br>
@@ -1751,7 +1751,7 @@
                                     3)) != null) {
                                         ?>
                                                     <div class="col-md-12">
-                                                        <h4>Suggested Properties Near Your Search Location</h4>
+                                                        <h4>Builder project available with us</h4>
                                                     </div>
                                                     <div class="clearfix"></div>
                                                     <br>
