@@ -40,7 +40,7 @@ if (!defined('BASEPATH'))
         </div>
         <h3 class="thank_head">Thank you for your interest<?= ($this->input->get('title')) ? ' in '.$this->input->get('title').'!' : '!' ?></h3>
         <div class="th2">
-            If you neeed immediate assistant <span class="phoneno"><a href="tel:+919019011888" style="text-decoration:none;color:#333">+919019011888</a></span>
+            If you neeed immediate Assistance  <span class="phoneno"><a href="tel:+919019011888" style="text-decoration:none;color:#333">+919019011888</a></span>
         </div>
     </div>
 </div>

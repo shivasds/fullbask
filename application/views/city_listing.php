@@ -245,24 +245,27 @@ $image_name = "all.jpg";
 						<div class="row">
 							<div class="col-sm-4">
 								<label>Price Range(₹):</label>
-								<input id="price" name="price" type="text"/><br/>
+								<!-- <input id="price" name="price" type="text"/><br/>
 								<span class="pull-left">₹20Lacs</span>
-								<span class="pull-right">₹10Crore</span>
+                                <span class="pull-right">₹10Crore</span> -->
+                                <input type="text" id="price" name="price" value="" />
 								<div class="clearfix"></div><br>
 							</div>
 							<div class="col-sm-4">
 								<label>BHK(No Of Bedrooms)</label>
-								<input id="property" name="bhk" type="text"/><br/>
+								<!-- <input id="property" name="bhk" type="text"/><br/>
 								<span class="pull-left">1</span>
-								<span class="pull-right">5</span>
+                                <span class="pull-right">5</span> -->
+                                <input type="text" id="property" name="bhk" value="" />
 								<div class="clearfix"></div><br>
 							</div>
 							<div class="col-sm-4">
 								<label>Size (In Sqft)</label>
-								<input id="baths" name="baths" type="text"/><br/>
+								<!-- <input id="baths" name="baths" type="text"/><br/>
 								<span class="pull-left">300</span>
-								<span class="pull-right">10,000</span>
-								<div class="clearfix"></div><br>
+                                <span class="pull-right">10,000</span>-->
+                                <input type="text" id="baths" name="baths" value="" />
+								<div class="clearfix"></div><br> 
 							</div>
 						</div>
 						<!-- <div class="row">
@@ -410,7 +413,36 @@ $image_name = "all.jpg";
 		</div>
 	</div>
 </div>
+<script type="text/javascript">
+    var lightSlider = true;
+ 
+    $('#price').ionRangeSlider({
+    type: 'double',
+    grid: true,
+    min: 2000000,
+    max: 100000000,
+    prefix: '₹ ' 
+  });
 
+  $('#property').ionRangeSlider({
+    type: 'double',
+    grid: true,
+    min: 1,
+    max: 5,
+    prefix: 'bhk '
+  });
+
+  $('#baths').ionRangeSlider({
+    type: 'double',
+    grid: true,
+    min: 300,
+    max: 1000,
+    prefix: 'sqft '
+  });
+
+
+
+</script>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();

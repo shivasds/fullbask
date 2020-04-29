@@ -365,7 +365,7 @@ input.separate-dial-code .selected-dial-code {
         <div class="row footer_property">
            <h3>Easy Links for your search</h3>
          
-            <div class="col-md-2 col-sm-4">
+            <div class="col-md-2 col-sm-12">
             
               <ul> 
               <!-- <h4>Properties In Bangalore</h4> -->
@@ -387,7 +387,7 @@ input.separate-dial-code .selected-dial-code {
               </ul>
             </div>
 
-            <div class="col-md-2 col-sm-4">
+            <div class="col-md-2 col-sm-12">
              <ul>
             <!--  <h4>Properties In Pune</h4> -->
                  <?php
@@ -405,7 +405,7 @@ input.separate-dial-code .selected-dial-code {
              </ul>
             </div>
             
-            <div class="col-md-2 col-sm-4">
+            <div class="col-md-2 col-sm-12">
                 <ul>
                <!--  <h4>Properties In Hyderabad</h4> -->
                    <?php
@@ -423,7 +423,7 @@ input.separate-dial-code .selected-dial-code {
                 </ul>
             </div>
            
-            <div class="col-md-2 col-sm-4">
+            <div class="col-md-2 col-sm-12">
                  <ul>
                <!--   <h4>Properties In Noida</h4> -->
                    <?php
@@ -441,7 +441,7 @@ input.separate-dial-code .selected-dial-code {
                 </ul>
             </div>
 
-            <div class="col-md-2 col-sm-4">
+            <div class="col-md-2 col-sm-12">
                  <ul>
                <!--   <h4>Properties In Mumbai</h4> -->
                    <?php
@@ -458,7 +458,7 @@ input.separate-dial-code .selected-dial-code {
                 ?>
                 </ul>
             </div>
-            <div class="col-md-2 col-sm-4">
+            <div class="col-md-2 col-sm-12" style="    display: none;">
                  <ul><!-- 
                  <h4>Properties In India</h4> -->
                    <?php

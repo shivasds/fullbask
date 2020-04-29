@@ -136,7 +136,7 @@ if($x==1)
                                 <div class="card-link" data-toggle="modal" data-target="#exampleModal" onclick="geturl(this)">
                                   <img class="card-img-top" comment="<?=$data['comment'];?>" des="<?=$data['image_desc'];?>" style="height: 250px;background-image:url(<?=base_url('uploads/achievements/').$data['image'];?>);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;">
                                 </div>
-                                <div class="card-block" style="min-height: 270px;margin-bottom: 5px;position: relative;">
+                                <div class="card-block" style="min-height: 270px;margin-bottom: 5px;position: relative; display: none;">
                                 <div class="card-link">
                                     <h4 class="card-title mt-3"></h4><h3><?=$data['image_desc'];?></h3>
                                     <?=$data['comment'];?>
@@ -175,7 +175,7 @@ else
                                 <div class="card-link" data-toggle="modal" data-target="#exampleModal" onclick="geturl(this)">
                                   <img class="card-img-top" comment="<?=$data['comment'];?>" des="<?=$data['image_desc'];?>" style="height: 250px;background-image:url(<?=base_url('uploads/achievements/').$data['image'];?>);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;">
                                  </div>
-                                <div class="card-block" style="min-height: 270px;margin-bottom: 5px;position: relative;">
+                                <div class="card-block" style="min-height: 270px;margin-bottom: 5px;position: relative;    display: none;">
                                 <div  class="card-link">
                                     <h4 class="card-title mt-3"></h4><h3><?=$data['image_desc'];?></h3>
                                     <?=$data['comment'];?>

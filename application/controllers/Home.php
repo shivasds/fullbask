@@ -104,9 +104,9 @@ class Home extends Public_Controller
         }
         //echo "<script>alert(".$content.")</script>";
        // print_r($content);die;
-        $content['bhk_range'] = explode(',', $content['bhk']);
-        $content['price_range'] = explode(',', $content['price']);
-        $content['baths_range'] = explode(',', $content['baths']);
+        $content['bhk_range'] = explode(';', $content['bhk']);
+        $content['price_range'] = explode(';', $content['price']);
+        $content['baths_range'] = explode(';', $content['baths']);
         if($this->input->get('builder')!='' && (string)$this->input->get('builder') ) {
             $total      = $this->home_model->loadPropertiesUsingBuilder(0, 0, true, $this->input->get('builder'));
             $properties = $this->home_model->loadPropertiesUsingBuilder($perpage, $page, false, $this->input->get('builder'));

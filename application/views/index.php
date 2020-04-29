@@ -314,22 +314,22 @@ $(document).ready(function(){
                                     <div class="col-sm-4">
                                         <label>Price Range(₹):</label>
                                         <input id="price" name="price" type="text"/><br/>
-                                        <span class="pull-left">₹20 L*</span>
-                                        <span class="pull-right">₹10 Cr*</span>
+                                        <!-- <span class="pull-left">₹20 L*</span>
+                                        <span class="pull-right">₹10 Cr*</span> -->
                                         <div class="clearfix"></div><br>
                                     </div>
                                     <div class="col-sm-4">
                                         <label>BHK(No of Bedrooms)</label>
                                         <input id="property" name="bhk" type="text"/><br/>
-                                        <span class="pull-left">1</span>
-                                        <span class="pull-right">5</span>
+                                        <!-- <span class="pull-left">1</span>
+                                        <span class="pull-right">5</span> -->
                                         <div class="clearfix"></div><br>
                                     </div>
                                     <div class="col-sm-4">
                                         <label>Size(In Sqft)</label>
                                         <input id="baths" name="baths" type="text"/><br/>
-                                        <span class="pull-left">300</span>
-                                        <span class="pull-right">10000</span>
+                                        <!-- <span class="pull-left">300</span>
+                                        <span class="pull-right">10000</span> -->
                                         <div class="clearfix"></div><br>
                                     </div>
                                 </div> 
@@ -786,6 +786,33 @@ $i=0;
 </div><!-- /.modal -->
 <script type="text/javascript">
     var lightSlider = true;
+
+    var lightSlider = true;
+ 
+ $('#price').ionRangeSlider({
+ type: 'double',
+ grid: true,
+ min: 2000000,
+ max: 100000000,
+ prefix: '₹ ' 
+});
+
+$('#property').ionRangeSlider({
+ type: 'double',
+ grid: true,
+ min: 1,
+ max: 5,
+ prefix: 'bhk '
+});
+
+$('#baths').ionRangeSlider({
+ type: 'double',
+ grid: true,
+ min: 300,
+ max: 1000,
+ prefix: 'sqft '
+});
+
 </script>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">

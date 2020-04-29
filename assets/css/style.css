@@ -371,8 +371,46 @@ a.google:hover {
 .slider.slider-horizontal .slider-handle.max-slider-handle {
     margin-left: -10px;
 }
+
+.irs--flat .irs-bar {
+    top: 25px;
+    height: 12px;
+    background-color: #fec601!important;
+}
+.irs--flat .irs-from, .irs--flat .irs-to, .irs--flat .irs-single {
+    color: white;
+    font-size: 10px;
+    line-height: 1.333;
+    text-shadow: none;
+    padding: 1px 5px;
+    background-color: #fec601!important;
+    border-radius: 4px;
+}
+.irs--flat .irs-from:before, .irs--flat .irs-to:before, .irs--flat .irs-single:before {
+    position: absolute;
+    display: block;
+    content: "";
+    bottom: -6px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -3px;
+    overflow: hidden;
+    border: 3px solid transparent;
+    border-top-color: #fec601!important;
+}
+.irs--flat .irs-handle>i:first-child {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    margin-left: -1px;
+    background-color: #000000!important;
+}
 .btn:hover{
-    border: 1px solid #285eca;
+    border: 1px solid #285eca00
 }
 .btn-submit {
     background-color: transparent;
@@ -660,11 +698,6 @@ footer .address i {
     font-size: 20px;
 }
 
-footer ul {
-    padding: 0;
-    padding-top: 30px;
-    list-style: none;
-}
 
 footer li {
     padding: 5px 0;
@@ -1252,15 +1285,6 @@ footer li a:hover {
     padding-left: 5px;
 }
 
-.btn-loc {
-    background-color: #fec601;
-    color: #fff;
-    position: absolute;
-    top: 35px;
-    padding: 7px 25px;
-    right: 5px;
-}
-
 .gradient-button {
     margin: 10px;
     font-family: "Arial Black", Gadget, sans-serif;
@@ -1310,7 +1334,7 @@ footer li a:hover {
  
   .gradient> li > a:hover{
     color: #FFF;
-    padding: 10px;
+    padding: 10px 20px;
     margin-top: 0px!important;
     border-radius: 0%!important;
      background-image: linear-gradient(to right, rgb(221, 130, 94) 0%, rgb(212, 113, 179) 51%, #DD5E89 100%)!important
@@ -1452,15 +1476,6 @@ footer li a:hover {
 
 .grid-group-item .prop-details {
     display: block;
-}
-
-.item.list-group-item .prop-details p, .item.grid-group-item .prop-details p {
-    font-size: 15px;
-    float: left;
-    padding-right: 15px;
-    border-right: 1px solid #ddd;
-    height: 45px;
-    padding-left: 15px;
 }
 
 .grid-group-item .caption {
@@ -2909,7 +2924,71 @@ a.bld-link{text-decoration: none; color: #fff;}
 /** Bulder End **/
 .conwrap{padding-top: 30px;}
 
+@media only screen and (max-width:400px){
+    .btn-loc {
+        background-color: #fec601;
+        color: #fff;
+        position: absolute;
+        margin-top: 4px;
+    }
+    .city-section .search-area {
+        margin-top: 13px;
+        margin-bottom: 20px;
+    }
+    
+.item.list-group-item .prop-details p, .item.grid-group-item .prop-details p {
+    font-size: 12px;
+    float: left;
+    padding-right: 5px;
+    border-right: 1px solid #ddd;
+    height: 45px;
+    padding-left: 5px;
+}
+.item.list-group-item .prop-details p span {
+    color: #817c80;
+    font-size: 11px;
+}
 
+}
+
+@media only screen and (min-width:401px) {
+.btn-loc {
+    background-color: #fec601;
+    color: #fff;
+    position: absolute;
+    top: 35px;
+    padding: 7px 25px;
+    right: 5px;
+}
+.item.list-group-item .prop-details p, .item.grid-group-item .prop-details p {
+    font-size: 15px;
+    float: left;
+    padding-right: 15px;
+    border-right: 1px solid #ddd;
+    height: 45px;
+    padding-left: 15px;
+}
+}
+@media only screen and (min-width:320px) and (max-width:750px) {
+    footer ul {
+       padding-top: 0px;   
+       padding: 0;
+       list-style: none;
+    }
+    .footer_property .col-sm-12 {
+        width: 100%!important;
+    }
+   
+    
+}
+@media only screen and (min-width:751px) and (max-width:1600px) {
+    footer ul {
+        padding-top: 30px;
+        padding: 0;
+        list-style: none;
+    }
+    
+}
 @media (max-width: 1199px) {
    
 
@@ -3021,7 +3100,8 @@ a.bld-link{text-decoration: none; color: #fff;}
     }
 
 
-
+ 
+    
 @media (max-width: 767px) {
     #contact_form {
         display: none
@@ -3147,9 +3227,7 @@ a.bld-link{text-decoration: none; color: #fff;}
         float: left;
         margin-left: 10px;
     }
-    .footer_property .col-md-2 {
-        width: 50.666667%!important;
-    }
+  
  
 
     .list-header {

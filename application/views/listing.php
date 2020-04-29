@@ -1,6 +1,13 @@
  
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
+    
+    <!--jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!--Plugin JavaScript file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
     <style>
  
 #toggle
@@ -301,7 +308,7 @@ background-image:url('<?= base_url('thankyou-images/all.jpg') ?>');
                                             <select class="form-control" name="city" id="filter_city">
                                                 <option selected="" disabled="">Select Your City</option>
                                                 <?php
-                                                foreach ($cities as $city) { ?>
+                                                   foreach ($cities as $city) { ?>
                                                     <option value="<?= $city->id ?>" <?= $this->session->userdata('city') == $city->name ? 'selected' : '' ?>><?= $city->name ?></option>
                                                 <?php } ?>
                                             </select>
@@ -312,7 +319,7 @@ background-image:url('<?= base_url('thankyou-images/all.jpg') ?>');
                                             <select class="form-control" name="location" id="filter_location">
                                                 <option selected="" disabled="">Select Your Location</option>
                                                 <?php
-                                                foreach ($locations as $location) { ?>
+                                                   foreach ($locations as $location) { ?>
                                                     <option value="<?= $location->id ?>"><?= $location->name ?></option>
                                                 <?php } ?>
                                             </select>
@@ -349,23 +356,26 @@ background-image:url('<?= base_url('thankyou-images/all.jpg') ?>');
                                 <div class="row">
                                     <div class="col-sm-4">
                                         <label>Price Range(₹):</label>
-                                        <input id="price" name="price" type="text"/><br/>
-                                        <span class="pull-left">₹20 L*</span>
-                                        <span class="pull-right">₹10 Cr*</span>
+                                        <!-- <input id="price" name="price" type="text"/><br/> -->
+                                        <!-- <span class="pull-left">₹20 L*</span>
+                                        <span class="pull-right">₹10 Cr*</span> -->
+                                        <input type="text" id="price" name="price" value="" />
                                         <div class="clearfix"></div><br>
                                     </div>
                                     <div class="col-sm-4">
                                         <label>BHK(No of Bedrooms)</label>
-                                        <input id="property" name="bhk" type="text"/><br/>
+                                        <!-- <input id="property" name="bhk" type="text"/><br/>
                                         <span class="pull-left">1</span>
-                                        <span class="pull-right">5</span>
+                                        <span class="pull-right">5</span> -->
+                                        <input type="text" id="property" name="bhk" value="" />
                                         <div class="clearfix"></div><br>
                                     </div>
                                     <div class="col-sm-4">
                                         <label>Size(In Sqft)</label>
-                                        <input id="baths" name="baths" type="text"/><br/>
+                                        <!-- <input id="baths" name="baths" type="text"/><br/>
                                         <span class="pull-left">300</span>
-                                        <span class="pull-right">10,000</span>
+                                        <span class="pull-right">10,000</span> -->
+                                        <input type="text" id="baths" name="baths" value="" />
                                         <div class="clearfix"></div><br>
                                     </div>
                                 </div>
@@ -541,7 +551,34 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
+<script>
+var lightSlider = true;
 
+ $('#price').ionRangeSlider({
+    type: 'double',
+    grid: true,
+    min: 2000000,
+    max: 100000000,
+    prefix: '₹ ' 
+  });
+
+  $('#property').ionRangeSlider({
+    type: 'double',
+    grid: true,
+    min: 1,
+    max: 5,
+    prefix: 'bhk '
+  });
+
+  $('#baths').ionRangeSlider({
+    type: 'double',
+    grid: true,
+    min: 300,
+    max: 1000,
+    prefix: 'sqft '
+  });
+
+</script>
 <!-- WhatsHelp.io widget -->
 <script type="text/javascript">
     (function () {
