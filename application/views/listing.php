@@ -338,7 +338,7 @@ background-image:url('<?= base_url('thankyou-images/all.jpg') ?>');
                                     </div>
                                     <div class="col-sm-2">
                                         <div class="form-group">
-                                            <select class="form-control">
+                                            <select class="form-control" name="property_status_id">
                                                 <option selected="" disabled="">-Status-</option>
                                                 <?php
                                                 if (($property_status = $this->properties_model->getPropertyStatus()) != null) {
@@ -430,7 +430,7 @@ background-image:url('<?= base_url('thankyou-images/all.jpg') ?>');
                                                         <?= $property->title ?></h3>
                                                 </a>
 													<p class="group inner list-group-item-text">
-														<Span style="font-size: 13px;">By :</Span><a style="font-size: 14px;color: black;text-transform: capitalize;" href="<?=base_url('Builders?builder='.$property->builder)?>"> <?= $property->builder ?></a>
+														<Span style="font-size: 13px;">By :</Span><a style="font-size: 14px;color: black;text-transform: capitalize;" href="<?=base_url('Builders?builder='.$property->builder)?>"  target="_blank"> <?= $property->builder ?></a>
 													</p>
 													<p><i class="fa fa-map-marker"></i>&nbsp;&nbsp;&nbsp;&nbsp;<a style="font-size: 14px;color: black;text-transform: capitalize;" href="<?=base_url('Builders?location='.$property->location)?>"><?= $property->location ?></a></p>
 												</div>

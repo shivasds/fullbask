@@ -317,7 +317,7 @@ $image_name = "all.jpg";
                                                         <?= $property->title ?></h3>
                                                 </a>
                                                     <p class="group inner list-group-item-text">
-                                                        <Span style="font-size: 13px;">By :</Span><a style="font-size: 14px;color: black;text-transform: capitalize;" href="<?=base_url('Builders?builder='.$property->builder)?>"> <?= $property->builder ?></a>
+                                                        <Span style="font-size: 13px;">By :</Span><a style="font-size: 14px;color: black;text-transform: capitalize;" href="<?=base_url('Builders?builder='.$property->builder)?>"target="_blank"> <?= $property->builder ?></a>
                                                     </p>
                                                     <p><i class="fa fa-map-marker"></i>&nbsp;&nbsp;&nbsp;&nbsp;<a style="font-size: 14px;color: black;text-transform: capitalize;" href="<?=base_url('Builders?location='.$property->location)?>"><?= $property->location ?></a></p>
                                                 </div>

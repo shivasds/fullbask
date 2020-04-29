@@ -86,6 +86,9 @@ class Home_model extends MY_Model {
             if (isset($content['bed']) && $content['bed']) {
                 $this->db->where('p.bedrooms', $content['bed']);
             }
+            if (isset($content['property_status_id']) && $content['property_status_id']) {
+                $this->db->where('p.property_status_id', $content['property_status_id']);
+            }
             if (isset($content['budget']) && $content['budget']) {
                 $this->db->join('property_flat_types pft', 'pft.property_id = p.id', 'left');
                 $range = explode('-', $content['budget']);

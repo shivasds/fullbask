@@ -18,8 +18,9 @@ class Home extends Public_Controller
 
         // $this->session->unset_userdata('city');
         $this->data['property_types'] = $this->home_model->getWhere(array('status' => 1), 'property_types');
-        $this->data['property_type'] = $this->home_model->getWhere(array('status' => 1), 'property_type');
+        //$this->data['property_type'] = $this->home_model->getWhere(array('status' => 1), 'property_type');
         $this->data['blog_type'] = $this->home_model->getWhere(array('status' => 1), 'blog_type');
+        $this->load->vars($data);
         
     }
 
@@ -104,9 +105,11 @@ class Home extends Public_Controller
         }
         //echo "<script>alert(".$content.")</script>";
        // print_r($content);die;
-        $content['bhk_range'] = explode(';', $content['bhk']);
-        $content['price_range'] = explode(';', $content['price']);
-        $content['baths_range'] = explode(';', $content['baths']);
+
+        $content['bhk_range'] = explode(',', $content['bhk']);
+        $content['price_range'] = explode(',', $content['price']);
+        $content['baths_range'] = explode(',', $content['baths']);
+
         if($this->input->get('builder')!='' && (string)$this->input->get('builder') ) {
             $total      = $this->home_model->loadPropertiesUsingBuilder(0, 0, true, $this->input->get('builder'));
             $properties = $this->home_model->loadPropertiesUsingBuilder($perpage, $page, false, $this->input->get('builder'));
@@ -169,10 +172,10 @@ class Home extends Public_Controller
     {
         //echo '<pre>'; print_r($_POST);echo '</pre>';die;
         
-        if (!verify_captcha()) {
-            $this->session->set_flashdata('error', 'Invalid Captcha');
-            redirect($this->input->post('redirect', site_url()));
-        }
+        // if (!verify_captcha()) {
+        //     $this->session->set_flashdata('error', 'Invalid Captcha');
+        //     redirect($this->input->post('redirect', site_url()));
+        // }
 
         $this->config_email();
 
@@ -199,10 +202,10 @@ class Home extends Public_Controller
 
     public function send()
     {
-        if (!verify_captcha()) {
-            $this->session->set_flashdata('error', 'Invalid Captcha');
-            redirect($this->input->post('redirect', site_url()));
-        }
+        // if (!verify_captcha()) {
+        //     $this->session->set_flashdata('error', 'Invalid Captcha');
+        //     redirect($this->input->post('redirect', site_url()));
+        // }
 
         $this->config_email();
 
@@ -234,12 +237,11 @@ class Home extends Public_Controller
         $config = array(
             'mailtype' => 'html',
             'protocol' => 'mail',
-            'smtp_host' => 'smtp.gmail.com',
+            'smtp_host' => 'ssl://smtp.gmail.com',
             'smtp_port' => '465',
-            'smtp_timeout' => '7',
-            'smtp_user' => 'fasilk008@gmail.com',
-            'smtp_crypto' => 'ssl',
-            'smtp_pass' => 'gjrsqxauohnslzag',
+            'smtp_timeout' => '30',
+            'smtp_user' => 'pintu19mg@gmail.com', 
+            'smtp_pass' => 'Password1982',
             'charset' => 'utf-8',
             'newline' => "\r\n",
             'validation' => true  // bool whether to validate email or not
@@ -702,10 +704,10 @@ class Home extends Public_Controller
         );
         
         if ($this->input->post()) {
-            if (!verify_captcha()) {
-                $this->session->set_flashdata('error', 'Invalid Captcha');
-                redirect('contact');
-            }
+            // if (!verify_captcha()) {
+            //     $this->session->set_flashdata('error', 'Invalid Captcha');
+            //     redirect('contact');
+            // }
             $this->config_email();
 
             $name = $this->input->post('name');
@@ -755,10 +757,10 @@ class Home extends Public_Controller
         
         if ($this->input->post()) {
 
-            if (!verify_captcha()) {
-                $this->session->set_flashdata('error', 'Invalid Captcha');
-                redirect('careers#en-application');
-            }
+            // if (!verify_captcha()) {
+            //     $this->session->set_flashdata('error', 'Invalid Captcha');
+            //     redirect('careers#en-application');
+            // }
 
             $this->form_validation->set_rules('email', "Email Address", 'required|valid_email');
             $this->form_validation->set_rules('name', "Name", 'required');
@@ -854,12 +856,12 @@ class Home extends Public_Controller
         }
         if ($this->input->post()) {
             
-            if ($this->input->post('no-captcha') == null) {
-                if (!verify_captcha()) {
-                    $this->session->set_flashdata('error', 'Invalid Captcha');
-                    redirect(site_url("property/$property->slug"));
-                }
-            }
+            // if ($this->input->post('no-captcha') == null) {
+            //     if (!verify_captcha()) {
+            //         $this->session->set_flashdata('error', 'Invalid Captcha');
+            //         redirect(site_url("property/$property->slug"));
+            //     }
+            // }
 
             $this->config_email();
 
