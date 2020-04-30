@@ -206,7 +206,7 @@ $image_name = "all.jpg";
 							<div class="col-sm-3">
 								<div class="form-group">
 									<select class="form-control" name="city">
-										<option selected="" disabled="">Select Your Location</option>
+										<option value="" selected="">Select Your Location</option>
 										<?php
 										foreach ($cities as $city) { ?>
 										<option value="<?= $city->id ?>"><?= $city->name ?></option>

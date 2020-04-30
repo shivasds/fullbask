@@ -193,7 +193,7 @@ background-image:url('<?= base_url('thankyou-images/all.jpg') ?>');
         <div class="container">
 	    	<div class="row menu-section">
                <div class="text">
-                   <h1 class="city-name"><?=$this->uri->segment(2)?$this->uri->segment(2):'All Cities'?></h1>
+                   <h1 class="city-name">All Cities</h1>
                 </div>
 				<div class="">
 					<div class="col-sm-10">
@@ -306,7 +306,7 @@ background-image:url('<?= base_url('thankyou-images/all.jpg') ?>');
                                     <div class="col-sm-3">
                                         <div class="form-group">
                                             <select class="form-control" name="city" id="filter_city">
-                                                <option selected="" disabled="">Select Your City</option>
+                                                <option selected="" value="">Select Your City</option>
                                                 <?php
                                                    foreach ($cities as $city) { ?>
                                                     <option value="<?= $city->id ?>" <?= $this->session->userdata('city') == $city->name ? 'selected' : '' ?>><?= $city->name ?></option>
@@ -317,7 +317,7 @@ background-image:url('<?= base_url('thankyou-images/all.jpg') ?>');
                                     <div class="col-sm-3">
                                         <div class="form-group">
                                             <select class="form-control" name="location" id="filter_location">
-                                                <option selected="" disabled="">Select Your Location</option>
+                                                <option selected="" value="">Select Your Location</option>
                                                 <?php
                                                    foreach ($locations as $location) { ?>
                                                     <option value="<?= $location->id ?>"><?= $location->name ?></option>
