@@ -68,6 +68,7 @@
         <link rel='stylesheet' href='<?= base_url() ?>assets/property/unitegallery/css/unite-gallery.css' type='text/css' />
 
         <style>
+           
             .carousel .item {
                 height: 450px;
                 margin-bottom: -95px;
@@ -225,7 +226,18 @@
             .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel] {
                 padding-left: 90px!important;
             }
-            
+
+            @media only screen and (max-width: 750px) and (min-width: 320px)
+            {.footer_property .col-sm-12 {
+                width: 100%!important;
+            }
+            footer ul {
+       padding-top: 0px;   
+       padding: 0;
+       list-style: none;
+    }
+            }
+
             @media only screen and (min-width: 320px) and (max-width: 650px) {
                 .phone {
                     width: 97%;
