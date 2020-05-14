@@ -97,6 +97,7 @@ $route['property/(:any)']     = "home/property/$1";
 
 $route['privacy-policy'] = "home/privacy";
 $route['disclaimer'] = "home/disclaimer";
+$route['vasthu'] = "home/vasthu";
 $route['vastu'] = "home/Vastu";
 $route['blog'] = "home/blog";
 $route['achievements'] = "home/achievements";
