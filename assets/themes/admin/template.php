@@ -246,6 +246,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <li class="<?php echo (uri_string() == 'admin/settings') ? 'active' : ''; ?>"><a href="<?php echo base_url('/admin/settings'); ?>"><?php echo lang('admin button settings'); ?></a></li>
                     <li class="<?php echo (uri_string() == 'admin' OR uri_string() == 'admin/aboutUs') ? 'active' : ''; ?>"><a href="<?php echo base_url('/admin/aboutUs'); ?>">About Us</a></li>
                     <li class="<?php echo (uri_string() == 'admin' OR uri_string() == 'admin/nri') ? 'active' : ''; ?>"><a href="<?php echo base_url('/admin/Nri'); ?>">Nri</a></li>
+                    <li class="<?php echo (uri_string() == 'admin' OR uri_string() == 'admin/vasthu') ? 'active' : ''; ?>"><a href="<?php echo base_url('/admin/vasthu'); ?>">Vasthu</a></li>
                     <li class="<?php echo (uri_string() == 'admin' OR uri_string() == 'admin/socialMedia') ? 'active' : ''; ?>"><a href="<?php echo base_url('/admin/socialMedia'); ?>">Social Media</a></li>
                     <li class="<?php echo (uri_string() == 'admin' OR uri_string() == 'admin/allCities') ? 'active' : ''; ?>"><a href="<?php echo base_url('/admin/allCities'); ?>">All City Details</a></li>
                     <li class="<?php echo (uri_string() == 'admin' OR uri_string() == 'admin/terms') ? 'active' : ''; ?>"><a href="<?php echo base_url('/admin/terms'); ?>"><i class="fa fa-legal" aria-hidden="true"></i> Privacy Policy</a></li>
