@@ -53,7 +53,7 @@
                     </button> 
                 </div>
                 <div class="collapse navbar-collapse nopadding" id="bs-example-navbar-collapse-1">
-                    <div class="row" style="margin-top: 10px;">  
+                    <div class="row" style="margin-top: 15px; margin-bottom: 15px;">  
                         <div class="col-xs-3 col-sm-3 col-md-2">
                             <a href="<?= site_url() ?>"><img src="<?= base_url('assets/img/logo.png') ?>" style="float: right;
     width: 111px;

@@ -5199,6 +5199,7 @@ table.category tbody > tr td {
     font-size: 18px;
     /*font-weight: 800;*/
     margin-top: 15px;
+    color: black;
 }
 
 .i-holder {
@@ -5541,7 +5542,8 @@ label {
 .sp-page-builder .page-content #section-id-1507611991 {
 
     /*padding: 115px 0;*/
-    background-image: url(../../../images/demo/offer-back.jpg);
+    /* background-image: url(../../../images/demo/offer-back.jpg); */
+    background: white;
     background-size: cover;
     background-attachment: fixed;
     background-position: 50% 17%;
@@ -5754,15 +5756,15 @@ p.inner-interested {
 
 .overlay {
     padding: 115px 0;
-    background: rgba(0, 0, 0, 0.6);
+    /* background: rgba(0, 0, 0, 0.6); */
 }
 
 #section-id-1507611938 h2 {
-    color: #fff !important;
+    color: #fff!important;
 }
 
 #section-id-1507611991 h2 {
-    color: #fff !important;
+    color: #fff;
 }
 
 .customNavigation {

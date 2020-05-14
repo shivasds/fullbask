@@ -100,6 +100,8 @@
             
             .builder_info img {
                 box-shadow: 2px -2px 0px #e1ad4f;
+                width: 333px;
+                height: 200px;
             }
             
             @media (max-width: 1600px) {
@@ -244,6 +246,10 @@
      
 
             @media only screen and (min-width: 320px) and (max-width: 650px) {
+                .container .prop-img{
+                    padding-right: 0px;
+    padding-left: 0px;
+                }
                 .phone {
                     width: 97%;
                 }
@@ -527,8 +533,26 @@
                 border: solid 1px transparent;
                 background-color: #fff;
             }
-            
+            @media only screen and (min-width: 992px) {
+               .prop-img {
+                width: 337px;
+    background-position: 50% 50%;
+    position: relative;
+    height: 200px;
+    background: #ededed;
+    margin-left: -1px;
+         padding-left: 0px; 
+    padding-right: 0px;
+                }
+                .banner-icon{
+                    height: 160px;
+                }
+            }
             @media only screen and (max-width: 992px) {
+
+                .banner-icon{
+                    height: 100%;
+                }
                 .rooms-suits .sppb-addon-content img {
                     height: 100%;
                 }
@@ -1001,7 +1025,7 @@
 
                                                 <br/>
                                                 <br/>
-                                                <div class="">
+                                                <div class="banner-icon">
                                                     <div class="banner-patch">
                                                         <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 no-padding banner-patch-content">
                                                             <center>
@@ -1077,11 +1101,14 @@
                                                         </div>
 
                                                     </div>
+                                                    <br>
+                                                <br>
                                                 </div>
+                                                
                                                 <br>
                                                 <br>
                                                 <div class="broucher">
-                                                    <center><a class="btn btn-danger" id="down-brochure" style="margin-top: 50px;">Click here to Get Brochure</a></center>
+                                                    <center><a class="btn btn-danger" id="down-brochure" style="">Click here to Get Brochure</a></center>
                                                     <a href="" id="down-brochure-1" style="display: none;" download>Broucher</a>
                                                 </div>
 
@@ -1661,13 +1688,8 @@
                                                         <a href="<?= site_url(url_title($project->city_name) . " / " . (url_title($project->area)) . "/$project->slug/") ?>"
                                        class="builder_projects">
                                         <div class="col-md-4">
-                                        <div class="container">
-                                            <img src="<?= base_url("uploads/$project->slug/$project->image") ?>"  style="padding: 0;     padding: 0px;
-                                                width: 29%;
-                                                background-position: 50% 50%;
-                                                position: relative;
-                                                height: 260px;
-                                                margin-left: -13px;" 
+                                        <div class="container prop-img">
+                                            <img src="<?= base_url("uploads/$project->slug/$project->image") ?>"  style="padding: 0; padding: 0px;"
                                                  class="img-responsive" style="padding: 0; " alt="<?=$project->alt?>"
                                                  title="<?=$project->image_desc?>"> 
                                           </div>       
