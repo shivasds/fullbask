@@ -628,20 +628,7 @@ class Home extends Public_Controller
         $this->load->view('template', $this->data);
 
     }
-    public function vasthu()
-    {
-        $this->data['meta'] = array(
-            'title'         => 'Vasthu - FullBasketProperty.com ', 
-            'description'   => 'FullBasketProperty.com provides information regarding the Real Estate Projects in India.  ',
-            'keywords'      =>'Bangalore Real Estate, Hyderabad Real Estate, Mumbai Real Estate, Pune Real Estate, Property Portals In Bangalore, Property Portals In Pune, Property Portals In Hyderabad, Property Portals In Mumbai, Real Estate, Indian Real Estate '
-        );
-        $privacy = $this->home_model->getAll('disclaimer');
-        $this->data['title'] = 'Vasthu';
-        $this->data['content'] = isset($privacy[0]) ? $privacy[0]->content : '';
-        $this->data['view_page'] = 'vasthu';
-        $this->load->view('template', $this->data);
-
-    }
+  
 
 
      /**
@@ -654,7 +641,7 @@ class Home extends Public_Controller
             'description'   => 'FullBasketProperty.com provides information regarding the Real Estate Projects in India.  ',
             'keywords'      =>'Bangalore Real Estate, Hyderabad Real Estate, Mumbai Real Estate, Pune Real Estate, Property Portals In Bangalore, Property Portals In Pune, Property Portals In Hyderabad, Property Portals In Mumbai, Real Estate, Indian Real Estate '
         );
-        $privacy = $this->home_model->getAll('disclaimer');
+        $privacy =  $this->home_model->getAll('vasthu');
         $this->data['title'] = 'Vastu';
         $this->data['content'] = isset($privacy[0]) ? $privacy[0]->content : '';
         $this->data['view_page'] = 'vastu';
