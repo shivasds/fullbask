@@ -623,6 +623,7 @@
                 border: 10px solid transparent;
                 border-bottom: 10px solid #6f6f6f
             }
+         
             
             .cust-accordion .panel-title a .down-arrow {
                 width: 25px;
@@ -689,6 +690,25 @@
             .contact .form{
                 margin-bottom: 14px;
             }
+            .menu-fixed-out {
+                 width: 100%;
+                 box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+                 opacity: .95;
+                 z-index: 9999;
+                 background-color: #fff;
+                 position: relative;
+             }
+             .menu-fixed {
+                 width: 100%;
+                 box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+                 opacity: .95;
+                 z-index: 9999;
+                 background-color: #fff;
+                 position: fixed;
+                 top:0;
+
+                 
+             }
          
             /*---------------------------*/
         </style>
@@ -723,7 +743,7 @@
                         <div class="sp-column ">
                             <a class="logo" href="<?=base_url();?>">
                                 <h1>
-                                    <img class="sp-default-logo" src="<?=base_url();?>assets/img/footer-logo.png" style="height: 60px;width: 60px;"> 
+                                    <img class="sp-default-logo" src="<?= base_url('assets/images/logo.png')?>" style=" max-height: 111px; width: 111px;   float: right;  top: 10px;  position: absolute;background: white; padding-right: 5px; border-radius: 26px;"> 
                                     <img class="sp-retina-logo" src="<?=base_url();?>assets/img/footer-logo.png"
                                          style=" height: 60px;width: 60px !important;">
 
@@ -731,7 +751,8 @@
                             </a>
                         </div>
                     </div>
-                    <div id="sp-menu" class="col-xs-4 col-sm-10 col-md-10" style="position: absolute;">
+
+                    <div id="sp-menu" class="col-xs-4 col-sm-10 col-md-10" style="">
                         <div class="sp-column ">
                             <div class='sp-megamenu-wrapper'>
                                 <a id="offcanvas-toggler" class="visible-xs" href="#"><i class="fa fa-bars"></i></a>
@@ -762,7 +783,7 @@
                                                     $logos=json_decode( json_encode($logos), true);
                                                     //builder_image;
                                                     ?>
-                                                                <img class="sp-default-logo" src="<?= base_url().'uploads/'.$property->slug.'/logos/'.$map[0] ?>" style="    margin-left: 113px;
+                                                     <img class="sp-default-logo" src="<?= base_url().'uploads/'.$property->slug.'/logos/'.$map[0] ?>" style="    margin-left: 113px;
                                                 margin-right: -83px; margin-top: 13px;">
                                                                 <?php
 
@@ -778,7 +799,7 @@
                                                                     <?php
                                                 }
 
-                                                        ?>
+                                                ?>
                                     </li>
                                 </ul>
                                 
@@ -2357,36 +2378,10 @@ if($property->usp!='')
                     var $controllers = true
                 };
 
-                // $slideFullwidth.owlCarousel({
-                //     margin: 0,
-                //     loop: true,
-                //     autoplay: $autoplay,
-                //     animateIn: "slideInRight",
-                //     animateOut: "fadeOutLeft",
-                //     nav: true,
-                //     responsive: {
-                //         0: {
-                //             items: 1
-                //         },
-                //         600: {
-                //             items: 1
-                //         },
-                //         1000: {
-                //             items: 1
-                //         }
-                //     },
-                //     dots: $controllers,
-                // });
-
-                // $("#sppb-addon-1507611917 .sppbSlidePrev").click(function () {
-                //     $slideFullwidth.trigger("prev.owl.carousel", [400]);
-                // });
-
-                // $("#sppb-addon-1507611917 .sppbSlideNext").click(function () {
-                //     $slideFullwidth.trigger("next.owl.carousel", [400]);
-                // });
+         
             });
         </script>
+        
 
         <script>
             jQuery(document).ready(function($) {
@@ -2618,31 +2613,31 @@ if($property->usp!='')
             });
         </script>
         <script type="text/javascript">
-            jQuery(document).ready(function() {
-                jQuery(document).on("scroll", onScroll);
-
-                //smoothscroll
-                jQuery('.sp-megamenu-parent a').on('click', function(e) {
-
-                    e.preventDefault();
-                    jQuery(document).off("scroll");
-
-                    jQuery('li').each(function() {
-                        jQuery(this).removeClass('current-item active');
-                    })
-                    jQuery(this).parent('li').addClass('current-item active');
-                    // console.log()
-                    var target = this.hash,
-                        menu = target;
-                    $target = jQuery(target);
-                    jQuery('html, body').stop().animate({
-                        'scrollTop': $target.offset().top + 2
-                    }, 500, 'swing', function() {
-                        // window.location.hash = target;
-                        jQuery(document).on("scroll", onScroll);
-                    });
-                });
-            });
+           	jQuery(document).ready(function () {
+    jQuery(document).on("scroll", onScroll);
+    
+    //smoothscroll
+    jQuery('a[href^="#"]').on('click', function (e) {
+        
+        e.preventDefault();
+        jQuery(document).off("scroll");
+        
+        jQuery('li').each(function () {
+            jQuery(this).removeClass('current-item active');
+        })
+        jQuery(this).parent('li').addClass('current-item active');
+      
+        var target = this.hash,
+            menu = target;
+        $target = jQuery(target);
+        jQuery('html, body').stop().animate({
+            'scrollTop': $target.offset().top+2
+        }, 500, 'swing', function () {
+           // window.location.hash = target;
+            jQuery(document).on("scroll", onScroll);
+        });
+    });
+});
 
             function onScroll(event) {
                 var scrollPos = jQuery(document).scrollTop();
@@ -2656,6 +2651,9 @@ if($property->usp!='')
                         jQuery('.sp-megamenu-parent li').removeClass("current-item active");
                         jQuery('.sp-megamenu-parent li')[0].addClass("current-item active");
                     }
+                    if(refElement.position()!=undefined){
+
+                    
                     if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
                         // console.log(refElement);
                         jQuery('.sp-megamenu-parent li').removeClass("current-item active");
@@ -2663,6 +2661,7 @@ if($property->usp!='')
                     } else {
 
                     }
+                }
                 });
             }
         </script>

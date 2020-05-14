@@ -2057,15 +2057,6 @@ ul.social-icons > li a {
     line-height: 60px;
 }
 
-#sp-header {
-    /*height: 95px;*/
-    width: 100%;
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
-    opacity: .95;
-    z-index: 9999;
-    background-color: #fff;
-    position: relative;
-}
 
 #sp-header .logo {
     display: inline-block;
