@@ -240,7 +240,7 @@ input.separate-dial-code .selected-dial-code {
                         <li><a target="_blank" href="<?= site_url('listing') ?>">PROPERTIES</a></li>
                         <li><a data-toggle="modal" href="#submitContact">SUBMIT PROPERTY</a></li>
                         <li><a href="#">SERVICES</a></li>
-                        <li><a target="_blank" href="<?=site_url('disclaimer')?>">VASTU</a></li>
+                        <li><a target="_blank" href="<?=site_url('vastu')?>">VASTU</a></li>
                         <li><a target="_blank" href="<?=site_url('nri')?>">NRI CORNER</a></li>
                         <li><a target="_blank" href="<?=site_url('blog')?>">BLOG</a></li>
                     </ul>

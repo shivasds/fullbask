@@ -629,6 +629,25 @@ class Home extends Public_Controller
 
     }
 
+
+     /**
+     * Disclaimer Page
+     */
+    public function vastu()
+    {
+        $this->data['meta'] = array(
+            'title'         => 'vastu - FullBasketProperty.com ', 
+            'description'   => 'FullBasketProperty.com provides information regarding the Real Estate Projects in India.  ',
+            'keywords'      =>'Bangalore Real Estate, Hyderabad Real Estate, Mumbai Real Estate, Pune Real Estate, Property Portals In Bangalore, Property Portals In Pune, Property Portals In Hyderabad, Property Portals In Mumbai, Real Estate, Indian Real Estate '
+        );
+        $privacy = $this->home_model->getAll('disclaimer');
+        $this->data['title'] = 'Vastu';
+        $this->data['content'] = isset($privacy[0]) ? $privacy[0]->content : '';
+        $this->data['view_page'] = 'vastu';
+        $this->load->view('template', $this->data);
+
+    }
+
     public function blog()
     {
         $this->data['meta'] = array(

@@ -1,6 +1,6 @@
 <style>
    .nri-bg {
-    background-image: url("../assets/images/about-us-01.jpg");
+    background-image: url("../assets/images/nri.jpg");
     background-size: cover;
     height: 100%;
     padding: 390px 50px 0px;
@@ -8,7 +8,7 @@
     margin-top: -150px;
     }
     .nri-bg h3 {
-    color: #fff;
+    color: #000000;
     /* float: right; */
     text-align: center;
     font-weight: bold;

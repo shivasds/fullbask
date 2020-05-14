@@ -238,6 +238,11 @@
     }
             }
 
+            .footer_property li a{
+            font-size: 14px;
+        }
+     
+
             @media only screen and (min-width: 320px) and (max-width: 650px) {
                 .phone {
                     width: 97%;
@@ -707,13 +712,17 @@
                             <div class='sp-megamenu-wrapper'>
                                 <a id="offcanvas-toggler" class="visible-xs" href="#"><i class="fa fa-bars"></i></a>
                                 <ul class="sp-megamenu-parent menu-fade hidden-xs">
-                                    <li class="sp-menu-item current-item active"><a href="#home-c" class="m-link">Home</a>
+                                    <li class="sp-menu-item current-item active">
+                                        <a href="#home-c" class="m-link">Home</a>
                                     </li>
-                                    <li class="sp-menu-item"><a href="#section-id-1507611922" class="m-link">About</a>
+                                    <li class="sp-menu-item">
+                                         <a href="#section-id-1507611922" class="m-link">About</a>
                                     </li>
-                                    <li class="sp-menu-item"><a href="#section-id-1507611938" class="m-link">Configuration</a>
+                                    <li class="sp-menu-item">
+                                         <a href="#section-id-1507611938" class="m-link">Configuration</a>
                                     </li>
-                                    <li class="sp-menu-item"><a href="#section-id-1507611991" class="m-link">amenities</a>
+                                    <li class="sp-menu-item">
+                                          <a href="#section-id-1507611991" class="m-link">amenities</a>
                                     </li>
                                     <li class="sp-menu-item"><a href="#section-id-1507611941" class="m-link">Gallery</a>
                                     </li>
@@ -2600,7 +2609,7 @@ if($property->usp!='')
                         jQuery(this).removeClass('current-item active');
                     })
                     jQuery(this).parent('li').addClass('current-item active');
-
+                    // console.log()
                     var target = this.hash,
                         menu = target;
                     $target = jQuery(target);
