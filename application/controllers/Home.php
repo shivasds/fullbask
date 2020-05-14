@@ -642,8 +642,11 @@ class Home extends Public_Controller
             'keywords'      =>'Bangalore Real Estate, Hyderabad Real Estate, Mumbai Real Estate, Pune Real Estate, Property Portals In Bangalore, Property Portals In Pune, Property Portals In Hyderabad, Property Portals In Mumbai, Real Estate, Indian Real Estate '
         );
         $privacy =  $this->home_model->getAll('vasthu');
+
+        //echo $privacy[0]->image;die;
         $this->data['title'] = 'Vastu';
         $this->data['content'] = isset($privacy[0]) ? $privacy[0]->content : '';
+        $this->data['image'] = isset($privacy[0]) ? $privacy[0]->image : '';
         $this->data['view_page'] = 'vastu';
         $this->load->view('template', $this->data);
 
