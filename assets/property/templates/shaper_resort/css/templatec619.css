@@ -6137,10 +6137,10 @@ p.inner-interested {
 
 }
 
-.btn-danger:hover, .btn-danger:focus, .btn-danger.focus, .btn-danger:active, .btn-danger.active, .open > .dropdown-toggle.btn-danger {
-    color: #53ABBD;
-    background-color: #fff;
-    border-color: #fff;
+.btn-danger:hover, .btn-danger:focus, .btn-danger.focus,
+ .btn-danger:active, .btn-danger.active, .open > .dropdown-toggle.btn-danger ,.contact_builder:hover,.btn-default:hover{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, rgb(221, 130, 94) 0%, rgb(212, 113, 179) 51%, #DD5E89 100%);
 }
 
 .dec-bform {

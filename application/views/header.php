@@ -19,6 +19,9 @@
     </div>
 <?php endif; ?>
 <style>
+    p {
+    margin: 0 10px 10px;
+}
     .menu-header {
     padding: 0;
     background-color: #fff;
@@ -143,7 +146,7 @@
                                     </div>
                     </li>
                     <li class="<?= $this->uri->segment(1) == 'nri' ? 'active' : '' ?>"><a href="<?=site_url('nri')?>"> NRI CORNER</a></li>
-                    <li class="<?= $this->uri->segment(1) == '' ? '' : '' ?>"><a href="<?=site_url('#')?>">VASTU</a></li>
+                    <li class="<?= $this->uri->segment(1) == 'vastu' ? 'active' : '' ?>"><a href="<?=site_url('vastu')?>">VASTU</a></li>
                     <li class="<?= $this->uri->segment(1) == 'testimonials' ? 'active' : '' ?>"><a href="<?=site_url('testimonials')?>">TESTIMONIAL</a></li>
                     <li class="<?= $this->uri->segment(1) == 'achievements' ? 'active' : '' ?>"><a href="<?=site_url('achievements')?>">ACHIVEMENT</a></li>
                     <li class="<?= $this->uri->segment(1) == 'careers' ? 'active' : '' ?>"><a href="<?=site_url('careers')?>">CAREER</a></li>

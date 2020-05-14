@@ -1322,7 +1322,24 @@ footer li a:hover {
     background-image: linear-gradient(to right, rgb(221, 130, 94) 0%, rgb(212, 113, 179) 51%, #DD5E89 100%)
 
 }
-
+.price-details h4 {
+    font-size: 15px;
+}
+.prop-details p{
+    margin: 0 4px 3px;
+}
+.btn-details{
+    margin: 10px 0px;
+    line-height: 1.5;
+    /* font-family: "Arial Black", Gadget, sans-serif; */
+    color: #FFF;
+    background-image: linear-gradient(to right, rgb(221, 130, 94) 0%, rgb(212, 113, 179) 51%, #DD5E89 100%);
+}
+.btn-details a{
+line-height: 1.5;
+text-decoration: none;
+color: #FFF;
+}
 .gradient-button-1:hover { 
     /* background-position: right center;  */
     background-image: linear-gradient( to right,rgb(79, 94, 182),rgba(113, 212, 138, 0.658));
@@ -1411,7 +1428,8 @@ footer li a:hover {
 }
 
 .item.list-group-item .caption, .item.list-group-item .prop-details, .item.grid-group-item .pro-details {
-    padding: 9px 9px 0px 9px;
+    /* padding: 9px 9px 0px 9px; */
+    padding: 4px 0px 0px 0px;
 }
 
 /* .item.list-group-item:nth-of-type(odd) {
@@ -1522,7 +1540,7 @@ footer li a:hover {
     border: none;
     padding: 10px;
     font-size: 17px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 .btn-call {
@@ -2925,6 +2943,21 @@ a.bld-link{text-decoration: none; color: #fff;}
 .conwrap{padding-top: 30px;}
 
 @media only screen and (max-width:400px){
+    .price-details h4 {
+        font-size: 15px;
+    }
+    .btn-call-back,.btn-details{
+        font-size: 15px; 
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+    .prop-details p {
+        margin: 0 7px 4px;
+    }
+    .item.list-group-item .caption, .item.list-group-item .prop-details, .item.grid-group-item .pro-details {
+        padding: 0px 0px 0px 0px;
+        /* padding: 4px 0px 0px 0px; */
+    }
     .btn-loc {
         background-color: #fec601;
         color: #fff;

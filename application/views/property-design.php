@@ -1001,7 +1001,7 @@
 
                                                 <br/>
                                                 <br/>
-                                                <div class="broucher">
+                                                <div class="">
                                                     <div class="banner-patch">
                                                         <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 no-padding banner-patch-content">
                                                             <center>
@@ -1081,7 +1081,7 @@
                                                 <br>
                                                 <br>
                                                 <div class="broucher">
-                                                    <a class="btn btn-danger" id="down-brochure" style="margin-top: 50px;">Click here to Get Brochure</a>
+                                                    <center><a class="btn btn-danger" id="down-brochure" style="margin-top: 50px;">Click here to Get Brochure</a></center>
                                                     <a href="" id="down-brochure-1" style="display: none;" download>Broucher</a>
                                                 </div>
 

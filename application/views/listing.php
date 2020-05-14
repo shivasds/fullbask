@@ -500,7 +500,8 @@ background-image:url('<?= base_url('thankyou-images/all.jpg') ?>');
                                                     </table>
                                                 </div>
                                                 <div class="price-details pull-right">
-                                                    <h4> <?php
+                                                    <h4> 
+                                                    <?php
                                                         if($this->properties_model->hasPriceRequest($property->id)){
                                                             ?>
                                                             Price On Request
@@ -520,6 +521,8 @@ background-image:url('<?= base_url('thankyou-images/all.jpg') ?>');
                                                         <i class="fa <?= (isset($property->class_heart) && $property->class_heart) ? $property->class_heart : 'fa-heart-o' ?> favourite" data-id="<?= $property->id ?>" data-access="<?= $this->session->userdata('logged_in') ? '' : 'denied' ?>" data-url="<?= $this->session->userdata('logged_in') ? site_url('home/manage_favourites') : site_url('user/login') ?>" style="cursor: pointer"></i>
                                                         <button class="gradient-button-1 btn-call-back" data-id="<?=$property->id?>">GET CALL BACK</button>
                                                         <!-- btn btn-call btn-call-back -->
+
+                                                        <button class="gradient-button-1 btn-details"><a target="_blank"  href="<?=site_url(url_title($property->city_name)."/".( url_title($property->area) )."/$property->slug/")?>">VIEW DETAILS</a></button>
                                                         <!-- gradient-button gradient-button-1 -->
                                                     </h4>
                                                 </div>
