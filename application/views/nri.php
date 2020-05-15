@@ -1,12 +1,24 @@
 <style>
-   .nri-bg {
-    background-image: url("../assets/images/nri.jpg");
+   @media (max-width: 767px) {
+       .nri-bg {
+    background-image: url("../assets/images/mobile-01.jpg");
     background-size: cover;
     height: 100%;
     padding: 390px 50px 0px;
     background-position: 100% 100%;
     margin-top: -150px;
     }
+}
+@media (min-width: 768px) {
+       .nri-bg {
+    background-image: url("../assets/images/slide-01.jpg");
+    background-size: cover;
+    height: 100%;
+    padding: 390px 50px 0px;
+    background-position: 100% 100%;
+    margin-top: -150px;
+    }
+}
     .nri-bg h3 {
     color: #000000;
     /* float: right; */

@@ -2947,7 +2947,12 @@ a.bld-link{text-decoration: none; color: #fff;}
     .price-details h4 {
         font-size: 15px;
     }
-    .btn-call-back,.btn-details{
+    .btn-call-back{
+        font-size: 15px; 
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+    .btn-details{
         font-size: 15px; 
         margin-right: 10px;
         margin-left: 0px;
