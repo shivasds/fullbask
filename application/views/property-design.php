@@ -100,6 +100,8 @@
             
             .builder_info img {
                 box-shadow: 2px -2px 0px #e1ad4f;
+                width: 333px;
+                height: 200px;
             }
             
             @media (max-width: 1600px) {
@@ -244,6 +246,10 @@
      
 
             @media only screen and (min-width: 320px) and (max-width: 650px) {
+                .container .prop-img{
+                    padding-right: 0px;
+    padding-left: 0px;
+                }
                 .phone {
                     width: 97%;
                 }
@@ -527,8 +533,26 @@
                 border: solid 1px transparent;
                 background-color: #fff;
             }
-            
+            @media only screen and (min-width: 992px) {
+               .prop-img {
+                width: 337px;
+    background-position: 50% 50%;
+    position: relative;
+    height: 200px;
+    background: #ededed;
+    margin-left: -1px;
+         padding-left: 0px; 
+    padding-right: 0px;
+                }
+                .banner-icon{
+                    height: 160px;
+                }
+            }
             @media only screen and (max-width: 992px) {
+
+                .banner-icon{
+                    height: 100%;
+                }
                 .rooms-suits .sppb-addon-content img {
                     height: 100%;
                 }
@@ -599,6 +623,7 @@
                 border: 10px solid transparent;
                 border-bottom: 10px solid #6f6f6f
             }
+         
             
             .cust-accordion .panel-title a .down-arrow {
                 width: 25px;
@@ -665,6 +690,25 @@
             .contact .form{
                 margin-bottom: 14px;
             }
+            .menu-fixed-out {
+                 width: 100%;
+                 box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+                 opacity: .95;
+                 z-index: 9999;
+                 background-color: #fff;
+                 position: relative;
+             }
+             .menu-fixed {
+                 width: 100%;
+                 box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+                 opacity: .95;
+                 z-index: 9999;
+                 background-color: #fff;
+                 position: fixed;
+                 top:0;
+
+                 
+             }
          
             /*---------------------------*/
         </style>
@@ -699,7 +743,7 @@
                         <div class="sp-column ">
                             <a class="logo" href="<?=base_url();?>">
                                 <h1>
-                                    <img class="sp-default-logo" src="<?=base_url();?>assets/img/footer-logo.png" style="height: 60px;width: 60px;"> 
+                                    <img class="sp-default-logo" src="<?= base_url('assets/images/logo.png')?>" style=" max-height: 111px; width: 111px;   float: right;  top: 10px;  position: absolute;background: white; padding-right: 5px; padding-left: 5px;border-radius: 26px;"> 
                                     <img class="sp-retina-logo" src="<?=base_url();?>assets/img/footer-logo.png"
                                          style=" height: 60px;width: 60px !important;">
 
@@ -707,7 +751,8 @@
                             </a>
                         </div>
                     </div>
-                    <div id="sp-menu" class="col-xs-4 col-sm-10 col-md-10" style="position: absolute;">
+
+                    <div id="sp-menu" class="col-xs-4 col-sm-10 col-md-10" style="">
                         <div class="sp-column ">
                             <div class='sp-megamenu-wrapper'>
                                 <a id="offcanvas-toggler" class="visible-xs" href="#"><i class="fa fa-bars"></i></a>
@@ -738,7 +783,7 @@
                                                     $logos=json_decode( json_encode($logos), true);
                                                     //builder_image;
                                                     ?>
-                                                                <img class="sp-default-logo" src="<?= base_url().'uploads/'.$property->slug.'/logos/'.$map[0] ?>" style="    margin-left: 113px;
+                                                     <img class="sp-default-logo" src="<?= base_url().'uploads/'.$property->slug.'/logos/'.$map[0] ?>" style="    margin-left: 113px;
                                                 margin-right: -83px; margin-top: 13px;">
                                                                 <?php
 
@@ -754,7 +799,7 @@
                                                                     <?php
                                                 }
 
-                                                        ?>
+                                                ?>
                                     </li>
                                 </ul>
                                 
@@ -1001,7 +1046,7 @@
 
                                                 <br/>
                                                 <br/>
-                                                <div class="">
+                                                <div class="banner-icon">
                                                     <div class="banner-patch">
                                                         <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 no-padding banner-patch-content">
                                                             <center>
@@ -1077,11 +1122,14 @@
                                                         </div>
 
                                                     </div>
+                                                    <br>
+                                                <br>
                                                 </div>
+                                                
                                                 <br>
                                                 <br>
                                                 <div class="broucher">
-                                                    <center><a class="btn btn-danger" id="down-brochure" style="margin-top: 50px;">Click here to Get Brochure</a></center>
+                                                    <center><a class="btn btn-danger" id="down-brochure" style="">Click here to Get Brochure</a></center>
                                                     <a href="" id="down-brochure-1" style="display: none;" download>Broucher</a>
                                                 </div>
 
@@ -1661,13 +1709,8 @@
                                                         <a href="<?= site_url(url_title($project->city_name) . " / " . (url_title($project->area)) . "/$project->slug/") ?>"
                                        class="builder_projects">
                                         <div class="col-md-4">
-                                        <div class="container">
-                                            <img src="<?= base_url("uploads/$project->slug/$project->image") ?>"  style="padding: 0;     padding: 0px;
-                                                width: 29%;
-                                                background-position: 50% 50%;
-                                                position: relative;
-                                                height: 260px;
-                                                margin-left: -13px;" 
+                                        <div class="container prop-img">
+                                            <img src="<?= base_url("uploads/$project->slug/$project->image") ?>"  style="padding: 0; padding: 0px;"
                                                  class="img-responsive" style="padding: 0; " alt="<?=$project->alt?>"
                                                  title="<?=$project->image_desc?>"> 
                                           </div>       
@@ -2335,36 +2378,10 @@ if($property->usp!='')
                     var $controllers = true
                 };
 
-                // $slideFullwidth.owlCarousel({
-                //     margin: 0,
-                //     loop: true,
-                //     autoplay: $autoplay,
-                //     animateIn: "slideInRight",
-                //     animateOut: "fadeOutLeft",
-                //     nav: true,
-                //     responsive: {
-                //         0: {
-                //             items: 1
-                //         },
-                //         600: {
-                //             items: 1
-                //         },
-                //         1000: {
-                //             items: 1
-                //         }
-                //     },
-                //     dots: $controllers,
-                // });
-
-                // $("#sppb-addon-1507611917 .sppbSlidePrev").click(function () {
-                //     $slideFullwidth.trigger("prev.owl.carousel", [400]);
-                // });
-
-                // $("#sppb-addon-1507611917 .sppbSlideNext").click(function () {
-                //     $slideFullwidth.trigger("next.owl.carousel", [400]);
-                // });
+         
             });
         </script>
+        
 
         <script>
             jQuery(document).ready(function($) {
@@ -2596,31 +2613,31 @@ if($property->usp!='')
             });
         </script>
         <script type="text/javascript">
-            jQuery(document).ready(function() {
-                jQuery(document).on("scroll", onScroll);
-
-                //smoothscroll
-                jQuery('.sp-megamenu-parent a').on('click', function(e) {
-
-                    e.preventDefault();
-                    jQuery(document).off("scroll");
-
-                    jQuery('li').each(function() {
-                        jQuery(this).removeClass('current-item active');
-                    })
-                    jQuery(this).parent('li').addClass('current-item active');
-                    // console.log()
-                    var target = this.hash,
-                        menu = target;
-                    $target = jQuery(target);
-                    jQuery('html, body').stop().animate({
-                        'scrollTop': $target.offset().top + 2
-                    }, 500, 'swing', function() {
-                        // window.location.hash = target;
-                        jQuery(document).on("scroll", onScroll);
-                    });
-                });
-            });
+           	jQuery(document).ready(function () {
+    jQuery(document).on("scroll", onScroll);
+    
+    //smoothscroll
+    jQuery('a[href^="#"]').on('click', function (e) {
+        
+        e.preventDefault();
+        jQuery(document).off("scroll");
+        
+        jQuery('li').each(function () {
+            jQuery(this).removeClass('current-item active');
+        })
+        jQuery(this).parent('li').addClass('current-item active');
+      
+        var target = this.hash,
+            menu = target;
+        $target = jQuery(target);
+        jQuery('html, body').stop().animate({
+            'scrollTop': $target.offset().top+2
+        }, 500, 'swing', function () {
+           // window.location.hash = target;
+            jQuery(document).on("scroll", onScroll);
+        });
+    });
+});
 
             function onScroll(event) {
                 var scrollPos = jQuery(document).scrollTop();
@@ -2634,6 +2651,9 @@ if($property->usp!='')
                         jQuery('.sp-megamenu-parent li').removeClass("current-item active");
                         jQuery('.sp-megamenu-parent li')[0].addClass("current-item active");
                     }
+                    if(refElement.position()!=undefined){
+
+                    
                     if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
                         // console.log(refElement);
                         jQuery('.sp-megamenu-parent li').removeClass("current-item active");
@@ -2641,6 +2661,7 @@ if($property->usp!='')
                     } else {
 
                     }
+                }
                 });
             }
         </script>
