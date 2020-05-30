@@ -524,6 +524,12 @@ $i=0;
             return false;
         });
     });
+
+    $(document).ready(function(){
+   setTimeout(function(){
+       $('#myModal').modal('show');
+   }, 2000);
+});
     </script>
 <div class="clearfix"></div><br>
 <!--<div class="container">
@@ -706,6 +712,21 @@ $i=0;
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+        <div class="modal-body">
+            <img class="hidden-xs-block hidden-xs img-responsive" src="<?= base_url('assets/images/desktop.jpg') ?>" >
+            <img class="hidden-lg-block hidden-lg img-responsive" src="<?= base_url('assets/images/mobile.jpg') ?>" >
+        </div>
+    </div>
+  </div>
+</div>
 <script type="text/javascript">
     var lightSlider = true;
 
@@ -735,7 +756,23 @@ $('#baths').ionRangeSlider({
  prefix: 'sqft '
 });
 
+$(document).ready(function(){
+    function alignModal(){
+        var modalDialog = $(this).find(".modal-dialog");
+        /* Applying the top margin on modal dialog to align it vertically center */
+        modalDialog.css("margin-top", Math.max(0, ($(window).height() - modalDialog.height()) / 2));
+    }
+    // Align modal when it is displayed
+    $(".modal").on("shown.bs.modal", alignModal);
+    
+    // Align modal when user resize the window
+    $(window).on("resize", function(){
+        $(".modal:visible").each(alignModal);
+    });   
+});
+
 </script>
+
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
