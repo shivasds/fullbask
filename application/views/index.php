@@ -721,8 +721,8 @@ $i=0;
                     <h4 class="modal-title"></h4>
                 </div>
         <div class="modal-body">
-            <img class="hidden-xs-block hidden-xs img-responsive" src="<?= base_url('assets/images/desktop.jpg') ?>" >
-            <img class="hidden-lg-block hidden-lg img-responsive" src="<?= base_url('assets/images/mobile.jpg') ?>" >
+           <a href="https://www.fullbasketproperty.com/landmark/" target="_blank"><img class="hidden-xs-block hidden-xs img-responsive" src="<?= base_url('assets/images/desktop.jpg') ?>" >
+            <img class="hidden-lg-block hidden-lg img-responsive" src="<?= base_url('assets/images/mobile.jpg') ?>" ></a>
         </div>
     </div>
   </div>
