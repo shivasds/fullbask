@@ -3018,6 +3018,30 @@ a.bld-link{text-decoration: none; color: #fff;}
         width: 100%!important;
         
     }
+    
+@keyframes glowing {
+    0% { background-color: #fec601; box-shadow: 0 0 15px #fec601; }
+    50% { background-color: #f1ac09; box-shadow: 0 0 20px #f1ac09; }
+    100% { background-color: #fec601; box-shadow: 0 0 5px #fec601; }
+    }
+   
+.float a{
+  color:white;
+  text-decoration:none
+}
+.float a:hover{
+  color:white;
+  text-decoration:none
+}
+    .float {       
+       width: 42%!important;       
+       font-size: 12px!important;
+      
+    }
+    .my-float {
+        width: 40%!important;
+       
+    }
    
     
 }
