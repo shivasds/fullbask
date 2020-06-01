@@ -91,6 +91,7 @@ height: 70%;
  .black{
     position: fixed;
     width: 15%;
+    z-index: 9999;
     top: 45%;
     left: 0px;
     background-color: #fec601;
@@ -106,7 +107,7 @@ height: 70%;
     padding: 10px;
     left: 0px;
     color:white;
-    background-color: #fec601;
+    background-color: #fec60173;
     color: #FFF;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
@@ -115,8 +116,8 @@ height: 70%;
     animation: glowing 1300ms infinite;
 }
 @keyframes glowing {
-      0% { background-color: #fec601; box-shadow: 0 0 15px #fec601; }
-      50% { background-color: #f1ac09; box-shadow: 0 0 20px #f1ac09; }
+      20% { background-color: #fec601; box-shadow: 0 0 15px #fec601; }
+      30% { background-color: #f1ac09; box-shadow: 0 0 20px #f1ac09; }
       100% { background-color: #fec601; box-shadow: 0 0 5px #fec601; }
       }
     .float span{
