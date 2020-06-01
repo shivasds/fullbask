@@ -75,79 +75,10 @@ height: 70%;
 }
 @media (max-width: 414px) {
 .city-section{
-    margin-top: -22px;
+    margin-top: -100px;
 }
 }
- #myModal .btn-loc1{
-     margin:20px; 
-     margin-bottom: 0px;  
-    background-color: #fec601;
-    color: #fff;
-    padding: 7px 25px;
- }
- #myModal .btn-loc1:hover{
-     text-decoration:none;
- }
- .black{
-    position: fixed;
-    width: 15%;
-    top: 45%;
-    left: 0px;
-    background-color: #fec601;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
- }
-  .float{
-    position: fixed;
-    width: 15%;
-    top: 50%;
-    border: none;
-    font-size: 19px;
-    padding: 10px;
-    left: 0px;
-    color:white;
-    background-color: #fec601;
-    color: #FFF;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    text-align: center;
-    box-shadow: 2px 2px 3px #999;
-    animation: glowing 1300ms infinite;
-}
-@keyframes glowing {
-      0% { background-color: #fec601; box-shadow: 0 0 15px #fec601; }
-      50% { background-color: #f1ac09; box-shadow: 0 0 20px #f1ac09; }
-      100% { background-color: #fec601; box-shadow: 0 0 5px #fec601; }
-      }
-    .float span{
-        font-size:10px
-    } 
-.float a{
-    color:white;
-    text-decoration:none
-}
-.float a:hover{
-    color:white;
-    text-decoration:none
-}
-
-.my-float{
-	position: fixed;
-    width: 15%;
-    top: 45%;
-    border: none;
-    font-size: 19px;
-    text-decoration:none;
-    left: -6px;
-    color:white;
-    color: #040404;
-    text-align: center;
-}
-.my-float :hover{
-    text-decoration:none;
-}
-
-
+ 
 </style>
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
 <script>
@@ -159,18 +90,96 @@ $(document).ready(function(){
 </script>
 
 
-<div id="carousel" class="carousel slide" data-ride="carousel">
-<!-- <iframe width="100%" height="600" src="https://www.youtube.com/embed/h3hRUAu_UJo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-<video width="100%" height="auto" controls autoplay muted="">
-  <source src="<?=base_url("assets/landmark.mp4");?>" type="video/mp4"> 
-</video>
-    </div>
+<div id="carousel" class="carousel slide visible-lg-block visible-xs-block  hidden-lg" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
 
+    <dAiv class="carousel-inner ">
+        <?php $i = 0;
+        foreach ($mobilesliders as $slider) {
+            $img=array();
+            $img=explode('.', $slider->image);
+           // print_r($img);
+          // $mobile_banner=$img[0].'_thumb.jpg';
+        ?>
+            <div class="<?= $i ? '' : 'active' ?> item fadeInRight animated"
+                 style="background: url(<?= base_url('uploads/sliders/' .  $slider->image) ?>);">
+                 <div class="carousel-caption fadeInUp animated">
+                    <h1><b><?= $slider->title ?></b></h1>
+                    <p><?= $slider->heading ?></p>
+                 </div>
+            </div>
+            <?php $i++;
+        } ?>
+    </div>
+    <!-- Left and right controls -->
+    <a class="left mobile carousel-control" href="#carousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right mobile carousel-control" href="#carousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
 </div>
 
 
+     <!-- <div id="carousel" class="carousel slide home-slider hidden-xs-block hidden-xs " data-ride="carousel">
+        <div class="carousel-inner">
+            <?php $i = 0;
+            foreach ($sliders as $slider) {
+            ?>
+            
+                <div class="<?= $i ? '' : 'active'  ?> item fadeInRight animated img-responsive"
+                    style="100%!important; background: url(<?= base_url('uploads/sliders/' . $slider->image) ?>);">
+                    <div class="carousel-caption fadeInUp animated">
+                        <h1><b><?= $slider->title ?></b></h1>
+                        <p><?= $slider->heading ?></p>
+                    </div>
+                </div>
+                <?php $i++;
+            } ?>
+        </div>
+    </div>  -->
 
+    <div id="myCarousel" class="carousel slide hidden-xs-block hidden-xs" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+    <?php $desk = 0;
+        foreach ($sliders as $slider) {
+            $img=array();
+            $img=explode('.', $slider->image);
+           
+        ?>
+      <div class="<?= $desk ? 'item' : 'item active' ?>">
+      <img src="<?= base_url('uploads/sliders/' .  $slider->image) ?>" style="width: 100%!important;" alt="slider">
+      </div>
+       <?php $desk++;
+        
+            } ?>
+
+    </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 </div>
 <div class="clearflix"></div>
 
@@ -559,10 +568,6 @@ $i=0;
         </div>
     </div>
 </div>
-<div class="black" style="background:green">
-    <!-- <div class="my-float">Register For</div> -->
-    <button class="float"><a href="https://www.fullbasketproperty.com/landmark/" >Register For<br>Lamdmark Offer</a></button>
- </div>
 <script>
     $(document).ready(function() {
         var showChar = 150;
@@ -597,12 +602,6 @@ $i=0;
             return false;
         });
     });
-
-    $(document).ready(function(){
-   setTimeout(function(){
-       $('#myModal').modal('show');
-   }, 2000);
-});
     </script>
 <div class="clearfix"></div><br>
 <!--<div class="container">
@@ -785,25 +784,6 @@ $i=0;
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-
-<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content" style=" background: #fff0;  box-shadow: none;border: 0px;">
-    <!-- <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"></h4>
-                </div> -->
-        <div class="modal-body" style="    padding: 0px;">
-          <a href="https://www.fullbasketproperty.com/landmark/" target="_blank">
-            <img class="hidden-xs-block hidden-xs img-responsive" src="https://www.fullbasketproperty.com/assets/images/desktop.jpg">
-            <img class="hidden-lg-block hidden-lg img-responsive" src="https://www.fullbasketproperty.com/assets/images/mobile.jpg">
-        </a>
-
-            <center><button class="btn btn-loc1"><a href="https://www.fullbasketproperty.com/landmark/" target="_blank" style="color:white"> Register Now</a></button></center>
-        </div>
-    </div>
-  </div>
-</div>
 <script type="text/javascript">
     var lightSlider = true;
 
@@ -833,23 +813,7 @@ $('#baths').ionRangeSlider({
  prefix: 'sqft '
 });
 
-$(document).ready(function(){
-    function alignModal(){
-        var modalDialog = $(this).find(".modal-dialog");
-        /* Applying the top margin on modal dialog to align it vertically center */
-        modalDialog.css("margin-top", Math.max(0, ($(window).height() - modalDialog.height()) / 2));
-    }
-    // Align modal when it is displayed
-    $(".modal").on("shown.bs.modal", alignModal);
-    
-    // Align modal when user resize the window
-    $(window).on("resize", function(){
-        $(".modal:visible").each(alignModal);
-    });   
-});
-
 </script>
-
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();

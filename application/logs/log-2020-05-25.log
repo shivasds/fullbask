@@ -1,0 +1,32 @@
+ERROR - 2020-05-25 10:19:18 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ F:\FBP.com\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2020-05-25 10:19:18 --> Unable to connect to the database
+ERROR - 2020-05-25 10:19:24 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ F:\FBP.com\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2020-05-25 10:19:24 --> Unable to connect to the database
+ERROR - 2020-05-25 13:49:43 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:43 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:44 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:44 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:45 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:45 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:45 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:45 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:45 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:47 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:47 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:47 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:47 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:47 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:47 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:48 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:48 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:48 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:48 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:48 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:49 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:49 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:49 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:49 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:49 --> 404 Page Not Found: 
+ERROR - 2020-05-25 13:49:49 --> 404 Page Not Found: 
