@@ -77,7 +77,7 @@ class Properties extends Admin_Controller
         if ($this->input->post('id') && ($property = $this->properties_model->getOneWhere(array('id' => $this->input->post('id')), 'properties')) != null){
             $this->properties_model->updateRow($this->input->post('id'),array('rera_status' => !$property->rera_status), 'id', 'properties');
         }
-        $perpage = 10;
+        $perpage = 100;
         $base_url = site_url('admin/properties/rera');
         $uri_segment = 4;
         $page = ($this->uri->segment(4)) ? $this->uri->segment(4) : 1;

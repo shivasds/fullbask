@@ -915,7 +915,7 @@
 
                                         <div class="col-md-2 col-xs-2 whtsapp zoom">
                                             <div class="">
-                                                <a target="_blank" href="https://api.whatsapp.com/send?phone=918342063684&text=I'm%20interested%20in%20<?= $property->title ? $property->title : '' ?>%20please%20send%20me%20the%20details">
+                                                <a target="_blank" href="https://api.whatsapp.com/send?phone=918342063684&text=HI TEAM FBP, I would be interested to know about%20<?= $property->title ? $property->title : '' ?>%20please%20send%20me%20the%20details">
                                                     <span>Whatsapp</span>
                                                     <br>
                                                     <i class="fa fa-whatsapp fa-3x"></i>
@@ -1112,7 +1112,7 @@
                                                         <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 no-padding banner-patch-content">
                                                             <center>
                                                                 <h4><b>Whatsapp</b></h4></center>
-                                                            <a href="https://api.whatsapp.com/send?phone=918342063684&text=I'm%20interested%20in%20<?= $property->title ? $property->title : '' ?>%20please%20send%20me%20the%20details" target="_blank">
+                                                            <a href="https://api.whatsapp.com/send?phone=918342063684&text=HI TEAM FBP, I would be interested to know about%20<?= $property->title ? $property->title : '' ?>%20please%20send%20me%20the%20details" target="_blank">
                                                                 <center><img src="<?= base_url('assets/banner_patch/banner-patch-7.png') ?>" class="img-responsive"></center>
                                                             </a>
 
@@ -1213,7 +1213,7 @@
                                                         ?>
                                                                         </td>
 
-                                                                        <td align="center"><a href="https://api.whatsapp.com/send?phone=918342063684&text=I'm%20interested.%20would%20like%20to%20know%20more%20about%20<?= $property->title ? $property->title : '' ?>%20Project%20 <?= $flatType->flat_type ?>" target="_blank"><img src="<?= base_url('assets/banner_patch/whatsapp.png') ?>"> </a></td>
+                                                                        <td align="center"><a href="https://api.whatsapp.com/send?phone=918342063684&text=HI TEAM FBP, I would be interested to know about%20<?= $property->title ? $property->title : '' ?>%20Project%20 <?= $flatType->flat_type ?>" target="_blank"><img src="<?= base_url('assets/banner_patch/whatsapp.png') ?>"> </a></td>
                                                                     </tr>
                                                                     <?php
                                             }
@@ -1844,7 +1844,7 @@ if($property->usp!='')
                 <p class="footer-call"><i class="fa fa-phone"></i>
                     <a href="tel:9019011888">9019011888</a>
                 </p>
-                <a href="https://api.whatsapp.com/send?phone=918342063684&text=I'm%20interested%20in%20<?= $property->title ? $property->title : '' ?>%20please%20send%20me%20the%20details" target="_blank">
+                <a href="https://api.whatsapp.com/send?phone=918342063684&text=HI TEAM FBP, I would be interested to know about%20<?= $property->title ? $property->title : '' ?>%20please%20send%20me%20the%20details" target="_blank">
                     <p class="foo-txt"><img src="<?= base_url('assets/banner_patch/whatsapp.png') ?>" style="margin: 0px auto;">Get Details by Whatsapp</p>
                 </a>
                 <br/>
@@ -1986,7 +1986,7 @@ if($property->usp!='')
                 </div>
                 <div class="col-lg-6 col-sm-6 col-xs-6 pd0">
                     <!-- <button class="btn interested fix-link i-am"><i class="fa fa-envelope"></i> ENQUIRE NOW</button> -->
-                    <button class="btn fix-link i-am"><i class="fa fa-whatsapp"></i> <a href="https://api.whatsapp.com/send?phone=918342063684&text=I'm%20interested%20in%20<?= $property->title ? $property->title : '' ?>%20please%20send%20me%20the%20details" target="_blank"><font color=white> Whatsapp</font></a></button>
+                    <button class="btn fix-link i-am"><i class="fa fa-whatsapp"></i> <a href="https://api.whatsapp.com/send?phone=918342063684&text=HI TEAM FBP, I would be interested to know about%20<?= $property->title ? $property->title : '' ?>%20please%20send%20me%20the%20details" target="_blank"><font color=white> Whatsapp</font></a></button>
                 </div>
             </div>
         </div>

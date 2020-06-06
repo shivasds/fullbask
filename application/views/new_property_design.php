@@ -1110,7 +1110,7 @@ if (($images = $this->properties_model->getWhere(array('property_id' => $propert
                                                                 <p class="footer-call"><i class="fa fa-phone"></i>
                                                                     <a href="tel:9019011888">9019011888</a>
                                                                 </p>
-                                                                 <a href="https://api.whatsapp.com/send?phone=918342063684&text=I'm%20interested.%20would%20like%20to%20know%20more%20about%20<?= $property->title ? $property->title : '' ?>%20Project" target="_blank"><p class="foo-txt"><img src="<?= base_url('assets/banner_patch/whatsapp.png') ?>" style="margin: 0px auto;">Get Details by Whatsapp</p></a><br/><br/>
+                                                                 <a href="https://api.whatsapp.com/send?phone=918342063684&text=HI TEAM FBP, I would be interested to know about%20<?= $property->title ? $property->title : '' ?>%20Project" target="_blank"><p class="foo-txt"><img src="<?= base_url('assets/banner_patch/whatsapp.png') ?>" style="margin: 0px auto;">Get Details by Whatsapp</p></a><br/><br/>
                                           <div class="sppb-row">
                                             <?php
 if($property->map)
