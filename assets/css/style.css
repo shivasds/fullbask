@@ -3476,14 +3476,40 @@ a.bld-link{text-decoration: none; color: #fff;}
     transform: scale(2.57);
  }
 }
-
-
+.enquiry-btn {
+    margin: 0px auto;
+    display: block;
+    background-image: none;
+    background-color: #53ABBD !important;
+    text-shadow: none;
+    color: #fff;
+    border: 2px solid #53ABBD;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    transition: all 0.5s ease;
+    font-weight: 800;
+}
+#enquiry-Modal .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 .selected-flag {
+    width: 89px!important;
+    background-color: #53abbd!important;
+    color: white;
+}
+#enquiry-Modal .intl-tel-input .selected-flag .iti-arrow {
+   
+    border-top: 4px solid #fff;
+}
+#enquiry-Modal .close{
+    color: #ffffff;
+    opacity: 1;
+}
 #enquiry-Modal .input-group-addon{
     background: #53ABBD;
     color: #fff;
-    border: 0;
+    font-weight: bolder;
 }
-
+#enquiry-Modal .modal-header{
+    background: #53ABBD;
+}
 #enquiry-Modal .input-group .form-control:last-child{
     z-index: 1;
 }
@@ -3495,7 +3521,11 @@ a.bld-link{text-decoration: none; color: #fff;}
     .hidden-lg-block{
         display: none;
     }
-    a.signup {
+    .float {
+        position: fixed;
+        width: 21%!important;
+    }
+    .mobile-view{
        float: right!important;
     }
     .navbar-default .navbar-nav > li > a {
