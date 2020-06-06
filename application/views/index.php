@@ -911,13 +911,13 @@ $i=0;
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
 
-                        <h4 class="modal-title">Enquiry Now</h4>
+                        <h4 class="modal-title en" style="color:white">Enquiry Now</h4>
                     </div>
                     <div class="modal-body">
-                        <p>Please enter the details below to get the Brochure.</p>
+                      
                         <form id="download-popup" action="" name="download-popup" method="POST" novalidate="novalidate" onsubmit="return save_landing_pageinfo('download-popup');">
                             <input type="hidden" name="city" value="<?=$this->uri->segment(1);?>">
-                            <div class="form-group col-md-12 pd">
+                            <div class="form-group col-md-1 2 pd">
                                 <div class="input-group">
                                     <div class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></div>
                                     <input type="text" class="form-control" placeholder="Name" name="name" id="name">
@@ -939,7 +939,7 @@ $i=0;
                                 <label for="email" generated="true" class="error"></label>
                             </div>
 
-                            <button type="submit" class="btn btn-default price-btn">DOWNLOAD BROCHURE</button>
+                            <button type="submit" class="btn btn-default enquiry-btn">Get Info</button>
                         </form>
                     </div>
                 </div>
