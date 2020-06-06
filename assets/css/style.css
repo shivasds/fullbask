@@ -3009,6 +3009,15 @@ a.bld-link{text-decoration: none; color: #fff;}
 }
 }
 @media only screen and (min-width:320px) and (max-width:750px) {
+    .enquiry > li {
+        float: left;
+        list-style: none;
+        margin-top:5px;
+        margin-bottom: 5px;
+    }
+    .tab-content{
+        margin-top: 55px;
+    }
     footer ul {
        padding-top: 0px;   
        padding: 0;
@@ -3486,17 +3495,18 @@ a.bld-link{text-decoration: none; color: #fff;}
     .hidden-lg-block{
         display: none;
     }
+    a.signup {
+       float: right!important;
+    }
     .navbar-default .navbar-nav > li > a {
         padding-right: 10px!important;
         padding-left: 10px!important;
         /* font-family: 'Lato', sans-serif; */
         /* font-weight: bold; */
-        float: right;
+       
     }
     .fixed-header .navbar-nav {
-        margin: 0 0 0 40px;
-        width: initial;
-        float: right;
+        float: right!important;
     }
     #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input, #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=text], #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=tel] {
         padding-left: 94px!important;

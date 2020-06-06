@@ -150,6 +150,7 @@ height: 70%;
 .mt-5{
     margin-top:10px;
 }
+
 .nav-pills li{
     margin-left:10px;
     margin-right:10px;
@@ -403,7 +404,7 @@ $(document).ready(function(){
    
   </ul>
 
-  <div class="text-center mt-5 nav-justified">
+  <div class="text-center mt-5 nav-justified enquiry">
  <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li>
  <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li>
  <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li>
@@ -411,6 +412,9 @@ $(document).ready(function(){
  <li> <button class="btn btn-primary" data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li>
  <!-- <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li> -->
   </div>
+
+  <br>
+  <br>
 
   <div class="tab-content text-center">
     <div id="home" class="tab-pane fade in active">
