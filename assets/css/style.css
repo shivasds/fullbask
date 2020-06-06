@@ -3469,3 +3469,69 @@ a.bld-link{text-decoration: none; color: #fff;}
 }
 
 
+#enquiry-Modal .input-group-addon{
+    background: #53ABBD;
+    color: #fff;
+    border: 0;
+}
+
+#enquiry-Modal .input-group .form-control:last-child{
+    z-index: 1;
+}
+#enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input, #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=text], #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=tel] {
+    padding-left: 98px!important;
+}
+/* tab view */
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+    .hidden-lg-block{
+        display: none;
+    }
+    .navbar-default .navbar-nav > li > a {
+        padding-right: 10px!important;
+        padding-left: 10px!important;
+        /* font-family: 'Lato', sans-serif; */
+        /* font-weight: bold; */
+        float: right;
+    }
+    .fixed-header .navbar-nav {
+        margin: 0 0 0 40px;
+        width: initial;
+        float: right;
+    }
+    #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input, #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=text], #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=tel] {
+        padding-left: 94px!important;
+        width: 536px!important;
+    }
+}
+ 
+@media only screen and (min-width: 1167px){
+    #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input, #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=text], #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=tel] {
+        width: 540px!important;
+    }
+}
+@media only screen and (max-width: 360px) and (min-width: 321px){
+    #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input, #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=text], #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=tel] {
+        width: 294px!important;
+    } 
+}
+@media only screen and (max-width: 411px) and (min-width: 376px){
+    #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input, #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=text], #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=tel] {
+        width: 345px!important;
+    } 
+}
+@media only screen and (max-width: 320px) and (min-width: 0px){
+    #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input, #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=text], #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=tel] {
+        width: 253px!important;
+    } 
+}
+@media only screen and (max-width: 375px) and (min-width: 361px){
+    #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input, #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=text], #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=tel] {
+        width: 309px!important;
+    } 
+}
+@media only screen and (max-width: 414px) and (min-width: 412px){
+    #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input, #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=text], #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=tel] {
+        width: 347px!important;
+    } 
+}
+  
