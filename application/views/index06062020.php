@@ -75,10 +75,120 @@ height: 70%;
 }
 @media (max-width: 414px) {
 .city-section{
-    margin-top: -100px;
+    margin-top: -22px;
 }
 }
- 
+ #myModal .btn-loc1{
+     margin:20px; 
+     margin-bottom: 0px;  
+    background-color: #fec601;
+    color: #fff;
+    padding: 7px 25px;
+ }
+ #myModal .btn-loc1:hover{
+     text-decoration:none;
+ }
+ .black{
+    position: fixed;
+    width: 15%;
+    z-index: 99;
+    top: 45%;
+    left: 0px;
+    background-color: #fec601;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+ }
+  .float{
+    position: fixed;
+    width: 15%;
+    top: 50%;
+    border: none;
+    font-size: 19px;
+    padding: 10px;
+    left: 0px;
+    color:white;
+    background-color: #fec601;
+    color: #FFF;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    animation: glowing 1300ms infinite;
+}
+@keyframes glowing {
+      20% { background-color: #fec601; box-shadow: 0 0 15px #fec601; }
+      30% { background-color: #f1ac06; box-shadow: 0 0 20px #f1ac09; }
+      100% { background-color: #fec609; box-shadow: 0 0 5px #fec601; }
+      }
+    .float span{
+        font-size:10px
+    } 
+.float a{
+    color:white;
+    text-decoration:none
+}
+.float a:hover{
+    color:white;
+    text-decoration:none
+}
+
+.my-float{
+	position: fixed;
+    width: 15%;
+    top: 45%;
+    border: none;
+    font-size: 19px;
+    text-decoration:none;
+    left: -6px;
+    color:white;
+    color: #040404;
+    text-align: center;
+}
+.my-float :hover{
+    text-decoration:none;
+}
+.mt-5{
+    margin-top:10px;
+}
+
+.nav-pills li{
+    margin-left:10px;
+    margin-right:10px;
+}
+.tabbable-panel {
+  border:1px solid #eee;
+  padding: 10px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #fff;
+    background:transparent;
+    border-bottom: 5px solid #337ab7;
+    box-shadow: 1px 6px 7px 0px #c2bdc0;
+}
+.nav-justified > .blue {
+    background: #02a5cb;
+}
+.nav-justified > .blue1 {
+    background: #f4a385;
+}
+.nav-justified > .blue2 {
+    background: #ce7ab1;
+}
+.nav-justified > .blue3 {
+    background: #8cc23f;
+}
+.nav-justified > .blue4 {
+    background: #8758a3;
+}
+.nav-justified > .blue5 {
+    background: #e82d8e;
+}
+
+.nav-justified > li > a{
+    color:white;
+} 
+
 </style>
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
 <script>
@@ -90,96 +200,18 @@ $(document).ready(function(){
 </script>
 
 
-<div id="carousel" class="carousel slide visible-lg-block visible-xs-block  hidden-lg" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-    <dAiv class="carousel-inner ">
-        <?php $i = 0;
-        foreach ($mobilesliders as $slider) {
-            $img=array();
-            $img=explode('.', $slider->image);
-           // print_r($img);
-          // $mobile_banner=$img[0].'_thumb.jpg';
-        ?>
-            <div class="<?= $i ? '' : 'active' ?> item fadeInRight animated"
-                 style="background: url(<?= base_url('uploads/sliders/' .  $slider->image) ?>);">
-                 <div class="carousel-caption fadeInUp animated">
-                    <h1><b><?= $slider->title ?></b></h1>
-                    <p><?= $slider->heading ?></p>
-                 </div>
-            </div>
-            <?php $i++;
-        } ?>
+<div id="carousel" class="carousel slide" data-ride="carousel">
+<!-- <iframe width="100%" height="600" src="https://www.youtube.com/embed/h3hRUAu_UJo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+<video width="100%" height="auto" controls autoplay muted="">
+  <source src="<?=base_url("assets/landmark.mp4");?>" type="video/mp4"> 
+</video>
     </div>
-    <!-- Left and right controls -->
-    <a class="left mobile carousel-control" href="#carousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right mobile carousel-control" href="#carousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
+
   </div>
 </div>
 
 
-     <!-- <div id="carousel" class="carousel slide home-slider hidden-xs-block hidden-xs " data-ride="carousel">
-        <div class="carousel-inner">
-            <?php $i = 0;
-            foreach ($sliders as $slider) {
-            ?>
-            
-                <div class="<?= $i ? '' : 'active'  ?> item fadeInRight animated img-responsive"
-                    style="100%!important; background: url(<?= base_url('uploads/sliders/' . $slider->image) ?>);">
-                    <div class="carousel-caption fadeInUp animated">
-                        <h1><b><?= $slider->title ?></b></h1>
-                        <p><?= $slider->heading ?></p>
-                    </div>
-                </div>
-                <?php $i++;
-            } ?>
-        </div>
-    </div>  -->
 
-    <div id="myCarousel" class="carousel slide hidden-xs-block hidden-xs" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-    <div class="carousel-inner">
-    <?php $desk = 0;
-        foreach ($sliders as $slider) {
-            $img=array();
-            $img=explode('.', $slider->image);
-           
-        ?>
-      <div class="<?= $desk ? 'item' : 'item active' ?>">
-      <img src="<?= base_url('uploads/sliders/' .  $slider->image) ?>" style="width: 100%!important;" alt="slider">
-      </div>
-       <?php $desk++;
-        
-            } ?>
-
-    </div>
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
 </div>
 <div class="clearflix"></div>
 
@@ -359,6 +391,70 @@ $(document).ready(function(){
             <?php }?>
         </div>
 <div class="clearfix"></div><br><br><br>
+
+<!-- Tabs start-->
+<div class="container tabbable-panel">
+  <ul class="nav nav-pills nav-justified">
+    <li class="blue active"><a  href="<?=base_url('city/Bangalore');?>" target="_blank">Bangalore</a></li>
+    <li class="blue1"><a  href="<?=base_url('city/Pune');?>">Pune</a></li>
+    <li class="blue2"><a  href="<?=base_url('city/Hyderabad');?>">Hyderabad</a></li>
+    <li class="blue3"><a  href="<?=base_url('city/Mumbai');?>">Mumbai</a></li>
+    <li class="blue4"><a href="<?=base_url('city/Noida');?>">Noida</a></li>
+    <!-- <li class="blue5"><a data-toggle="tab" href="#menu5">Menu 5</a></li> -->
+   
+  </ul>
+
+  <div class="text-center mt-5 nav-justified enquiry">
+ <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal" onclick="appendcity('Bangalore');">Enquiry now</button></li>
+ <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal" onclick="appendcity('Pune');">Enquiry now</button></li>
+ <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal" onclick="appendcity('Hyderabad');">Enquiry now</button></li>
+ <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal" onclick="appendcity('Mumbai');"> Enquiry now</button></li>
+ <li> <button class="btn btn-primary" data-toggle="modal" data-target="#enquiry-Modal" onclick="appendcity('Noida');">Enquiry now</button></li>
+ <!-- <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li> -->
+  </div>
+
+  <br>
+  <br>
+  <script>
+    function appendcity(city)
+    {
+//alert(city);
+//document.getElementsById('city').value=city;
+$('#city').val(city);
+    }
+  </script>
+
+ <!--  <div class="tab-content text-center">
+    <div id="home" class="tab-pane fade in active">
+      <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Menu 1</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Menu 2</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+    <div id="menu4" class="tab-pane fade">
+      <h3>Menu 4</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+    <div id="menu5" class="tab-pane fade">
+      <h3>Menu 5</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+  </div> -->
+  </div>
+
+<!-- Tabs end -->
+
+
 <div class="container">
     <div class="row section2">
         <div class="col-sm-12 text-center">
@@ -367,6 +463,9 @@ $(document).ready(function(){
             <br>
              <!-- Bengaluru| Pune | Hyderabad -->
              </p>
+
+           
+</div>
         </div>
         <div class="clearfix"></div>
         <br>
@@ -568,6 +667,10 @@ $i=0;
         </div>
     </div>
 </div>
+<div class="black" style="background:green">
+    <!-- <div class="my-float">Register For</div> -->
+    <button class="float"><a href="https://www.fullbasketproperty.com/landmark/" >Register For<br>Lamdmark Offer</a></button>
+ </div>
 <script>
     $(document).ready(function() {
         var showChar = 150;
@@ -602,6 +705,12 @@ $i=0;
             return false;
         });
     });
+
+    $(document).ready(function(){
+   setTimeout(function(){
+       $('#myModal').modal('show');
+   }, 2000);
+});
     </script>
 <div class="clearfix"></div><br>
 <!--<div class="container">
@@ -784,6 +893,66 @@ $i=0;
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style=" background: #fff0;  box-shadow: none;border: 0px;">
+    <!-- <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div> -->
+        <div class="modal-body" style="    padding: 0px;">
+          <a href="https://www.fullbasketproperty.com/landmark/" target="_blank">
+            <img class="hidden-xs-block hidden-xs img-responsive" src="https://www.fullbasketproperty.com/assets/images/desktop.jpg">
+            <img class="hidden-lg-block hidden-lg img-responsive" src="https://www.fullbasketproperty.com/assets/images/mobile.jpg">
+        </a>
+
+            <center><button class="btn btn-loc1"><a href="https://www.fullbasketproperty.com/landmark/" target="_blank" style="color:white"> Register Now</a></button></center>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div id="enquiry-Modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+  <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+
+                        <h4 class="modal-title en" style="color:white">Enquiry Now</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Please enter the details below to get the Brochure.</p>
+                        <form id="download-popup" action="<?=base_url('Home/sendEmailCity');?>" name="download-popup" method="POST" novalidate="novalidate" onsubmit="return save_landing_pageinfo('download-popup');">
+                            <input type="hidden" name="city_name1" id="city" value="">
+                            <div class="form-group col-md-12 pd">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></div>
+                                    <input type="text" class="form-control" placeholder="Name" name="name" id="name">
+
+                                </div>
+                                <label for="p_fname" generated="true" class="error" style=" display: none;"></label>
+                            </div>
+
+                            <div class="form-group col-md-12 pd">
+                               
+                                  <input type="tel" placeholder="Phone*" name="phone" class="validate form-control" id="contctform-phone8" required>
+                              
+                            </div>
+                            <div class="form-group col-md-12">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                                    <input type="email" class="form-control" name="email" placeholder="Email">
+                                </div>
+                                <label for="email" generated="true" class="error"></label>
+                            </div>
+
+                            <button type="submit" class="btn btn-default enquiry-btn">Get Info</button>
+                        </form>
+                    </div>
+                </div>
+  </div>
+</div>
 <script type="text/javascript">
     var lightSlider = true;
 
@@ -813,7 +982,23 @@ $('#baths').ionRangeSlider({
  prefix: 'sqft '
 });
 
+$(document).ready(function(){
+    function alignModal(){
+        var modalDialog = $(this).find(".modal-dialog");
+        /* Applying the top margin on modal dialog to align it vertically center */
+        modalDialog.css("margin-top", Math.max(0, ($(window).height() - modalDialog.height()) / 2));
+    }
+    // Align modal when it is displayed
+    $(".modal").on("shown.bs.modal", alignModal);
+    
+    // Align modal when user resize the window
+    $(window).on("resize", function(){
+        $(".modal:visible").each(alignModal);
+    });   
+});
+
 </script>
+
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
