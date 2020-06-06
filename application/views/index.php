@@ -408,10 +408,10 @@ $(document).ready(function(){
 
   <div class="text-center mt-5 nav-justified enquiry">
  <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal" onclick="appendcity('Bangalore');">Enquiry now</button></li>
- <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li>
- <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li>
- <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal"> Enquiry now</button></li>
- <li> <button class="btn btn-primary" data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li>
+ <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal" onclick="appendcity('Pune');">Enquiry now</button></li>
+ <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal" onclick="appendcity('Hyderabad');">Enquiry now</button></li>
+ <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal" onclick="appendcity('Mumbai');"> Enquiry now</button></li>
+ <li> <button class="btn btn-primary" data-toggle="modal" data-target="#enquiry-Modal" onclick="appendcity('Noida');">Enquiry now</button></li>
  <!-- <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li> -->
   </div>
   </div>
@@ -948,7 +948,7 @@ $i=0;
                     <div class="modal-body">
                         <p>Please enter the details below to get the Brochure.</p>
                         <form id="download-popup" action="<?=base_url('Home/sendEmailCity');?>" name="download-popup" method="POST" novalidate="novalidate" onsubmit="return save_landing_pageinfo('download-popup');">
-                            <input type="hidden" name="city" id="city" value="">
+                            <input type="hidden" name="city_name1" id="city" value="">
                             <div class="form-group col-md-12 pd">
                                 <div class="input-group">
                                     <div class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></div>
