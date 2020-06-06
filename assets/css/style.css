@@ -3173,10 +3173,26 @@ a.bld-link{text-decoration: none; color: #fff;}
     }
     }
 
-
+    @media (min-width: 768px) {
+        .d-banner{
+            display: block;
+        }
+        .m-banner{
+            display: none;
+        }
+        
+    }
  
     
 @media (max-width: 767px) {
+    .d-banner{
+        display: none;
+    }
+    .m-banner{
+        display: block;
+    }
+    
+
     #contact_form {
         display: none
     }
@@ -3573,5 +3589,6 @@ a.bld-link{text-decoration: none; color: #fff;}
     #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input, #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=text], #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=tel] {
         width: 347px!important;
     } 
+    
 }
   

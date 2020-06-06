@@ -154,6 +154,7 @@ height: 70%;
 .nav-pills li{
     margin-left:10px;
     margin-right:10px;
+    margin-top: 10px;
 }
 .tabbable-panel {
   border:1px solid #eee;
@@ -393,7 +394,8 @@ $(document).ready(function(){
 <div class="clearfix"></div><br><br><br>
 
 <!-- Tabs start-->
-<div class="container tabbable-panel">
+<div class="container tabbable-panel ">
+    <div class="d-banner">
   <ul class="nav nav-pills nav-justified">
     <li class="blue active"><a  href="<?=base_url('city/Bangalore');?>" target="_blank">Bangalore</a></li>
     <li class="blue1"><a  href="<?=base_url('city/Pune');?>">Pune</a></li>
@@ -412,9 +414,31 @@ $(document).ready(function(){
  <li> <button class="btn btn-primary" data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li>
  <!-- <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li> -->
   </div>
+  </div>
 
-  <br>
-  <br>
+  <div class="m-banner">
+  <ul class="nav nav-pills nav-justified">
+    <li class="blue active"><a  href="<?=base_url('city/Bangalore');?>" target="_blank">Bangalore</a></li>
+  <center><button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal" onclick="appendcity('Bangalore');">Enquiry now</button></li></center>
+ 
+    <li class="blue1"><a  href="<?=base_url('city/Pune');?>">Pune</a></li>
+    <center><li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li></center>
+
+    <li class="blue2"><a  href="<?=base_url('city/Hyderabad');?>">Hyderabad</a></li>
+    <center><li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li></center>
+
+    <li class="blue3"><a  href="<?=base_url('city/Mumbai');?>">Mumbai</a></li>
+    <center><li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li></center>
+
+    <li class="blue4"><a href="<?=base_url('city/Noida');?>">Noida</a></li>
+    <center><li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li></center>
+
+    <!-- <li class="blue5"><a data-toggle="tab" href="#menu5">Menu 5</a></li> -->
+   
+  </ul>
+
+  </div>
+
   <script>
     function appendcity(city)
     {
