@@ -418,7 +418,7 @@ $(document).ready(function(){
   <script>
     function appendcity(city)
     {
-alert(city);
+//alert(city);
 //document.getElementsById('city').value=city;
 $('#city').val(city);
     }
