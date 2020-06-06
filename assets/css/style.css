@@ -3532,6 +3532,14 @@ a.bld-link{text-decoration: none; color: #fff;}
 #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input, #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=text], #enquiry-Modal .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=tel] {
     padding-left: 98px!important;
 }
+@media (max-width: 750px) and (orientation : landscape){
+    .float {
+        position: fixed;
+        width: 21%!important;
+
+}
+}
+
 /* tab view */
 @media only screen and (max-width: 1024px) and (min-width: 768px){
     .hidden-lg-block{
