@@ -3521,7 +3521,11 @@ a.bld-link{text-decoration: none; color: #fff;}
     .hidden-lg-block{
         display: none;
     }
-    a.signup {
+    .float {
+        position: fixed;
+        width: 21%!important;
+    }
+    .mobile-view{
        float: right!important;
     }
     .navbar-default .navbar-nav > li > a {
