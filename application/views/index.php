@@ -154,18 +154,13 @@ height: 70%;
 .nav-pills li{
     margin-left:10px;
     margin-right:10px;
+    margin-top: 10px;
 }
 .tabbable-panel {
   border:1px solid #eee;
   padding: 10px;
 }
 
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-    color: #fff;
-    background:transparent;
-    border-bottom: 5px solid #337ab7;
-    box-shadow: 1px 6px 7px 0px #c2bdc0;
-}
 .nav-justified > .blue {
     background: #02a5cb;
 }
@@ -451,9 +446,10 @@ $(document).ready(function(){
 <div class="clearfix"></div><br><br><br>
 
 <!-- Tabs start-->
-<div class="container tabbable-panel">
+<div class="container tabbable-panel ">
+    <div class="d-banner">
   <ul class="nav nav-pills nav-justified">
-    <li class="blue active"><a  href="<?=base_url('city/Bangalore');?>" target="_blank">Bangalore</a></li>
+    <li class="blue"><a  href="<?=base_url('city/Bangalore');?>" target="_blank">Bangalore</a></li>
     <li class="blue1"><a  href="<?=base_url('city/Pune');?>">Pune</a></li>
     <li class="blue2"><a  href="<?=base_url('city/Hyderabad');?>">Hyderabad</a></li>
     <li class="blue3"><a  href="<?=base_url('city/Mumbai');?>">Mumbai</a></li>
@@ -470,9 +466,31 @@ $(document).ready(function(){
  <li> <button class="btn btn-primary" data-toggle="modal" data-target="#enquiry-Modal" onclick="appendcity('Noida');">Enquiry now</button></li>
  <!-- <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li> -->
   </div>
+  </div>
 
-  <br>
-  <br>
+  <div class="m-banner">
+  <ul class="nav nav-pills nav-justified">
+    <li class="blue active"><a  href="<?=base_url('city/Bangalore');?>" target="_blank">Bangalore</a></li>
+  <center><button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal" onclick="appendcity('Bangalore');">Enquiry now</button></li></center>
+ 
+    <li class="blue1"><a  href="<?=base_url('city/Pune');?>">Pune</a></li>
+    <center><li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li></center>
+
+    <li class="blue2"><a  href="<?=base_url('city/Hyderabad');?>">Hyderabad</a></li>
+    <center><li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li></center>
+
+    <li class="blue3"><a  href="<?=base_url('city/Mumbai');?>">Mumbai</a></li>
+    <center><li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li></center>
+
+    <li class="blue4"><a href="<?=base_url('city/Noida');?>">Noida</a></li>
+    <center><li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li></center>
+
+    <!-- <li class="blue5"><a data-toggle="tab" href="#menu5">Menu 5</a></li> -->
+   
+  </ul>
+
+  </div>
+
   <script>
     function appendcity(city)
     {
@@ -980,7 +998,7 @@ $i=0;
                         <h4 class="modal-title en" style="color:white">Enquiry Now</h4>
                     </div>
                     <div class="modal-body">
-                        <p>Please enter the details below to get the Brochure.</p>
+                        <!-- <p>Please enter the details below to get the Brochure.</p> -->
                         <form id="download-popup" action="<?=base_url('Home/sendEmailCity');?>" name="download-popup" method="POST" novalidate="novalidate" onsubmit="return save_landing_pageinfo('download-popup');">
                             <input type="hidden" name="city_name1" id="city" value="">
                             <div class="form-group col-md-12 pd">
