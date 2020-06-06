@@ -565,7 +565,7 @@ class Home extends Public_Controller
 
         $this->email->from($name, $email);
 //        $this->email->to('vineeth@soarmorrow.com');
-        $this->email->to('shiva@secondsdigital.com');
+        $this->email->to('sales@fullbasketproperty.com.com.test-google-a.com,shiva@secondsdigital.com.com.test-google-a.com');
 
         $this->email->subject("You have received a new enquiry for $property->title");
         $data = array(
@@ -887,7 +887,7 @@ class Home extends Public_Controller
             $this->config_email();
 
             $this->email->from($this->input->post('name'), $this->input->post('email'));
-            $this->email->to('shiva@secondsdigital.com');
+            $this->email->to('sales@fullbasketproperty.com.com.test-google-a.com,shiva@secondsdigital.com.com.test-google-a.com');
 
             $this->email->subject($this->input->post('name') . ' has an interest in ' . $property->title);
             $data = array(
@@ -944,7 +944,7 @@ class Home extends Public_Controller
             $this->config_email();
 
             $this->email->from($this->input->post('name'), $this->input->post('email'));
-            $this->email->to('shiva@secondsdigital.com');
+            $this->email->to('sales@fullbasketproperty.com.com.test-google-a.com,shiva@secondsdigital.com.com.test-google-a.com');
 
             $this->email->subject($this->input->post('name') . ' has an interest in ' . $property->title);
             $c_code =$this->input->post('countrycode') ? $this->input->post('countrycode') :'+91';
@@ -1041,7 +1041,7 @@ class Home extends Public_Controller
             $this->config_email();
 
             $this->email->from($this->input->post('name'), $this->input->post('email'));
-            $this->email->to('shiva@secondsdigital.com');
+            $this->email->to('sales@fullbasketproperty.com.com.test-google-a.com,shiva@secondsdigital.com.com.test-google-a.com');
 
             $this->email->subject($this->input->post('name') . ' has Requested callback ' );
             $c_code =$this->input->post('countrycode') ? $this->input->post('countrycode') :'+91';
@@ -1050,6 +1050,33 @@ class Home extends Public_Controller
                     array(
                         'Name' => $this->input->post('name'), 
                         'phone' => $c_code." - ".$this->input->post('phone') 
+                    )
+            );
+            $this->email->message($this->load->view('mail_template.php', $data, true));
+            if ($this->email->send()) {
+                $this->data['mail_sent'] = true;
+            }
+            redirect(base_url('thankyou?type=instant'));
+        }
+  }
+  public function sendEmailCity( )
+  {
+    if ($this->input->post()) { 
+           
+            $this->config_email();
+
+            $this->email->from($this->input->post('name'), $this->input->post('email'));
+            $this->email->to('sales@fullbasketproperty.com.com.test-google-a.com,shiva@secondsdigital.com.com.test-google-a.com');
+
+            $this->email->subject($this->input->post('name') . ' has Requested callback ' );
+            $c_code =$this->input->post('countrycode') ? $this->input->post('countrycode') :'+91';
+            $data = array(
+                'post' =>
+                    array(
+                        'Name' => $this->input->post('name'), 
+                        'phone' => $c_code." - ".$this->input->post('phone'),
+                        'Email' => $this->input->post('eamil'),
+                        'City' => $this->input->post('city')
                     )
             );
             $this->email->message($this->load->view('mail_template.php', $data, true));

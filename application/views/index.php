@@ -395,17 +395,17 @@ $(document).ready(function(){
 <!-- Tabs start-->
 <div class="container tabbable-panel">
   <ul class="nav nav-pills nav-justified">
-    <li class="blue active"><a data-toggle="tab" href="#home">Menu 0</a></li>
-    <li class="blue1"><a data-toggle="tab" href="#menu1">Menu 1</a></li>
-    <li class="blue2"><a data-toggle="tab" href="#menu2">Menu 2</a></li>
-    <li class="blue3"><a data-toggle="tab" href="#menu3">Menu 3</a></li>
-    <li class="blue4"><a data-toggle="tab" href="#menu4">Menu 4</a></li>
+    <li class="blue active"><a  href="<?=base_url('city/Bangalore');?>" target="_blank">Bangalore</a></li>
+    <li class="blue1"><a  href="<?=base_url('city/Pune');?>">Pune</a></li>
+    <li class="blue2"><a  href="<?=base_url('city/Hyderabad');?>">Hyderabad</a></li>
+    <li class="blue3"><a  href="<?=base_url('city/Mumbai');?>">Mumbai</a></li>
+    <li class="blue4"><a href="<?=base_url('city/Noida');?>">Noida</a></li>
     <!-- <li class="blue5"><a data-toggle="tab" href="#menu5">Menu 5</a></li> -->
    
   </ul>
 
   <div class="text-center mt-5 nav-justified enquiry">
- <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li>
+ <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal" onclick="appendcity('Bangalore');">Enquiry now</button></li>
  <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li>
  <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li>
  <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal"> Enquiry now</button></li>
@@ -415,8 +415,16 @@ $(document).ready(function(){
 
   <br>
   <br>
+  <script>
+    function appendcity(city)
+    {
+alert(city);
+//document.getElementsById('city').value=city;
+$('#city').val(city);
+    }
+  </script>
 
-  <div class="tab-content text-center">
+ <!--  <div class="tab-content text-center">
     <div id="home" class="tab-pane fade in active">
       <h3>HOME</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -441,7 +449,7 @@ $(document).ready(function(){
       <h3>Menu 5</h3>
       <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
     </div>
-  </div>
+  </div> -->
   </div>
 
 <!-- Tabs end -->
@@ -915,8 +923,8 @@ $i=0;
                     </div>
                     <div class="modal-body">
                         <p>Please enter the details below to get the Brochure.</p>
-                        <form id="download-popup" action="" name="download-popup" method="POST" novalidate="novalidate" onsubmit="return save_landing_pageinfo('download-popup');">
-                            <input type="hidden" name="city" value="<?=$this->uri->segment(1);?>">
+                        <form id="download-popup" action="<?=base_url('Home/sendEmailCity');?>" name="download-popup" method="POST" novalidate="novalidate" onsubmit="return save_landing_pageinfo('download-popup');">
+                            <input type="hidden" name="city" id="city" value="">
                             <div class="form-group col-md-12 pd">
                                 <div class="input-group">
                                     <div class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></div>
