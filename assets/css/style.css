@@ -3192,21 +3192,18 @@ a.bld-link{text-decoration: none; color: #fff;}
    
     .nav-justified {
         width: 100%;
-        margin-top: 10px;
-        margin-bottom: 10px;
     }
     .nav-justified > li > a {
         position: relative;
         display: block;
-        padding: 5px 3px!important;
+        padding: 10px 10px!important;
     }
     .nav-justified > li > a {
         margin-bottom: 0;
     }
     .tabbable-panel {
         border: 1px solid #eee;
-        padding: 8px;
-        margin-left: 10px;
+        padding: 8px!important;
     }
     .nav-justified > li > a {
         color: white;
