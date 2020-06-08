@@ -3185,6 +3185,29 @@ a.bld-link{text-decoration: none; color: #fff;}
  
     
 @media (max-width: 767px) {
+    .nav-justified > li {
+        display: table-cell;
+        width: 2%;
+    }
+   
+    .nav-justified {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .nav-justified > li > a {
+        position: relative;
+        display: block;
+        padding: 5px 3px!important;
+    }
+    .tabbable-panel {
+        border: 1px solid #eee;
+        padding: 1px;
+    }
+    .nav-justified > li > a {
+        color: white;
+        text-align: -webkit-center;
+    }
     .d-banner{
         display: none;
     }
