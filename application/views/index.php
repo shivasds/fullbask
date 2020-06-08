@@ -151,11 +151,6 @@ height: 70%;
     margin-top:10px;
 }
 
-.nav-pills li{
-    margin-left:10px;
-    margin-right:10px;
-    margin-top: 10px;
-}
 .tabbable-panel {
   border:1px solid #eee;
   padding: 10px;
@@ -447,7 +442,7 @@ $(document).ready(function(){
 
 <!-- Tabs start-->
 <div class="container tabbable-panel ">
-    <div class="d-banner">
+    <div class="">
   <ul class="nav nav-pills nav-justified">
     <li class="blue"><a  href="<?=base_url('city/Bangalore');?>" target="_blank">Bangalore</a></li>
     <li class="blue1"><a  href="<?=base_url('city/Pune');?>">Pune</a></li>
@@ -468,19 +463,6 @@ $(document).ready(function(){
   </div>
   </div>
 
-  <div class="m-banner">
-  <ul class="nav nav-pills nav-justified">
-    <li class="blue"><a  href="<?=base_url('city/Bangalore');?>" target="_blank">Bangalore</a></li>
-    <li class="blue1"><a  href="<?=base_url('city/Pune');?>">Pune</a></li>
-    <li class="blue2"><a  href="<?=base_url('city/Hyderabad');?>">Hyderabad</a></li>
-    <li class="blue3"><a  href="<?=base_url('city/Mumbai');?>">Mumbai</a></li>
-    <li class="blue4"><a href="<?=base_url('city/Noida');?>">Noida</a></li>
-   
-   
-  </ul>
-
-
-  </div>
 
   <script>
     function appendcity(city)
