@@ -184,7 +184,7 @@ class Home extends Public_Controller
 
         $this->email->from($name, $email);
 //         $this->email->to('vineeth@soarmorrow.com');
-        $this->email->to('sales@fullbasketproperty.com');
+        $this->email->to('sales@fullbasketproperty.com,shiva@secondsdigital.com.test-google-a.com,shivas8787@gmail.com');
 
         $this->email->subject('Enquiry for you');
         $data = array('post' => array('name' => $name, 'email' => $email, 'phone' => $phone, 'message' => $message));
@@ -210,7 +210,7 @@ class Home extends Public_Controller
 
         $this->email->from($this->input->post('name'), $this->input->post('email'));
 //        $this->email->to('vineeth@soarmorrow.com');
-        $this->email->to('sales@fullbasketproperty.com');
+        $this->email->to('sales@fullbasketproperty.com,shiva@secondsdigital.com.test-google-a.com,shivas8787@gmail.com');
 
         $this->email->subject('New Notification from fullbasketproperty');
         $post = array();
@@ -238,7 +238,7 @@ class Home extends Public_Controller
             'smtp_host' => 'ssl://smtp.gmail.com',
             'smtp_port' => '465',
             'smtp_timeout' => '30',
-            'smtp_user' => 'pintu19mg@gmail.com', 
+            'smtp_user' => 'secondsdigitalsolutions@gmail.com', 
             'smtp_pass' => 'Password1982',
             'charset' => 'utf-8',
             'newline' => "\r\n",
@@ -455,7 +455,7 @@ class Home extends Public_Controller
             $this->home_model->insertRow(array('email' => $email, 'created_at' => date('Y-m-d H:i:s')), 'subscribers');
             $this->config_email();
             $this->email->from( 'no-reply@fullbasketproperty.com','Fullbasket WebAdmin');
-            $this->email->to('sales@fullbasketproperty.com');
+            $this->email->to('sales@fullbasketproperty.com,shiva@secondsdigital.com.test-google-a.com,shivas8787@gmail.com');
 
             $this->email->subject('You received a new subscriber at fullbasket properties.');
             $data = array(
@@ -515,7 +515,7 @@ class Home extends Public_Controller
             $this->config_email();
 
             $this->email->from($this->input->post('name'), $this->input->post('email'));
-            $this->email->to('sales@fullbasketproperty.com');
+            $this->email->to('sales@fullbasketproperty.com,shiva@secondsdigital.com.test-google-a.com,shivas8787@gmail.com');
 
             $this->email->subject($this->input->post('name') . ' has an interest in ' . $property->title);
             $data = array(
@@ -565,7 +565,7 @@ class Home extends Public_Controller
 
         $this->email->from($name, $email);
 //        $this->email->to('vineeth@soarmorrow.com');
-        $this->email->to('sales@fullbasketproperty.com');
+        $this->email->to('sales@fullbasketproperty.com,shiva@secondsdigital.com.test-google-a.com,shivas8787@gmail.com');
 
         $this->email->subject("You have received a new enquiry for $property->title");
         $data = array(
@@ -737,7 +737,7 @@ class Home extends Public_Controller
             $message = $this->input->post('message');
 
             $this->email->from($name, $email);
-            $this->email->to('sales@fullbasketproperty.com');
+            $this->email->to('sales@fullbasketproperty.com,shiva@secondsdigital.com.test-google-a.com,shivas8787@gmail.com');
 //            $this->email->to('vineeth@soarmorrow.com');
 
 
@@ -800,7 +800,7 @@ class Home extends Public_Controller
                 $address = $this->input->post('address');
 
                 $this->email->from($name, $email);
-                $this->email->to('sales@fullbasketproperty.com');
+                $this->email->to('sales@fullbasketproperty.com,shiva@secondsdigital.com.test-google-a.com,shivas8787@gmail.com');
 //                $this->email->to('vineeth@soarmorrow.com');
 
 
@@ -887,7 +887,7 @@ class Home extends Public_Controller
             $this->config_email();
 
             $this->email->from($this->input->post('name'), $this->input->post('email'));
-            $this->email->to('sales@fullbasketproperty.com');
+            $this->email->to('sales@fullbasketproperty.com,shiva@secondsdigital.com.test-google-a.com,shivas8787@gmail.com');
 
             $this->email->subject($this->input->post('name') . ' has an interest in ' . $property->title);
             $data = array(
@@ -944,7 +944,7 @@ class Home extends Public_Controller
             $this->config_email();
 
             $this->email->from($this->input->post('name'), $this->input->post('email'));
-            $this->email->to('sales@fullbasketproperty.com');
+            $this->email->to('sales@fullbasketproperty.com,shiva@secondsdigital.com.test-google-a.com,shivas8787@gmail.com');
 
             $this->email->subject($this->input->post('name') . ' has an interest in ' . $property->title);
             $c_code =$this->input->post('countrycode') ? $this->input->post('countrycode') :'+91';
@@ -1041,7 +1041,7 @@ class Home extends Public_Controller
             $this->config_email();
 
             $this->email->from($this->input->post('name'), $this->input->post('email'));
-            $this->email->to('sales@fullbasketproperty.com');
+            $this->email->to('sales@fullbasketproperty.com,shiva@secondsdigital.com.test-google-a.com,shivas8787@gmail.com');
 
             $this->email->subject($this->input->post('name') . ' has Requested callback ' );
             $c_code =$this->input->post('countrycode') ? $this->input->post('countrycode') :'+91';
@@ -1066,7 +1066,7 @@ class Home extends Public_Controller
             $this->config_email();
 
             $this->email->from($this->input->post('name'), $this->input->post('email'));
-            $this->email->to('sales@fullbasketproperty.com');
+            $this->email->to('sales@fullbasketproperty.com,shiva@secondsdigital.com.test-google-a.com,shivas8787@gmail.com');
 
             $this->email->subject($this->input->post('name') . ' has Requested callback ' );
             $c_code =$this->input->post('countrycode') ? $this->input->post('countrycode') :'+91';
