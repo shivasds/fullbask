@@ -458,7 +458,7 @@ $(document).ready(function(){
    
   </ul>
 
-  <div class="text-center mt-5 nav-justified enquiry">
+  <div class="text-center mt-5 nav-justified d-banner">
  <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal" onclick="appendcity('Bangalore');">Enquiry now</button></li>
  <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal" onclick="appendcity('Pune');">Enquiry now</button></li>
  <li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal" onclick="appendcity('Hyderabad');">Enquiry now</button></li>
@@ -468,26 +468,19 @@ $(document).ready(function(){
   </div>
   </div>
 
-<!--   <div class="m-banner">
+  <div class="m-banner">
   <ul class="nav nav-pills nav-justified">
-    <li class="blue active"><a  href="<?=base_url('city/Bangalore');?>" target="_blank">Bangalore</a></li>
-  <center><button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal" onclick="appendcity('Bangalore');">Enquiry now</button></li></center>
- 
+    <li class="blue"><a  href="<?=base_url('city/Bangalore');?>" target="_blank">Bangalore</a></li>
     <li class="blue1"><a  href="<?=base_url('city/Pune');?>">Pune</a></li>
-    <center><li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li></center>
-
     <li class="blue2"><a  href="<?=base_url('city/Hyderabad');?>">Hyderabad</a></li>
-    <center><li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li></center>
-
     <li class="blue3"><a  href="<?=base_url('city/Mumbai');?>">Mumbai</a></li>
-    <center><li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li></center>
-
     <li class="blue4"><a href="<?=base_url('city/Noida');?>">Noida</a></li>
-    <center><li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li></center>
+   
    
   </ul>
 
-  </div> -->
+
+  </div>
 
   <script>
     function appendcity(city)
