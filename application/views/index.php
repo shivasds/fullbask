@@ -468,7 +468,7 @@ $(document).ready(function(){
   </div>
   </div>
 
-  <div class="m-banner">
+<!--   <div class="m-banner">
   <ul class="nav nav-pills nav-justified">
     <li class="blue active"><a  href="<?=base_url('city/Bangalore');?>" target="_blank">Bangalore</a></li>
   <center><button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal" onclick="appendcity('Bangalore');">Enquiry now</button></li></center>
@@ -484,12 +484,10 @@ $(document).ready(function(){
 
     <li class="blue4"><a href="<?=base_url('city/Noida');?>">Noida</a></li>
     <center><li> <button class="btn btn-primary " data-toggle="modal" data-target="#enquiry-Modal">Enquiry now</button></li></center>
-
-    <!-- <li class="blue5"><a data-toggle="tab" href="#menu5">Menu 5</a></li> -->
    
   </ul>
 
-  </div>
+  </div> -->
 
   <script>
     function appendcity(city)
