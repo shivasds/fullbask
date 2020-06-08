@@ -741,7 +741,7 @@ class Home extends Public_Controller
 //            $this->email->to('vineeth@soarmorrow.com');
 
 
-            $this->email->subject("You have received a new enquiry for bullbasket properties");
+            $this->email->subject("You have received a new enquiry for fullbasket properties");
             $data = array(
                 'post' => array(
                     'name' => $name,
@@ -804,7 +804,7 @@ class Home extends Public_Controller
 //                $this->email->to('vineeth@soarmorrow.com');
 
 
-                $this->email->subject("You have received a new career request at bullbasket properties");
+                $this->email->subject("You have received a new career request at fullbasket properties");
 
                 $data = array(
                     'post' => array(
