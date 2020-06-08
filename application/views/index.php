@@ -151,11 +151,6 @@ height: 70%;
     margin-top:10px;
 }
 
-.nav-pills li{
-    margin-left:10px;
-    margin-right:10px;
-    margin-top: 10px;
-}
 .tabbable-panel {
   border:1px solid #eee;
   padding: 10px;
@@ -475,10 +470,8 @@ $(document).ready(function(){
     <li class="blue2"><a  href="<?=base_url('city/Hyderabad');?>">Hyderabad</a></li>
     <li class="blue3"><a  href="<?=base_url('city/Mumbai');?>">Mumbai</a></li>
     <li class="blue4"><a href="<?=base_url('city/Noida');?>">Noida</a></li>
-   
-   
+ 
   </ul>
-
 
   </div>
 
