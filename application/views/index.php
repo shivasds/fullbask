@@ -542,7 +542,7 @@ $i=0;
                             <h4 class="myspan"><?= $property->title ?></h4>
                             <div class="down"></div>
                             <div class="" style="">
-                            <p class="pull-left"><b><i class="fa fa-map-marker" aria-hidden="true"></i></b> : <?= $property->location ?></p>
+                            <p class="pull-left"><b><i class="fa fa-map-marker" aria-hidden="true"></i></b> <?= $property->location ?></p>
                             <p class="pull-right">₹
 
                            <?php
