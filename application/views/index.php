@@ -178,7 +178,9 @@ height: 70%;
 .nav-justified > li > a{
     color:white;
 } 
-
+.fa-map-marker{
+    font-size:20px;
+}
 </style>
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
 <script>
@@ -537,10 +539,10 @@ $i=0;
                         <div class="property-img"
                              style="background-image: url(<?= base_url('uploads/' . $property->slug . '/' . $property->image) ?>)"></div>
                         <div class="property-details">
-                            <h4><?= $property->title ?></h4>
+                            <h4 class="myspan"><?= $property->title ?></h4>
                             <div class="down"></div>
                             <div class="" style="">
-                            <p class="pull-left"><b>Location</b> : <?= $property->location ?></p>
+                            <p class="pull-left"><b><i class="fa fa-map-marker" aria-hidden="true"></i></b> : <?= $property->location ?></p>
                             <p class="pull-right">₹
 
                            <?php
@@ -1046,6 +1048,17 @@ $(document).ready(function(){
     });   
 });
 
+var spannumber=$(".myspan");
+    for(i=0; i<=spannumber.length-1;i++){
+
+        var data=$(spannumber[i]).html().trim();
+    if (data.length > 27) {
+      short_text = data.substr(0, 27);
+      $(spannumber[i]).html(short_text + "...");
+    }
+    
+}
+
 </script>
 
 <!--Start of Tawk.to Script-->
@@ -1081,6 +1094,9 @@ s0.parentNode.insertBefore(s1,s0);
         s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
         var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
     })();
+
+
+    
 </script>
 
 <!-- /WhatsHelp.io widget -->
