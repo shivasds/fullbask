@@ -718,10 +718,10 @@ $i=0;
         </div>
     </div>
 </div>
-<div class="black" style="background:green">
-    <!-- <div class="my-float">Register For</div> -->
+<!-- <div class="black" style="background:green">
+  
     <button class="float"><a href="https://www.fullbasketproperty.com/landmark/" >Register For<br>Lamdmark Offer</a></button>
- </div>
+ </div> -->
 <script>
     $(document).ready(function() {
         var showChar = 150;
@@ -757,11 +757,11 @@ $i=0;
         });
     });
 
-    $(document).ready(function(){
-   setTimeout(function(){
-       $('#myModal').modal('show');
-   }, 2000);
-});
+//     $(document).ready(function(){
+//    setTimeout(function(){
+//        $('#myModal').modal('show');
+//    }, 2000);
+// });
     </script>
 <div class="clearfix"></div><br>
 <!--<div class="container">
@@ -945,13 +945,10 @@ $i=0;
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
-<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<!-- <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content" style=" background: #fff0;  box-shadow: none;border: 0px;">
-    <!-- <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"></h4>
-                </div> -->
+ 
         <div class="modal-body" style="    padding: 0px;">
           <a href="https://www.fullbasketproperty.com/landmark/" target="_blank">
             <img class="hidden-xs-block hidden-xs img-responsive" src="https://www.fullbasketproperty.com/assets/images/desktop.jpg">
@@ -962,7 +959,7 @@ $i=0;
         </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <div id="enquiry-Modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
