@@ -447,10 +447,10 @@ $(document).ready(function(){
     <div class="">
   <ul class="nav nav-pills nav-justified">
     <li class="blue"><a  href="<?=base_url('city/Bangalore');?>" target="_blank">Bangalore</a></li>
-    <li class="blue1"><a  href="<?=base_url('city/Pune');?>">Pune</a></li>
-    <li class="blue2"><a  href="<?=base_url('city/Hyderabad');?>">Hyderabad</a></li>
-    <li class="blue3"><a  href="<?=base_url('city/Mumbai');?>">Mumbai</a></li>
-    <li class="blue4"><a href="<?=base_url('city/Noida');?>">Noida</a></li>
+    <li class="blue1"><a  href="<?=base_url('city/Pune');?>" target="_blank">Pune</a></li>
+    <li class="blue2"><a  href="<?=base_url('city/Hyderabad');?>" target="_blank">Hyderabad</a></li>
+    <li class="blue3"><a  href="<?=base_url('city/Mumbai');?>" target="_blank">Mumbai</a></li>
+    <li class="blue4"><a href="<?=base_url('city/Noida');?>" target="_blank">Noida</a></li>
     <!-- <li class="blue5"><a data-toggle="tab" href="#menu5">Menu 5</a></li> -->
    
   </ul>
