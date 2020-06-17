@@ -178,7 +178,9 @@ height: 70%;
 .nav-justified > li > a{
     color:white;
 } 
-
+.fa-map-marker{
+    font-size:20px;
+}
 </style>
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
 <script>
@@ -445,10 +447,10 @@ $(document).ready(function(){
     <div class="">
   <ul class="nav nav-pills nav-justified">
     <li class="blue"><a  href="<?=base_url('city/Bangalore');?>" target="_blank">Bangalore</a></li>
-    <li class="blue1"><a  href="<?=base_url('city/Pune');?>">Pune</a></li>
-    <li class="blue2"><a  href="<?=base_url('city/Hyderabad');?>">Hyderabad</a></li>
-    <li class="blue3"><a  href="<?=base_url('city/Mumbai');?>">Mumbai</a></li>
-    <li class="blue4"><a href="<?=base_url('city/Noida');?>">Noida</a></li>
+    <li class="blue1"><a  href="<?=base_url('city/Pune');?>" target="_blank">Pune</a></li>
+    <li class="blue2"><a  href="<?=base_url('city/Hyderabad');?>" target="_blank">Hyderabad</a></li>
+    <li class="blue3"><a  href="<?=base_url('city/Mumbai');?>" target="_blank">Mumbai</a></li>
+    <li class="blue4"><a href="<?=base_url('city/Noida');?>" target="_blank">Noida</a></li>
     <!-- <li class="blue5"><a data-toggle="tab" href="#menu5">Menu 5</a></li> -->
    
   </ul>
@@ -537,10 +539,10 @@ $i=0;
                         <div class="property-img"
                              style="background-image: url(<?= base_url('uploads/' . $property->slug . '/' . $property->image) ?>)"></div>
                         <div class="property-details">
-                            <h4><?= $property->title ?></h4>
+                            <h4 class="myspan"><?= $property->title ?></h4>
                             <div class="down"></div>
                             <div class="" style="">
-                            <p class="pull-left"><b>Location</b> : <?= $property->location ?></p>
+                            <p class="pull-left"><b><i class="fa fa-map-marker" aria-hidden="true"></i></b> <?= $property->location ?></p>
                             <p class="pull-right">₹
 
                            <?php
@@ -716,10 +718,10 @@ $i=0;
         </div>
     </div>
 </div>
-<div class="black" style="background:green">
-    <!-- <div class="my-float">Register For</div> -->
+<!-- <div class="black" style="background:green">
+  
     <button class="float"><a href="https://www.fullbasketproperty.com/landmark/" >Register For<br>Lamdmark Offer</a></button>
- </div>
+ </div> -->
 <script>
     $(document).ready(function() {
         var showChar = 150;
@@ -755,11 +757,11 @@ $i=0;
         });
     });
 
-    $(document).ready(function(){
-   setTimeout(function(){
-       $('#myModal').modal('show');
-   }, 2000);
-});
+//     $(document).ready(function(){
+//    setTimeout(function(){
+//        $('#myModal').modal('show');
+//    }, 2000);
+// });
     </script>
 <div class="clearfix"></div><br>
 <!--<div class="container">
@@ -943,13 +945,10 @@ $i=0;
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
-<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<!-- <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content" style=" background: #fff0;  box-shadow: none;border: 0px;">
-    <!-- <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"></h4>
-                </div> -->
+ 
         <div class="modal-body" style="    padding: 0px;">
           <a href="https://www.fullbasketproperty.com/landmark/" target="_blank">
             <img class="hidden-xs-block hidden-xs img-responsive" src="https://www.fullbasketproperty.com/assets/images/desktop.jpg">
@@ -960,7 +959,7 @@ $i=0;
         </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <div id="enquiry-Modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -1046,6 +1045,17 @@ $(document).ready(function(){
     });   
 });
 
+var spannumber=$(".myspan");
+    for(i=0; i<=spannumber.length-1;i++){
+
+        var data=$(spannumber[i]).html().trim();
+    if (data.length > 27) {
+      short_text = data.substr(0, 27);
+      $(spannumber[i]).html(short_text + "...");
+    }
+    
+}
+
 </script>
 
 <!--Start of Tawk.to Script-->
@@ -1081,6 +1091,9 @@ s0.parentNode.insertBefore(s1,s0);
         s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
         var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
     })();
+
+
+    
 </script>
 
 <!-- /WhatsHelp.io widget -->
