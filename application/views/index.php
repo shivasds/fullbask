@@ -1075,7 +1075,7 @@ s0.parentNode.insertBefore(s1,s0);
 <!--End of Tawk.to Script-->
 
 <!-- WhatsHelp.io widget -->
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 
     (function () {
         var options = {
@@ -1094,6 +1094,6 @@ s0.parentNode.insertBefore(s1,s0);
 
 
     
-</script>
+</script> -->
 
 <!-- /WhatsHelp.io widget -->
