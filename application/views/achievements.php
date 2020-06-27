@@ -231,12 +231,12 @@ $i--;
                                             <img class="card-img-top" id="modelimg" src="" style="height: 250px;background-size: contain;width: 100%;background-repeat: no-repeat;height: 280px;background-position: center;">
                                             </a>
                                             <div class="card-block" style="min-height: 170px;margin-bottom: 5px;position: relative;">
-                                            <div class="card-link">
+                                            <!--<div class="card-link">
                                                 <h4 class="card-title mt-3"></h4>
                                                 <h3 id="imgDes"></h3>
                                                 <span id="imgcomment"></span>
 
-                                            </div>
+                                            </div>-->
                                             </div>
                                         </div>
                                         <div class="modal-footer">
