@@ -136,6 +136,11 @@ if($x==1)
                                 <div class="card-link" data-toggle="modal" data-target="#exampleModal" onclick="geturl(this)">
                                   <img class="card-img-top" comment="<?=$data['comment'];?>" des="<?=$data['image_desc'];?>" style="height: 250px;background-image:url(<?=base_url('uploads/achievements/').$data['image'];?>);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;">
                                 </div>
+                                <?php
+                                if($data['image_desc'])
+                                {
+                                  ?>
+
                                 <div class="card-block" style="min-height: 270px;margin-bottom: 5px;position: relative; display: none;">
                                 <div class="card-link">
                                     <h4 class="card-title mt-3"></h4><h3><?=$data['image_desc'];?></h3>
@@ -144,6 +149,9 @@ if($x==1)
                                  </div><!--<div style="position: absolute;bottom: 10px; right: 5px; position: absolute;width: 100%"><a class="btn btn-primary pull-right" style="border-radius: 0; "  href="">Read More <i class="fa fa-chevron-circle-right"></i></a>
                                     </div>-->
                                 </div>
+                                <?php
+                                }
+                                ?>
                             </div>
 
                          
