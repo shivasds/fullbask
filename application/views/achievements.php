@@ -137,7 +137,7 @@ if($x==1)
                                   <img class="card-img-top" comment="<?=$data['comment'];?>" des="<?=$data['image_desc'];?>" style="height: 250px;background-image:url(<?=base_url('uploads/achievements/').$data['image'];?>);background-size: contain;width: 100%;background-repeat: no-repeat;height: 195px;background-position: center;">
                                 </div>
                                 <?php
-                                if($data['image_desc'])
+                                if(trim($data['image_desc'])!='')
                                 {
                                   ?>
 
