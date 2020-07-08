@@ -356,7 +356,7 @@ $(document).ready(function () {
                 that.trigger('reset');
                 grecaptcha.reset();
                 $("#prop-contact").modal('hide');
-                window.location.href= base_url+'/thankyou';//response.url;
+                window.location.href= site_url+'/thankyou';//response.url;
             }
         });
     });
