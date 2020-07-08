@@ -224,8 +224,9 @@ class Home extends Public_Controller
         $this->email->message($this->load->view('mail_template.php', $data, true));
 
         if ($this->email->send()) {
-            $this->session->set_flashdata('message', 'Email sent successfully');
-            redirect($this->input->post('redirect', site_url()));
+           /* $this->session->set_flashdata('message', 'Email sent successfully');
+            redirect($this->input->post('redirect', site_url()));*/
+            redirect(base_url('thankyou'));
         }
         debug($this->email->print_debugger());
     }

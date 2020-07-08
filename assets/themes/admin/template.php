@@ -308,7 +308,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <footer class="sticky-footer">
             <div class="container">
                 <p class="text-muted">
-                    Copyright@Fullbasket Property Services Pvt Ltd 2018
+                    Copyright@ Full basket Property Services Pvt Ltd <?=date('Y');?>
                 </p>
             </div>
         </footer>

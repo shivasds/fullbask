@@ -21,7 +21,7 @@
         </div>
     </div>
     <div class="col-sm-12 link">
-        <a href="https://localhost:8081/">Home</a> &gt; ACHIEVEMENTS
+        <a href="<?=base_url();?>">Home</a> &gt; ACHIEVEMENTS
     </div>
 </div>
 </div>
@@ -222,7 +222,7 @@ $i--;
                                 <div class="modal-dialog" role="document">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Achievents</h5>
+                                            <h5 class="modal-title" id="exampleModalLabel">Achievements</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                             </button>

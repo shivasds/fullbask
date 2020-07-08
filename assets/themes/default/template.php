@@ -135,7 +135,7 @@
         <div class="container">
             <div class="clearfix"><hr /></div>
             <p class="text-muted">
-                Copyright@Fullbasket Property Services Pvt Ltd 2018
+                Copyright@ Full basket Property Services Pvt Ltd <?=date('Y');?>
             </p>
         </div>
     </footer>
