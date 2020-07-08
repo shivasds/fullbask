@@ -347,17 +347,18 @@ $(document).ready(function () {
         var that = $(this);
         $.post(site_url + 'home/property_enquiry', $(this).serialize(), function (response) {
             response = JSON.parse(response);
-            if (typeof response.status != 'undefined' && response.status == 'failed') {
-                toastr["error"]("Captcha authentication failed !");
-                grecaptcha.reset();
-                // that.trigger('reset');
-            } else {
+            // if (typeof response.status != 'undefined' && response.status == 'failed') {
+            //     toastr["error"]("Captcha authentication failed !");
+            //     grecaptcha.reset();
+            //     // that.trigger('reset');
+            // } else {
                 toastr["success"]("Your enquiry submitted and you will get a call back as soon as possible.");
                 that.trigger('reset');
                 grecaptcha.reset();
                 $("#prop-contact").modal('hide');
-                window.location.href= site_url+'/thankyou';//response.url;
-            }
+                //console.log(site_url+'/thankyou');
+                window.location= 'https://fullbasketproperty.com/thankyou';//response.url;
+            //}
         });
     });
     /** END GET A CALL BACK ACTION */
