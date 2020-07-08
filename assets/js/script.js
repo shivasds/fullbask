@@ -352,6 +352,7 @@ $(document).ready(function () {
             //     grecaptcha.reset();
             //     // that.trigger('reset');
             // } else {
+                window.location= 'https://fullbasketproperty.com/thankyou';//response.url;
                 toastr["success"]("Your enquiry submitted and you will get a call back as soon as possible.");
                 that.trigger('reset');
                 grecaptcha.reset();
