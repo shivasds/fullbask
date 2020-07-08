@@ -423,7 +423,7 @@ $image_name = "all.jpg";
     type: 'double',
     grid: true,
     min: 2000000,
-    max: 100000000,
+    max: 1000000000,
     prefix: '₹ ' 
   });
 
@@ -439,7 +439,7 @@ $image_name = "all.jpg";
     type: 'double',
     grid: true,
     min: 300,
-    max: 1000,
+    max: 10000,
     prefix: 'sqft '
   });
 
