@@ -5316,9 +5316,11 @@ label {
 
 #download-model .modal-header,
 #price-model .modal-header,
-#interested .modal-header {
+#interested .modal-header,
+#floorplan .modal-header {
     background: #53ABBD;
     color: #fff;
+    text-align: center;
 }
 
 #download-model .close,
@@ -5518,7 +5520,7 @@ label {
 }
 
 #section-id-1507611941 {
-    padding-top: 80px;
+    padding-top: 20px;
 }
 
 #section-id-1507611947 {
@@ -5746,7 +5748,7 @@ p.inner-interested {
 }
 
 .overlay {
-    padding: 115px 0;
+    padding: 75px 0;
     /* background: rgba(0, 0, 0, 0.6); */
 }
 

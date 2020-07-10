@@ -34,8 +34,8 @@
         <!-- <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/copy_bootstrap_min.js"></script> -->
         <link href="<?= base_url() ?>assets/property/media/com_solidres/assets/css/jquery/themes/base/jquery-ui.minc619.css?v=1.0" rel="stylesheet" type="text/css" />
 
-        <link href="<?= base_url() ?>assets/property/templates/shaper_resort/css/bootstrap.minc619.js?v=1.0" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- <link href="<?= base_url() ?>assets/property/templates/shaper_resort/css/bootstrap.minc619.js?v=1.0" rel="stylesheet" type="text/css" /> -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
       
         <link href="<?= base_url() ?>assets/property/components/com_sppagebuilder/assets/css/font-awesome.minc619.css?v=1.0" rel="stylesheet" type="text/css" />
         <link href="<?= base_url() ?>assets/property/components/com_sppagebuilder/assets/css/animate.minc619.css?v=1.0" rel="stylesheet" type="text/css" />
@@ -68,23 +68,15 @@
         <link rel='stylesheet' href='<?= base_url() ?>assets/property/unitegallery/css/unite-gallery.css' type='text/css' />
 
         <style>
-            h4 {
-  color: black !important;
-}
-            span {
-  color: black !important;
-}
-            p {
-  color: black !important;
-}
            
             .carousel .item {
-                height: 450px;
-                margin-bottom: -95px;
+                height: 580px;
+                margin-bottom: -193px;
+                /* margin-top: 125px; */
             }
             
             .carousel .d-banner {
-                margin-top: -120px;
+                /* margin-top: -120px; */
                 height: 600px;
             }
             
@@ -375,7 +367,7 @@
             
             .sp-page-builder .page-content #section-id-1507611930 {
                 /*margin: 90px 0 90px 0;*/
-                padding-top: 100px;
+                padding-top: 50px;
                 padding-bottom: 50px;
             }
             
@@ -545,13 +537,13 @@
             @media only screen and (min-width: 992px) {
                .prop-img {
                 width: 337px;
-    background-position: 50% 50%;
-    position: relative;
-    height: 200px;
-    background: #ededed;
-    margin-left: -1px;
-         padding-left: 0px; 
-    padding-right: 0px;
+                background-position: 50% 50%;
+                position: relative;
+                height: 200px;
+                background: #ededed;
+                margin-left: -1px;
+                    padding-left: 0px; 
+                padding-right: 0px;
                 }
                 .banner-icon{
                     height: 160px;
@@ -716,8 +708,17 @@
                  position: fixed;
                  top:0;
 
-                 
+                   
              }
+             .intl-tel-input .selected-flag .iti-arrow {
+            border-top: 4px solid rgb(255, 255, 255) !important;
+                }
+                #float-form .selected-flag {
+                    background: #53abbd!important;
+                }
+                .intl-tel-input.separate-dial-code .selected-dial-code {
+                    color: white;
+                }
          
             /*---------------------------*/
         </style>
@@ -895,7 +896,7 @@
                                     </div>
                                 </div>
 
-                                <br>
+                                <!-- <br> -->
 
                                 <div class="col-md-12">
                                     <!-- <div class="col-sm-3 col-md-3 col-lg-3" style="padding: 7px;">
@@ -1175,57 +1176,56 @@
                                                             </thead>
                                                             <tbody style="color: #5c5c5c;">
                                                                 <?php
-                                        if (($flatTypes = $this->properties_model->getPropertyFlatType(null,
-                                                $property->id)) != null) {
-                                            foreach ($flatTypes as $flatType) {
-                                                ?>
+                                                                if (($flatTypes = $this->properties_model->getPropertyFlatType(null,
+                                                                        $property->id)) != null) {
+                                                                    foreach ($flatTypes as $flatType) {
+                                                                        ?>
                                                                     <tr style="background: #ededed;">
                                                                         <td>
                                                                             <?= $flatType->flat_type ?>
                                                                         </td>
                                                                         <td>
                                                                             <?= $this->properties_model->getPropertyRange(array(
-                                                                                    'property_id' => $property->id,
-                                                                                    'flat_type_id' => $flatType->flat_type_id
-                                                                                ), 'property_flat_types',
-                                                                                    'size') ?>
-                                                                                                        <?= $this->properties_model->getPropertyParam(array(
-                                                                                    'property_id' => $property->id,
-                                                                                    'flat_type_id' => $flatType->flat_type_id
-                                                                                ), 'property_flat_types', 'unit') ?>
+                                                            'property_id' => $property->id,
+                                                            'flat_type_id' => $flatType->flat_type_id
+                                                        ), 'property_flat_types',
+                                                            'size') ?>
+                                                                                <?= $this->properties_model->getPropertyParam(array(
+                                                            'property_id' => $property->id,
+                                                            'flat_type_id' => $flatType->flat_type_id
+                                                        ), 'property_flat_types', 'unit') ?>
                                                                         </td>
                                                                         <td>
                                                                             <?= $this->properties_model->getPropertyRange(array(
-                                                                                    'property_id' => $property->id,
-                                                                                    'flat_type_id' => $flatType->flat_type_id
-                                                                                ), 'property_flat_types', 'carpet_area') ?> Sq.ft
+                                                            'property_id' => $property->id,
+                                                            'flat_type_id' => $flatType->flat_type_id
+                                                        ), 'property_flat_types', 'carpet_area') ?> Sq.ft
                                                                         </td>
                                                                         <td>
-                                                                                    <?php
-                                                                                        if ($flatType->price_on_request) {
-                                                                                            echo "Price on Request";
-                                                                                        } else {
-                                                                                            ?>
-                                                                                                    <i class="fa fa-inr" aria-hidden="true"></i>
-                                                                                                    <?= (($row = $this->properties_model->getPropertyParam(array(
-                                                                                        'property_id' => $property->id,
-                                                                                        'flat_type_id' => $flatType->flat_type_id
-                                                                                    ), 'property_flat_types', null,
-                                                                                        'MIN(total) as amount')) != null) ? number_format_short($row->amount) : 0 ?>
-                                                                                                        -
-                                                                                                        <?= (($row = $this->properties_model->getPropertyParam(array(
-                                                                                        'property_id' => $property->id,
-                                                                                        'flat_type_id' => $flatType->flat_type_id
-                                                                                    ), 'property_flat_types', null,
-                                                                                        'MAX(total) as amount')) != null) ? number_format_short($row->amount) : 0 ?>
-                                                                                                            <?php
-                                                                                        }
-                                                                                        ?>
+                                                                            <?php
+                                                        if ($flatType->price_on_request) {
+                                                            echo "Price on Request";
+                                                        } else {
+                                                            ?>
+                                                                                <i class="fa fa-inr" aria-hidden="true"></i>
+                                                                                <?= (($row = $this->properties_model->getPropertyParam(array(
+                                                                    'property_id' => $property->id,
+                                                                    'flat_type_id' => $flatType->flat_type_id
+                                                                ), 'property_flat_types', null,
+                                                                    'MIN(total) as amount')) != null) ? number_format_short($row->amount) : 0 ?>
+                                                                                    -
+                                                                                    <?= (($row = $this->properties_model->getPropertyParam(array(
+                                                                    'property_id' => $property->id,
+                                                                    'flat_type_id' => $flatType->flat_type_id
+                                                                ), 'property_flat_types', null,
+                                                                    'MAX(total) as amount')) != null) ? number_format_short($row->amount) : 0 ?>
+                                                                                        <?php
+                                                        }
+                                                        ?>
                                                                         </td>
 
-                                                                        <td align="center" ><a href="" id="down-brochure"><img src="<?= base_url('assets/images/download.png') ?>"></a></td>
-                                                                     
-                                                                                        
+                                                                        <td align="center" class="floorplan" id="down-brochure"><img src="<?= base_url('assets/images/download.png') ?>"></td>
+
                                                                         <td align="center"><a href="https://api.whatsapp.com/send?phone=918342063684&text=Hi Team FBP, I would be interested in%20<?= $property->title ? $property->title : '' ?>%20 <?= $flatType->flat_type ?>" target="_blank"><img src="<?= base_url('assets/banner_patch/whatsapp.png') ?>"> </a></td>
                                                                     </tr>
                                                                     <?php
@@ -1233,7 +1233,7 @@
                                         } else {
                                             ?>
                                                                         <tr style="background: #ededed;">
-                                                                            <td colspan="5" class="text-center">No data available</td>
+                                                                            <td colspan="6" class="text-center">No data available</td>
                                                                         </tr>
                                                                         <?php
                                         }
@@ -1346,20 +1346,20 @@
 
                                                                     <p>
                                                                         <?php
-                                                                     $s=1;
-                                                                    foreach (explode(',', $items) as $item) {
-                                                                        ?>
-                                                                                                <?= $s.". ".$item ."<br />"?>
+                                                             $s=1;
+                                                foreach (explode(',', $items) as $item) {
+                                                    ?>
+                                                                            <?= $s.". ".$item ."<br />"?>
 
-                                                                                                    <?php
-                                                                        $s++;
-                                                                    }
-                                                                    ?>
+                                                                                <?php
+                                                    $s++;
+                                                }
+                                                ?>
                                                                     </p>
 
                                                                     <!--<ul class="specification">
-                                                                        <li></li>
-                                                                    </ul>-->
+                                                                <li></li>
+                                                            </ul>-->
                                                                 </div>
                                                             </div>
                                                             <?php
@@ -1452,7 +1452,7 @@
                                                             <?= $property->title ?> Amenities</h2>
                                                         <div class="underline2">&nbsp;</div>
                                                     </div>
-                                                    <div class="sppb-empty-space  clearfix" style="height: 50px;"></div>
+                                                    <div class="sppb-empty-space  clearfix" style="height: 10px;"></div>
 
                             <div class="row marginT20">
                                 <div class="col-md-12">
@@ -1652,7 +1652,7 @@
                                                 <br/>
                                                 <div class="col-md-12">
                                                     <div class="builder_info">
-                                                        <h4 class="text-center">Similar Properties</h4>
+                                                        <h4 class="text-center">Suggested Properties</h4>
                                                         <div class="clearfix"></div>
                                                         <br>
 
@@ -1666,7 +1666,7 @@
                                     3)) != null) {
                                         ?>
                                                                 <div class="col-md-12">
-                                                                    <h4>Similar Properties Near Your Search Location </h4>
+                                                                    <h4>Suggested Properties Near Your Search Location </h4>
                                                                 </div>
                                                                 <div class="clearfix"></div>
                                                                 <br>
@@ -2139,6 +2139,55 @@ if($property->usp!='')
             </div>
             <!-- /.modal-dialog -->
         </div>
+
+
+        <!-- Floorplan -->
+        <div class="modal fade in" tabindex="-1" role="dialog" id="floorplan" data-backdrop="static" data-keyboard="false">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+
+                        <h4 class="modal-title">Download Floorplan</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Please enter the details below to get the detailed information.</p>
+                        <form id="float-form" action="" name="price-popup" method="POST" novalidate onsubmit="return save_landing_pageinfo('float-form');">
+                            <input type="hidden" name="city" value="<?=$this->uri->segment(1);?>">
+                            <div class="form-group col-md-12 pd">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></div>
+                                    <input type="text" class="form-control" placeholder="Name" name="name" id="name">
+
+                                </div>
+                                <label for="p_fname" generated="true" class="error"></label>
+                            </div>
+                            <div class="form-group col-md-12 pd">
+                                <input type="tel" placeholder="Phone*" name="phone" class="validate" id="contctform-phone7" required>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                                    <input type="email" class="form-control" name="email" placeholder="Email">
+
+                                </div>
+                                <label for="email" generated="true" class="error"></label>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><i class="fa fa-commenting" aria-hidden="true"></i></div>
+                                    <textarea class="form-control" rows="2" name="sugg" placeholder="Your Message"></textarea>
+
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-default price-btn">SUBMIT</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
         <!------------------------------------------submit Property------------------------------------------------->
         <div class="modal fade" id="submitContact">
             <div class="modal-dialog">
@@ -2288,7 +2337,7 @@ if($property->usp!='')
 
         <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/slick.min.js"></script>
         <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/select-app.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105570977-1"></script>
         <script>
@@ -2399,6 +2448,7 @@ if($property->usp!='')
         <script>
             jQuery(document).ready(function($) {
 
+               
                 var telInput = $(".validate"),
                     errorMsg = $(".error-msg"),
                     validMsg = $(".valid-msg");
@@ -2484,6 +2534,7 @@ if($property->usp!='')
                 $(".price-click").click(function() {
                     $('#price-model').modal('show');
                 });
+
                 // ---------------for model only-----
                 $("#down-brochure").click(function() {
                     $('#download-model').modal('show');
@@ -2491,6 +2542,10 @@ if($property->usp!='')
 
                 $(".interested").click(function() {
                     $('#interested').modal('show');
+                });
+
+                $(".floorplan").click(function() {
+                    $('#floorplan').modal('show');
                 });
 
             });
@@ -2634,6 +2689,22 @@ if($property->usp!='')
         
         e.preventDefault();
         jQuery(document).off("scroll");
+
+        // if(jQuery(this).data('parent')=="#accordion"){
+        //     debugger;
+        //     if(jQuery(this).attr('aria-expanded')=="true"){
+        //         jQuery(this).attr('aria-expanded',false)
+        //         jQuery(this).addClass('collapsed')
+        //         var coll= jQuery(this).attr('aria-controls')
+        //         if($("#"+coll).hasClass("in")){
+        //             $("#"+coll).css('display:none');
+                    
+        //         }
+        //         else{
+        //             $("#"+coll).css('display:block');
+        //         }
+        //     }
+        // }
         
         jQuery('li').each(function () {
             jQuery(this).removeClass('current-item active');
