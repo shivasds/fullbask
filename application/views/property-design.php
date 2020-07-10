@@ -68,6 +68,15 @@
         <link rel='stylesheet' href='<?= base_url() ?>assets/property/unitegallery/css/unite-gallery.css' type='text/css' />
 
         <style>
+            h4 {
+  color: black !important;
+}
+            span {
+  color: black !important;
+}
+            p {
+  color: black !important;
+}
            
             .carousel .item {
                 height: 450px;
@@ -1643,7 +1652,7 @@
                                                 <br/>
                                                 <div class="col-md-12">
                                                     <div class="builder_info">
-                                                        <h4 class="text-center">Suggested Properties</h4>
+                                                        <h4 class="text-center">Similar Properties</h4>
                                                         <div class="clearfix"></div>
                                                         <br>
 
@@ -1657,7 +1666,7 @@
                                     3)) != null) {
                                         ?>
                                                                 <div class="col-md-12">
-                                                                    <h4>Suggested Properties Near Your Search Location </h4>
+                                                                    <h4>Similar Properties Near Your Search Location </h4>
                                                                 </div>
                                                                 <div class="clearfix"></div>
                                                                 <br>
