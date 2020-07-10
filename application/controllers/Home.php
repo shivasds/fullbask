@@ -212,7 +212,8 @@ class Home extends Public_Controller
 //        $this->email->to('vineeth@soarmorrow.com');
         $this->email->to('sales@fullbasketproperty.com.test-google-a.com');
 
-        $this->email->subject('New Notification from fullbasketproperty');
+        //$this->email->subject('New Notification from fullbasketproperty');
+        $this->email->subject('Resale property Submitted');
         $post = array();
         foreach ($this->input->post() as $key => $value) {
                if (!in_array($key, array('redirect','g-recaptcha-response'))){
