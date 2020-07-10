@@ -534,7 +534,32 @@
                 border: solid 1px transparent;
                 background-color: #fff;
             }
+            @media only screen and (max-width: 992px) {
+                .banner-patch h4,   .banner-patch .h4 {
+                    
+                    font-size: 17px;
+                }
+                .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+                    padding: 5px;
+                    font-weight: 500;
+                    line-height: 1.42857143;
+                    vertical-align: top;
+                    border-top: 1px solid #ddd;
+                }
+               #section-id-1507611938  .sppb-col-sm-12 {
+                    position: relative;
+                    min-height: 1px;
+                    padding-left: 2px;
+                    padding-right: 5px;
+                }
+
+            }
             @media only screen and (min-width: 992px) {
+
+                .banner-patch .col-lg-2 {
+                  width: 13.666667%;
+                }
+
                .prop-img {
                 width: 337px;
                 background-position: 50% 50%;
@@ -1121,6 +1146,18 @@
 
                                                         <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 no-padding banner-patch-content">
                                                             <center>
+                                                                <h4><b>Possession</b></h4></center>
+                                                           
+                                                                <center><img src="<?= base_url('assets/banner_patch/banner-patch-6.png') ?>" class="img-responsive"></center>
+                                                          
+
+                                                            <center>
+                                                                <p><span> ABCD </span></p>
+                                                            </center>
+                                                        </div>
+
+                                                        <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 no-padding banner-patch-content">
+                                                            <center>
                                                                 <h4><b>Whatsapp</b></h4></center>
                                                             <a href="https://api.whatsapp.com/send?phone=918342063684&text=Hi Team FBP, I would be interested in%20<?= $property->title ? $property->title : '' ?>%20please%20send%20me%20the%20details" target="_blank">
                                                                 <center><img src="<?= base_url('assets/banner_patch/banner-patch-7.png') ?>" class="img-responsive"></center>
@@ -1130,6 +1167,8 @@
                                                                 <p><span> Link </span></p>
                                                             </center>
                                                         </div>
+
+                                                        
 
                                                     </div>
                                                     <br>
@@ -2352,7 +2391,7 @@ if($property->usp!='')
         </script>
 
         <script type="text/javascript">
-            document.addEventListener('contextmenu', event => event.preventDefault());
+            //document.addEventListener('contextmenu', event => event.preventDefault());
         </script>
         <script type="text/javascript">
             window.onbeforeunload = function(e) {
