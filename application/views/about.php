@@ -190,7 +190,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(120deg,#c1c1bfed,#ffffff);
+    background-image: linear-gradient(white,#dededb61, #ededec4a);
     background-color: #f3f1f100;
     opacity: .7;
    
@@ -203,7 +203,7 @@
 .clients {
     position: relative;
     min-height: 60vh;
-    background-color: #e4eaea;
+    /* background-color: #e4eaea; */
     background-size: cover;
     display: flex;
     z-index: 1;

@@ -24,7 +24,7 @@
         <meta name="twitter:description" content="<?= substr(strip_tags($property->description), 0, 1000) ?>" />
         <!-- <meta name="twitter:image" content="<?= base_url("uploads/$property->slug/$property->image") ?>"/>
         <script type='text/javascript' src='<?= base_url() ?>assets/property/unitegallery/js/jquery-11.0.min.js'></script> -->
-        <link rel="shortcut icon" type="image/x-icon" href="<?= site_url('') ?>assets/img/logo.png" />
+        <link rel="shortcut icon" type="image/x-icon" href="<?= site_url('') ?>assets/img/sp-logo.png" />
 
         <link rel="canonical" href="<?= current_url() ?>">
         <link rel="icon" href="https://www.fullbasketproperty.com/assets/img/favicon.ico" type="image/gif" sizes="16x16">
@@ -743,8 +743,8 @@
                         <div class="sp-column ">
                             <a class="logo" href="<?=base_url();?>">
                                 <h1>
-                                    <img class="sp-default-logo" src="<?= base_url('assets/images/logo.png')?>" style=" max-height: 111px; width: 111px;   float: right;  top: 10px;  position: absolute;background: white; padding-right: 5px; padding-left: 5px;border-radius: 26px;"> 
-                                    <img class="sp-retina-logo" src="<?=base_url();?>assets/img/footer-logo.png"
+                                    <img class="sp-default-logo" src="<?= base_url('assets/images/sp-logo.png')?>" style=" max-height: 111px; width: 111px;   float: right;  top: 10px;  position: absolute;background: white; padding-right: 5px; padding-left: 5px;border-radius: 26px;"> 
+                                    <img class="sp-retina-logo" src="<?=base_url();?>assets/img/footer-sp-logo.png"
                                          style=" height: 60px;width: 60px !important;">
 
                                 </h1>
@@ -1160,6 +1160,7 @@
                                                                     </th>
                                                                     <th class="her" style="background: #53ABBD;">Carpet Area</th>
                                                                     <th class="her" style="background: #53ABBD;">Price</th>
+                                                                    <th class="her" style="background: #53ABBD;">Floorplan</th>
                                                                     <th class="her" style="background: #53ABBD;">Whatsapp</th>
                                                                 </tr>
                                                             </thead>
@@ -1175,44 +1176,47 @@
                                                                         </td>
                                                                         <td>
                                                                             <?= $this->properties_model->getPropertyRange(array(
-                                                            'property_id' => $property->id,
-                                                            'flat_type_id' => $flatType->flat_type_id
-                                                        ), 'property_flat_types',
-                                                            'size') ?>
-                                                                                <?= $this->properties_model->getPropertyParam(array(
-                                                            'property_id' => $property->id,
-                                                            'flat_type_id' => $flatType->flat_type_id
-                                                        ), 'property_flat_types', 'unit') ?>
+                                                                                    'property_id' => $property->id,
+                                                                                    'flat_type_id' => $flatType->flat_type_id
+                                                                                ), 'property_flat_types',
+                                                                                    'size') ?>
+                                                                                                        <?= $this->properties_model->getPropertyParam(array(
+                                                                                    'property_id' => $property->id,
+                                                                                    'flat_type_id' => $flatType->flat_type_id
+                                                                                ), 'property_flat_types', 'unit') ?>
                                                                         </td>
                                                                         <td>
                                                                             <?= $this->properties_model->getPropertyRange(array(
-                                                            'property_id' => $property->id,
-                                                            'flat_type_id' => $flatType->flat_type_id
-                                                        ), 'property_flat_types', 'carpet_area') ?> Sq.ft
+                                                                                    'property_id' => $property->id,
+                                                                                    'flat_type_id' => $flatType->flat_type_id
+                                                                                ), 'property_flat_types', 'carpet_area') ?> Sq.ft
                                                                         </td>
                                                                         <td>
-                                                                            <?php
-                                                        if ($flatType->price_on_request) {
-                                                            echo "Price on Request";
-                                                        } else {
-                                                            ?>
-                                                                                <i class="fa fa-inr" aria-hidden="true"></i>
-                                                                                <?= (($row = $this->properties_model->getPropertyParam(array(
-                                                                    'property_id' => $property->id,
-                                                                    'flat_type_id' => $flatType->flat_type_id
-                                                                ), 'property_flat_types', null,
-                                                                    'MIN(total) as amount')) != null) ? number_format_short($row->amount) : 0 ?>
-                                                                                    -
-                                                                                    <?= (($row = $this->properties_model->getPropertyParam(array(
-                                                                    'property_id' => $property->id,
-                                                                    'flat_type_id' => $flatType->flat_type_id
-                                                                ), 'property_flat_types', null,
-                                                                    'MAX(total) as amount')) != null) ? number_format_short($row->amount) : 0 ?>
-                                                                                        <?php
-                                                        }
-                                                        ?>
+                                                                                    <?php
+                                                                                        if ($flatType->price_on_request) {
+                                                                                            echo "Price on Request";
+                                                                                        } else {
+                                                                                            ?>
+                                                                                                    <i class="fa fa-inr" aria-hidden="true"></i>
+                                                                                                    <?= (($row = $this->properties_model->getPropertyParam(array(
+                                                                                        'property_id' => $property->id,
+                                                                                        'flat_type_id' => $flatType->flat_type_id
+                                                                                    ), 'property_flat_types', null,
+                                                                                        'MIN(total) as amount')) != null) ? number_format_short($row->amount) : 0 ?>
+                                                                                                        -
+                                                                                                        <?= (($row = $this->properties_model->getPropertyParam(array(
+                                                                                        'property_id' => $property->id,
+                                                                                        'flat_type_id' => $flatType->flat_type_id
+                                                                                    ), 'property_flat_types', null,
+                                                                                        'MAX(total) as amount')) != null) ? number_format_short($row->amount) : 0 ?>
+                                                                                                            <?php
+                                                                                        }
+                                                                                        ?>
                                                                         </td>
 
+                                                                        <td align="center" ><a href="" id="down-brochure"><img src="<?= base_url('assets/images/download.png') ?>"></a></td>
+                                                                     
+                                                                                        
                                                                         <td align="center"><a href="https://api.whatsapp.com/send?phone=918342063684&text=Hi Team FBP, I would be interested in%20<?= $property->title ? $property->title : '' ?>%20 <?= $flatType->flat_type ?>" target="_blank"><img src="<?= base_url('assets/banner_patch/whatsapp.png') ?>"> </a></td>
                                                                     </tr>
                                                                     <?php
@@ -1333,20 +1337,20 @@
 
                                                                     <p>
                                                                         <?php
-                                                             $s=1;
-                                                foreach (explode(',', $items) as $item) {
-                                                    ?>
-                                                                            <?= $s.". ".$item ."<br />"?>
+                                                                     $s=1;
+                                                                    foreach (explode(',', $items) as $item) {
+                                                                        ?>
+                                                                                                <?= $s.". ".$item ."<br />"?>
 
-                                                                                <?php
-                                                    $s++;
-                                                }
-                                                ?>
+                                                                                                    <?php
+                                                                        $s++;
+                                                                    }
+                                                                    ?>
                                                                     </p>
 
                                                                     <!--<ul class="specification">
-                                                                <li></li>
-                                                            </ul>-->
+                                                                        <li></li>
+                                                                    </ul>-->
                                                                 </div>
                                                             </div>
                                                             <?php
@@ -1509,17 +1513,17 @@
                                                                                 </li>
 
                                                                                 <?php if (($images = $this->properties_model->getWhere(array('property_id' => $property->id),
-                                                    'property_master_plans')))
+                                                                                 'property_master_plans')))
     {
         ?>
                                                                                     <li role="presentation"><a href="#masterplan" aria-controls="profile" role="tab" data-toggle="tab">Master Plan</a>
                                                                                     </li>
                                                                                     <?php } 
-    if (($images = $this->properties_model->getWhere(array('property_id' => $property->id),
-                                                        'property_floor_plans')))
+                                                                                     if (($images = $this->properties_model->getWhere(array('property_id' => $property->id),
+                                                                                      'property_floor_plans')))
     {
                                                                             ?>
-                                                                                        <li role="presentation"><a href="#floorplans" aria-controls="profile" role="tab" data-toggle="tab">Floor Plans</a>
+                                                                                        <li role="presentation"><a href="#floorplans"  aria-controls="profile" role="tab" data-toggle="tab">Floor Plans</a>
                                                                                         </li>
 
                                                                                         <?php
@@ -1533,10 +1537,10 @@
                                                                                 <div role="tabpanel" class="tab-pane fade in active" id="elevation">
 
                                                                                     <?php
-                                            if (($images = $this->properties_model->getWhere(array('property_id' => $property->id),
-                                                    'property_elevations')) != null) {
-                                                foreach ($images as $i => $image) {
-                                                    ?>
+                                                                                     if (($images = $this->properties_model->getWhere(array('property_id' => $property->id),
+                                                                                       'property_elevations')) != null) {
+                                                                                          foreach ($images as $i => $image) {
+                                                                                            ?>
                                                                                         <div class="latest-post sppb-col-sm-3">
                                                                                             <div class="latest-post" style="background-image: url(<?= base_url($image->image) ?>);">
                                                                                                 <div class="latest-post-inner match-height l-box">
@@ -1560,22 +1564,22 @@
                                                                                 </div>
 
                                                                                 <!---------------- --------------------->
-                                                                                <div role="tabpanel" class="tab-pane fade in" id="layout">
+                                                                                <!-- <div role="tabpanel" class="tab-pane fade in" id="layout">
 
                                                                                     <div id="gallery" style="display:none;">
                                                                                         <img alt="Floor Plan" src="images/gallery/ml1.png" data-image="images/gallery/ml1.png" data-description="" style="display:none">
                                                                                     </div>
 
-                                                                                </div>
+                                                                                </div> -->
 
-                                                                                <div role="tabpanel" class="tab-pane fade in " id="masterplan">
+                                                                                <div role="tabpanel" class="tab-pane fade in" id="masterplan">
 
                                                                                     <?php
-                                           if (($images = $this->properties_model->getWhere(array('property_id' => $property->id),
-                                                    'property_master_plans'))) {
+                                                                                 if (($images = $this->properties_model->getWhere(array('property_id' => $property->id),
+                                                                                  'property_master_plans'))) {
 
-                                                foreach ($images as $i => $image) {
-                                                    ?>
+                                                                                   foreach ($images as $i => $image) {
+                                                                                    ?>
 
                                                                                         <div id="gallery1">
                                                                                             <img alt="master Plan" src="<?= base_url($image->image) ?>" data-image="<?= base_url($image->image) ?>" alt="<?=$property->master_alt?>" title="<?= $property->master_desc ?>" data-description="">
@@ -1590,7 +1594,7 @@
 
                                                                                 </div>
 
-                                                                                <div role="tabpanel" class="tab-pane" id="floorplans">
+                                                                                <div role="tabpanel" class="tab-pane fade in" id="floorplans">
 
                                                                                     <?php
                                             if (($images =                                                 $this->properties_model->getWhere(array('property_id' => $property->id),
@@ -2626,7 +2630,18 @@ if($property->usp!='')
             jQuery(this).removeClass('current-item active');
         })
         jQuery(this).parent('li').addClass('current-item active');
-      
+         
+ 
+            //check presentation role activation
+            if(jQuery(this).parent('li').attr('role')=="presentation"){
+                var divID=jQuery(this).attr('href')
+              jQuery(".tab-pane").removeClass('active');
+              jQuery(""+divID).addClass('active');
+            }
+               
+               
+
+
         var target = this.hash,
             menu = target;
         $target = jQuery(target);

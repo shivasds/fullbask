@@ -1748,7 +1748,7 @@ span.prop-badge:after {
 }
 
 .clients {
-    background-color: #d1d7d7;
+    /* background-color: #d1d7d7; */
     padding: 40px;
 }
 
