@@ -423,3 +423,5 @@ ERROR - 2020-07-11 18:04:52 --> 404 Page Not Found:
 ERROR - 2020-07-11 18:04:52 --> 404 Page Not Found: 
 ERROR - 2020-07-11 18:04:52 --> 404 Page Not Found: 
 ERROR - 2020-07-11 18:04:52 --> 404 Page Not Found: 
+ERROR - 2020-07-11 18:40:44 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 80
+ERROR - 2020-07-11 18:40:44 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 147
