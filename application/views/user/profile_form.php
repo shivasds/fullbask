@@ -80,7 +80,7 @@
             </div>
         </div>
     </div>
-    <div class="col-sm-1 hidden-xs text-center or_section">
+<!--     <div class="col-sm-1 hidden-xs text-center or_section">
         <img src="<?= base_url('assets/themes/default/img/or.png') ?>" class="center-block">
         <span>or</span>
     </div>
@@ -99,7 +99,7 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
 
 <?php echo form_close(); ?>
