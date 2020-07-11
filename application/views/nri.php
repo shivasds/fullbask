@@ -10,14 +10,27 @@
     }
 }
 @media (min-width: 768px) {
+
+    
        .nri-bg {
-    background-image: url("../assets/images/slide-01.jpg");
+        background-image: url(../assets/images/slide-01.jpg);
     background-size: cover;
-    height: 100%;
-    padding: 390px 50px 0px;
+    height: 441px;
+    /* padding: 390px 50px 0px; */
     background-position: 100% 100%;
-    margin-top: -150px;
+    margin-top: 0px;
     }
+
+    
+.hero-text {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
 }
     .nri-bg h3 {
     color: #000000;
@@ -27,7 +40,8 @@
     font-family: 'Lato', sans-serif;
     /* font-style: italic; */
     font-size: 35px;
-    margin-top: 50px;
+    margin-top: 31%;
+}
     }
     .link ,.link a{
         color: #74797d;
@@ -195,6 +209,7 @@
                     </div>
                 </div>
             </div>
+            
         </div>
        
     </div>

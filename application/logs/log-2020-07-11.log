@@ -76,3 +76,91 @@ ERROR - 2020-07-11 16:26:55 --> 404 Page Not Found:
 ERROR - 2020-07-11 16:26:55 --> 404 Page Not Found: 
 ERROR - 2020-07-11 16:26:55 --> 404 Page Not Found: 
 ERROR - 2020-07-11 16:26:55 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:27:45 --> Severity: Warning --> Illegal string offset 'bhk' F:\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-07-11 16:27:45 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-07-11 16:27:45 --> Severity: Warning --> Illegal string offset 'price' F:\FBP.com\application\controllers\Home.php 109
+ERROR - 2020-07-11 16:27:45 --> Severity: Warning --> Illegal string offset 'price_range' F:\FBP.com\application\controllers\Home.php 109
+ERROR - 2020-07-11 16:27:45 --> Severity: Warning --> Illegal string offset 'baths' F:\FBP.com\application\controllers\Home.php 110
+ERROR - 2020-07-11 16:27:45 --> Severity: Warning --> Illegal string offset 'baths_range' F:\FBP.com\application\controllers\Home.php 110
+ERROR - 2020-07-11 16:28:09 --> Severity: Warning --> Illegal string offset 'bhk' F:\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-07-11 16:28:09 --> Severity: Warning --> Illegal string offset 'bhk_range' F:\FBP.com\application\controllers\Home.php 108
+ERROR - 2020-07-11 16:28:09 --> Severity: Warning --> Illegal string offset 'price' F:\FBP.com\application\controllers\Home.php 109
+ERROR - 2020-07-11 16:28:09 --> Severity: Warning --> Illegal string offset 'price_range' F:\FBP.com\application\controllers\Home.php 109
+ERROR - 2020-07-11 16:28:09 --> Severity: Warning --> Illegal string offset 'baths' F:\FBP.com\application\controllers\Home.php 110
+ERROR - 2020-07-11 16:28:09 --> Severity: Warning --> Illegal string offset 'baths_range' F:\FBP.com\application\controllers\Home.php 110
+ERROR - 2020-07-11 16:28:18 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:28:18 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:28:18 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:28:18 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:28:18 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:28:28 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:28:29 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:28:29 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:28:29 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:28:29 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:28:29 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:28:30 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:28:35 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:30:18 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:30:19 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:30:19 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:30:19 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:30:20 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:30:20 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:30:21 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:30:24 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:30:52 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:30:52 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:30:52 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:30:52 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:30:52 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:30:53 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:30:57 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:31:50 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:31:51 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:31:51 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:31:51 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:31:51 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:31:51 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:31:57 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:35:21 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:35:21 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:35:21 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:35:21 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:35:21 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:35:21 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:35:22 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:35:28 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:36:33 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 80
+ERROR - 2020-07-11 16:36:33 --> Severity: Warning --> Invalid argument supplied for foreach() F:\FBP.com\application\views\header.php 147
+ERROR - 2020-07-11 16:36:40 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:36:40 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:36:40 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:36:40 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:36:41 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:36:41 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:36:42 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:36:50 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:36:53 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:36:53 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:36:54 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:36:54 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:36:54 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:36:54 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:36:54 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:36:54 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:37:07 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:37:08 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:37:08 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:37:08 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:37:08 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:37:08 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:37:09 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:37:16 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:39:32 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:39:32 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:39:32 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:39:32 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:39:33 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:39:33 --> 404 Page Not Found: 
+ERROR - 2020-07-11 16:39:40 --> 404 Page Not Found: 

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
 
@@ -24,7 +25,7 @@
         <meta name="twitter:description" content="<?= substr(strip_tags($property->description), 0, 1000) ?>" />
         <!-- <meta name="twitter:image" content="<?= base_url("uploads/$property->slug/$property->image") ?>"/>
         <script type='text/javascript' src='<?= base_url() ?>assets/property/unitegallery/js/jquery-11.0.min.js'></script> -->
-        <link rel="shortcut icon" type="image/x-icon" href="<?= site_url('') ?>assets/img/logo.png" />
+        <link rel="shortcut icon" type="image/x-icon" href="<?= site_url('') ?>assets/img/sp-logo.png" />
 
         <link rel="canonical" href="<?= current_url() ?>">
         <link rel="icon" href="https://www.fullbasketproperty.com/assets/img/favicon.ico" type="image/gif" sizes="16x16">
@@ -34,8 +35,8 @@
         <!-- <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/copy_bootstrap_min.js"></script> -->
         <link href="<?= base_url() ?>assets/property/media/com_solidres/assets/css/jquery/themes/base/jquery-ui.minc619.css?v=1.0" rel="stylesheet" type="text/css" />
 
-        <link href="<?= base_url() ?>assets/property/templates/shaper_resort/css/bootstrap.minc619.js?v=1.0" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- <link href="<?= base_url() ?>assets/property/templates/shaper_resort/css/bootstrap.minc619.js?v=1.0" rel="stylesheet" type="text/css" /> -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
       
         <link href="<?= base_url() ?>assets/property/components/com_sppagebuilder/assets/css/font-awesome.minc619.css?v=1.0" rel="stylesheet" type="text/css" />
         <link href="<?= base_url() ?>assets/property/components/com_sppagebuilder/assets/css/animate.minc619.css?v=1.0" rel="stylesheet" type="text/css" />
@@ -68,7 +69,7 @@
         <link rel='stylesheet' href='<?= base_url() ?>assets/property/unitegallery/css/unite-gallery.css' type='text/css' />
 
         <style>
-            h4 {
+                       h4 {
   color: black !important;
 }
             span {
@@ -77,14 +78,14 @@
             p {
   color: black !important;
 }
-           
             .carousel .item {
-                height: 450px;
-                margin-bottom: -95px;
+                height: 580px;
+                margin-bottom: -193px;
+                /* margin-top: 125px; */
             }
             
             .carousel .d-banner {
-                margin-top: -120px;
+                /* margin-top: -120px; */
                 height: 600px;
             }
             
@@ -375,7 +376,7 @@
             
             .sp-page-builder .page-content #section-id-1507611930 {
                 /*margin: 90px 0 90px 0;*/
-                padding-top: 100px;
+                padding-top: 50px;
                 padding-bottom: 50px;
             }
             
@@ -542,16 +543,41 @@
                 border: solid 1px transparent;
                 background-color: #fff;
             }
+            @media only screen and (max-width: 992px) {
+                .banner-patch h4,   .banner-patch .h4 {
+                    
+                    font-size: 17px;
+                }
+                .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+                    padding: 5px;
+                    font-weight: 500;
+                    line-height: 1.42857143;
+                    vertical-align: top;
+                    border-top: 1px solid #ddd;
+                }
+               #section-id-1507611938  .sppb-col-sm-12 {
+                    position: relative;
+                    min-height: 1px;
+                    padding-left: 2px;
+                    padding-right: 5px;
+                }
+
+            }
             @media only screen and (min-width: 992px) {
+
+                .banner-patch .col-lg-2 {
+                  width: 13.666667%;
+                }
+
                .prop-img {
                 width: 337px;
-    background-position: 50% 50%;
-    position: relative;
-    height: 200px;
-    background: #ededed;
-    margin-left: -1px;
-         padding-left: 0px; 
-    padding-right: 0px;
+                background-position: 50% 50%;
+                position: relative;
+                height: 200px;
+                background: #ededed;
+                margin-left: -1px;
+                    padding-left: 0px; 
+                padding-right: 0px;
                 }
                 .banner-icon{
                     height: 160px;
@@ -716,8 +742,17 @@
                  position: fixed;
                  top:0;
 
-                 
+                   
              }
+             .intl-tel-input .selected-flag .iti-arrow {
+            border-top: 4px solid rgb(255, 255, 255) !important;
+                }
+                #float-form .selected-flag {
+                    background: #53abbd!important;
+                }
+                .intl-tel-input.separate-dial-code .selected-dial-code {
+                    color: white;
+                }
          
             /*---------------------------*/
         </style>
@@ -752,8 +787,8 @@
                         <div class="sp-column ">
                             <a class="logo" href="<?=base_url();?>">
                                 <h1>
-                                    <img class="sp-default-logo" src="<?= base_url('assets/images/logo.png')?>" style=" max-height: 111px; width: 111px;   float: right;  top: 10px;  position: absolute;background: white; padding-right: 5px; padding-left: 5px;border-radius: 26px;"> 
-                                    <img class="sp-retina-logo" src="<?=base_url();?>assets/img/footer-logo.png"
+                                    <img class="sp-default-logo" src="<?= base_url('assets/images/sp-logo.png')?>" style=" max-height: 111px; width: 111px;   float: right;  top: 10px;  position: absolute;background: white; padding-right: 5px; padding-left: 5px;border-radius: 26px;"> 
+                                    <img class="sp-retina-logo" src="<?=base_url();?>assets/img/footer-sp-logo.png"
                                          style=" height: 60px;width: 60px !important;">
 
                                 </h1>
@@ -895,7 +930,7 @@
                                     </div>
                                 </div>
 
-                                <br>
+                                <!-- <br> -->
 
                                 <div class="col-md-12">
                                     <!-- <div class="col-sm-3 col-md-3 col-lg-3" style="padding: 7px;">
@@ -1120,6 +1155,18 @@
 
                                                         <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 no-padding banner-patch-content">
                                                             <center>
+                                                                <h4><b>Possession</b></h4></center>
+                                                           
+                                                                <center><img src="<?= base_url('assets/banner_patch/banner-patch-6.png') ?>" class="img-responsive"></center>
+                                                          
+
+                                                            <center>
+                                                                <p><span>  <?=$property->possession_date?$property->possession_date:'-'?> </span></p>
+                                                            </center>
+                                                        </div>
+
+                                                        <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 no-padding banner-patch-content">
+                                                            <center>
                                                                 <h4><b>Whatsapp</b></h4></center>
                                                             <a href="https://api.whatsapp.com/send?phone=918342063684&text=Hi Team FBP, I would be interested in%20<?= $property->title ? $property->title : '' ?>%20please%20send%20me%20the%20details" target="_blank">
                                                                 <center><img src="<?= base_url('assets/banner_patch/banner-patch-7.png') ?>" class="img-responsive"></center>
@@ -1129,6 +1176,8 @@
                                                                 <p><span> Link </span></p>
                                                             </center>
                                                         </div>
+
+                                                        
 
                                                     </div>
                                                     <br>
@@ -1169,15 +1218,16 @@
                                                                     </th>
                                                                     <th class="her" style="background: #53ABBD;">Carpet Area</th>
                                                                     <th class="her" style="background: #53ABBD;">Price</th>
+                                                                    <th class="her" style="background: #53ABBD;">Floorplan</th>
                                                                     <th class="her" style="background: #53ABBD;">Whatsapp</th>
                                                                 </tr>
                                                             </thead>
                                                             <tbody style="color: #5c5c5c;">
                                                                 <?php
-                                        if (($flatTypes = $this->properties_model->getPropertyFlatType(null,
-                                                $property->id)) != null) {
-                                            foreach ($flatTypes as $flatType) {
-                                                ?>
+                                                                if (($flatTypes = $this->properties_model->getPropertyFlatType(null,
+                                                                        $property->id)) != null) {
+                                                                    foreach ($flatTypes as $flatType) {
+                                                                        ?>
                                                                     <tr style="background: #ededed;">
                                                                         <td>
                                                                             <?= $flatType->flat_type ?>
@@ -1222,6 +1272,8 @@
                                                         ?>
                                                                         </td>
 
+                                                                        <td align="center" class="floorplan" id="down-brochure"><img src="<?= base_url('assets/images/download.png') ?>"></td>
+
                                                                         <td align="center"><a href="https://api.whatsapp.com/send?phone=918342063684&text=Hi Team FBP, I would be interested in%20<?= $property->title ? $property->title : '' ?>%20 <?= $flatType->flat_type ?>" target="_blank"><img src="<?= base_url('assets/banner_patch/whatsapp.png') ?>"> </a></td>
                                                                     </tr>
                                                                     <?php
@@ -1229,7 +1281,7 @@
                                         } else {
                                             ?>
                                                                         <tr style="background: #ededed;">
-                                                                            <td colspan="5" class="text-center">No data available</td>
+                                                                            <td colspan="6" class="text-center">No data available</td>
                                                                         </tr>
                                                                         <?php
                                         }
@@ -1448,7 +1500,7 @@
                                                             <?= $property->title ?> Amenities</h2>
                                                         <div class="underline2">&nbsp;</div>
                                                     </div>
-                                                    <div class="sppb-empty-space  clearfix" style="height: 50px;"></div>
+                                                    <div class="sppb-empty-space  clearfix" style="height: 10px;"></div>
 
                             <div class="row marginT20">
                                 <div class="col-md-12">
@@ -1518,17 +1570,17 @@
                                                                                 </li>
 
                                                                                 <?php if (($images = $this->properties_model->getWhere(array('property_id' => $property->id),
-                                                    'property_master_plans')))
+                                                                                 'property_master_plans')))
     {
         ?>
                                                                                     <li role="presentation"><a href="#masterplan" aria-controls="profile" role="tab" data-toggle="tab">Master Plan</a>
                                                                                     </li>
                                                                                     <?php } 
-    if (($images = $this->properties_model->getWhere(array('property_id' => $property->id),
-                                                        'property_floor_plans')))
+                                                                                     if (($images = $this->properties_model->getWhere(array('property_id' => $property->id),
+                                                                                      'property_floor_plans')))
     {
                                                                             ?>
-                                                                                        <li role="presentation"><a href="#floorplans" aria-controls="profile" role="tab" data-toggle="tab">Floor Plans</a>
+                                                                                        <li role="presentation"><a href="#floorplans"  aria-controls="profile" role="tab" data-toggle="tab">Floor Plans</a>
                                                                                         </li>
 
                                                                                         <?php
@@ -1542,10 +1594,10 @@
                                                                                 <div role="tabpanel" class="tab-pane fade in active" id="elevation">
 
                                                                                     <?php
-                                            if (($images = $this->properties_model->getWhere(array('property_id' => $property->id),
-                                                    'property_elevations')) != null) {
-                                                foreach ($images as $i => $image) {
-                                                    ?>
+                                                                                     if (($images = $this->properties_model->getWhere(array('property_id' => $property->id),
+                                                                                       'property_elevations')) != null) {
+                                                                                          foreach ($images as $i => $image) {
+                                                                                            ?>
                                                                                         <div class="latest-post sppb-col-sm-3">
                                                                                             <div class="latest-post" style="background-image: url(<?= base_url($image->image) ?>);">
                                                                                                 <div class="latest-post-inner match-height l-box">
@@ -1569,22 +1621,22 @@
                                                                                 </div>
 
                                                                                 <!---------------- --------------------->
-                                                                                <div role="tabpanel" class="tab-pane fade in" id="layout">
+                                                                                <!-- <div role="tabpanel" class="tab-pane fade in" id="layout">
 
                                                                                     <div id="gallery" style="display:none;">
                                                                                         <img alt="Floor Plan" src="images/gallery/ml1.png" data-image="images/gallery/ml1.png" data-description="" style="display:none">
                                                                                     </div>
 
-                                                                                </div>
+                                                                                </div> -->
 
-                                                                                <div role="tabpanel" class="tab-pane fade in " id="masterplan">
+                                                                                <div role="tabpanel" class="tab-pane fade in" id="masterplan">
 
                                                                                     <?php
-                                           if (($images = $this->properties_model->getWhere(array('property_id' => $property->id),
-                                                    'property_master_plans'))) {
+                                                                                 if (($images = $this->properties_model->getWhere(array('property_id' => $property->id),
+                                                                                  'property_master_plans'))) {
 
-                                                foreach ($images as $i => $image) {
-                                                    ?>
+                                                                                   foreach ($images as $i => $image) {
+                                                                                    ?>
 
                                                                                         <div id="gallery1">
                                                                                             <img alt="master Plan" src="<?= base_url($image->image) ?>" data-image="<?= base_url($image->image) ?>" alt="<?=$property->master_alt?>" title="<?= $property->master_desc ?>" data-description="">
@@ -1599,7 +1651,7 @@
 
                                                                                 </div>
 
-                                                                                <div role="tabpanel" class="tab-pane" id="floorplans">
+                                                                                <div role="tabpanel" class="tab-pane fade in" id="floorplans">
 
                                                                                     <?php
                                             if (($images =                                                 $this->properties_model->getWhere(array('property_id' => $property->id),
@@ -2135,6 +2187,55 @@ if($property->usp!='')
             </div>
             <!-- /.modal-dialog -->
         </div>
+
+
+        <!-- Floorplan -->
+        <div class="modal fade in" tabindex="-1" role="dialog" id="floorplan" data-backdrop="static" data-keyboard="false">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+
+                        <h4 class="modal-title">Download Floorplan</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Please enter the details below to get the detailed information.</p>
+                        <form id="float-form" action="" name="price-popup" method="POST" novalidate onsubmit="return save_landing_pageinfo('float-form');">
+                            <input type="hidden" name="city" value="<?=$this->uri->segment(1);?>">
+                            <div class="form-group col-md-12 pd">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></div>
+                                    <input type="text" class="form-control" placeholder="Name" name="name" id="name">
+
+                                </div>
+                                <label for="p_fname" generated="true" class="error"></label>
+                            </div>
+                            <div class="form-group col-md-12 pd">
+                                <input type="tel" placeholder="Phone*" name="phone" class="validate" id="contctform-phone7" required>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                                    <input type="email" class="form-control" name="email" placeholder="Email">
+
+                                </div>
+                                <label for="email" generated="true" class="error"></label>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><i class="fa fa-commenting" aria-hidden="true"></i></div>
+                                    <textarea class="form-control" rows="2" name="sugg" placeholder="Your Message"></textarea>
+
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-default price-btn">SUBMIT</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
         <!------------------------------------------submit Property------------------------------------------------->
         <div class="modal fade" id="submitContact">
             <div class="modal-dialog">
@@ -2284,7 +2385,7 @@ if($property->usp!='')
 
         <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/slick.min.js"></script>
         <script type="text/javascript" src="<?= base_url('assets/360assets') ?>/js/select-app.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105570977-1"></script>
         <script>
@@ -2299,7 +2400,7 @@ if($property->usp!='')
         </script>
 
         <script type="text/javascript">
-            document.addEventListener('contextmenu', event => event.preventDefault());
+            //document.addEventListener('contextmenu', event => event.preventDefault());
         </script>
         <script type="text/javascript">
             window.onbeforeunload = function(e) {
@@ -2395,6 +2496,7 @@ if($property->usp!='')
         <script>
             jQuery(document).ready(function($) {
 
+               
                 var telInput = $(".validate"),
                     errorMsg = $(".error-msg"),
                     validMsg = $(".valid-msg");
@@ -2480,6 +2582,7 @@ if($property->usp!='')
                 $(".price-click").click(function() {
                     $('#price-model').modal('show');
                 });
+
                 // ---------------for model only-----
                 $("#down-brochure").click(function() {
                     $('#download-model').modal('show');
@@ -2487,6 +2590,10 @@ if($property->usp!='')
 
                 $(".interested").click(function() {
                     $('#interested').modal('show');
+                });
+
+                $(".floorplan").click(function() {
+                    $('#floorplan').modal('show');
                 });
 
             });
@@ -2630,12 +2737,39 @@ if($property->usp!='')
         
         e.preventDefault();
         jQuery(document).off("scroll");
+
+        // if(jQuery(this).data('parent')=="#accordion"){
+        //     debugger;
+        //     if(jQuery(this).attr('aria-expanded')=="true"){
+        //         jQuery(this).attr('aria-expanded',false)
+        //         jQuery(this).addClass('collapsed')
+        //         var coll= jQuery(this).attr('aria-controls')
+        //         if($("#"+coll).hasClass("in")){
+        //             $("#"+coll).css('display:none');
+                    
+        //         }
+        //         else{
+        //             $("#"+coll).css('display:block');
+        //         }
+        //     }
+        // }
         
         jQuery('li').each(function () {
             jQuery(this).removeClass('current-item active');
         })
         jQuery(this).parent('li').addClass('current-item active');
-      
+         
+ 
+            //check presentation role activation
+            if(jQuery(this).parent('li').attr('role')=="presentation"){
+                var divID=jQuery(this).attr('href')
+              jQuery(".tab-pane").removeClass('active');
+              jQuery(""+divID).addClass('active');
+            }
+               
+               
+
+
         var target = this.hash,
             menu = target;
         $target = jQuery(target);
