@@ -342,12 +342,12 @@ $(document).ready(function(){
                                             <input type="text" name="keyword" placeholder="Key Word" class="form-control" style="height: 34px;"> 
                                         </div>
                                     </div>
-                                    <div class="col-sm-3">
+                                     <div class="col-sm-3">
                                         <div class="form-group">
-                                            <select class="form-control" name="city" id="filter_city">
-                                                <option selected="" disabled="">Select Your City</option>
+                                            <select class="form-control" name="city" id="city">
+                                                <option selected="" value="">Select Your City</option>
                                                 <?php
-                                                foreach ($cities as $city) { ?>
+                                                   foreach ($cities as $city) { ?>
                                                     <option value="<?= $city->id ?>" <?= $this->session->userdata('city') == $city->name ? 'selected' : '' ?>><?= $city->name ?></option>
                                                 <?php } ?>
                                             </select>
@@ -355,15 +355,31 @@ $(document).ready(function(){
                                     </div>
                                     <div class="col-sm-3">
                                         <div class="form-group">
-                                            <select class="form-control" name="location" id="filter_location">
-                                                <option selected="" disabled="">Select Your Location</option>
-                                                <?php
-                                                foreach ($locations as $location) { ?>
-                                                    <option value="<?= $location->id ?>"><?= $location->name ?></option>
-                                                <?php } ?>
-                                            </select>
+                                           <select class="form-control" name="location" id="filter_location">
+
+                                </select>
                                         </div>
                                     </div>
+                                    <script type="text/javascript">
+                                        $(document).ready(function(){
+                                        $("#city").trigger("change");
+                                    });
+
+                                    $("#city").change(function(){
+                                        var id = $(this).val(); 
+
+                                        $.ajax({
+                                            type: 'POST',
+                                            url: "<?=base_url('home/get_locations');?>",
+                                            data: {id: id},
+                                            success: function (data) {
+
+                                             $('#filter_location').html(data);
+                                             
+                                            }
+                                        });
+                                    });
+                                    </script>
                                     <div class="col-sm-2">
                                         <div class="form-group">
                                             <select class="form-control" name="property_type">

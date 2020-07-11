@@ -534,5 +534,19 @@ class Properties_model extends MY_Model
         $this->db->where('id',$id);
         $this->db->update('properties',$data);
     }
+        public function get_area($city_id='')
+    {
+        $this->db->select('*');
+        $this->db->from('locations');
+        $this->db->where('city_id',$city_id);
+        $result = $this->db->get();
+        $result = $result->result();
+        if(count($result) > 0){
+        return $result?$result:'';
+        }
+        else
+            return false;
+
+    }
     
 }

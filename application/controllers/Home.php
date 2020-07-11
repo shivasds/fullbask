@@ -63,11 +63,20 @@ class Home extends Public_Controller
         $this->load->view('template', $this->data);
     }
 
-    public function locations($city_id){
-        $locations = $this->home_model->getWhere(array("status"=>1, "city_id"=>$city_id), 'locations');
-        echo '<option selected="" disabled="">Select Your Location</option>';
-        foreach ($locations as $loc) {
-            echo '<option value="'.$loc->id.'">'.$loc->name.'</option>';
+    public function get_locations($city_id=''){
+       $id = $this->input->get_post('id');
+        $locations = $this->properties_model->getWhere(array('city_id' => $id), 'locations');
+        //echo json_encode($locations);
+        echo "<option value=>---select---</option>";
+        if(count($locations)>0)
+        {
+        foreach ($locations as $locations ) {
+            echo "<option value=".$locations->id.">".$locations->name."</option>";
+        }
+    }
+        else
+        {
+            echo "<option value=>---select---</option>";
         }
     }
 
