@@ -5658,7 +5658,7 @@ p.inner-interested {
 }
 
 #download-popup .selected-flag {
-    background: #53ABBD;
+    background: #53ABBD!important;
     width: 39px;
     border-radius: 3px 0px 0px 3px;
     height: 40px;

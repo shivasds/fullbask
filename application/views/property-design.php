@@ -166,6 +166,7 @@
             
             .youtube:hover {
                 box-shadow: 5px 8px 16px 0px #ef0525;
+               
             }
             
             .pinterest {
@@ -327,6 +328,14 @@
             }
         </style>
         <style type="text/css">
+       
+       .cust-accordion .panel-body p {
+            font-size: 14px;
+            font-family: 'Raleway', sans-serif;
+            /* font-weight: 600; */
+            color: white!important;
+        }
+
             #sppb-addon-1507611918 .sppb-addon-title {
                 margin-bottom: 15px;
             }
@@ -605,15 +614,18 @@
                     height: 100%;
                 }
             }
-            
+            @media only screen and (min-width: 651px) {
             .fa-3x {
                 font-size: 3em;
+                padding: 10px
             }
+        }
             /*----------------accordition-----------*/
             
             .cust-accordion .panel {
                 border: none;
                 box-shadow: none;
+                background: #f3f3f3;
                 border-radius: 0;
                 margin-bottom: 5px
             }
@@ -750,8 +762,16 @@
                 #float-form .selected-flag {
                     background: #53abbd!important;
                 }
-                .intl-tel-input.separate-dial-code .selected-dial-code {
+                 .intl-tel-input.separate-dial-code .selected-dial-code {
                     color: white;
+                }
+                .social .intl-tel-input.separate-dial-code .selected-dial-code ,
+                #contact-form .intl-tel-input.separate-dial-code .selected-dial-code{
+                    color: #555555;
+                }
+                .social .intl-tel-input .selected-flag .iti-arrow,
+                #contact-form .intl-tel-input .selected-flag .iti-arrow{
+            border-top: 4px solid rgb(0, 0, 0) !important;
                 }
          
             /*---------------------------*/
@@ -960,9 +980,9 @@
                                         <div class="col-md-2 col-xs-2 whtsapp zoom">
                                             <div class="">
                                                 <a target="_blank" href="https://api.whatsapp.com/send?phone=918342063684&text=Hi Team FBP, I would be interested in%20<?= $property->title ? $property->title : '' ?>%20please%20send%20me%20the%20details">
-                                                    <span>Whatsapp</span>
-                                                    <br>
-                                                    <i class="fa fa-whatsapp fa-3x"></i>
+                                                    <!-- <span>Whatsapp</span>
+                                                    <br> -->
+                                                    <i class="fa fa-whatsapp fa-3x" title="Whatsapp"></i>
                                                 </a>
                                             </div>
                                         </div>
@@ -970,9 +990,9 @@
                                         <div class="col-md-2 col-xs-2 youtube zoom">
                                             <div class="">
                                                 <a target="_blank" href="https://www.youtube.com/channel/UCGr-on8k7dRMKBFW-X2G05A" class="">
-                                                    <span>Youtube</span>
-                                                    <br>
-                                                    <i class="fa fa-youtube fa-3x"></i>
+                                                    <!-- <span>Youtube</span>
+                                                    <br> -->
+                                                    <i class="fa fa-youtube fa-3x" title="Youtube"></i>
 
                                                 </a>
                                             </div>
@@ -981,9 +1001,9 @@
                                         <div class="col-md-2 col-xs-2 facebook zoom">
                                             <div class="">
                                                 <a target="_blank" href="https://www.facebook.com/fullbasketpropertypage/" class="">
-                                                    <span>Facebook</span>
-                                                    <br>
-                                                    <i class="fa fa-facebook fa-3x"></i>
+                                                    <!-- <span>Facebook</span>
+                                                    <br> -->
+                                                    <i class="fa fa-facebook fa-3x" title="Facebook"></i>
                                                 </a>
                                             </div>
                                         </div>
@@ -991,9 +1011,9 @@
                                         <div class="col-md-2 col-xs-2 pinterest zoom">
                                             <div class="">
                                                 <a target="_blank" href="https://in.pinterest.com/fullbasketpropertyservices/" class="">
-                                                    <span>Pinterest</span>
-                                                    <br>
-                                                    <i class="fa fa-pinterest fa-3x"></i>
+                                                    <!-- <span>Pinterest</span>
+                                                    <br> -->
+                                                    <i class="fa fa-pinterest fa-3x" title="Pinterest"></i>
                                                 </a>
                                             </div>
                                         </div>
@@ -1001,9 +1021,9 @@
                                         <div class="col-md-2 col-xs-2 twitter zoom">
                                             <div class="">
                                                 <a target="_blank" href="https://twitter.com/fbptweets" class="">
-                                                    <span>Twitter</span>
-                                                    <br>
-                                                    <i class="fa fa-twitter fa-3x"></i>
+                                                    <!-- <span>Twitter</span>
+                                                    <br> -->
+                                                    <i class="fa fa-twitter fa-3x" title="Twitter"></i>
                                                 </a>
                                             </div>
                                         </div>
@@ -1011,9 +1031,9 @@
                                         <div class="col-md-2 col-xs-2 linkedIn zoom">
                                             <div class="">
                                                 <a target="_blank" href="https://www.linkedin.com/company/full-basket-property-services-pvt-ltd/" class="">
-                                                    <span>LinkedIn</span>
-                                                    <br>
-                                                    <i class="fa fa-linkedin fa-3x"></i>
+                                                    <!-- <span>LinkedIn</span>
+                                                    <br> -->
+                                                    <i class="fa fa-linkedin fa-3x" title="LinkedIn"></i>
                                                 </a>
                                             </div>
                                         </div>
@@ -1363,25 +1383,24 @@
                                         </div>
 
                                         <div class="sppb-row spe-head">
-                                            <div class="col-md-6">
+                                            <div class="row">
                                                 <div class="panel-group cust-accordion" id="accordion" role="tablist" aria-multiselectable="true">
-                                                    <div class="panel panel-default">
+                                                    <div class="panel panel-default col-md-6">
                                                         <!----------start--------------->
                                                         <?php
-                                                    $number=1;
-                                                     foreach ($specifications as $k => $specification) {
-                                                        if(($number%2==0))
-                                                        {
+                                                        $number=1;
+                                                        foreach ($specifications as $k => $specification) {
+                                                            if(($number%2==0))
+                                                            {
 
-                                            if (($items = $this->properties_model->getPropertySpecification($property->id,
-                                                    $specification->id)) != null) {
+                                                        if (($items = $this->properties_model->getPropertySpecification($property->id,
+                                                                $specification->id)) != null) {
 
-                                                ?>
+                                                            ?>
                                                             <div class="panel-heading" role="tab" id="heading<?=$this->numbertowordconvertsconver->convert_number($number)?>" style="border-style: groove;">
                                                                 <h4 class="panel-title">
                                                             <a role="button" data-toggle="collapse"
-                                                               data-parent="#accordion"
-                                                               href="#collapse<?=$this->numbertowordconvertsconver->convert_number($number)?>" aria-expanded="false"
+                                                               data-parent="#accordion" href="#collapse<?=$this->numbertowordconvertsconver->convert_number($number)?>" aria-expanded="false"
                                                                aria-controls="collapse<?=$this->numbertowordconvertsconver->convert_number($number)?>"
                                                                class="collapsed">
                                                                 <?= $specification->name ?>
@@ -1395,14 +1414,14 @@
                                                                     <p>
                                                                         <?php
                                                              $s=1;
-                                                foreach (explode(',', $items) as $item) {
-                                                    ?>
-                                                                            <?= $s.". ".$item ."<br />"?>
+                                                        foreach (explode(',', $items) as $item) {
+                                                            ?>
+                                                                                    <?= $s.". ".$item ."<br />"?>
 
-                                                                                <?php
-                                                    $s++;
-                                                }
-                                                ?>
+                                                                                        <?php
+                                                            $s++;
+                                                        }
+                                                        ?>
                                                                     </p>
 
                                                                     <!--<ul class="specification">
@@ -1411,30 +1430,27 @@
                                                                 </div>
                                                             </div>
                                                             <?php
-                                                }
-                                            }
-                                                $number++;
-                                            }
-                                            ?>
-                                                                <!--------------end----------------------->
+                                                            }
+                                                            }
+                                                                $number++;
+                                                            }
+                                                            ?>
+                                                                        <!--------------end----------------------->
                                                     </div>
 
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="panel-group cust-accordion" id="accordion" role="tablist" aria-multiselectable="true">
-                                                    <div class="panel panel-default">
-                                                        <!----------start--------------->
-                                                        <?php
-                                                    $number=1;
-                                                     foreach ($specifications as $k => $specification) {
-                                                        if(($number%2>0))
-                                                        {
+                                                
+                                                    <div class="panel panel-default col-md-6">
+                                                                <!----------start--------------->
+                                                                <?php
+                                                            $number=1;
+                                                            foreach ($specifications as $k => $specification) {
+                                                                if(($number%2>0))
+                                                                {
 
-                                            if (($items = $this->properties_model->getPropertySpecification($property->id,
-                                                    $specification->id)) != null) {
+                                                                if (($items = $this->properties_model->getPropertySpecification($property->id,
+                                                                $specification->id)) != null) {
 
-                                                ?>
+                                                            ?>
                                                             <div class="panel-heading" role="tab" id="heading<?=$this->numbertowordconvertsconver->convert_number($number)?>" style="border-style: groove;">
                                                                 <h4 class="panel-title">
                                                             <a role="button" data-toggle="collapse"
@@ -1453,14 +1469,14 @@
                                                                     <p>
                                                                         <?php
                                                              $s=1;
-                                                foreach (explode(',', $items) as $item) {
-                                                    ?>
-                                                                            <?= $s.". ".$item ."<br />"?>
+                                                            foreach (explode(',', $items) as $item) {
+                                                                ?>
+                                                                                        <?= $s.". ".$item ."<br />"?>
 
-                                                                                <?php
-                                                    $s++;
-                                                }
-                                                ?>
+                                                                                            <?php
+                                                                $s++;
+                                                            }
+                                                            ?>
                                                                     </p>
 
                                                                     <!--<ul class="specification">
@@ -1469,11 +1485,11 @@
                                                                 </div>
                                                             </div>
                                                             <?php
-                                                }
-                                            }
-                                                $number++;
-                                            }
-                                            ?>
+                                                            }
+                                                                }
+                                                                    $number++;
+                                                                }
+                                                                ?>
                                                                 <!--------------end----------------------->
                                                     </div>
 
@@ -2753,6 +2769,8 @@ if($property->usp!='')
         //         }
         //     }
         // }
+
+        
         
         jQuery('li').each(function () {
             jQuery(this).removeClass('current-item active');

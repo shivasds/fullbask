@@ -30,7 +30,7 @@
  
 }
 
-input.separate-dial-code .selected-dial-code {
+.social input.separate-dial-code .selected-dial-code {
    color: #1f1d1d !important;
 }
 
