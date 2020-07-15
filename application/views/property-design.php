@@ -2748,7 +2748,8 @@ if($property->usp!='')
             });
         </script>
         <script type="text/javascript">
-        var count=0;
+        var screenSize=0;
+        var tabScreenSize=0;
            	jQuery(document).ready(function () {
     jQuery(document).on("scroll", onScroll);
     
@@ -2759,22 +2760,29 @@ if($property->usp!='')
         jQuery(document).off("scroll");
 
         if(jQuery(this).data('parent')=="#accordion"){
-          setTimeout(() => {
-            if(jQuery(this).attr('aria-expanded')=="true"){
-                jQuery(this).attr('aria-expanded',false)
-                jQuery(this).addClass('collapsed')
-                var coll= jQuery(this).attr('aria-controls')
-                if($("#"+coll).hasClass("in")){
-                    $("#"+coll).removeClass('in');
-                    return;
-                }
-                else{
-                    $("#"+coll).addClass('in');
-                    return;
-                }
-            }
-          }, 1000);
             
+            var coll= jQuery(this).attr('aria-controls')
+            setTimeout(() => {
+                if(jQuery(this).attr('aria-expanded')=="true"){
+                    tabScreenSize=screenSize;
+                jQuery(this).attr('aria-expanded',false)
+                
+            }  
+            }, 500);
+            
+            if(jQuery(this).attr('aria-expanded')=='false'&& jQuery("#"+coll).hasClass("in"))
+            {
+                setTimeout(() => {
+                    
+                    jQuery(this).addClass('collapsed')
+                    $("#"+coll).removeClass('in');
+                    $("body, html").animate({ 
+                       scrollTop: tabScreenSize 
+                      }, 300);
+                   // window.scrollTo(0,tabScreenSize);
+                }, 1000);
+            }
+                
         }
 
         
@@ -2809,6 +2817,7 @@ if($property->usp!='')
 
             function onScroll(event) {
                 var scrollPos = jQuery(document).scrollTop();
+                screenSize=scrollPos;
                 jQuery('.sp-megamenu-parent a').each(function() {
 
                     var currLink = jQuery(this);

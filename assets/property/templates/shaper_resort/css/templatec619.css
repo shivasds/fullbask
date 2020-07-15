@@ -6142,9 +6142,9 @@ p.inner-interested {
     padding: 30px 0px;
 }
 
-.intl-tel-input .selected-flag .iti-flag {
+/* .intl-tel-input .selected-flag .iti-flag {
     display: none;
-}
+} */
 
 .intl-tel-input.separate-dial-code .selected-dial-code {
     padding-left: 4px;
