@@ -2725,6 +2725,7 @@ if($property->usp!='')
             }
         </script>
         <script type="text/javascript">
+        
             jQuery(document).ready(function() {
                 jQuery("#gallery").unitegallery({
                     tile_width: 350, //tile width
@@ -2747,6 +2748,7 @@ if($property->usp!='')
             });
         </script>
         <script type="text/javascript">
+        var count=0;
            	jQuery(document).ready(function () {
     jQuery(document).on("scroll", onScroll);
     
@@ -2756,21 +2758,24 @@ if($property->usp!='')
         e.preventDefault();
         jQuery(document).off("scroll");
 
-        // if(jQuery(this).data('parent')=="#accordion"){
-        //     debugger;
-        //     if(jQuery(this).attr('aria-expanded')=="true"){
-        //         jQuery(this).attr('aria-expanded',false)
-        //         jQuery(this).addClass('collapsed')
-        //         var coll= jQuery(this).attr('aria-controls')
-        //         if($("#"+coll).hasClass("in")){
-        //             $("#"+coll).css('display:none');
-                    
-        //         }
-        //         else{
-        //             $("#"+coll).css('display:block');
-        //         }
-        //     }
-        // }
+        if(jQuery(this).data('parent')=="#accordion"){
+          setTimeout(() => {
+            if(jQuery(this).attr('aria-expanded')=="true"){
+                jQuery(this).attr('aria-expanded',false)
+                jQuery(this).addClass('collapsed')
+                var coll= jQuery(this).attr('aria-controls')
+                if($("#"+coll).hasClass("in")){
+                    $("#"+coll).removeClass('in');
+                    return;
+                }
+                else{
+                    $("#"+coll).addClass('in');
+                    return;
+                }
+            }
+          }, 1000);
+            
+        }
 
         
         
