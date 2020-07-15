@@ -119,4 +119,4 @@ $route['admin/FooterLinks/(:num)'] = 'admin/FooterLinks/index';
 if (!in_array('admin', $requestURI)){
     $route['(:any)/(:any)/(:any)'] = 'home/propertyDetails/$1/$2/$3';
 }
-
+//$route['home/listing/get_locations'] = 'home/get_locations/index';
