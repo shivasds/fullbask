@@ -598,7 +598,7 @@ var lightSlider = true;
   });
 
 </script>
-<!-- WhatsHelp.io widget -->
+<!-- WhatsHelp.io widget --
 <script type="text/javascript">
     (function () {
         var options = {

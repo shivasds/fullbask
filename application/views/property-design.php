@@ -807,8 +807,8 @@
                         <div class="sp-column ">
                             <a class="logo" href="<?=base_url();?>">
                                 <h1>
-                                    <img class="sp-default-logo" src="<?= base_url('assets/images/sp-logo.png')?>" style=" max-height: 111px; width: 111px;   float: right;  top: 10px;  position: absolute;background: white; padding-right: 5px; padding-left: 5px;border-radius: 26px;"> 
-                                    <img class="sp-retina-logo" src="<?=base_url();?>assets/img/footer-sp-logo.png"
+                                    <img class="sp-default-logo" src="<?= base_url('assets/images/logo.png')?>" style=" max-height: 111px; width: 111px;   float: right;  top: 10px;  position: absolute;background: white; padding-right: 5px; padding-left: 5px;border-radius: 26px;"> 
+                                    <img class="sp-retina-logo" src="<?=base_url();?>assets/img/logo.png"
                                          style=" height: 60px;width: 60px !important;">
 
                                 </h1>
