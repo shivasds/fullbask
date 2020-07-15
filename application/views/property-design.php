@@ -1399,34 +1399,34 @@
                                                             ?>
                                                             <div class="panel-heading" role="tab" id="heading<?=$this->numbertowordconvertsconver->convert_number($number)?>" style="border-style: groove;">
                                                                 <h4 class="panel-title">
-                                                            <a role="button" data-toggle="collapse"
-                                                               data-parent="#accordion" href="#collapse<?=$this->numbertowordconvertsconver->convert_number($number)?>" aria-expanded="false"
-                                                               aria-controls="collapse<?=$this->numbertowordconvertsconver->convert_number($number)?>"
-                                                               class="collapsed">
-                                                                <?= $specification->name ?>
-                                                                <img src="<?= base_url('assets/img/down.png') ?>" class="down-arrow">
-                                                            </a>
-                                                        </h4>
+                                                                    <a role="button" data-toggle="collapse"
+                                                                    data-parent="#accordion" href="#collapse<?=$this->numbertowordconvertsconver->convert_number($number)?>" aria-expanded="false"
+                                                                    aria-controls="collapse<?=$this->numbertowordconvertsconver->convert_number($number)?>"
+                                                                    class="accordion-toggle">
+                                                                        <?= $specification->name ?>
+                                                                        <img src="<?= base_url('assets/img/down.png') ?>" class="down-arrow">
+                                                                    </a>
+                                                                 </h4>
                                                             </div>
                                                             <div id="collapse<?=$this->numbertowordconvertsconver->convert_number($number)?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading<?=$this->numbertowordconvertsconver->convert_number($number)?>" aria-expanded="false" style="height: 0px;">
                                                                 <div class="panel-body">
 
                                                                     <p>
                                                                         <?php
-                                                             $s=1;
-                                                        foreach (explode(',', $items) as $item) {
-                                                            ?>
-                                                                                    <?= $s.". ".$item ."<br />"?>
+                                                                            $s=1;
+                                                                        foreach (explode(',', $items) as $item) {
+                                                                            ?>
+                                                                                                    <?= $s.". ".$item ."<br />"?>
 
-                                                                                        <?php
-                                                            $s++;
-                                                        }
-                                                        ?>
+                                                                                                        <?php
+                                                                            $s++;
+                                                                        }
+                                                                        ?>
                                                                     </p>
 
                                                                     <!--<ul class="specification">
-                                                                <li></li>
-                                                            </ul>-->
+                                                                    <li></li>
+                                                                  </ul>-->
                                                                 </div>
                                                             </div>
                                                             <?php
@@ -1457,7 +1457,7 @@
                                                                data-parent="#accordion"
                                                                href="#collapse<?=$this->numbertowordconvertsconver->convert_number($number)?>" aria-expanded="false"
                                                                aria-controls="collapse<?=$this->numbertowordconvertsconver->convert_number($number)?>"
-                                                               class="collapsed">
+                                                               class="accordion-toggle">
                                                                 <?= $specification->name ?>
                                                                 <img src="<?= base_url('assets/img/down.png') ?>" class="down-arrow">
                                                             </a>
@@ -1495,6 +1495,8 @@
 
                                                 </div>
                                             </div>
+
+                                            
                                         </div>
 
                                     </div>
